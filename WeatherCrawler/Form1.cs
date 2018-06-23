@@ -94,9 +94,9 @@ namespace WeatherCrawler
             List<string> addresss = dm2.ReadFwjournalLands();
             foreach(var address in addresss)
             {
-                Console.WriteLine(address);
                 HttpClientManager hcManager = new HttpClientManager("http://maps.googleapis.com/maps/api/geocode/json", 
-                                                                    "?sensor=false&language=ko&address=" + address);
+                                                                    "?sensor=false&language=ko&address=" + address,
+                                                                    address);
             }
         }
 

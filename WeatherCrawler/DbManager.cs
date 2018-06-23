@@ -72,7 +72,13 @@ namespace WeatherCrawler
         {
             IMongoCollection<BsonDocument> collection = Db.GetCollection<BsonDocument>("lands");
             var filter = new BsonDocument();
-            var distinctResult = collection.Distinct<string>("address", filter).ToList();
+            List<string> distinctResult = collection.Distinct<string>("address", filter).ToList();
+
+            for(int i = 0; i < distinctResult.Count; i++)
+            {
+                distinctResult[i] = UtilManager.TrimAddress(distinctResult[i]);
+            }
+
             return distinctResult;
         }
     }
