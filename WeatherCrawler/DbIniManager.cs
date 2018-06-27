@@ -17,6 +17,9 @@ namespace WeatherCrawler
         public string Id { get; set; }
         public string Pw { get; set; }
 
+        // https://docs.microsoft.com/ko-kr/dotnet/csharp/language-reference/keywords/lock-statement
+        static private Object ThisLock = new Object();
+
         public DbIniManager()
         {
             DbIni = "db.ini";
@@ -106,25 +109,29 @@ namespace WeatherCrawler
 
         public void ReadIni()
         {
-            StreamReader sr = new StreamReader(new FileStream(DbIni, FileMode.OpenOrCreate));
-            long fileSize = sr.BaseStream.Length;
-
-            if (0 == fileSize)
+            lock (ThisLock)
             {
-                MessageBox.Show("DB 접속 정보가 없습니다");
-            }
-            else
-            {
-                string readLine = sr.ReadLine();
-                string[] dbInfo = readLine.Split('|');
+                StreamReader sr = new StreamReader(new FileStream(DbIni, FileMode.OpenOrCreate));
+                long fileSize = sr.BaseStream.Length;
 
-                IpAddress = dbInfo[0];
-                DbName = dbInfo[1];
-                CollectionName = dbInfo[2];
-                Id = dbInfo[3];
-                Pw = dbInfo[4];
+                if (0 == fileSize)
+                {
+                    MessageBox.Show("DB 접속 정보가 없습니다");
+                }
+                else
+                {
+                    string readLine = sr.ReadLine();
+                    string[] dbInfo = readLine.Split('|');
+
+                    IpAddress = dbInfo[0];
+                    DbName = dbInfo[1];
+                    CollectionName = dbInfo[2];
+                    Id = dbInfo[3];
+                    Pw = dbInfo[4];
+                }
+                sr.Close();
             }
-            sr.Close();
+                
         }
     }
 }

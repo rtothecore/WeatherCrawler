@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -70,34 +71,16 @@ namespace WeatherCrawler
             buttonRunStatus.MouseEnter += OnMouseEnterButtonRunStatus;
             buttonRunStatus.MouseLeave += OnMouseLeaveButtonRunStatus;
 
-            diManager = new DbIniManager();
-            diManager.Initialize();
-            diManager.ReadIni();
-            DbManager dm = new DbManager(diManager.IpAddress, diManager.DbName, diManager.CollectionName, diManager.Id, diManager.Pw);
-            if(dm.Connect())
-            {
-            }
-            else
-            {
-                MessageBox.Show("수집서버 DB에 접속할 수 없습니다");
-            }
-            FwjournalIniManager fwjIniManager = new FwjournalIniManager();
-            fwjIniManager.ReadIni();
-            DbManager dm2 = new DbManager(fwjIniManager.IpAddress, fwjIniManager.DbName, fwjIniManager.CollectionName, fwjIniManager.Id, fwjIniManager.Pw);
-            if (dm2.Connect())
-            {
-            }
-            else
-            {
-                MessageBox.Show("영농일지 DB에 접속할 수 없습니다");
-            }
-            List<string> addresss = dm2.ReadFwjournalLands();
-            foreach(var address in addresss)
-            {
-                HttpClientManager hcManager = new HttpClientManager("http://maps.googleapis.com/maps/api/geocode/json", 
-                                                                    "?sensor=false&language=ko&address=" + address,
-                                                                    address);
-            }
+            RunCrawlAndCheck();
+        }
+
+        private void RunCrawlAndCheck()
+        {
+            // fwjournal.ini, address.ini 읽어서 수집시작
+            CrawlManager cManager = new CrawlManager();
+
+            // fwjournal DB Checker 시작
+            FwjournalDBChecker fjDbChecker = new FwjournalDBChecker(cManager.schedulerForFJ);
         }
 
         private void labelCurrentAddr_Click(object sender, EventArgs e)

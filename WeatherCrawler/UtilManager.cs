@@ -31,5 +31,164 @@ namespace WeatherCrawler
 
             return "f" + (maxAddressVal + 1);
         }
+
+        static public string GetMaxAddressIndex2(List<string> addressindexes)
+        {
+            List<int> addressIndexVals = new List<int>();
+            for (int i = 0; i < addressindexes.Count; i++)
+            {
+                string tmpIndex = addressindexes[i].Replace("f", "");
+                addressIndexVals.Add(Int32.Parse(tmpIndex));
+            }
+            int maxAddressVal = addressIndexVals.Max();
+
+            return (maxAddressVal + 1).ToString();
+        }
+
+        static public string GetBaseDateTimeForForecastGrib()
+        {
+            DateTime now = DateTime.Now;
+            DateTime resultTime = now;
+            int currentMinutes = Int32.Parse(now.ToString("mm"));
+
+            if(40 >= currentMinutes)
+            {
+                resultTime = now.AddHours(-1);
+            }
+
+            string result = resultTime.ToString("yyyyMMddHHmm").Remove(10, 2);
+            result = result.Insert(10, "00");
+
+            return result;
+        }
+
+        static public string GetUmdFromAddress(string address)
+        {
+            string[] splitedAddress = address.Split(' ');
+            return splitedAddress[2];
+        }
+
+        static public string GetBaseDateTimeForForecastTime()
+        {
+            DateTime now = DateTime.Now;
+            DateTime resultTime = now;
+            int currentMinutes = Int32.Parse(now.ToString("mm"));
+
+            if (45 >= currentMinutes)
+            {
+                resultTime = now.AddHours(-1);
+            }
+
+            string result = resultTime.ToString("yyyyMMddHHmm").Remove(10, 2);
+            result = result.Insert(10, "00");
+
+            return result;
+        }
+
+        static public string GetNowDateTime()
+        {
+            DateTime now = DateTime.Now;
+            return now.ToString("yyyy-MM-dd HH:mm:ss");
+        }
+
+        static public ForecastGribResult ReassembleDataForForecastGrib(ForecastGribResult data)
+        {
+            List<int> outIndex = new List<int>();
+            for (int i = 0; i < data.response.body.items.item.Count; i++)
+            {
+                if ("PTY" == data.response.body.items.item[i].category ||
+                    "REH" == data.response.body.items.item[i].category ||
+                    "RN1" == data.response.body.items.item[i].category ||
+                    "SKY" == data.response.body.items.item[i].category ||
+                    "T1H" == data.response.body.items.item[i].category
+                    )
+                {
+                }
+                else
+                {
+                    outIndex.Add(i);
+                }
+            }
+
+            for (int j = outIndex.Count - 1; j >= 0; j--)
+            {
+                data.response.body.items.item.RemoveAt(outIndex[j]);
+            }
+            return data;
+        }
+
+        static public double GetObsrValueFromCategory(ForecastGribResult data, string category)
+        {
+            for (int i = 0; i < data.response.body.items.item.Count; i++)
+            {
+                if (category == data.response.body.items.item[i].category)
+                {
+                    return data.response.body.items.item[i].obsrValue;
+                }
+            }
+
+            return -1;
+        }
+
+        static public string GetStartDateTime(ForecastTimeSpaceResult data)
+        {
+            return data.response.body.items.item[0].fcstDate.ToString() + data.response.body.items.item[0].fcstTime.ToString();
+        }
+
+        static public string GetStartDateTimePlusOneHour(string startDateTimeVal)
+        {
+            DateTime startDateTime = DateTime.ParseExact(startDateTimeVal, "yyyyMMddHHmm",
+                                       System.Globalization.CultureInfo.InvariantCulture);
+            DateTime resultDateTime = startDateTime.AddHours(1);
+
+            string tmpResult = resultDateTime.ToString("yyyyMMddHHmm");
+
+            return tmpResult;
+        }
+
+        static public Item2 GetFcstWeatherFromTimeNCategory(ForecastTimeSpaceResult data, string date, string time, string category)
+        {
+            for (int i = 0; i < data.response.body.items.item.Count; i++)
+            {
+                if (category == data.response.body.items.item[i].category &&
+                    date == data.response.body.items.item[i].fcstDate.ToString() &&
+                    time == data.response.body.items.item[i].fcstTime.ToString())
+                {
+                    return data.response.body.items.item[i];
+                }
+            }
+
+            return null;
+        }
+
+        static public string GetTomorrowDate()
+        {
+            DateTime now = DateTime.Now;
+            DateTime tomorrow = now.AddDays(1);
+            return tomorrow.ToString("yyyyMMdd");
+        }
+
+        static public string GetAfterTomorrowDate()
+        {
+            DateTime now = DateTime.Now;
+            DateTime afterTomorrow = now.AddDays(2);
+            return afterTomorrow.ToString("yyyyMMdd");
+        }
+
+        static public List<Item2> GetFcstSpaceFromDateNCategory(ForecastTimeSpaceResult data, string date, string category)
+        {
+            List<Item2> result = new List<Item2>();
+
+            for (int i = 0; i < data.response.body.items.item.Count; i++)
+            {
+                if (category == data.response.body.items.item[i].category &&
+                    date == data.response.body.items.item[i].fcstDate.ToString())
+                {
+                    result.Add(data.response.body.items.item[i]);
+                }
+            }
+
+            return result;
+        }
     }
 }

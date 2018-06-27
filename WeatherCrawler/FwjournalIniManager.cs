@@ -8,14 +8,27 @@ using System.Windows.Forms;
 
 namespace WeatherCrawler
 {
+    public class AddressLine
+    {
+        public string IndexNo { get; set; }
+        public string Address { get; set; }
+        public string Nx { get; set; }
+        public string Ny { get; set; }
+        public string CrawlTerm { get; set; }
+        public string CrawlStatus { get; set; }
+    }
+
     class FwjournalIniManager
     {
         public string FwjIni { get; set; }
+
         public string IpAddress { get; set; }
         public string DbName { get; set; }
         public string CollectionName { get; set; }
         public string Id { get; set; }
         public string Pw { get; set; }
+
+        public List<AddressLine> Addresses = new List<AddressLine>();
 
         public FwjournalIniManager()
         {
@@ -91,6 +104,73 @@ namespace WeatherCrawler
                          "1H" + "|" +
                          "S");
             sw.Close();
+        }
+
+        public void ReadAddress()
+        {
+            StreamReader sr = new StreamReader(new FileStream(FwjIni, FileMode.OpenOrCreate));
+            long fileSize = sr.BaseStream.Length;
+            sr.Close();
+
+            if (0 == fileSize)
+            {
+                MessageBox.Show("영농일지 주소 정보가 없습니다");
+            }
+            else
+            {
+                // sr = new StreamReader(new FileStream(FwjIni, FileMode.OpenOrCreate));
+                sr = new StreamReader(FwjIni, System.Text.Encoding.Default, true);
+                string readLine = sr.ReadLine();    // DB 접속정보 읽기
+
+                if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
+                {
+                    MessageBox.Show("영농일지 주소 정보가 없습니다");
+                }
+                else
+                {
+                    while (null != readLine)     // 주소정보 읽기 시작
+                    {
+                        string[] addressInfo = readLine.Split('|');
+                        AddressLine tmpAL = new AddressLine();
+                        tmpAL.IndexNo = addressInfo[0];
+                        tmpAL.Address = addressInfo[1];
+                        tmpAL.Nx = addressInfo[2];
+                        tmpAL.Ny = addressInfo[3];
+                        tmpAL.CrawlTerm = addressInfo[4];
+                        tmpAL.CrawlStatus = addressInfo[5];
+                        Addresses.Add(tmpAL);
+                        readLine = sr.ReadLine();
+                    }
+                }
+                sr.Close();
+            }
+        }
+
+        public void DeleteAddressLine()
+        {
+            StreamReader sr = new StreamReader(new FileStream(FwjIni, FileMode.OpenOrCreate));
+            long fileSize = sr.BaseStream.Length;
+            sr.Close();
+
+            if (0 == fileSize)
+            {
+                MessageBox.Show("영농일지 주소 정보가 없습니다");
+            }
+            else
+            {
+                sr = new StreamReader(new FileStream(FwjIni, FileMode.OpenOrCreate));
+                string readLine = sr.ReadLine();    // DB 접속정보 읽기
+                sr.Close();
+
+                if (File.Exists(FwjIni))
+                {
+                    File.Delete(FwjIni);
+                }
+
+                StreamWriter sw = new StreamWriter(FwjIni, true, System.Text.Encoding.Default);
+                sw.WriteLine(readLine);
+                sw.Close();
+            }
         }
     }
 }
