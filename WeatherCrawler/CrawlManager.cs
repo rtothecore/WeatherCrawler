@@ -1,5 +1,6 @@
 ﻿using Quartz;
 using Quartz.Impl;
+using Quartz.Impl.Matchers;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -38,7 +39,6 @@ namespace WeatherCrawler
         // https://sites.google.com/site/netcorenote/scheduler-in-netcore/quartz/02--tutorial-of-quartz-in-netcore/01-simpleexamplewithquartznet300-alpha2
         public async Task TaskFJJob(string indexNo, string address, string nx, string ny, string crawlTerm)
         {
-            // IScheduler scheduler = null;
             ISchedulerFactory schedulerFactory = new StdSchedulerFactory();
 
             schedulerForFJ = schedulerFactory.GetScheduler().Result;
@@ -61,17 +61,19 @@ namespace WeatherCrawler
             }
 
             int ScheduleIntervalInMinute = crawlTermMin;
-            JobKey jobKey = JobKey.Create(indexNo);
+            JobKey jobKey = JobKey.Create(indexNo, "MyOwnGroup");
+            Console.WriteLine("jobKey:{0}", jobKey.ToString()); // TEST
 
-            // IJobDetail job = JobBuilder.Create<FJJob>().WithIdentity(jobKey).Build();
             IJobDetail job = JobBuilder.Create<FJJob>().WithIdentity(jobKey)
                                                        .UsingJobData("address", address)
                                                        .UsingJobData("nx", nx)
                                                        .UsingJobData("ny", ny)
                                                        .Build();
 
+            TriggerKey tKey = new TriggerKey(indexNo, "MyOwnGroup");
+            Console.WriteLine("tKey:{0}", tKey.ToString()); // TEST
             ITrigger trigger = TriggerBuilder.Create()
-                .WithIdentity("JobTrigger" + indexNo)
+                .WithIdentity(tKey)
                 .StartNow()
                 .WithSimpleSchedule(x => x.WithIntervalInSeconds(ScheduleIntervalInMinute).RepeatForever())
                 .Build();
@@ -104,8 +106,9 @@ namespace WeatherCrawler
 
             int ScheduleIntervalInMinute = crawlTermMin;
             JobKey jobKey = JobKey.Create(indexNo);
-            
-            IJobDetail job = JobBuilder.Create<AddressJob>().WithIdentity(jobKey)
+
+            // IJobDetail job = JobBuilder.Create<AddressJob>().WithIdentity(jobKey)
+            IJobDetail job = JobBuilder.Create<AddressJob>().WithIdentity(indexNo)
                                                             .UsingJobData("address", address)
                                                             .UsingJobData("nx", nx)
                                                             .UsingJobData("ny", ny)

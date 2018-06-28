@@ -41,33 +41,23 @@
             this.모든주소수집정지ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.도움말ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.buttonCrawlOption = new System.Windows.Forms.Button();
+            this.labelRunLastTime = new System.Windows.Forms.Label();
+            this.labelRunStatus = new System.Windows.Forms.Label();
+            this.buttonRunStatus = new System.Windows.Forms.Button();
+            this.labelCrawlOption = new System.Windows.Forms.Label();
+            this.labelCrawlTerm = new System.Windows.Forms.Label();
             this.labelCurrentAddr = new System.Windows.Forms.Label();
             this.labelAddr = new System.Windows.Forms.Label();
             this.buttonAddr = new System.Windows.Forms.Button();
-            this.labelCrawlOption = new System.Windows.Forms.Label();
-            this.labelCrawlTerm = new System.Windows.Forms.Label();
-            this.buttonRunStatus = new System.Windows.Forms.Button();
-            this.labelRunStatus = new System.Windows.Forms.Label();
-            this.labelRunLastTime = new System.Windows.Forms.Label();
-            this.contextMenuStripAddress = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.제주특별자치도제주시일도1동ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.제주특별자치도제주시일도2동ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.제주특별자치도제주시일도3동ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.제주특별자치도제주시이도1동ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.제주특별자치도제주시이도2동ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.contextMenuStripCrawlOption = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.시간ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.분ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.분ToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.buttonCrawlOption = new System.Windows.Forms.Button();
             this.textBoxLog = new System.Windows.Forms.TextBox();
+            this.contextMenuStripAddress = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.contextMenuStripCrawlOption = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
             this.splitContainer1.SuspendLayout();
-            this.contextMenuStripAddress.SuspendLayout();
-            this.contextMenuStripCrawlOption.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
@@ -96,14 +86,14 @@
             // 새로운주소ToolStripMenuItem
             // 
             this.새로운주소ToolStripMenuItem.Name = "새로운주소ToolStripMenuItem";
-            this.새로운주소ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.새로운주소ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.새로운주소ToolStripMenuItem.Text = "새로운 주소";
             this.새로운주소ToolStripMenuItem.Click += new System.EventHandler(this.새로운주소ToolStripMenuItem_Click);
             // 
             // 옵션ToolStripMenuItem
             // 
             this.옵션ToolStripMenuItem.Name = "옵션ToolStripMenuItem";
-            this.옵션ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.옵션ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
             this.옵션ToolStripMenuItem.Text = "옵션";
             this.옵션ToolStripMenuItem.Click += new System.EventHandler(this.옵션ToolStripMenuItem_Click);
             // 
@@ -182,18 +172,70 @@
             this.splitContainer1.Size = new System.Drawing.Size(800, 426);
             this.splitContainer1.TabIndex = 1;
             // 
-            // buttonCrawlOption
+            // labelRunLastTime
             // 
-            this.buttonCrawlOption.BackColor = System.Drawing.Color.Orange;
-            this.buttonCrawlOption.FlatAppearance.BorderSize = 0;
-            this.buttonCrawlOption.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCrawlOption.Location = new System.Drawing.Point(230, 0);
-            this.buttonCrawlOption.Name = "buttonCrawlOption";
-            this.buttonCrawlOption.Size = new System.Drawing.Size(130, 50);
-            this.buttonCrawlOption.TabIndex = 0;
-            this.buttonCrawlOption.TabStop = false;
-            this.buttonCrawlOption.UseVisualStyleBackColor = false;
-            this.buttonCrawlOption.Click += new System.EventHandler(this.buttonCrawlOption_Click);
+            this.labelRunLastTime.AutoSize = true;
+            this.labelRunLastTime.BackColor = System.Drawing.Color.Transparent;
+            this.labelRunLastTime.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelRunLastTime.ForeColor = System.Drawing.Color.White;
+            this.labelRunLastTime.Location = new System.Drawing.Point(0, 30);
+            this.labelRunLastTime.Name = "labelRunLastTime";
+            this.labelRunLastTime.Size = new System.Drawing.Size(139, 15);
+            this.labelRunLastTime.TabIndex = 10;
+            this.labelRunLastTime.Text = "마지막 수집시간 - 13:00";
+            this.labelRunLastTime.Click += new System.EventHandler(this.labelRunLastTime_Click);
+            // 
+            // labelRunStatus
+            // 
+            this.labelRunStatus.AutoSize = true;
+            this.labelRunStatus.BackColor = System.Drawing.Color.Transparent;
+            this.labelRunStatus.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelRunStatus.ForeColor = System.Drawing.Color.White;
+            this.labelRunStatus.Location = new System.Drawing.Point(0, 5);
+            this.labelRunStatus.Name = "labelRunStatus";
+            this.labelRunStatus.Size = new System.Drawing.Size(58, 21);
+            this.labelRunStatus.TabIndex = 9;
+            this.labelRunStatus.Text = "수집중";
+            this.labelRunStatus.Click += new System.EventHandler(this.labelRunStatus_Click);
+            // 
+            // buttonRunStatus
+            // 
+            this.buttonRunStatus.BackColor = System.Drawing.Color.DeepSkyBlue;
+            this.buttonRunStatus.FlatAppearance.BorderSize = 0;
+            this.buttonRunStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonRunStatus.Location = new System.Drawing.Point(360, 0);
+            this.buttonRunStatus.Name = "buttonRunStatus";
+            this.buttonRunStatus.Size = new System.Drawing.Size(150, 50);
+            this.buttonRunStatus.TabIndex = 8;
+            this.buttonRunStatus.TabStop = false;
+            this.buttonRunStatus.UseVisualStyleBackColor = false;
+            this.buttonRunStatus.Click += new System.EventHandler(this.buttonRunStatus_Click);
+            // 
+            // labelCrawlOption
+            // 
+            this.labelCrawlOption.AutoSize = true;
+            this.labelCrawlOption.BackColor = System.Drawing.Color.Transparent;
+            this.labelCrawlOption.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelCrawlOption.ForeColor = System.Drawing.Color.White;
+            this.labelCrawlOption.Location = new System.Drawing.Point(0, 5);
+            this.labelCrawlOption.Name = "labelCrawlOption";
+            this.labelCrawlOption.Size = new System.Drawing.Size(74, 21);
+            this.labelCrawlOption.TabIndex = 2;
+            this.labelCrawlOption.Text = "수집옵션";
+            this.labelCrawlOption.Click += new System.EventHandler(this.labelCrawlOption_Click);
+            // 
+            // labelCrawlTerm
+            // 
+            this.labelCrawlTerm.AutoSize = true;
+            this.labelCrawlTerm.BackColor = System.Drawing.Color.Transparent;
+            this.labelCrawlTerm.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
+            this.labelCrawlTerm.ForeColor = System.Drawing.Color.White;
+            this.labelCrawlTerm.Location = new System.Drawing.Point(0, 30);
+            this.labelCrawlTerm.Name = "labelCrawlTerm";
+            this.labelCrawlTerm.Size = new System.Drawing.Size(99, 15);
+            this.labelCrawlTerm.TabIndex = 7;
+            this.labelCrawlTerm.Text = "수집간격 - 1시간";
+            this.labelCrawlTerm.Click += new System.EventHandler(this.labelCrawlTerm_Click);
             // 
             // labelCurrentAddr
             // 
@@ -235,138 +277,18 @@
             this.buttonAddr.UseVisualStyleBackColor = false;
             this.buttonAddr.Click += new System.EventHandler(this.buttonAddr_Click);
             // 
-            // labelCrawlOption
+            // buttonCrawlOption
             // 
-            this.labelCrawlOption.AutoSize = true;
-            this.labelCrawlOption.BackColor = System.Drawing.Color.Transparent;
-            this.labelCrawlOption.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.labelCrawlOption.ForeColor = System.Drawing.Color.White;
-            this.labelCrawlOption.Location = new System.Drawing.Point(0, 5);
-            this.labelCrawlOption.Name = "labelCrawlOption";
-            this.labelCrawlOption.Size = new System.Drawing.Size(74, 21);
-            this.labelCrawlOption.TabIndex = 2;
-            this.labelCrawlOption.Text = "수집옵션";
-            this.labelCrawlOption.Click += new System.EventHandler(this.labelCrawlOption_Click);
-            // 
-            // labelCrawlTerm
-            // 
-            this.labelCrawlTerm.AutoSize = true;
-            this.labelCrawlTerm.BackColor = System.Drawing.Color.Transparent;
-            this.labelCrawlTerm.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.labelCrawlTerm.ForeColor = System.Drawing.Color.White;
-            this.labelCrawlTerm.Location = new System.Drawing.Point(0, 30);
-            this.labelCrawlTerm.Name = "labelCrawlTerm";
-            this.labelCrawlTerm.Size = new System.Drawing.Size(99, 15);
-            this.labelCrawlTerm.TabIndex = 7;
-            this.labelCrawlTerm.Text = "수집간격 - 1시간";
-            this.labelCrawlTerm.Click += new System.EventHandler(this.labelCrawlTerm_Click);
-            // 
-            // buttonRunStatus
-            // 
-            this.buttonRunStatus.BackColor = System.Drawing.Color.DeepSkyBlue;
-            this.buttonRunStatus.FlatAppearance.BorderSize = 0;
-            this.buttonRunStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonRunStatus.Location = new System.Drawing.Point(360, 0);
-            this.buttonRunStatus.Name = "buttonRunStatus";
-            this.buttonRunStatus.Size = new System.Drawing.Size(150, 50);
-            this.buttonRunStatus.TabIndex = 8;
-            this.buttonRunStatus.TabStop = false;
-            this.buttonRunStatus.UseVisualStyleBackColor = false;
-            this.buttonRunStatus.Click += new System.EventHandler(this.buttonRunStatus_Click);
-            // 
-            // labelRunStatus
-            // 
-            this.labelRunStatus.AutoSize = true;
-            this.labelRunStatus.BackColor = System.Drawing.Color.Transparent;
-            this.labelRunStatus.Font = new System.Drawing.Font("맑은 고딕", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.labelRunStatus.ForeColor = System.Drawing.Color.White;
-            this.labelRunStatus.Location = new System.Drawing.Point(0, 5);
-            this.labelRunStatus.Name = "labelRunStatus";
-            this.labelRunStatus.Size = new System.Drawing.Size(58, 21);
-            this.labelRunStatus.TabIndex = 9;
-            this.labelRunStatus.Text = "수집중";
-            this.labelRunStatus.Click += new System.EventHandler(this.labelRunStatus_Click);
-            // 
-            // labelRunLastTime
-            // 
-            this.labelRunLastTime.AutoSize = true;
-            this.labelRunLastTime.BackColor = System.Drawing.Color.Transparent;
-            this.labelRunLastTime.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
-            this.labelRunLastTime.ForeColor = System.Drawing.Color.White;
-            this.labelRunLastTime.Location = new System.Drawing.Point(0, 30);
-            this.labelRunLastTime.Name = "labelRunLastTime";
-            this.labelRunLastTime.Size = new System.Drawing.Size(139, 15);
-            this.labelRunLastTime.TabIndex = 10;
-            this.labelRunLastTime.Text = "마지막 수집시간 - 13:00";
-            this.labelRunLastTime.Click += new System.EventHandler(this.labelRunLastTime_Click);
-            // 
-            // contextMenuStripAddress
-            // 
-            this.contextMenuStripAddress.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.제주특별자치도제주시일도1동ToolStripMenuItem,
-            this.제주특별자치도제주시일도2동ToolStripMenuItem,
-            this.제주특별자치도제주시일도3동ToolStripMenuItem,
-            this.제주특별자치도제주시이도1동ToolStripMenuItem,
-            this.제주특별자치도제주시이도2동ToolStripMenuItem});
-            this.contextMenuStripAddress.Name = "contextMenuStripAddress";
-            this.contextMenuStripAddress.Size = new System.Drawing.Size(433, 114);
-            // 
-            // 제주특별자치도제주시일도1동ToolStripMenuItem
-            // 
-            this.제주특별자치도제주시일도1동ToolStripMenuItem.Name = "제주특별자치도제주시일도1동ToolStripMenuItem";
-            this.제주특별자치도제주시일도1동ToolStripMenuItem.Size = new System.Drawing.Size(432, 22);
-            this.제주특별자치도제주시일도1동ToolStripMenuItem.Text = "제주특별자치도 제주시 일도1동               1시간               수집중";
-            // 
-            // 제주특별자치도제주시일도2동ToolStripMenuItem
-            // 
-            this.제주특별자치도제주시일도2동ToolStripMenuItem.Name = "제주특별자치도제주시일도2동ToolStripMenuItem";
-            this.제주특별자치도제주시일도2동ToolStripMenuItem.Size = new System.Drawing.Size(432, 22);
-            this.제주특별자치도제주시일도2동ToolStripMenuItem.Text = "제주특별자치도 제주시 일도2동               30분               수집중";
-            // 
-            // 제주특별자치도제주시일도3동ToolStripMenuItem
-            // 
-            this.제주특별자치도제주시일도3동ToolStripMenuItem.Name = "제주특별자치도제주시일도3동ToolStripMenuItem";
-            this.제주특별자치도제주시일도3동ToolStripMenuItem.Size = new System.Drawing.Size(432, 22);
-            this.제주특별자치도제주시일도3동ToolStripMenuItem.Text = "제주특별자치도 제주시 일도3동                1분               수집중";
-            // 
-            // 제주특별자치도제주시이도1동ToolStripMenuItem
-            // 
-            this.제주특별자치도제주시이도1동ToolStripMenuItem.Name = "제주특별자치도제주시이도1동ToolStripMenuItem";
-            this.제주특별자치도제주시이도1동ToolStripMenuItem.Size = new System.Drawing.Size(432, 22);
-            this.제주특별자치도제주시이도1동ToolStripMenuItem.Text = "제주특별자치도 제주시 이도1동               1시간               정지중";
-            // 
-            // 제주특별자치도제주시이도2동ToolStripMenuItem
-            // 
-            this.제주특별자치도제주시이도2동ToolStripMenuItem.Name = "제주특별자치도제주시이도2동ToolStripMenuItem";
-            this.제주특별자치도제주시이도2동ToolStripMenuItem.Size = new System.Drawing.Size(432, 22);
-            this.제주특별자치도제주시이도2동ToolStripMenuItem.Text = "제주특별자치도 제주시 이도2동               1시간               수집중";
-            // 
-            // contextMenuStripCrawlOption
-            // 
-            this.contextMenuStripCrawlOption.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.시간ToolStripMenuItem,
-            this.분ToolStripMenuItem,
-            this.분ToolStripMenuItem1});
-            this.contextMenuStripCrawlOption.Name = "contextMenuStripCrawlOption";
-            this.contextMenuStripCrawlOption.Size = new System.Drawing.Size(106, 70);
-            // 
-            // 시간ToolStripMenuItem
-            // 
-            this.시간ToolStripMenuItem.Name = "시간ToolStripMenuItem";
-            this.시간ToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.시간ToolStripMenuItem.Text = "1시간";
-            // 
-            // 분ToolStripMenuItem
-            // 
-            this.분ToolStripMenuItem.Name = "분ToolStripMenuItem";
-            this.분ToolStripMenuItem.Size = new System.Drawing.Size(105, 22);
-            this.분ToolStripMenuItem.Text = "30분";
-            // 
-            // 분ToolStripMenuItem1
-            // 
-            this.분ToolStripMenuItem1.Name = "분ToolStripMenuItem1";
-            this.분ToolStripMenuItem1.Size = new System.Drawing.Size(105, 22);
-            this.분ToolStripMenuItem1.Text = "1분";
+            this.buttonCrawlOption.BackColor = System.Drawing.Color.Orange;
+            this.buttonCrawlOption.FlatAppearance.BorderSize = 0;
+            this.buttonCrawlOption.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonCrawlOption.Location = new System.Drawing.Point(230, 0);
+            this.buttonCrawlOption.Name = "buttonCrawlOption";
+            this.buttonCrawlOption.Size = new System.Drawing.Size(130, 50);
+            this.buttonCrawlOption.TabIndex = 0;
+            this.buttonCrawlOption.TabStop = false;
+            this.buttonCrawlOption.UseVisualStyleBackColor = false;
+            this.buttonCrawlOption.Click += new System.EventHandler(this.buttonCrawlOption_Click);
             // 
             // textBoxLog
             // 
@@ -378,6 +300,16 @@
             this.textBoxLog.Size = new System.Drawing.Size(800, 372);
             this.textBoxLog.TabIndex = 0;
             this.textBoxLog.Text = "Connecting MongoDB....\r\nConnected MongoDB.\r\nInsert Data - 2018-06-20";
+            // 
+            // contextMenuStripAddress
+            // 
+            this.contextMenuStripAddress.Name = "contextMenuStripAddress";
+            this.contextMenuStripAddress.Size = new System.Drawing.Size(61, 4);
+            // 
+            // contextMenuStripCrawlOption
+            // 
+            this.contextMenuStripCrawlOption.Name = "contextMenuStripCrawlOption";
+            this.contextMenuStripCrawlOption.Size = new System.Drawing.Size(181, 26);
             // 
             // Form1
             // 
@@ -397,8 +329,6 @@
             this.splitContainer1.Panel2.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
             this.splitContainer1.ResumeLayout(false);
-            this.contextMenuStripAddress.ResumeLayout(false);
-            this.contextMenuStripCrawlOption.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -428,15 +358,7 @@
         private System.Windows.Forms.Label labelRunLastTime;
         private System.Windows.Forms.Label labelRunStatus;
         private System.Windows.Forms.ContextMenuStrip contextMenuStripAddress;
-        private System.Windows.Forms.ToolStripMenuItem 제주특별자치도제주시일도1동ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 제주특별자치도제주시일도2동ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 제주특별자치도제주시일도3동ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 제주특별자치도제주시이도1동ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 제주특별자치도제주시이도2동ToolStripMenuItem;
         private System.Windows.Forms.ContextMenuStrip contextMenuStripCrawlOption;
-        private System.Windows.Forms.ToolStripMenuItem 시간ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 분ToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem 분ToolStripMenuItem1;
         private System.Windows.Forms.TextBox textBoxLog;
     }
 }

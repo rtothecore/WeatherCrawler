@@ -69,6 +69,7 @@
             this.buttonAddAddress.TabIndex = 3;
             this.buttonAddAddress.Text = "추가";
             this.buttonAddAddress.UseVisualStyleBackColor = true;
+            this.buttonAddAddress.Click += new System.EventHandler(this.buttonAddAddress_Click);
             // 
             // buttonCancelAddAddress
             // 

@@ -40,6 +40,22 @@ namespace WeatherCrawler
             return true;
         }
 
+        public async Task<bool> RunGetGPSAndConvertNxNyAndWriteAddr(string url, string urlParameters, string address)
+        {
+            GoogleMapsResult gmr = await GetGPSLocationAsync(url, urlParameters + address);
+
+            NxNyManager nnm = new NxNyManager();
+            Coords nxny = nnm.Dfs_xy_conv("toXY", gmr.results[0].geometry.location.lat, gmr.results[0].geometry.location.lng);
+            Console.WriteLine("Address:" + address +
+                                ", LatLng:(" + gmr.results[0].geometry.location.lat + ", " + gmr.results[0].geometry.location.lng + ")" +
+                                ", NxNy:(" + nxny.x + ", " + nxny.y + ")"
+                                );
+            AddressIniManager aiManager = new AddressIniManager();
+            aiManager.WriteAddress(address, nxny.x, nxny.y);
+
+            return true;
+        }
+
         // http://maps.googleapis.com/maps/api/geocode/json
         // ?sensor=false&language=ko&address=제주특별자치도%20제주시%20이도이동
         private static async Task<GoogleMapsResult> GetGPSLocationAsync(string url, string urlParameters)
@@ -320,6 +336,40 @@ namespace WeatherCrawler
                 {
                     var stringResult = await content.ReadAsStringAsync();
                     ForecastTimeSpaceResult result = JsonConvert.DeserializeObject<ForecastTimeSpaceResult>(stringResult);
+                    return result;
+                }
+            }
+        }
+
+        public async Task<SearchedAddressResult> RunGetSearchedAddress(string url, string searchText)
+        {
+            return await GetSearchedAddress(url, searchText);
+        }
+
+        /* https://api.poesis.kr/post/search.php?
+         * q=검색어
+         * &v=버전
+         * &ref=도메인
+         * 
+         */
+        private static async Task<SearchedAddressResult> GetSearchedAddress(string url, string searchText)
+        {
+            string version = "3.0.0-fwjournal";
+            string domain = "www.ezinfotech.co.kr";
+            string page = url +
+                          "q=" + searchText +
+                          "&v=" + version +
+                          "&ref=" + domain;
+
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                using (HttpResponseMessage response = await client.GetAsync(page))
+                using (HttpContent content = response.Content)
+                {
+                    var stringResult = await content.ReadAsStringAsync();
+                    SearchedAddressResult result = JsonConvert.DeserializeObject<SearchedAddressResult>(stringResult);
                     return result;
                 }
             }

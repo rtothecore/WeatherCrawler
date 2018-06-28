@@ -190,5 +190,42 @@ namespace WeatherCrawler
 
             return result;
         }
+
+        static public string ConvertCrawlTerm(string crawlTerm)
+        {
+            string result = null;
+            switch (crawlTerm)
+            {
+                case "1H" :
+                    result = "1시간";
+                    break;
+                case "30M" :
+                    result = "30분";
+                    break;
+                case "1M" :
+                    result = "1분";
+                    break;
+                default :
+                    break;
+            }
+            return result;
+        }
+
+        static public string ConvertCrawlStatus(string crawlStatus)
+        {
+            string result = null;
+            switch (crawlStatus)
+            {
+                case "R" :
+                    result = "수집중";
+                    break;
+                case "S" :
+                    result = "정지됨";
+                    break;
+                default :
+                    break;
+            }
+            return result;
+        }
     }
 }

@@ -51,6 +51,7 @@
             this.textBoxSearchAddressText.Name = "textBoxSearchAddressText";
             this.textBoxSearchAddressText.Size = new System.Drawing.Size(100, 21);
             this.textBoxSearchAddressText.TabIndex = 1;
+            this.textBoxSearchAddressText.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBoxSearchAddressText_KeyDown);
             // 
             // buttonSearchAddress
             // 
@@ -60,6 +61,7 @@
             this.buttonSearchAddress.TabIndex = 2;
             this.buttonSearchAddress.Text = "검색";
             this.buttonSearchAddress.UseVisualStyleBackColor = true;
+            this.buttonSearchAddress.Click += new System.EventHandler(this.buttonSearchAddress_Click);
             // 
             // listBoxSeachedAddress
             // 
@@ -69,6 +71,8 @@
             this.listBoxSeachedAddress.Name = "listBoxSeachedAddress";
             this.listBoxSeachedAddress.Size = new System.Drawing.Size(325, 172);
             this.listBoxSeachedAddress.TabIndex = 3;
+            this.listBoxSeachedAddress.SelectedIndexChanged += new System.EventHandler(this.listBoxSeachedAddress_SelectedIndexChanged);
+            this.listBoxSeachedAddress.DoubleClick += new System.EventHandler(this.listBoxSeachedAddress_DoubleClick);
             // 
             // buttonSelectAddress
             // 
@@ -78,6 +82,7 @@
             this.buttonSelectAddress.TabIndex = 4;
             this.buttonSelectAddress.Text = "확인";
             this.buttonSelectAddress.UseVisualStyleBackColor = true;
+            this.buttonSelectAddress.Click += new System.EventHandler(this.buttonSelectAddress_Click);
             // 
             // buttonCancelAddress
             // 

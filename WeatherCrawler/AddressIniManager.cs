@@ -31,7 +31,7 @@ namespace WeatherCrawler
             StreamReader sr = new StreamReader(new FileStream(AddressIni, FileMode.OpenOrCreate));
             long fileSize = sr.BaseStream.Length;
             sr.Close();
-            string maxAddressIndex = null;
+            string maxAddressIndex = "0";
 
             if (0 == fileSize)
             {
@@ -120,6 +120,44 @@ namespace WeatherCrawler
             }
 
             File.Create(AddressIni);
+        }
+
+        public bool IsExistSameAddress(string address)
+        {
+            StreamReader sr = new StreamReader(new FileStream(AddressIni, FileMode.OpenOrCreate));
+            long fileSize = sr.BaseStream.Length;
+            sr.Close();
+
+            if (0 == fileSize)
+            {
+                MessageBox.Show("address.ini의 주소 정보가 없습니다");
+            }
+            else
+            {
+                sr = new StreamReader(AddressIni, System.Text.Encoding.Default, true);
+                string readLine = null;
+
+                if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
+                {
+                    MessageBox.Show("address.ini의 주소 정보가 없습니다");
+                }
+                else
+                {
+                    while (null != readLine)     // 주소정보 읽기 시작
+                    {
+                        string[] addressInfo = readLine.Split('|');
+                        if (addressInfo[1] == address)
+                        {
+                            return true;
+                        }
+                        
+                        readLine = sr.ReadLine();
+                    }
+                }
+                sr.Close();
+            }
+
+            return false;
         }
     }
 }
