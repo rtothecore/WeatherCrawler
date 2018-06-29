@@ -79,6 +79,9 @@ namespace WeatherCrawler
                 .Build();
 
             await schedulerForFJ.ScheduleJob(job, trigger);
+
+            // TEST
+            Console.WriteLine("ScheduleJob - job:{0}, trigger:{1}", job.ToString(), trigger.ToString());
         }
 
         public async Task TaskAddrJob(string indexNo, string address, string nx, string ny, string crawlTerm)

@@ -114,8 +114,9 @@
             // 삭제ToolStripMenuItem
             // 
             this.삭제ToolStripMenuItem.Name = "삭제ToolStripMenuItem";
-            this.삭제ToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.삭제ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.삭제ToolStripMenuItem.Text = "삭제";
+            this.삭제ToolStripMenuItem.Click += new System.EventHandler(this.삭제ToolStripMenuItem_Click);
             // 
             // 수집ToolStripMenuItem
             // 
@@ -129,14 +130,16 @@
             // 모든주소수집실행ToolStripMenuItem
             // 
             this.모든주소수집실행ToolStripMenuItem.Name = "모든주소수집실행ToolStripMenuItem";
-            this.모든주소수집실행ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.모든주소수집실행ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.모든주소수집실행ToolStripMenuItem.Text = "모든주소 수집 실행";
+            this.모든주소수집실행ToolStripMenuItem.Click += new System.EventHandler(this.모든주소수집실행ToolStripMenuItem_Click);
             // 
             // 모든주소수집정지ToolStripMenuItem
             // 
             this.모든주소수집정지ToolStripMenuItem.Name = "모든주소수집정지ToolStripMenuItem";
-            this.모든주소수집정지ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.모든주소수집정지ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.모든주소수집정지ToolStripMenuItem.Text = "모든주소 수집 정지";
+            this.모든주소수집정지ToolStripMenuItem.Click += new System.EventHandler(this.모든주소수집정지ToolStripMenuItem_Click);
             // 
             // 도움말ToolStripMenuItem
             // 
@@ -309,7 +312,7 @@
             // contextMenuStripCrawlOption
             // 
             this.contextMenuStripCrawlOption.Name = "contextMenuStripCrawlOption";
-            this.contextMenuStripCrawlOption.Size = new System.Drawing.Size(181, 26);
+            this.contextMenuStripCrawlOption.Size = new System.Drawing.Size(61, 4);
             // 
             // Form1
             // 

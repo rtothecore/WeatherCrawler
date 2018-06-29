@@ -25,6 +25,25 @@ namespace WeatherCrawler
         {
             InitializeComponent();
 
+            // 프로그램 실행시 fwjournal.ini의 첫 주소를 선택한 걸로 셋팅
+            InitializeToolBar();
+
+            // 현재주소 메뉴
+            InitializeContextMenuStripAddress();
+
+            // 수집옵션 메뉴
+            InitializeContextMenuStripCrawlOption();
+
+            InitializeDIManager();
+            RunCrawlAndCheck();
+        }
+
+        void InitializeToolBar()
+        {
+            // fwjournal.ini 읽기
+            FwjournalIniManager fiManager = new FwjournalIniManager();
+            fiManager.ReadAddress();            
+
             // 현재주소 버튼
             labelCurrentAddr.Parent = buttonAddr;
             labelCurrentAddr.BackColor = Color.Transparent;
@@ -43,6 +62,8 @@ namespace WeatherCrawler
             buttonAddr.MouseEnter += OnMouseEnterButtonAddr;
             buttonAddr.MouseLeave += OnMouseLeaveButtonAddr;
 
+            labelAddr.Text = fiManager.Addresses[0].Address;
+
             // 수집옵션 버튼
             labelCrawlOption.Parent = buttonCrawlOption;
             labelCrawlOption.BackColor = Color.Transparent;
@@ -60,11 +81,13 @@ namespace WeatherCrawler
             buttonCrawlOption.MouseEnter += OnMouseEnterButtonCrawlOption;
             buttonCrawlOption.MouseLeave += OnMouseLeaveButtonCrawlOption;
 
+            labelCrawlTerm.Text = "수집간격 - " + UtilManager.ConvertCrawlTerm(fiManager.Addresses[0].CrawlTerm);
+
             // 수집상태 버튼
             labelRunStatus.Parent = buttonRunStatus;
             labelRunStatus.BackColor = Color.Transparent;
             labelRunStatus.Font = Fonts.FontAwesome;
-            labelRunStatus.Text = Fonts.fa.recycle + "  " + "수집중";
+            // labelRunStatus.Text = Fonts.fa.recycle + "  " + "수집중";
             labelRunStatus.MouseEnter += OnMouseEnterButtonRunStatus;
             labelRunStatus.MouseLeave += OnMouseLeaveButtonRunStatus;
 
@@ -77,14 +100,11 @@ namespace WeatherCrawler
             buttonRunStatus.MouseEnter += OnMouseEnterButtonRunStatus;
             buttonRunStatus.MouseLeave += OnMouseLeaveButtonRunStatus;
 
-            // 현재주소 메뉴
-            InitializeContextMenuStripAddress();
+            labelRunStatus.Text = Fonts.fa.recycle + "  " + UtilManager.ConvertCrawlStatus(fiManager.Addresses[0].CrawlStatus);
 
-            // 수집옵션 메뉴
-            InitializeContextMenuStripCrawlOption();
-
-            InitializeDIManager();
-            RunCrawlAndCheck();
+            // 변수 초기화
+            currentSelectedIndex = "f0";
+            currentSelectedRunStatus = fiManager.Addresses[0].CrawlStatus;
         }
 
         // 수집간격 옵션 클릭시 이벤트 함수
@@ -94,6 +114,7 @@ namespace WeatherCrawler
             FwjournalIniManager fjiManager = new FwjournalIniManager();
             labelCrawlTerm.Text = "수집간격 - " + UtilManager.ConvertCrawlTerm(clickedItem.Tag.ToString());
             fjiManager.WriteCrawlTerm(currentSelectedIndex, clickedItem.Tag.ToString());
+            // 현재 주소 리스트 초기화
             InitializeContextMenuStripAddress();
         }
 
@@ -156,6 +177,16 @@ namespace WeatherCrawler
             }
 
             // address.ini 읽어서 메뉴에 추가
+            AddressIniManager aiManager = new AddressIniManager();
+            aiManager.ReadAddress();
+            foreach(var address in aiManager.Addresses)
+            {
+                ToolStripItem addressItem = contextMenuStripAddress.Items.Add(address.Address + "               " +
+                                                                       UtilManager.ConvertCrawlTerm(address.CrawlTerm) + "               " +
+                                                                       UtilManager.ConvertCrawlStatus(address.CrawlStatus));
+                addressItem.Tag = address;
+                addressItem.Click += new EventHandler(addressItem_Click);
+            }
         }
 
         private void InitializeDIManager()
@@ -229,8 +260,26 @@ namespace WeatherCrawler
         {
             if (currentSelectedIndex.Contains("f"))
             {
+                // TEST
+                try
+                {
+                    JobKey jobKey = JobKey.Create(currentSelectedIndex, "MyOwnGroup");
+                    if (await cManager.schedulerForFJ.CheckExists(jobKey))
+                    {
+                        Console.WriteLine("cManager.schedulerForFJ.CheckExists:{0}", jobKey);
+                        await cManager.schedulerForFJ.PauseJob(jobKey);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
+                // TEST
+
+                /* ORIGINAL
                 JobKey jobKey = JobKey.Create(currentSelectedIndex, "MyOwnGroup");   
                 await cManager.schedulerForFJ.PauseJob(jobKey);
+                */
             }
             else
                 await cManager.schedulerForAddr.PauseJob(new JobKey(currentSelectedIndex));
@@ -265,6 +314,7 @@ namespace WeatherCrawler
                 fjiManager.WriteCrawlStatus(currentSelectedIndex, "R");
             }
 
+            // 현재 주소 리스트 초기화
             InitializeContextMenuStripAddress();
         }
 
@@ -300,6 +350,39 @@ namespace WeatherCrawler
             dlgForOption.SetDBINI(diManager);
             diManager.SetFormOption(dlgForOption);
             dlgForOption.ShowDialog();
+        }
+
+        private void 모든주소수집실행ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cManager.schedulerForFJ.ResumeAll();
+            cManager.schedulerForAddr.ResumeAll();
+        }
+
+        private void 모든주소수집정지ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            cManager.schedulerForFJ.PauseAll();
+            cManager.schedulerForAddr.PauseAll();
+        }
+
+        private void 삭제ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (currentSelectedIndex.Contains("f"))
+            {
+                // 기본적으로 fwjournal.ini 는 삭제못하도록 함.
+                /*
+                FwjournalIniManager fiManager = new FwjournalIniManager();
+                fiManager.DeleteAddressByIndexNo(currentSelectedIndex);
+                */
+                MessageBox.Show("영농일지 관련 데이터(fwjournal.ini)는 삭제할 수 없습니다");
+            }
+            else
+            {
+                // address.ini 에서 삭제
+                AddressIniManager aiManager = new AddressIniManager();
+                aiManager.DeleteAddressByIndexNo(currentSelectedIndex);
+                // 현재 주소 리스트 초기화
+                InitializeContextMenuStripAddress();
+            }
         }
     }
 }
