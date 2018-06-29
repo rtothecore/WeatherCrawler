@@ -126,3 +126,5 @@ C:\Users\hkim\source\repos\WeatherCrawler\WeatherCrawler\bin\Debug\System.Xml.XP
 C:\Users\hkim\source\repos\WeatherCrawler\WeatherCrawler\bin\Debug\System.Xml.XPath.XDocument.dll
 C:\Users\hkim\source\repos\WeatherCrawler\WeatherCrawler\bin\Debug\System.Buffers.xml
 C:\Users\hkim\source\repos\WeatherCrawler\WeatherCrawler\obj\Debug\WeatherCrawler.exe.config
+C:\Users\hkim\source\repos\WeatherCrawler\WeatherCrawler\bin\Debug\log4net.dll
+C:\Users\hkim\source\repos\WeatherCrawler\WeatherCrawler\bin\Debug\log4net.xml

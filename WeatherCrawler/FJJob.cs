@@ -11,9 +11,19 @@ namespace WeatherCrawler
 {
     public class FJJob : IJob
     {
+        static private Object ThisLock = new Object();
+
         public virtual Task Execute(IJobExecutionContext context)
         {
             JobKey jobKey = context.JobDetail.Key;
+
+            // 로그
+            lock (ThisLock)
+            {
+                L4Logger l4Logger = new L4Logger(jobKey.Name + ".log");
+                l4Logger.Add("Start Task : " + jobKey.Name);
+                l4Logger.Close();
+            }
 
             JobDataMap dataMap = context.JobDetail.JobDataMap;
             string address = dataMap.GetString("address");

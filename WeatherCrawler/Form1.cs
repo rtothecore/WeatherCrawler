@@ -15,14 +15,20 @@ namespace WeatherCrawler
     public partial class Form1 : Form
     {
         DbIniManager diManager = null;
-
         CrawlManager cManager = null;
+
+        LogOutputManager loManagerForCommon = null;
+        LogOutputManager loManagerForAddress = null;
 
         string currentSelectedIndex = null;
         string currentSelectedRunStatus = null;
 
         public Form1()
         {
+            L4Logger l4Logger = new L4Logger("common.log");
+            l4Logger.Add("App Started!");
+            l4Logger.Close();
+
             InitializeComponent();
 
             // 프로그램 실행시 fwjournal.ini의 첫 주소를 선택한 걸로 셋팅
@@ -36,6 +42,10 @@ namespace WeatherCrawler
 
             InitializeDIManager();
             RunCrawlAndCheck();
+
+            // 로그파일 출력
+            loManagerForCommon = new LogOutputManager("common", textBoxCommonLog);
+            loManagerForAddress = new LogOutputManager("f0", textBoxPrivateLog);
         }
 
         void InitializeToolBar()
@@ -104,7 +114,7 @@ namespace WeatherCrawler
 
             // 변수 초기화
             currentSelectedIndex = "f0";
-            currentSelectedRunStatus = fiManager.Addresses[0].CrawlStatus;
+            currentSelectedRunStatus = fiManager.Addresses[0].CrawlStatus;            
         }
 
         // 수집간격 옵션 클릭시 이벤트 함수
@@ -155,6 +165,9 @@ namespace WeatherCrawler
 
             currentSelectedRunStatus = tmpAL.CrawlStatus;
 
+            // 로그
+            loManagerForAddress.StopOutput();
+            loManagerForAddress = new LogOutputManager(tmpAL.IndexNo, textBoxPrivateLog);
         }
 
         // 현재 주소 버튼 메뉴 초기화

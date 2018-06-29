@@ -50,9 +50,10 @@
             this.labelAddr = new System.Windows.Forms.Label();
             this.buttonAddr = new System.Windows.Forms.Button();
             this.buttonCrawlOption = new System.Windows.Forms.Button();
-            this.textBoxLog = new System.Windows.Forms.TextBox();
+            this.textBoxCommonLog = new System.Windows.Forms.TextBox();
             this.contextMenuStripAddress = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStripCrawlOption = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.textBoxPrivateLog = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -114,7 +115,7 @@
             // 삭제ToolStripMenuItem
             // 
             this.삭제ToolStripMenuItem.Name = "삭제ToolStripMenuItem";
-            this.삭제ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.삭제ToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
             this.삭제ToolStripMenuItem.Text = "삭제";
             this.삭제ToolStripMenuItem.Click += new System.EventHandler(this.삭제ToolStripMenuItem_Click);
             // 
@@ -130,14 +131,14 @@
             // 모든주소수집실행ToolStripMenuItem
             // 
             this.모든주소수집실행ToolStripMenuItem.Name = "모든주소수집실행ToolStripMenuItem";
-            this.모든주소수집실행ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.모든주소수집실행ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.모든주소수집실행ToolStripMenuItem.Text = "모든주소 수집 실행";
             this.모든주소수집실행ToolStripMenuItem.Click += new System.EventHandler(this.모든주소수집실행ToolStripMenuItem_Click);
             // 
             // 모든주소수집정지ToolStripMenuItem
             // 
             this.모든주소수집정지ToolStripMenuItem.Name = "모든주소수집정지ToolStripMenuItem";
-            this.모든주소수집정지ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.모든주소수집정지ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
             this.모든주소수집정지ToolStripMenuItem.Text = "모든주소 수집 정지";
             this.모든주소수집정지ToolStripMenuItem.Click += new System.EventHandler(this.모든주소수집정지ToolStripMenuItem_Click);
             // 
@@ -171,7 +172,8 @@
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.textBoxLog);
+            this.splitContainer1.Panel2.Controls.Add(this.textBoxPrivateLog);
+            this.splitContainer1.Panel2.Controls.Add(this.textBoxCommonLog);
             this.splitContainer1.Size = new System.Drawing.Size(800, 426);
             this.splitContainer1.TabIndex = 1;
             // 
@@ -293,16 +295,16 @@
             this.buttonCrawlOption.UseVisualStyleBackColor = false;
             this.buttonCrawlOption.Click += new System.EventHandler(this.buttonCrawlOption_Click);
             // 
-            // textBoxLog
+            // textBoxCommonLog
             // 
-            this.textBoxLog.BackColor = System.Drawing.Color.White;
-            this.textBoxLog.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxLog.Location = new System.Drawing.Point(0, 0);
-            this.textBoxLog.Multiline = true;
-            this.textBoxLog.Name = "textBoxLog";
-            this.textBoxLog.Size = new System.Drawing.Size(800, 372);
-            this.textBoxLog.TabIndex = 0;
-            this.textBoxLog.Text = "Connecting MongoDB....\r\nConnected MongoDB.\r\nInsert Data - 2018-06-20";
+            this.textBoxCommonLog.BackColor = System.Drawing.Color.White;
+            this.textBoxCommonLog.Dock = System.Windows.Forms.DockStyle.Top;
+            this.textBoxCommonLog.Location = new System.Drawing.Point(0, 0);
+            this.textBoxCommonLog.Multiline = true;
+            this.textBoxCommonLog.Name = "textBoxCommonLog";
+            this.textBoxCommonLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxCommonLog.Size = new System.Drawing.Size(800, 100);
+            this.textBoxCommonLog.TabIndex = 0;
             // 
             // contextMenuStripAddress
             // 
@@ -313,6 +315,17 @@
             // 
             this.contextMenuStripCrawlOption.Name = "contextMenuStripCrawlOption";
             this.contextMenuStripCrawlOption.Size = new System.Drawing.Size(61, 4);
+            // 
+            // textBoxPrivateLog
+            // 
+            this.textBoxPrivateLog.BackColor = System.Drawing.Color.White;
+            this.textBoxPrivateLog.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxPrivateLog.Location = new System.Drawing.Point(0, 100);
+            this.textBoxPrivateLog.Multiline = true;
+            this.textBoxPrivateLog.Name = "textBoxPrivateLog";
+            this.textBoxPrivateLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxPrivateLog.Size = new System.Drawing.Size(800, 272);
+            this.textBoxPrivateLog.TabIndex = 1;
             // 
             // Form1
             // 
@@ -362,7 +375,8 @@
         private System.Windows.Forms.Label labelRunStatus;
         private System.Windows.Forms.ContextMenuStrip contextMenuStripAddress;
         private System.Windows.Forms.ContextMenuStrip contextMenuStripCrawlOption;
-        private System.Windows.Forms.TextBox textBoxLog;
+        private System.Windows.Forms.TextBox textBoxCommonLog;
+        private System.Windows.Forms.TextBox textBoxPrivateLog;
     }
 }
 
