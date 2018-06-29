@@ -10,7 +10,7 @@ namespace WeatherCrawler
 {
     class FwjournalDBChecker
     {
-        IScheduler CrawlScheduler = null;
+        public IScheduler CrawlScheduler = null;
 
         public FwjournalDBChecker(IScheduler CrawlManagerScheduler)
         {

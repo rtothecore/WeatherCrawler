@@ -57,6 +57,8 @@ namespace WeatherCrawler
             this.Close();
         }
 
+        
+
         // address.ini에 새로운 주소 쓰기
         private async Task<bool> RunGetGPSAndConvertNxNyAndWriteAddr(string address)
         {
@@ -64,6 +66,11 @@ namespace WeatherCrawler
             return await hcManager.RunGetGPSAndConvertNxNyAndWriteAddr("http://maps.googleapis.com/maps/api/geocode/json",
                                                         "?sensor=false&language=ko&address=",
                                                         address);
+        }
+
+        public string GetFormedAddress()
+        {
+            return formedAddress;
         }
     }
 }

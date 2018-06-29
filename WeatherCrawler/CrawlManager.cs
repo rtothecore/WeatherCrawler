@@ -18,22 +18,7 @@ namespace WeatherCrawler
 
         public CrawlManager()
         {
-            // fwjournal.ini 읽어서 수집시작
-            FwjournalIniManager fIManager = new FwjournalIniManager();
-            fIManager.ReadAddress();
-            foreach(var address in fIManager.Addresses)
-            {
-                TaskFJJob(address.IndexNo, address.Address, address.Nx, address.Ny, address.CrawlTerm).GetAwaiter();
-                // TaskFJJob(address.IndexNo, address.Address, address.CrawlTerm).GetAwaiter().GetResult();
-            }
-
-            // address.ini 읽어서 수집시작
-            AddressIniManager aIManager = new AddressIniManager();
-            aIManager.ReadAddress();
-            foreach(var address in aIManager.Addresses)
-            {
-                TaskAddrJob(address.IndexNo, address.Address, address.Nx, address.Ny, address.CrawlTerm).GetAwaiter();
-            }
+            RunTasks();
         }
 
         // https://sites.google.com/site/netcorenote/scheduler-in-netcore/quartz/02--tutorial-of-quartz-in-netcore/01-simpleexamplewithquartznet300-alpha2
@@ -124,6 +109,26 @@ namespace WeatherCrawler
                 .Build();
 
             await schedulerForAddr.ScheduleJob(job, trigger);
+        }
+
+        public void RunTasks()
+        {
+            // fwjournal.ini 읽어서 수집시작
+            FwjournalIniManager fIManager = new FwjournalIniManager();
+            fIManager.ReadAddress();
+            foreach (var address in fIManager.Addresses)
+            {
+                TaskFJJob(address.IndexNo, address.Address, address.Nx, address.Ny, address.CrawlTerm).GetAwaiter();
+                // TaskFJJob(address.IndexNo, address.Address, address.CrawlTerm).GetAwaiter().GetResult();
+            }
+
+            // address.ini 읽어서 수집시작
+            AddressIniManager aIManager = new AddressIniManager();
+            aIManager.ReadAddress();
+            foreach (var address in aIManager.Addresses)
+            {
+                TaskAddrJob(address.IndexNo, address.Address, address.Nx, address.Ny, address.CrawlTerm).GetAwaiter();
+            }
         }
     }
 }

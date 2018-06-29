@@ -63,6 +63,7 @@
             // 
             // buttonAddAddress
             // 
+            this.buttonAddAddress.DialogResult = System.Windows.Forms.DialogResult.OK;
             this.buttonAddAddress.Location = new System.Drawing.Point(96, 124);
             this.buttonAddAddress.Name = "buttonAddAddress";
             this.buttonAddAddress.Size = new System.Drawing.Size(75, 23);
@@ -73,6 +74,7 @@
             // 
             // buttonCancelAddAddress
             // 
+            this.buttonCancelAddAddress.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.buttonCancelAddAddress.Location = new System.Drawing.Point(204, 126);
             this.buttonCancelAddAddress.Name = "buttonCancelAddAddress";
             this.buttonCancelAddAddress.Size = new System.Drawing.Size(75, 23);

@@ -16,12 +16,15 @@ namespace WeatherCrawler
     {
         DbIniManager diManager = null;
         CrawlManager cManager = null;
+        FwjournalDBChecker fjDbChecker = null;
 
         LogOutputManager loManagerForCommon = null;
         LogOutputManager loManagerForAddress = null;
 
         string currentSelectedIndex = null;
         string currentSelectedRunStatus = null;
+
+        bool isAddedNewAddress = false;
 
         public Form1()
         {
@@ -210,11 +213,41 @@ namespace WeatherCrawler
 
         private void RunCrawlAndCheck()
         {
+            L4Logger l4Logger = new L4Logger("common.log");
+
+            // 수집중이라면 스케쥴러를 모두 셧다운 시킴
+            if(null != cManager)
+            {
+                if (cManager.schedulerForFJ.IsStarted ||
+                    cManager.schedulerForAddr.IsStarted)
+                {
+                    l4Logger.Add("Shutdown CrawlManager Tasks");                    
+
+                    cManager.schedulerForFJ.PauseAll();
+                    cManager.schedulerForAddr.PauseAll();
+                    cManager.schedulerForFJ.Shutdown();
+                    cManager.schedulerForAddr.Shutdown();
+                }
+            }
+
             // fwjournal.ini, address.ini 읽어서 수집시작
+            l4Logger.Add("Start CrawlManager Tasks");
             cManager = new CrawlManager();
 
+            // DB 체크 스케쥴러가 실행중이라면 셧다운 시킴
+            if (null != fjDbChecker &&
+                fjDbChecker.CrawlScheduler.IsStarted)
+            {
+                l4Logger.Add("Shutdown FwjournalDBChecker Tasks");
+
+                fjDbChecker.CrawlScheduler.PauseAll();
+                fjDbChecker.CrawlScheduler.Shutdown();
+            }
+
             // fwjournal DB Checker 시작
-            FwjournalDBChecker fjDbChecker = new FwjournalDBChecker(cManager.schedulerForFJ);
+            l4Logger.Add("Start FwjournalDBChecker Tasks");
+            l4Logger.Close();
+            fjDbChecker = new FwjournalDBChecker(cManager.schedulerForFJ);
         }
 
         private void labelCurrentAddr_Click(object sender, EventArgs e)
@@ -227,10 +260,19 @@ namespace WeatherCrawler
             buttonAddr_Click(sender, e);
         }
 
+        // 현재주소 버튼
         private void buttonAddr_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("buttonAddr_Click");
+            // Console.WriteLine("buttonAddr_Click");
+            InitializeContextMenuStripAddress();
             contextMenuStripAddress.Show(buttonAddr, 0, 50);
+
+            if(isAddedNewAddress)
+            {
+                RunCrawlAndCheck();
+            }
+
+            isAddedNewAddress = false;
         }
 
         private void OnMouseEnterButtonAddr(object sender, EventArgs e)
@@ -354,7 +396,14 @@ namespace WeatherCrawler
         private void 새로운주소ToolStripMenuItem_Click(object sender, EventArgs e)
         {
             FormNewAddress dlgForNewAddress = new FormNewAddress();
-            dlgForNewAddress.ShowDialog();
+            if (DialogResult.OK == dlgForNewAddress.ShowDialog())
+            {
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add("New address added!");
+                l4Logger.Close();
+
+                isAddedNewAddress = true;
+            }
         }
 
         private void 옵션ToolStripMenuItem_Click(object sender, EventArgs e)

@@ -10,6 +10,7 @@ using System.Threading.Tasks;
 
 namespace WeatherCrawler
 {
+    // http://bigenergy.tistory.com/377
     public class L4Logger
     {
         // private static L4Logger LoggerInstance;

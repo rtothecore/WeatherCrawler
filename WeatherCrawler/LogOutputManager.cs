@@ -21,7 +21,8 @@ namespace WeatherCrawler
         public async Task Output(string indexNo, TextBox outputTB)
         {
             string filePath = AppDomain.CurrentDomain.BaseDirectory + "\\Log\\" + indexNo + ".log";
-            FileStream _log_stream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+            // FileStream _log_stream = new FileStream(filePath, FileMode.Open, FileAccess.Read, FileShare.ReadWrite);
+            FileStream _log_stream = new FileStream(filePath, FileMode.OpenOrCreate, FileAccess.Read, FileShare.ReadWrite);
             StreamReader _stream_reader = new StreamReader(_log_stream);
 
             string time_stamp = DateTime.Now.ToString();
