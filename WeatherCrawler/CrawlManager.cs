@@ -22,7 +22,7 @@ namespace WeatherCrawler
         }
 
         // https://sites.google.com/site/netcorenote/scheduler-in-netcore/quartz/02--tutorial-of-quartz-in-netcore/01-simpleexamplewithquartznet300-alpha2
-        public async Task TaskFJJob(string indexNo, string address, string nx, string ny, string crawlTerm)
+        public async Task TaskFJJob(string indexNo, string address, string nx, string ny, string crawlTerm, string crawlStatus)
         {
             ISchedulerFactory schedulerFactory = new StdSchedulerFactory();
 
@@ -45,31 +45,30 @@ namespace WeatherCrawler
                     break;
             }
 
-            int ScheduleIntervalInMinute = crawlTermMin;
-            JobKey jobKey = JobKey.Create(indexNo, "MyOwnGroup");
-            Console.WriteLine("jobKey:{0}", jobKey.ToString()); // TEST
+            int ScheduleIntervalInMinute = crawlTermMin;            
 
-            IJobDetail job = JobBuilder.Create<FJJob>().WithIdentity(jobKey)
+            IJobDetail job = JobBuilder.Create<FJJob>().WithIdentity(indexNo)
                                                        .UsingJobData("address", address)
                                                        .UsingJobData("nx", nx)
                                                        .UsingJobData("ny", ny)
                                                        .Build();
 
-            TriggerKey tKey = new TriggerKey(indexNo, "MyOwnGroup");
-            Console.WriteLine("tKey:{0}", tKey.ToString()); // TEST
             ITrigger trigger = TriggerBuilder.Create()
-                .WithIdentity(tKey)
+                .WithIdentity("JobTrigger" + indexNo)
                 .StartNow()
                 .WithSimpleSchedule(x => x.WithIntervalInSeconds(ScheduleIntervalInMinute).RepeatForever())
                 .Build();
 
             await schedulerForFJ.ScheduleJob(job, trigger);
 
-            // TEST
+            if ("S" == crawlStatus)
+            {
+                await schedulerForFJ.PauseJob(new JobKey(indexNo));
+            }
             Console.WriteLine("ScheduleJob - job:{0}, trigger:{1}", job.ToString(), trigger.ToString());
         }
 
-        public async Task TaskAddrJob(string indexNo, string address, string nx, string ny, string crawlTerm)
+        public async Task TaskAddrJob(string indexNo, string address, string nx, string ny, string crawlTerm, string crawlStatus)
         {
             ISchedulerFactory schedulerFactory = new StdSchedulerFactory();
 
@@ -93,9 +92,7 @@ namespace WeatherCrawler
             }
 
             int ScheduleIntervalInMinute = crawlTermMin;
-            JobKey jobKey = JobKey.Create(indexNo);
 
-            // IJobDetail job = JobBuilder.Create<AddressJob>().WithIdentity(jobKey)
             IJobDetail job = JobBuilder.Create<AddressJob>().WithIdentity(indexNo)
                                                             .UsingJobData("address", address)
                                                             .UsingJobData("nx", nx)
@@ -109,6 +106,12 @@ namespace WeatherCrawler
                 .Build();
 
             await schedulerForAddr.ScheduleJob(job, trigger);
+            
+            if ("S" == crawlStatus)
+            {
+                await schedulerForAddr.PauseJob(new JobKey(indexNo));
+            }
+            Console.WriteLine("ScheduleJob - job:{0}, trigger:{1}", job.ToString(), trigger.ToString());
         }
 
         public void RunTasks()
@@ -118,7 +121,7 @@ namespace WeatherCrawler
             fIManager.ReadAddress();
             foreach (var address in fIManager.Addresses)
             {
-                TaskFJJob(address.IndexNo, address.Address, address.Nx, address.Ny, address.CrawlTerm).GetAwaiter();
+                TaskFJJob(address.IndexNo, address.Address, address.Nx, address.Ny, address.CrawlTerm, address.CrawlStatus).GetAwaiter();
                 // TaskFJJob(address.IndexNo, address.Address, address.CrawlTerm).GetAwaiter().GetResult();
             }
 
@@ -127,7 +130,7 @@ namespace WeatherCrawler
             aIManager.ReadAddress();
             foreach (var address in aIManager.Addresses)
             {
-                TaskAddrJob(address.IndexNo, address.Address, address.Nx, address.Ny, address.CrawlTerm).GetAwaiter();
+                TaskAddrJob(address.IndexNo, address.Address, address.Nx, address.Ny, address.CrawlTerm, address.CrawlStatus).GetAwaiter();
             }
         }
     }

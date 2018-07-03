@@ -13,7 +13,8 @@ namespace WeatherCrawler
 {
     class HttpClientManager
     {
-        private const string ServiceKey = "73Jjl5lZRvBRKkGsPnGmZ7EL9JtwsWNi3hhCIN8cpVJzMdRRgyzntwz2lHmTKeR1tp7NWzoihNGGazcDEFgh8w%3D%3D";
+        private const string ServiceKey = "LjH8nbo4EHGuEhjqKt5sZaaSwUf%2BIMq9eBqk3pmPZ2lvUMEZ4Y%2Fqr4srvS20tgdFbAzf09sKOq5Ct8vielNKlg%3D%3D";
+        private const string ServiceKeyForAir = "73Jjl5lZRvBRKkGsPnGmZ7EL9JtwsWNi3hhCIN8cpVJzMdRRgyzntwz2lHmTKeR1tp7NWzoihNGGazcDEFgh8w%3D%3D";
 
         public HttpClientManager()
         {
@@ -145,7 +146,7 @@ namespace WeatherCrawler
                           "umdName=" + umd +
                           "&pageNo=1" +
                           "&numOfRows=10" +
-                          "&ServiceKey=" + ServiceKey +
+                          "&ServiceKey=" + ServiceKeyForAir +
                           "&_returnType=json";
 
             using (HttpClient client = new HttpClient())
@@ -190,7 +191,7 @@ namespace WeatherCrawler
                           "&tmY=" + tmY +
                           "&pageNo=1" +
                           "&numOfRows=10" +
-                          "&ServiceKey=" + ServiceKey +
+                          "&ServiceKey=" + ServiceKeyForAir +
                           "&_returnType=json";
 
             using (HttpClient client = new HttpClient())
@@ -226,7 +227,7 @@ namespace WeatherCrawler
                           "&stationName=" + stationName +
                           "&dataTerm=DAILY" +
                           "&ver=1.3" +
-                          "&ServiceKey=" + ServiceKey +
+                          "&ServiceKey=" + ServiceKeyForAir +
                           "&_returnType=json";
 
             using (HttpClient client = new HttpClient())

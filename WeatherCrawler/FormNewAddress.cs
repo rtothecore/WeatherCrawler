@@ -28,9 +28,12 @@ namespace WeatherCrawler
 
             // 검색된 주소를 가져옴
             string selectedAddress = dlgForSearchAddress.GetSelectedAddress();
-            string[] splitedAddress = selectedAddress.Split(' ');
-            formedAddress = splitedAddress[0] + " " + splitedAddress[1] + " " + splitedAddress[2];
-            textBoxNewAddress.Text = formedAddress;
+            if(null != selectedAddress)
+            {
+                string[] splitedAddress = selectedAddress.Split(' ');
+                formedAddress = splitedAddress[0] + " " + splitedAddress[1] + " " + splitedAddress[2];
+                textBoxNewAddress.Text = formedAddress;
+            }
         }
 
         private void buttonCancelAddAddress_Click(object sender, EventArgs e)

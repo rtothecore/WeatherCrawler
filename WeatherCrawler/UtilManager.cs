@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -226,6 +227,19 @@ namespace WeatherCrawler
                     break;
             }
             return result;
+        }
+
+        static public void DeleteLogFile(string fileName)
+        {
+            string FilePath = AppDomain.CurrentDomain.BaseDirectory + "\\Log\\" + fileName; //실행폴더 아래에 Log폴더
+
+            if (File.Exists(FilePath))
+            {
+                File.Delete(FilePath);
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add(FilePath + " is deleted");
+                l4Logger.Close();
+            }
         }
     }
 }

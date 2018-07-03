@@ -53,46 +53,57 @@
             // 
             // buttonFindAddress
             // 
+            this.buttonFindAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
+            this.buttonFindAddress.FlatAppearance.BorderSize = 0;
+            this.buttonFindAddress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonFindAddress.Location = new System.Drawing.Point(250, 55);
             this.buttonFindAddress.Name = "buttonFindAddress";
             this.buttonFindAddress.Size = new System.Drawing.Size(75, 23);
             this.buttonFindAddress.TabIndex = 2;
             this.buttonFindAddress.Text = "주소찾기";
-            this.buttonFindAddress.UseVisualStyleBackColor = true;
+            this.buttonFindAddress.UseVisualStyleBackColor = false;
             this.buttonFindAddress.Click += new System.EventHandler(this.buttonFindAddress_Click);
             // 
             // buttonAddAddress
             // 
+            this.buttonAddAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
             this.buttonAddAddress.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.buttonAddAddress.FlatAppearance.BorderSize = 0;
+            this.buttonAddAddress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAddAddress.Location = new System.Drawing.Point(96, 124);
             this.buttonAddAddress.Name = "buttonAddAddress";
             this.buttonAddAddress.Size = new System.Drawing.Size(75, 23);
             this.buttonAddAddress.TabIndex = 3;
             this.buttonAddAddress.Text = "추가";
-            this.buttonAddAddress.UseVisualStyleBackColor = true;
+            this.buttonAddAddress.UseVisualStyleBackColor = false;
             this.buttonAddAddress.Click += new System.EventHandler(this.buttonAddAddress_Click);
             // 
             // buttonCancelAddAddress
             // 
+            this.buttonCancelAddAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
             this.buttonCancelAddAddress.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonCancelAddAddress.FlatAppearance.BorderSize = 0;
+            this.buttonCancelAddAddress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCancelAddAddress.Location = new System.Drawing.Point(204, 126);
             this.buttonCancelAddAddress.Name = "buttonCancelAddAddress";
             this.buttonCancelAddAddress.Size = new System.Drawing.Size(75, 23);
             this.buttonCancelAddAddress.TabIndex = 4;
             this.buttonCancelAddAddress.Text = "취소";
-            this.buttonCancelAddAddress.UseVisualStyleBackColor = true;
+            this.buttonCancelAddAddress.UseVisualStyleBackColor = false;
             this.buttonCancelAddAddress.Click += new System.EventHandler(this.buttonCancelAddAddress_Click);
             // 
             // FormNewAddress
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.ClientSize = new System.Drawing.Size(384, 161);
             this.Controls.Add(this.buttonCancelAddAddress);
             this.Controls.Add(this.buttonAddAddress);
             this.Controls.Add(this.buttonFindAddress);
             this.Controls.Add(this.textBoxNewAddress);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "FormNewAddress";
             this.Text = "새로운 주소";
             this.ResumeLayout(false);

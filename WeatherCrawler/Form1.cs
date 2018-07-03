@@ -51,6 +51,7 @@ namespace WeatherCrawler
             loManagerForAddress = new LogOutputManager("f0", textBoxPrivateLog);
         }
 
+        // 툴바 초기화
         void InitializeToolBar()
         {
             // fwjournal.ini 읽기
@@ -71,7 +72,7 @@ namespace WeatherCrawler
             labelAddr.MouseEnter += OnMouseEnterButtonAddr;
             labelAddr.MouseLeave += OnMouseLeaveButtonAddr;
 
-            buttonAddr.BackColor = Color.Red;
+            buttonAddr.BackColor = Color.FromArgb(45, 45, 48);
             buttonAddr.MouseEnter += OnMouseEnterButtonAddr;
             buttonAddr.MouseLeave += OnMouseLeaveButtonAddr;
 
@@ -90,7 +91,7 @@ namespace WeatherCrawler
             labelCrawlTerm.MouseEnter += OnMouseEnterButtonCrawlOption;
             labelCrawlTerm.MouseLeave += OnMouseLeaveButtonCrawlOption;
 
-            buttonCrawlOption.BackColor = Color.Orange;
+            buttonCrawlOption.BackColor = Color.FromArgb(45, 45, 48);
             buttonCrawlOption.MouseEnter += OnMouseEnterButtonCrawlOption;
             buttonCrawlOption.MouseLeave += OnMouseLeaveButtonCrawlOption;
 
@@ -109,7 +110,7 @@ namespace WeatherCrawler
             labelRunLastTime.MouseEnter += OnMouseEnterButtonRunStatus;
             labelRunLastTime.MouseLeave += OnMouseLeaveButtonRunStatus;
 
-            buttonRunStatus.BackColor = Color.DeepSkyBlue;
+            buttonRunStatus.BackColor = Color.FromArgb(45, 45, 48);
             buttonRunStatus.MouseEnter += OnMouseEnterButtonRunStatus;
             buttonRunStatus.MouseLeave += OnMouseLeaveButtonRunStatus;
 
@@ -120,15 +121,48 @@ namespace WeatherCrawler
             currentSelectedRunStatus = fiManager.Addresses[0].CrawlStatus;            
         }
 
+        // 툴바 리셋
+        void ResetToolBar()
+        {
+            // fwjournal.ini 읽기
+            FwjournalIniManager fiManager = new FwjournalIniManager();
+            fiManager.ReadAddress();
+
+            // 현재주소 버튼
+            labelAddr.Text = fiManager.Addresses[0].Address;
+
+            // 수집옵션 버튼                
+            labelCrawlTerm.Text = "수집간격 - " + UtilManager.ConvertCrawlTerm(fiManager.Addresses[0].CrawlTerm);
+
+            // 수집상태 버튼
+            labelRunStatus.Text = Fonts.fa.recycle + "  " + UtilManager.ConvertCrawlStatus(fiManager.Addresses[0].CrawlStatus);
+
+            // 변수 초기화
+            currentSelectedIndex = "f0";
+            currentSelectedRunStatus = fiManager.Addresses[0].CrawlStatus;
+        }
+
         // 수집간격 옵션 클릭시 이벤트 함수
         void optionItem_Click(object sender, EventArgs e)
         {
             ToolStripItem clickedItem = sender as ToolStripItem;
-            FwjournalIniManager fjiManager = new FwjournalIniManager();
             labelCrawlTerm.Text = "수집간격 - " + UtilManager.ConvertCrawlTerm(clickedItem.Tag.ToString());
-            fjiManager.WriteCrawlTerm(currentSelectedIndex, clickedItem.Tag.ToString());
+
+            if (currentSelectedIndex.Contains("f"))
+            {
+                FwjournalIniManager fjiManager = new FwjournalIniManager();
+                fjiManager.WriteCrawlTerm(currentSelectedIndex, clickedItem.Tag.ToString());
+            }
+            else
+            {
+                AddressIniManager aiManager = new AddressIniManager();
+                aiManager.WriteCrawlTerm(currentSelectedIndex, clickedItem.Tag.ToString());
+            }
+
             // 현재 주소 리스트 초기화
             InitializeContextMenuStripAddress();
+
+            RunCrawlAndCheck();
         }
 
         // 수집간격 옵션 버튼 메뉴 초기화
@@ -137,14 +171,17 @@ namespace WeatherCrawler
             ToolStripItem optionItem1 = contextMenuStripCrawlOption.Items.Add("1시간");
             optionItem1.Tag = "1H";
             optionItem1.Click += new EventHandler(optionItem_Click);
+            optionItem1.ForeColor = Color.White;
 
             ToolStripItem optionItem2 = contextMenuStripCrawlOption.Items.Add("30분");
             optionItem2.Tag = "30M";
             optionItem2.Click += new EventHandler(optionItem_Click);
+            optionItem2.ForeColor = Color.White;
 
             ToolStripItem optionItem3 = contextMenuStripCrawlOption.Items.Add("1분");
             optionItem3.Tag = "1M";
             optionItem3.Click += new EventHandler(optionItem_Click);
+            optionItem3.ForeColor = Color.White;
         }
 
         // 주소 클릭시 이벤트 함수
@@ -185,11 +222,17 @@ namespace WeatherCrawler
             fiManager.ReadAddress();
             foreach(var address in fiManager.Addresses)
             {
+                /*
                 ToolStripItem addressItem = contextMenuStripAddress.Items.Add(address.Address + "               " + 
                                                                        UtilManager.ConvertCrawlTerm(address.CrawlTerm) + "               " + 
                                                                        UtilManager.ConvertCrawlStatus(address.CrawlStatus));
+                */
+                ToolStripItem addressItem = contextMenuStripAddress.Items.Add(address.Address.PadRight(25, '-') +
+                                                                       UtilManager.ConvertCrawlTerm(address.CrawlTerm).PadRight(25, '-') +
+                                                                       UtilManager.ConvertCrawlStatus(address.CrawlStatus));
                 addressItem.Tag = address;
                 addressItem.Click += new EventHandler(addressItem_Click);
+                addressItem.ForeColor = Color.White;
             }
 
             // address.ini 읽어서 메뉴에 추가
@@ -197,11 +240,17 @@ namespace WeatherCrawler
             aiManager.ReadAddress();
             foreach(var address in aiManager.Addresses)
             {
+                /*
                 ToolStripItem addressItem = contextMenuStripAddress.Items.Add(address.Address + "               " +
                                                                        UtilManager.ConvertCrawlTerm(address.CrawlTerm) + "               " +
                                                                        UtilManager.ConvertCrawlStatus(address.CrawlStatus));
+                */
+                ToolStripItem addressItem = contextMenuStripAddress.Items.Add(address.Address.PadRight(25, '-') +
+                                                                       UtilManager.ConvertCrawlTerm(address.CrawlTerm).PadRight(25, '-') +
+                                                                       UtilManager.ConvertCrawlStatus(address.CrawlStatus));
                 addressItem.Tag = address;
                 addressItem.Click += new EventHandler(addressItem_Click);
+                addressItem.ForeColor = Color.White;
             }
         }
 
@@ -218,14 +267,17 @@ namespace WeatherCrawler
             // 수집중이라면 스케쥴러를 모두 셧다운 시킴
             if(null != cManager)
             {
-                if (cManager.schedulerForFJ.IsStarted ||
-                    cManager.schedulerForAddr.IsStarted)
+                if (null != cManager.schedulerForFJ && cManager.schedulerForFJ.IsStarted)
                 {
-                    l4Logger.Add("Shutdown CrawlManager Tasks");                    
-
+                    l4Logger.Add("Shutdown CrawlManager FJ Tasks");                    
                     cManager.schedulerForFJ.PauseAll();
-                    cManager.schedulerForAddr.PauseAll();
                     cManager.schedulerForFJ.Shutdown();
+                }
+
+                if(null != cManager.schedulerForAddr && cManager.schedulerForAddr.IsStarted)
+                {
+                    l4Logger.Add("Shutdown CrawlManager Addr Tasks");
+                    cManager.schedulerForAddr.PauseAll();
                     cManager.schedulerForAddr.Shutdown();
                 }
             }
@@ -267,7 +319,7 @@ namespace WeatherCrawler
             InitializeContextMenuStripAddress();
             contextMenuStripAddress.Show(buttonAddr, 0, 50);
 
-            if(isAddedNewAddress)
+            if (isAddedNewAddress)
             {
                 RunCrawlAndCheck();
             }
@@ -277,12 +329,12 @@ namespace WeatherCrawler
 
         private void OnMouseEnterButtonAddr(object sender, EventArgs e)
         {
-            buttonAddr.BackColor = Color.Teal; 
+            buttonAddr.BackColor = Color.FromArgb(63, 63, 70); 
         }
 
         private void OnMouseLeaveButtonAddr(object sender, EventArgs e)
         {
-            buttonAddr.BackColor = Color.Red;
+            buttonAddr.BackColor = Color.FromArgb(45, 45, 48); ;
         }
 
         private void buttonCrawlOption_Click(object sender, EventArgs e)
@@ -293,12 +345,12 @@ namespace WeatherCrawler
 
         private void OnMouseEnterButtonCrawlOption(object sender, EventArgs e)
         {
-            buttonCrawlOption.BackColor = Color.Olive;
+            buttonCrawlOption.BackColor = Color.FromArgb(63, 63, 70);
         }
 
         private void OnMouseLeaveButtonCrawlOption(object sender, EventArgs e)
         {
-            buttonCrawlOption.BackColor = Color.Orange;
+            buttonCrawlOption.BackColor = Color.FromArgb(45, 45, 48);
         }
 
         private void labelCrawlOption_Click(object sender, EventArgs e)
@@ -315,10 +367,9 @@ namespace WeatherCrawler
         {
             if (currentSelectedIndex.Contains("f"))
             {
-                // TEST
                 try
                 {
-                    JobKey jobKey = JobKey.Create(currentSelectedIndex, "MyOwnGroup");
+                    JobKey jobKey = JobKey.Create(currentSelectedIndex);
                     if (await cManager.schedulerForFJ.CheckExists(jobKey))
                     {
                         Console.WriteLine("cManager.schedulerForFJ.CheckExists:{0}", jobKey);
@@ -329,15 +380,23 @@ namespace WeatherCrawler
                 {
                     throw new Exception(ex.Message);
                 }
-                // TEST
-
-                /* ORIGINAL
-                JobKey jobKey = JobKey.Create(currentSelectedIndex, "MyOwnGroup");   
-                await cManager.schedulerForFJ.PauseJob(jobKey);
-                */
             }
             else
-                await cManager.schedulerForAddr.PauseJob(new JobKey(currentSelectedIndex));
+            {
+                try
+                {
+                    JobKey jobKey = JobKey.Create(currentSelectedIndex);
+                    if (await cManager.schedulerForAddr.CheckExists(jobKey))
+                    {
+                        Console.WriteLine("cManager.schedulerForAddr.CheckExists:{0}", jobKey);
+                        await cManager.schedulerForAddr.PauseJob(jobKey);
+                    }
+                }
+                catch (Exception ex)
+                {
+                    throw new Exception(ex.Message);
+                }
+            }    
         }
 
         private async void ResumeJob()
@@ -351,22 +410,29 @@ namespace WeatherCrawler
         // 수집 상태 토글 버튼
         private void buttonRunStatus_Click(object sender, EventArgs e)
         {
-            Console.WriteLine("buttonRunStatus_Click");
+            // Console.WriteLine("buttonRunStatus_Click");
             FwjournalIniManager fjiManager = new FwjournalIniManager();
+            AddressIniManager aiManager = new AddressIniManager();
 
             if ("R" == currentSelectedRunStatus)
             {
                 PauseJob();
                 labelRunStatus.Text = Fonts.fa.hand_stop_o + "  " + UtilManager.ConvertCrawlStatus("S");
                 currentSelectedRunStatus = "S";
-                fjiManager.WriteCrawlStatus(currentSelectedIndex, "S");
+                if (currentSelectedIndex.Contains("f"))
+                    fjiManager.WriteCrawlStatus(currentSelectedIndex, "S");
+                else
+                    aiManager.WriteCrawlStatus(currentSelectedIndex, "S");
             }
             else
             {
                 ResumeJob();
                 labelRunStatus.Text = Fonts.fa.recycle + "  " + UtilManager.ConvertCrawlStatus("R");
                 currentSelectedRunStatus = "R";
-                fjiManager.WriteCrawlStatus(currentSelectedIndex, "R");
+                if (currentSelectedIndex.Contains("f"))
+                    fjiManager.WriteCrawlStatus(currentSelectedIndex, "R");
+                else
+                    aiManager.WriteCrawlStatus(currentSelectedIndex, "R");
             }
 
             // 현재 주소 리스트 초기화
@@ -385,12 +451,12 @@ namespace WeatherCrawler
 
         private void OnMouseEnterButtonRunStatus(object sender, EventArgs e)
         {
-            buttonRunStatus.BackColor = Color.Blue;
+            buttonRunStatus.BackColor = Color.FromArgb(63, 63, 70);
         }
 
         private void OnMouseLeaveButtonRunStatus(object sender, EventArgs e)
         {
-            buttonRunStatus.BackColor = Color.DeepSkyBlue;
+            buttonRunStatus.BackColor = Color.FromArgb(45, 45, 48);
         }
 
         private void 새로운주소ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -416,14 +482,44 @@ namespace WeatherCrawler
 
         private void 모든주소수집실행ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 모든 작업 재실행
             cManager.schedulerForFJ.ResumeAll();
             cManager.schedulerForAddr.ResumeAll();
+
+            // *.ini 파일 업데이트
+            FwjournalIniManager fjiManager = new FwjournalIniManager();
+            AddressIniManager aiManager = new AddressIniManager();
+            fjiManager.WriteAllCrawlStatus("R");
+            aiManager.WriteAllCrawlStatus("R");
+
+            // 현재 주소 리스트 초기화
+            InitializeContextMenuStripAddress();
+
+            // 로그
+            L4Logger l4Logger = new L4Logger("common.log");
+            l4Logger.Add("All tasks resumed!");
+            l4Logger.Close();
         }
 
         private void 모든주소수집정지ToolStripMenuItem_Click(object sender, EventArgs e)
         {
+            // 모든 작업 정지
             cManager.schedulerForFJ.PauseAll();
             cManager.schedulerForAddr.PauseAll();
+
+            // *.ini 파일 업데이트
+            FwjournalIniManager fjiManager = new FwjournalIniManager();
+            AddressIniManager aiManager = new AddressIniManager();
+            fjiManager.WriteAllCrawlStatus("S");
+            aiManager.WriteAllCrawlStatus("S");
+
+            // 현재 주소 리스트 초기화
+            InitializeContextMenuStripAddress();
+
+            // 로그
+            L4Logger l4Logger = new L4Logger("common.log");
+            l4Logger.Add("All tasks paused!");
+            l4Logger.Close();
         }
 
         private void 삭제ToolStripMenuItem_Click(object sender, EventArgs e)
@@ -439,11 +535,35 @@ namespace WeatherCrawler
             }
             else
             {
+                // 해당 작업 멈추고 삭제
+                JobKey jobKey = JobKey.Create(currentSelectedIndex);
+                cManager.schedulerForAddr.PauseJob(jobKey);
+                cManager.schedulerForAddr.DeleteJob(jobKey);
+
                 // address.ini 에서 삭제
                 AddressIniManager aiManager = new AddressIniManager();
                 aiManager.DeleteAddressByIndexNo(currentSelectedIndex);
+
+                // 공통 로그파일에 삭제로그 남기기
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add(currentSelectedIndex + " is deleted");
+                l4Logger.Close();
+
+                // 삭제할 인덱스 저장
+                // string indexForDelete = currentSelectedIndex;
+
                 // 현재 주소 리스트 초기화
                 InitializeContextMenuStripAddress();
+
+                // 툴바 초기화
+                ResetToolBar();
+
+                // 로그 출력창 설정
+                loManagerForAddress.StopOutput();
+                loManagerForAddress = new LogOutputManager(currentSelectedIndex, textBoxPrivateLog);
+
+                // 개별 로그파일 삭제
+                // UtilManager.DeleteLogFile(indexForDelete + ".log");
             }
         }
     }

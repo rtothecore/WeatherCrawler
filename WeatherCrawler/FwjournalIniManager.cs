@@ -293,6 +293,58 @@ namespace WeatherCrawler
             sw.Close();
         }
 
+        public void WriteAllCrawlStatus(string crawlStatus)
+        {
+            List<string> readLines = new List<string>();
+
+            // readLines에 기존데이터 읽기
+            StreamReader sr = new StreamReader(new FileStream(FwjIni, FileMode.OpenOrCreate));
+            long fileSize = sr.BaseStream.Length;
+            sr.Close();
+
+            if (0 == fileSize)
+            {
+                MessageBox.Show("영농일지 주소 정보가 없습니다");
+            }
+            else
+            {
+                sr = new StreamReader(FwjIni, System.Text.Encoding.Default, true);
+                string readLine = sr.ReadLine();    // DB 접속정보 읽기
+                readLines.Add(readLine);
+
+                if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
+                {
+                    MessageBox.Show("영농일지 주소 정보가 없습니다");
+                }
+                else
+                {
+                    while (null != readLine)     // 주소정보 읽기 시작
+                    {
+                        string[] addressInfo = readLine.Split('|');
+                        string addressIndex = addressInfo[0];
+                        readLine = addressIndex + "|" +
+                                    addressInfo[1] + "|" +
+                                    addressInfo[2] + "|" +
+                                    addressInfo[3] + "|" +
+                                    addressInfo[4] + "|" +
+                                    crawlStatus;
+                        readLines.Add(readLine);
+                                                
+                        readLine = sr.ReadLine();
+                    }
+                }
+                sr.Close();
+            }
+
+            // 쓰기            
+            StreamWriter sw = new StreamWriter(FwjIni, false, System.Text.Encoding.Default);
+            foreach (var line in readLines)
+            {
+                sw.WriteLine(line);
+            }
+            sw.Close();
+        }
+
         public bool IsExistSameAddress(string address)
         {
             StreamReader sr = new StreamReader(new FileStream(FwjIni, FileMode.OpenOrCreate));

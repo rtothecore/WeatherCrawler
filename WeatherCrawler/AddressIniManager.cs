@@ -112,16 +112,6 @@ namespace WeatherCrawler
             }
         }
 
-        public void DeleteAddressLine()
-        {
-            if (File.Exists(AddressIni))
-            {
-                File.Delete(AddressIni);
-            }
-
-            File.Create(AddressIni);
-        }
-
         public bool IsExistSameAddress(string address)
         {
             StreamReader sr = new StreamReader(new FileStream(AddressIni, FileMode.OpenOrCreate));
@@ -196,6 +186,173 @@ namespace WeatherCrawler
                         {
                             readLines.Add(readLine);
                         }
+                        readLine = sr.ReadLine();
+                    }
+                }
+                sr.Close();
+            }
+
+            // 쓰기            
+            StreamWriter sw = new StreamWriter(AddressIni, false, System.Text.Encoding.Default);
+            foreach (var line in readLines)
+            {
+                sw.WriteLine(line);
+            }
+            sw.Close();
+        }
+
+        public void WriteCrawlTerm(string indexNo, string crawlTerm)
+        {
+            List<string> readLines = new List<string>();
+
+            // readLines에 기존데이터 읽기
+            StreamReader sr = new StreamReader(new FileStream(AddressIni, FileMode.OpenOrCreate));
+            long fileSize = sr.BaseStream.Length;
+            sr.Close();
+
+            if (0 == fileSize)
+            {
+                MessageBox.Show("address.ini 주소 정보가 없습니다");
+            }
+            else
+            {
+                sr = new StreamReader(AddressIni, System.Text.Encoding.Default, true);
+                string readLine = null;
+
+                if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
+                {
+                    MessageBox.Show("address.ini 주소 정보가 없습니다");
+                }
+                else
+                {
+                    while (null != readLine)     // 주소정보 읽기 시작
+                    {
+                        string[] addressInfo = readLine.Split('|');
+                        string addressIndex = addressInfo[0];
+
+                        if (addressIndex == indexNo)
+                        {
+                            readLine = addressIndex + "|" +
+                                       addressInfo[1] + "|" +
+                                       addressInfo[2] + "|" +
+                                       addressInfo[3] + "|" +
+                                       crawlTerm + "|" +
+                                       addressInfo[5];
+                            readLines.Add(readLine);
+                        }
+                        else
+                        {
+                            readLines.Add(readLine);
+                        }
+                        readLine = sr.ReadLine();
+                    }
+                }
+                sr.Close();
+            }
+
+            // 쓰기            
+            StreamWriter sw = new StreamWriter(AddressIni, false, System.Text.Encoding.Default);
+            foreach (var line in readLines)
+            {
+                sw.WriteLine(line);
+            }
+            sw.Close();
+        }
+
+        public void WriteCrawlStatus(string indexNo, string crawlStatus)
+        {
+            List<string> readLines = new List<string>();
+
+            // readLines에 기존데이터 읽기
+            StreamReader sr = new StreamReader(new FileStream(AddressIni, FileMode.OpenOrCreate));
+            long fileSize = sr.BaseStream.Length;
+            sr.Close();
+
+            if (0 == fileSize)
+            {
+                MessageBox.Show("address.ini 주소 정보가 없습니다");
+            }
+            else
+            {
+                sr = new StreamReader(AddressIni, System.Text.Encoding.Default, true);
+                string readLine = null;
+
+                if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
+                {
+                    MessageBox.Show("address.ini 주소 정보가 없습니다");
+                }
+                else
+                {
+                    while (null != readLine)     // 주소정보 읽기 시작
+                    {
+                        string[] addressInfo = readLine.Split('|');
+                        string addressIndex = addressInfo[0];
+
+                        if (addressIndex == indexNo)
+                        {
+                            readLine = addressIndex + "|" +
+                                       addressInfo[1] + "|" +
+                                       addressInfo[2] + "|" +
+                                       addressInfo[3] + "|" +
+                                       addressInfo[4] + "|" +
+                                       crawlStatus;
+                            readLines.Add(readLine);
+                        }
+                        else
+                        {
+                            readLines.Add(readLine);
+                        }
+                        readLine = sr.ReadLine();
+                    }
+                }
+                sr.Close();
+            }
+
+            // 쓰기            
+            StreamWriter sw = new StreamWriter(AddressIni, false, System.Text.Encoding.Default);
+            foreach (var line in readLines)
+            {
+                sw.WriteLine(line);
+            }
+            sw.Close();
+        }
+
+        public void WriteAllCrawlStatus(string crawlStatus)
+        {
+            List<string> readLines = new List<string>();
+
+            // readLines에 기존데이터 읽기
+            StreamReader sr = new StreamReader(new FileStream(AddressIni, FileMode.OpenOrCreate));
+            long fileSize = sr.BaseStream.Length;
+            sr.Close();
+
+            if (0 == fileSize)
+            {
+                MessageBox.Show("address.ini 주소 정보가 없습니다");
+            }
+            else
+            {
+                sr = new StreamReader(AddressIni, System.Text.Encoding.Default, true);
+                string readLine = null;
+
+                if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
+                {
+                    MessageBox.Show("address.ini 주소 정보가 없습니다");
+                }
+                else
+                {
+                    while (null != readLine)     // 주소정보 읽기 시작
+                    {
+                        string[] addressInfo = readLine.Split('|');
+                        string addressIndex = addressInfo[0];
+                        readLine = addressIndex + "|" +
+                                    addressInfo[1] + "|" +
+                                    addressInfo[2] + "|" +
+                                    addressInfo[3] + "|" +
+                                    addressInfo[4] + "|" +
+                                    crawlStatus;
+                        readLines.Add(readLine);
+                        
                         readLine = sr.ReadLine();
                     }
                 }

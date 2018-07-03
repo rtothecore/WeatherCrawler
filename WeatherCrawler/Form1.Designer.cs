@@ -50,10 +50,10 @@
             this.labelAddr = new System.Windows.Forms.Label();
             this.buttonAddr = new System.Windows.Forms.Button();
             this.buttonCrawlOption = new System.Windows.Forms.Button();
+            this.textBoxPrivateLog = new System.Windows.Forms.TextBox();
             this.textBoxCommonLog = new System.Windows.Forms.TextBox();
             this.contextMenuStripAddress = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.contextMenuStripCrawlOption = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.textBoxPrivateLog = new System.Windows.Forms.TextBox();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
@@ -63,6 +63,7 @@
             // 
             // menuStrip1
             // 
+            this.menuStrip1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.파일ToolStripMenuItem,
             this.주소ToolStripMenuItem,
@@ -80,42 +81,52 @@
             this.새로운주소ToolStripMenuItem,
             this.옵션ToolStripMenuItem,
             this.끝내기ToolStripMenuItem});
+            this.파일ToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.파일ToolStripMenuItem.Name = "파일ToolStripMenuItem";
             this.파일ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.파일ToolStripMenuItem.Text = "파일";
             // 
             // 새로운주소ToolStripMenuItem
             // 
+            this.새로운주소ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.새로운주소ToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.새로운주소ToolStripMenuItem.Name = "새로운주소ToolStripMenuItem";
-            this.새로운주소ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.새로운주소ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.새로운주소ToolStripMenuItem.Text = "새로운 주소";
             this.새로운주소ToolStripMenuItem.Click += new System.EventHandler(this.새로운주소ToolStripMenuItem_Click);
             // 
             // 옵션ToolStripMenuItem
             // 
+            this.옵션ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.옵션ToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.옵션ToolStripMenuItem.Name = "옵션ToolStripMenuItem";
-            this.옵션ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.옵션ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.옵션ToolStripMenuItem.Text = "옵션";
             this.옵션ToolStripMenuItem.Click += new System.EventHandler(this.옵션ToolStripMenuItem_Click);
             // 
             // 끝내기ToolStripMenuItem
             // 
+            this.끝내기ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.끝내기ToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.끝내기ToolStripMenuItem.Name = "끝내기ToolStripMenuItem";
-            this.끝내기ToolStripMenuItem.Size = new System.Drawing.Size(138, 22);
+            this.끝내기ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.끝내기ToolStripMenuItem.Text = "끝내기";
             // 
             // 주소ToolStripMenuItem
             // 
             this.주소ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.삭제ToolStripMenuItem});
+            this.주소ToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.주소ToolStripMenuItem.Name = "주소ToolStripMenuItem";
             this.주소ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.주소ToolStripMenuItem.Text = "주소";
             // 
             // 삭제ToolStripMenuItem
             // 
+            this.삭제ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.삭제ToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.삭제ToolStripMenuItem.Name = "삭제ToolStripMenuItem";
-            this.삭제ToolStripMenuItem.Size = new System.Drawing.Size(98, 22);
+            this.삭제ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.삭제ToolStripMenuItem.Text = "삭제";
             this.삭제ToolStripMenuItem.Click += new System.EventHandler(this.삭제ToolStripMenuItem_Click);
             // 
@@ -124,26 +135,32 @@
             this.수집ToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.모든주소수집실행ToolStripMenuItem,
             this.모든주소수집정지ToolStripMenuItem});
+            this.수집ToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.수집ToolStripMenuItem.Name = "수집ToolStripMenuItem";
             this.수집ToolStripMenuItem.Size = new System.Drawing.Size(43, 20);
             this.수집ToolStripMenuItem.Text = "수집";
             // 
             // 모든주소수집실행ToolStripMenuItem
             // 
+            this.모든주소수집실행ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.모든주소수집실행ToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.모든주소수집실행ToolStripMenuItem.Name = "모든주소수집실행ToolStripMenuItem";
-            this.모든주소수집실행ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.모든주소수집실행ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.모든주소수집실행ToolStripMenuItem.Text = "모든주소 수집 실행";
             this.모든주소수집실행ToolStripMenuItem.Click += new System.EventHandler(this.모든주소수집실행ToolStripMenuItem_Click);
             // 
             // 모든주소수집정지ToolStripMenuItem
             // 
+            this.모든주소수집정지ToolStripMenuItem.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.모든주소수집정지ToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.모든주소수집정지ToolStripMenuItem.Name = "모든주소수집정지ToolStripMenuItem";
-            this.모든주소수집정지ToolStripMenuItem.Size = new System.Drawing.Size(178, 22);
+            this.모든주소수집정지ToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.모든주소수집정지ToolStripMenuItem.Text = "모든주소 수집 정지";
             this.모든주소수집정지ToolStripMenuItem.Click += new System.EventHandler(this.모든주소수집정지ToolStripMenuItem_Click);
             // 
             // 도움말ToolStripMenuItem
             // 
+            this.도움말ToolStripMenuItem.ForeColor = System.Drawing.Color.White;
             this.도움말ToolStripMenuItem.Name = "도움말ToolStripMenuItem";
             this.도움말ToolStripMenuItem.Size = new System.Drawing.Size(55, 20);
             this.도움말ToolStripMenuItem.Text = "도움말";
@@ -159,7 +176,7 @@
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.DodgerBlue;
+            this.splitContainer1.Panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.splitContainer1.Panel1.Controls.Add(this.labelRunLastTime);
             this.splitContainer1.Panel1.Controls.Add(this.labelRunStatus);
             this.splitContainer1.Panel1.Controls.Add(this.buttonRunStatus);
@@ -270,7 +287,7 @@
             // 
             // buttonAddr
             // 
-            this.buttonAddr.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonAddr.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.buttonAddr.FlatAppearance.BorderSize = 0;
             this.buttonAddr.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonAddr.Font = new System.Drawing.Font("맑은 고딕", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(129)));
@@ -295,10 +312,23 @@
             this.buttonCrawlOption.UseVisualStyleBackColor = false;
             this.buttonCrawlOption.Click += new System.EventHandler(this.buttonCrawlOption_Click);
             // 
+            // textBoxPrivateLog
+            // 
+            this.textBoxPrivateLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
+            this.textBoxPrivateLog.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.textBoxPrivateLog.ForeColor = System.Drawing.Color.White;
+            this.textBoxPrivateLog.Location = new System.Drawing.Point(0, 100);
+            this.textBoxPrivateLog.Multiline = true;
+            this.textBoxPrivateLog.Name = "textBoxPrivateLog";
+            this.textBoxPrivateLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.textBoxPrivateLog.Size = new System.Drawing.Size(800, 272);
+            this.textBoxPrivateLog.TabIndex = 1;
+            // 
             // textBoxCommonLog
             // 
-            this.textBoxCommonLog.BackColor = System.Drawing.Color.White;
+            this.textBoxCommonLog.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.textBoxCommonLog.Dock = System.Windows.Forms.DockStyle.Top;
+            this.textBoxCommonLog.ForeColor = System.Drawing.Color.White;
             this.textBoxCommonLog.Location = new System.Drawing.Point(0, 0);
             this.textBoxCommonLog.Multiline = true;
             this.textBoxCommonLog.Name = "textBoxCommonLog";
@@ -308,24 +338,15 @@
             // 
             // contextMenuStripAddress
             // 
+            this.contextMenuStripAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.contextMenuStripAddress.Name = "contextMenuStripAddress";
-            this.contextMenuStripAddress.Size = new System.Drawing.Size(61, 4);
+            this.contextMenuStripAddress.Size = new System.Drawing.Size(181, 26);
             // 
             // contextMenuStripCrawlOption
             // 
+            this.contextMenuStripCrawlOption.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.contextMenuStripCrawlOption.Name = "contextMenuStripCrawlOption";
             this.contextMenuStripCrawlOption.Size = new System.Drawing.Size(61, 4);
-            // 
-            // textBoxPrivateLog
-            // 
-            this.textBoxPrivateLog.BackColor = System.Drawing.Color.White;
-            this.textBoxPrivateLog.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.textBoxPrivateLog.Location = new System.Drawing.Point(0, 100);
-            this.textBoxPrivateLog.Multiline = true;
-            this.textBoxPrivateLog.Name = "textBoxPrivateLog";
-            this.textBoxPrivateLog.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.textBoxPrivateLog.Size = new System.Drawing.Size(800, 272);
-            this.textBoxPrivateLog.TabIndex = 1;
             // 
             // Form1
             // 

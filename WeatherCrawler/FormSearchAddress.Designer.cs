@@ -55,16 +55,21 @@
             // 
             // buttonSearchAddress
             // 
+            this.buttonSearchAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
+            this.buttonSearchAddress.FlatAppearance.BorderSize = 0;
+            this.buttonSearchAddress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSearchAddress.Location = new System.Drawing.Point(160, 60);
             this.buttonSearchAddress.Name = "buttonSearchAddress";
             this.buttonSearchAddress.Size = new System.Drawing.Size(75, 25);
             this.buttonSearchAddress.TabIndex = 2;
             this.buttonSearchAddress.Text = "검색";
-            this.buttonSearchAddress.UseVisualStyleBackColor = true;
+            this.buttonSearchAddress.UseVisualStyleBackColor = false;
             this.buttonSearchAddress.Click += new System.EventHandler(this.buttonSearchAddress_Click);
             // 
             // listBoxSeachedAddress
             // 
+            this.listBoxSeachedAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
+            this.listBoxSeachedAddress.ForeColor = System.Drawing.Color.White;
             this.listBoxSeachedAddress.FormattingEnabled = true;
             this.listBoxSeachedAddress.ItemHeight = 12;
             this.listBoxSeachedAddress.Location = new System.Drawing.Point(33, 99);
@@ -76,28 +81,35 @@
             // 
             // buttonSelectAddress
             // 
+            this.buttonSelectAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
+            this.buttonSelectAddress.FlatAppearance.BorderSize = 0;
+            this.buttonSelectAddress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonSelectAddress.Location = new System.Drawing.Point(93, 325);
             this.buttonSelectAddress.Name = "buttonSelectAddress";
             this.buttonSelectAddress.Size = new System.Drawing.Size(75, 23);
             this.buttonSelectAddress.TabIndex = 4;
             this.buttonSelectAddress.Text = "확인";
-            this.buttonSelectAddress.UseVisualStyleBackColor = true;
+            this.buttonSelectAddress.UseVisualStyleBackColor = false;
             this.buttonSelectAddress.Click += new System.EventHandler(this.buttonSelectAddress_Click);
             // 
             // buttonCancelAddress
             // 
+            this.buttonCancelAddress.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
+            this.buttonCancelAddress.FlatAppearance.BorderSize = 0;
+            this.buttonCancelAddress.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonCancelAddress.Location = new System.Drawing.Point(209, 326);
             this.buttonCancelAddress.Name = "buttonCancelAddress";
             this.buttonCancelAddress.Size = new System.Drawing.Size(75, 23);
             this.buttonCancelAddress.TabIndex = 5;
             this.buttonCancelAddress.Text = "취소";
-            this.buttonCancelAddress.UseVisualStyleBackColor = true;
+            this.buttonCancelAddress.UseVisualStyleBackColor = false;
             this.buttonCancelAddress.Click += new System.EventHandler(this.buttonCancelAddress_Click);
             // 
             // FormSearchAddress
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.ClientSize = new System.Drawing.Size(384, 361);
             this.Controls.Add(this.buttonCancelAddress);
             this.Controls.Add(this.buttonSelectAddress);
@@ -105,6 +117,7 @@
             this.Controls.Add(this.buttonSearchAddress);
             this.Controls.Add(this.textBoxSearchAddressText);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "FormSearchAddress";
             this.Text = "주소찾기";
             this.ResumeLayout(false);

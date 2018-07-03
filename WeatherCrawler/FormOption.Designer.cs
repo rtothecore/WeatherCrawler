@@ -134,30 +134,38 @@
             // 
             // buttonOptionOk
             // 
+            this.buttonOptionOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
             this.buttonOptionOk.DialogResult = System.Windows.Forms.DialogResult.OK;
+            this.buttonOptionOk.FlatAppearance.BorderSize = 0;
+            this.buttonOptionOk.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonOptionOk.ForeColor = System.Drawing.Color.White;
             this.buttonOptionOk.Location = new System.Drawing.Point(76, 319);
             this.buttonOptionOk.Name = "buttonOptionOk";
             this.buttonOptionOk.Size = new System.Drawing.Size(75, 23);
             this.buttonOptionOk.TabIndex = 11;
             this.buttonOptionOk.Text = "확인";
-            this.buttonOptionOk.UseVisualStyleBackColor = true;
+            this.buttonOptionOk.UseVisualStyleBackColor = false;
             this.buttonOptionOk.Click += new System.EventHandler(this.buttonOptionOk_Click);
             // 
             // buttonOptionCancel
             // 
+            this.buttonOptionCancel.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(63)))), ((int)(((byte)(63)))), ((int)(((byte)(70)))));
             this.buttonOptionCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
+            this.buttonOptionCancel.FlatAppearance.BorderSize = 0;
+            this.buttonOptionCancel.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonOptionCancel.Location = new System.Drawing.Point(210, 320);
             this.buttonOptionCancel.Name = "buttonOptionCancel";
             this.buttonOptionCancel.Size = new System.Drawing.Size(75, 23);
             this.buttonOptionCancel.TabIndex = 12;
             this.buttonOptionCancel.Text = "취소";
-            this.buttonOptionCancel.UseVisualStyleBackColor = true;
+            this.buttonOptionCancel.UseVisualStyleBackColor = false;
             this.buttonOptionCancel.Click += new System.EventHandler(this.buttonOptionCancel_Click);
             // 
             // FormOption
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(45)))), ((int)(((byte)(48)))));
             this.ClientSize = new System.Drawing.Size(384, 361);
             this.Controls.Add(this.buttonOptionCancel);
             this.Controls.Add(this.buttonOptionOk);
@@ -172,6 +180,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.ForeColor = System.Drawing.Color.White;
             this.Name = "FormOption";
             this.Text = "옵션";
             this.ResumeLayout(false);
