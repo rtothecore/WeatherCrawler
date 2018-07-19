@@ -82,14 +82,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddressIniManager.cs" />
-    <Compile Include="AddressJob.cs" />
     <Compile Include="AirDataMetaResult.cs" />
     <Compile Include="AirDataResult.cs" />
     <Compile Include="CrawlManager.cs" />
     <Compile Include="DbIniManager.cs" />
     <Compile Include="DbManager.cs" />
     <Compile Include="FJDBCheckJob.cs" />
-    <Compile Include="FJJob.cs" />
     <Compile Include="Fonts.cs" />
     <Compile Include="ForecastGribResult.cs" />
     <Compile Include="ForecastTimeSpaceResult.cs" />
@@ -121,6 +119,7 @@
     <Compile Include="FwjournalIniManager.cs" />
     <Compile Include="GoogleMapsResult.cs" />
     <Compile Include="HttpClientManager.cs" />
+    <Compile Include="Job.cs" />
     <Compile Include="L4Logger.cs" />
     <Compile Include="LogOutputManager.cs" />
     <Compile Include="NxNyManager.cs" />

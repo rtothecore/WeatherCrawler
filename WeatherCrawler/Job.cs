@@ -1,15 +1,12 @@
 ﻿using Quartz;
-using Quartz.Logging;
 using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace WeatherCrawler
 {
-    public class FJJob : IJob
+    public class Job : IJob
     {
         static private Object ThisLock = new Object();
 
@@ -40,7 +37,7 @@ namespace WeatherCrawler
             if (dm.Connect())
             {
                 // 이미 같은 주소의 데이터가 있는지 체크
-                if(dm.IsExistAddress(address))
+                if (dm.IsExistAddress(address))
                 {
                     Console.WriteLine("이미 같은 주소의 데이터가 DB에 존재합니다");
                     // 기존 데이터 중 currentData만 보존
@@ -64,6 +61,14 @@ namespace WeatherCrawler
             else
             {
                 MessageBox.Show("수집서버 DB에 접속할 수 없습니다");
+            }
+
+            // 로그
+            lock (ThisLock)
+            {
+                L4Logger l4Logger = new L4Logger(jobKey.Name + ".log");
+                l4Logger.Add("End Task : " + jobKey.Name);
+                l4Logger.Close();
             }
 
             return Task.FromResult(0);

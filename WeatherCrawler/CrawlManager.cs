@@ -47,11 +47,11 @@ namespace WeatherCrawler
 
             int ScheduleIntervalInMinute = crawlTermMin;            
 
-            IJobDetail job = JobBuilder.Create<FJJob>().WithIdentity(indexNo)
-                                                       .UsingJobData("address", address)
-                                                       .UsingJobData("nx", nx)
-                                                       .UsingJobData("ny", ny)
-                                                       .Build();
+            IJobDetail job = JobBuilder.Create<Job>().WithIdentity(indexNo)
+                                                     .UsingJobData("address", address)
+                                                     .UsingJobData("nx", nx)
+                                                     .UsingJobData("ny", ny)
+                                                     .Build();
 
             ITrigger trigger = TriggerBuilder.Create()
                 .WithIdentity("JobTrigger" + indexNo)
@@ -65,7 +65,12 @@ namespace WeatherCrawler
             {
                 await schedulerForFJ.PauseJob(new JobKey(indexNo));
             }
-            Console.WriteLine("ScheduleJob - job:{0}, trigger:{1}", job.ToString(), trigger.ToString());
+            Console.WriteLine("TaskFJJob - job:{0}, trigger:{1}", job.ToString(), trigger.ToString());
+
+            // 로그
+            L4Logger l4Logger = new L4Logger(indexNo + ".log");
+            l4Logger.Add("TaskFJJob - job:" + job.ToString() + ", trigger:" + trigger.ToString());
+            l4Logger.Close();
         }
 
         public async Task TaskAddrJob(string indexNo, string address, string nx, string ny, string crawlTerm, string crawlStatus)
@@ -93,11 +98,11 @@ namespace WeatherCrawler
 
             int ScheduleIntervalInMinute = crawlTermMin;
 
-            IJobDetail job = JobBuilder.Create<AddressJob>().WithIdentity(indexNo)
-                                                            .UsingJobData("address", address)
-                                                            .UsingJobData("nx", nx)
-                                                            .UsingJobData("ny", ny)
-                                                            .Build();
+            IJobDetail job = JobBuilder.Create<Job>().WithIdentity(indexNo)
+                                                     .UsingJobData("address", address)
+                                                     .UsingJobData("nx", nx)
+                                                     .UsingJobData("ny", ny)
+                                                     .Build();
 
             ITrigger trigger = TriggerBuilder.Create()
                 .WithIdentity("JobTrigger" + indexNo)
@@ -111,7 +116,12 @@ namespace WeatherCrawler
             {
                 await schedulerForAddr.PauseJob(new JobKey(indexNo));
             }
-            Console.WriteLine("ScheduleJob - job:{0}, trigger:{1}", job.ToString(), trigger.ToString());
+            Console.WriteLine("TaskAddrJob - job:{0}, trigger:{1}", job.ToString(), trigger.ToString());
+
+            // 로그
+            L4Logger l4Logger = new L4Logger(indexNo + ".log");
+            l4Logger.Add("TaskAddrJob - job:" + job.ToString() + ", trigger:" + trigger.ToString());
+            l4Logger.Close();
         }
 
         public void RunTasks()
