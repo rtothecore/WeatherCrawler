@@ -42,20 +42,29 @@ namespace WeatherCrawler
                     Console.WriteLine("이미 같은 주소의 데이터가 DB에 존재합니다");
                     // 기존 데이터 중 currentData만 보존
                     List<CurrentData> existCD = dm.GetCurrentData(address);
-                    // 기존 데이터 삭제
-                    dm.DeleteDocumentByAddress(address);
+                    
                     // 기존 currentData를 포함하여 데이터 생성
                     wcd = GetAssembledWCD(address, nx, ny, true, existCD);
-                    // 수집서버 DB에 데이터 INSERT
-                    dm.InsertWeatherData(wcd);
+
+                    if (null != wcd)
+                    {
+                        // 기존 데이터 삭제
+                        dm.DeleteDocumentByAddress(address);
+
+                        // 수집서버 DB에 데이터 INSERT
+                        dm.InsertWeatherData(wcd);
+                    }
                 }
                 else
                 {
                     Console.WriteLine("같은 주소의 데이터가 DB에 존재하지 않습니다");
                     wcd = GetAssembledWCD(address, nx, ny, false, null);
 
-                    // 수집서버 DB에 데이터 INSERT
-                    dm.InsertWeatherData(wcd);
+                    if (null != wcd)
+                    {
+                        // 수집서버 DB에 데이터 INSERT
+                        dm.InsertWeatherData(wcd);
+                    }
                 }
             }
             else
@@ -129,7 +138,20 @@ namespace WeatherCrawler
             tmpCD.weather.sky = UtilManager.GetObsrValueFromCategory(reassembledFGR, "SKY");
             tmpCD.weather.t1h = UtilManager.GetObsrValueFromCategory(reassembledFGR, "T1H");
 
-            AirDataResult adr = resultForAirData.Result;
+            AirDataResult adr = null;
+            try
+            {
+                adr = resultForAirData.Result;
+            }
+            catch(System.AggregateException e)
+            {
+                Console.WriteLine("AggregateException : {0}", e.Message);
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add("System.AggregateException!");
+                l4Logger.Close();
+                return null;
+            }
+            
             tmpCD.air = new Air();
             tmpCD.air.dataTime = adr.list[0].dataTime;
             if ("-" == adr.list[0].so2Value)

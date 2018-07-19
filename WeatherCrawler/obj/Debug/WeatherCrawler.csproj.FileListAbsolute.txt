@@ -258,3 +258,7 @@ C:\Users\hkim\Desktop\WeatherCrawler\WeatherCrawler\obj\Debug\WeatherCrawler.csp
 C:\Users\hkim\Desktop\WeatherCrawler\WeatherCrawler\obj\Debug\WeatherCrawler.csproj.CopyComplete
 C:\Users\hkim\Desktop\WeatherCrawler\WeatherCrawler\obj\Debug\WeatherCrawler.exe
 C:\Users\hkim\Desktop\WeatherCrawler\WeatherCrawler\obj\Debug\WeatherCrawler.pdb
+C:\Users\hkim\source\repos\WeatherCrawler\WeatherCrawler\bin\Debug\WeatherCrawler.exe.manifest
+C:\Users\hkim\source\repos\WeatherCrawler\WeatherCrawler\bin\Debug\WeatherCrawler.application
+C:\Users\hkim\source\repos\WeatherCrawler\WeatherCrawler\obj\Debug\WeatherCrawler.exe.manifest
+C:\Users\hkim\source\repos\WeatherCrawler\WeatherCrawler\obj\Debug\WeatherCrawler.application
