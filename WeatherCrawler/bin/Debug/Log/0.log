@@ -1,993 +1,127 @@
-2018-07-19 09:42:16,189 [DEBUG] Start Task : 0
-2018-07-19 09:42:45,437 [DEBUG] Start Task : 0
-2018-07-19 09:42:45,441 [DEBUG] Start Task : f2
-2018-07-19 09:43:15,425 [DEBUG] Start Task : 0
-2018-07-19 09:43:45,599 [DEBUG] Start Task : 0
-2018-07-19 09:43:45,619 [DEBUG] Start Task : f2
-2018-07-19 09:44:15,604 [DEBUG] Start Task : 0
-2018-07-19 09:44:45,558 [DEBUG] Start Task : 0
-2018-07-19 09:45:16,155 [DEBUG] Start Task : 0
-2018-07-19 09:45:45,493 [DEBUG] Start Task : 0
-2018-07-19 09:46:15,603 [DEBUG] Start Task : 0
-2018-07-19 09:46:45,569 [DEBUG] Start Task : 0
-2018-07-19 09:46:45,570 [DEBUG] Start Task : f1
-2018-07-19 09:47:15,524 [DEBUG] Start Task : 0
-2018-07-19 09:47:45,549 [DEBUG] Start Task : 0
-2018-07-19 09:48:15,601 [DEBUG] Start Task : 0
-2018-07-19 09:48:45,517 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 09:48:45,713 [DEBUG] Start Task : 0
-2018-07-19 09:49:15,588 [DEBUG] Start Task : 0
-2018-07-19 09:49:45,562 [DEBUG] Start Task : 0
-2018-07-19 09:49:45,564 [DEBUG] Start Task : f2
-2018-07-19 09:50:16,145 [DEBUG] Start Task : 0
-2018-07-19 09:50:48,918 [DEBUG] Start Task : 0
-2018-07-19 09:51:15,427 [DEBUG] Start Task : 0
-2018-07-19 09:51:45,411 [DEBUG] Start Task : 0
-2018-07-19 09:52:15,407 [DEBUG] Start Task : 0
-2018-07-19 09:52:45,426 [DEBUG] Start Task : 0
-2018-07-19 09:53:15,399 [DEBUG] Start Task : 0
-2018-07-19 09:53:45,446 [DEBUG] Start Task : 0
-2018-07-19 09:54:15,408 [DEBUG] Start Task : 0
-2018-07-19 09:54:46,058 [DEBUG] Start Task : 0
-2018-07-19 09:55:16,064 [DEBUG] Start Task : 0
-2018-07-19 09:55:45,410 [DEBUG] Start Task : 0
-2018-07-19 09:56:15,435 [DEBUG] Start Task : 0
-2018-07-19 09:56:45,422 [DEBUG] Start Task : 0
-2018-07-19 09:57:15,408 [DEBUG] Start Task : 0
-2018-07-19 09:57:46,058 [DEBUG] Start Task : 0
-2018-07-19 09:58:15,453 [DEBUG] Start Task : 0
-2018-07-19 09:58:45,447 [DEBUG] Start Task : 0
-2018-07-19 09:59:15,458 [DEBUG] Start Task : 0
-2018-07-19 09:59:45,459 [DEBUG] Start Task : 0
-2018-07-19 09:59:45,459 [DEBUG] Start Task : f2
-2018-07-19 09:59:45,512 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 10:00:15,520 [DEBUG] Start Task : 0
-2018-07-19 10:00:15,518 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 10:00:45,508 [DEBUG] Start Task : 0
-2018-07-19 10:01:16,053 [DEBUG] Start Task : 0
-2018-07-19 10:01:45,521 [DEBUG] Start Task : 0
-2018-07-19 10:01:45,523 [DEBUG] Start Task : f2
-2018-07-19 10:02:16,056 [DEBUG] Start Task : 0
-2018-07-19 10:02:45,600 [DEBUG] Start Task : 0
-2018-07-19 10:03:15,612 [DEBUG] Start Task : 0
-2018-07-19 10:03:46,057 [DEBUG] Start Task : 0
-2018-07-19 10:04:15,499 [DEBUG] Start Task : 0
-2018-07-19 10:05:16,061 [DEBUG] Start Task : 0
-2018-07-19 10:05:45,530 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 10:05:45,551 [DEBUG] Start Task : 0
-2018-07-19 10:05:45,551 [DEBUG] Start Task : f2
-2018-07-19 10:06:15,729 [DEBUG] Start Task : 0
-2018-07-19 10:06:46,055 [DEBUG] Start Task : 0
-2018-07-19 10:07:15,577 [DEBUG] Start Task : 0
-2018-07-19 10:07:46,051 [DEBUG] Start Task : 0
-2018-07-19 10:08:15,478 [DEBUG] Start Task : 0
-2018-07-19 10:08:45,562 [DEBUG] Start Task : 0
-2018-07-19 10:09:16,054 [DEBUG] Start Task : 0
-2018-07-19 10:09:45,438 [DEBUG] Start Task : 0
-2018-07-19 10:10:15,457 [DEBUG] Start Task : 0
-2018-07-19 10:10:45,591 [DEBUG] Start Task : 0
-2018-07-19 10:10:45,591 [DEBUG] Start Task : f2
-2018-07-19 10:11:15,588 [DEBUG] Start Task : f2
-2018-07-19 10:11:15,588 [DEBUG] Start Task : 0
-2018-07-19 10:11:45,529 [DEBUG] Start Task : 0
-2018-07-19 10:12:16,567 [DEBUG] Start Task : 0
-2018-07-19 10:12:45,521 [DEBUG] Start Task : 0
-2018-07-19 10:13:16,055 [DEBUG] Start Task : 0
-2018-07-19 10:13:45,532 [DEBUG] Start Task : 0
-2018-07-19 10:13:45,532 [DEBUG] Start Task : f2
-2018-07-19 10:14:45,529 [DEBUG] Start Task : 0
-2018-07-19 10:15:15,573 [DEBUG] Start Task : 0
-2018-07-19 10:16:15,553 [DEBUG] Start Task : 0
-2018-07-19 10:16:46,062 [DEBUG] Start Task : 0
-2018-07-19 10:17:15,470 [DEBUG] Start Task : 0
-2018-07-19 10:17:45,549 [DEBUG] Start Task : 0
-2018-07-19 10:18:15,435 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 10:18:15,470 [DEBUG] Start Task : 0
-2018-07-19 10:18:46,056 [DEBUG] Start Task : 0
-2018-07-19 10:23:16,584 [DEBUG] Start Task : 0
-2018-07-19 10:25:20,936 [DEBUG] Start Task : 0
-2018-07-19 10:25:50,405 [DEBUG] Start Task : 0
-2018-07-19 10:26:20,381 [DEBUG] Start Task : 0
-2018-07-19 10:26:50,932 [DEBUG] Start Task : 0
-2018-07-19 10:37:23,069 [DEBUG] Start Task : 0
-2018-07-19 10:37:23,225 [DEBUG] End Task : 0
-2018-07-19 10:37:41,576 [DEBUG] Start Task : 0
-2018-07-19 10:37:41,815 [DEBUG] End Task : 0
-2018-07-19 10:38:11,365 [DEBUG] Start Task : 0
-2018-07-19 10:38:11,541 [DEBUG] End Task : 0
-2018-07-19 10:43:59,907 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 10:43:59,915 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/19/2018 01:43:59 +00:00
-2018-07-19 10:43:59,916 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
-2018-07-19 10:43:59,936 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 10:43:59,938 [DEBUG] Calling Execute on job DEFAULT.0
-2018-07-19 10:43:59,956 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-19 10:43:59,969 [DEBUG] Start Task : 0
-2018-07-19 10:43:59,967 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-19 10:44:01,406 [DEBUG] End Task : 0
-2018-07-19 10:44:30,673 [DEBUG] Start Task : 0
-2018-07-19 10:44:32,789 [DEBUG] End Task : 0
-2018-07-19 10:44:59,921 [DEBUG] Start Task : 0
-2018-07-19 10:45:00,823 [DEBUG] End Task : 0
-2018-07-19 10:45:29,968 [DEBUG] Start Task : 0
-2018-07-19 10:45:30,825 [DEBUG] End Task : 0
-2018-07-19 10:45:59,966 [DEBUG] Start Task : 0
-2018-07-19 10:46:00,150 [DEBUG] End Task : 0
-2018-07-19 10:46:29,909 [DEBUG] Start Task : 0
-2018-07-19 10:46:30,795 [DEBUG] End Task : 0
-2018-07-19 10:46:59,986 [DEBUG] Start Task : 0
-2018-07-19 10:47:00,167 [DEBUG] End Task : 0
-2018-07-19 10:47:29,919 [DEBUG] Start Task : 0
-2018-07-19 10:47:30,077 [DEBUG] End Task : 0
-2018-07-19 10:57:05,567 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/19/2018 01:57:05 +00:00
-2018-07-19 14:11:06,175 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/19/2018 05:11:06 +00:00
-2018-07-19 14:11:06,179 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
-2018-07-19 14:11:06,261 [DEBUG] Start Task : 0
-2018-07-19 14:11:06,260 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-19 14:11:07,632 [DEBUG] End Task : 0
-2018-07-19 14:12:01,032 [DEBUG] Start Task : 0
-2018-07-19 14:12:03,175 [DEBUG] End Task : 0
-2018-07-19 14:12:06,219 [DEBUG] Start Task : 0
-2018-07-19 14:12:06,220 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:12:06,239 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:12:06,239 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 14:12:06,953 [DEBUG] End Task : 0
-2018-07-19 14:12:36,174 [DEBUG] Start Task : 0
-2018-07-19 14:12:37,030 [DEBUG] End Task : 0
-2018-07-19 14:12:50,520 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/19/2018 05:12:50 +00:00
-2018-07-19 14:12:50,521 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
-2018-07-19 14:12:50,535 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-19 14:12:50,545 [DEBUG] Start Task : 0
-2018-07-19 14:12:50,543 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-19 14:12:50,816 [DEBUG] End Task : 0
-2018-07-19 14:13:20,612 [DEBUG] Start Task : 0
-2018-07-19 14:13:20,612 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:13:20,650 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:13:20,914 [DEBUG] End Task : 0
-2018-07-19 14:13:50,644 [DEBUG] Start Task : 0
-2018-07-19 14:13:50,645 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:13:50,954 [DEBUG] End Task : 0
-2018-07-19 14:14:20,626 [DEBUG] Start Task : 0
-2018-07-19 14:14:20,626 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:14:20,791 [DEBUG] End Task : 0
-2018-07-19 14:14:50,805 [DEBUG] Start Task : 0
-2018-07-19 14:14:50,972 [DEBUG] End Task : 0
-2018-07-19 14:15:21,533 [DEBUG] Start Task : 0
-2018-07-19 14:15:23,662 [DEBUG] End Task : 0
-2018-07-19 14:15:50,526 [DEBUG] Start Task : 0
-2018-07-19 14:15:50,687 [DEBUG] End Task : 0
-2018-07-19 14:16:20,675 [DEBUG] Start Task : 0
-2018-07-19 14:16:20,675 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:16:21,507 [DEBUG] End Task : 0
-2018-07-19 14:16:50,520 [DEBUG] Start Task : 0
-2018-07-19 14:16:50,789 [DEBUG] End Task : 0
-2018-07-19 14:17:20,558 [DEBUG] Start Task : 0
-2018-07-19 14:17:20,559 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:17:20,575 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:17:20,756 [DEBUG] End Task : 0
-2018-07-19 14:17:50,614 [DEBUG] Start Task : 0
-2018-07-19 14:17:50,609 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:17:50,792 [DEBUG] End Task : 0
-2018-07-19 14:18:20,660 [DEBUG] Start Task : 0
-2018-07-19 14:18:20,888 [DEBUG] End Task : 0
-2018-07-19 14:18:51,473 [DEBUG] Start Task : 0
-2018-07-19 14:18:51,474 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 14:18:51,667 [DEBUG] End Task : 0
-2018-07-19 14:19:20,667 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:19:20,691 [DEBUG] Start Task : 0
-2018-07-19 14:19:20,861 [DEBUG] End Task : 0
-2018-07-19 14:19:50,614 [DEBUG] Start Task : 0
-2018-07-19 14:19:50,614 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:19:50,769 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:19:50,780 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 14:19:51,095 [DEBUG] End Task : 0
-2018-07-19 14:20:20,543 [DEBUG] Start Task : 0
-2018-07-19 14:20:20,719 [DEBUG] End Task : 0
-2018-07-19 14:20:50,545 [DEBUG] Start Task : 0
-2018-07-19 14:20:50,729 [DEBUG] End Task : 0
-2018-07-19 14:21:20,523 [DEBUG] Start Task : 0
-2018-07-19 14:21:20,684 [DEBUG] End Task : 0
-2018-07-19 14:21:50,584 [DEBUG] Start Task : 0
-2018-07-19 14:21:50,585 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:21:50,751 [DEBUG] End Task : 0
-2018-07-19 14:22:20,559 [DEBUG] Start Task : 0
-2018-07-19 14:22:20,560 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:22:20,589 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:22:20,589 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 14:22:21,537 [DEBUG] End Task : 0
-2018-07-19 14:22:50,530 [DEBUG] Start Task : 0
-2018-07-19 14:22:51,605 [DEBUG] End Task : 0
-2018-07-19 14:23:20,608 [DEBUG] Start Task : 0
-2018-07-19 14:23:20,609 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:23:21,575 [DEBUG] End Task : 0
-2018-07-19 14:23:50,632 [DEBUG] Start Task : 0
-2018-07-19 14:23:50,634 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:23:51,578 [DEBUG] End Task : 0
-2018-07-19 14:24:20,524 [DEBUG] Start Task : 0
-2018-07-19 14:24:20,692 [DEBUG] End Task : 0
-2018-07-19 14:24:50,611 [DEBUG] Start Task : 0
-2018-07-19 14:24:50,612 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:24:50,795 [DEBUG] End Task : 0
-2018-07-19 14:25:20,708 [DEBUG] Start Task : 0
-2018-07-19 14:25:20,953 [DEBUG] End Task : 0
-2018-07-19 14:25:51,480 [DEBUG] Start Task : 0
-2018-07-19 14:25:51,479 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 14:25:51,706 [DEBUG] End Task : 0
-2018-07-19 14:26:20,529 [DEBUG] Start Task : 0
-2018-07-19 14:26:20,718 [DEBUG] End Task : 0
-2018-07-19 14:26:51,491 [DEBUG] Start Task : 0
-2018-07-19 14:26:53,630 [DEBUG] End Task : 0
-2018-07-19 14:27:21,464 [DEBUG] Start Task : 0
-2018-07-19 14:27:23,629 [DEBUG] End Task : 0
-2018-07-19 14:27:50,614 [DEBUG] Start Task : 0
-2018-07-19 14:27:50,615 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:27:51,506 [DEBUG] End Task : 0
-2018-07-19 14:28:20,591 [DEBUG] Start Task : 0
-2018-07-19 14:28:20,591 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:28:20,610 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:28:20,611 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 14:28:20,788 [DEBUG] End Task : 0
-2018-07-19 14:28:50,627 [DEBUG] Start Task : 0
-2018-07-19 14:28:50,627 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:28:50,821 [DEBUG] End Task : 0
-2018-07-19 14:29:20,727 [DEBUG] Start Task : 0
-2018-07-19 14:29:20,727 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:29:20,934 [DEBUG] End Task : 0
-2018-07-19 14:29:50,629 [DEBUG] Start Task : 0
-2018-07-19 14:29:50,629 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:29:50,879 [DEBUG] End Task : 0
-2018-07-19 14:30:20,625 [DEBUG] Start Task : 0
-2018-07-19 14:30:20,624 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:30:21,118 [DEBUG] End Task : 0
-2018-07-19 14:30:50,535 [DEBUG] Start Task : 0
-2018-07-19 14:30:51,578 [DEBUG] End Task : 0
-2018-07-19 14:31:20,528 [DEBUG] Start Task : 0
-2018-07-19 14:31:21,489 [DEBUG] End Task : 0
-2018-07-19 14:31:50,611 [DEBUG] Start Task : 0
-2018-07-19 14:31:50,612 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:31:50,847 [DEBUG] End Task : 0
-2018-07-19 14:32:20,523 [DEBUG] Start Task : 0
-2018-07-19 14:32:20,713 [DEBUG] End Task : 0
-2018-07-19 14:32:50,546 [DEBUG] Start Task : 0
-2018-07-19 14:32:51,643 [DEBUG] End Task : 0
-2018-07-19 14:33:20,590 [DEBUG] Start Task : 0
-2018-07-19 14:33:20,590 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:33:20,773 [DEBUG] End Task : 0
-2018-07-19 14:33:50,580 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:33:50,594 [DEBUG] Start Task : 0
-2018-07-19 14:33:50,594 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:33:52,637 [DEBUG] End Task : 0
-2018-07-19 14:34:20,612 [DEBUG] Start Task : 0
-2018-07-19 14:34:20,612 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:34:21,586 [DEBUG] End Task : 0
-2018-07-19 14:34:50,531 [DEBUG] Start Task : 0
-2018-07-19 14:34:51,576 [DEBUG] End Task : 0
-2018-07-19 14:35:20,645 [DEBUG] Start Task : 0
-2018-07-19 14:35:20,646 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:35:20,820 [DEBUG] End Task : 0
-2018-07-19 14:35:50,622 [DEBUG] Start Task : 0
-2018-07-19 14:35:50,622 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:35:50,790 [DEBUG] End Task : 0
-2018-07-19 14:36:20,568 [DEBUG] Start Task : 0
-2018-07-19 14:36:20,569 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:36:20,768 [DEBUG] End Task : 0
-2018-07-19 14:36:50,596 [DEBUG] Start Task : 0
-2018-07-19 14:36:50,596 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:36:50,792 [DEBUG] End Task : 0
-2018-07-19 14:37:20,534 [DEBUG] Start Task : 0
-2018-07-19 14:37:22,676 [DEBUG] End Task : 0
-2018-07-19 14:37:50,524 [DEBUG] Start Task : 0
-2018-07-19 14:37:51,748 [DEBUG] End Task : 0
-2018-07-19 14:38:20,582 [DEBUG] Start Task : 0
-2018-07-19 14:38:20,584 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:38:21,713 [DEBUG] End Task : 0
-2018-07-19 14:38:50,610 [DEBUG] Start Task : 0
-2018-07-19 14:38:50,611 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:38:51,622 [DEBUG] End Task : 0
-2018-07-19 14:39:20,521 [DEBUG] Start Task : 0
-2018-07-19 14:39:21,533 [DEBUG] End Task : 0
-2018-07-19 14:39:50,640 [DEBUG] Start Task : 0
-2018-07-19 14:39:50,640 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:39:50,851 [DEBUG] End Task : 0
-2018-07-19 14:40:20,522 [DEBUG] Start Task : 0
-2018-07-19 14:40:20,722 [DEBUG] End Task : 0
-2018-07-19 14:40:51,457 [DEBUG] Start Task : 0
-2018-07-19 14:40:53,659 [DEBUG] End Task : 0
-2018-07-19 14:41:20,523 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:41:20,532 [DEBUG] Start Task : 0
-2018-07-19 14:41:20,699 [DEBUG] End Task : 0
-2018-07-19 14:41:51,500 [DEBUG] Start Task : 0
-2018-07-19 14:41:53,639 [DEBUG] End Task : 0
-2018-07-19 14:42:20,621 [DEBUG] Start Task : 0
-2018-07-19 14:42:21,677 [DEBUG] End Task : 0
-2018-07-19 14:42:50,523 [DEBUG] Start Task : 0
-2018-07-19 14:42:51,585 [DEBUG] End Task : 0
-2018-07-19 14:43:21,475 [DEBUG] Start Task : 0
-2018-07-19 14:43:24,563 [DEBUG] End Task : 0
-2018-07-19 14:43:50,547 [DEBUG] Start Task : 0
-2018-07-19 14:43:50,716 [DEBUG] End Task : 0
-2018-07-19 14:44:20,610 [DEBUG] Start Task : 0
-2018-07-19 14:44:20,779 [DEBUG] End Task : 0
-2018-07-19 14:44:50,682 [DEBUG] Start Task : 0
-2018-07-19 14:44:50,680 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:44:50,912 [DEBUG] End Task : 0
-2018-07-19 14:45:20,597 [DEBUG] Calling Execute on job DEFAULT.f2
-2018-07-19 14:45:20,612 [DEBUG] Start Task : 0
-2018-07-19 14:45:20,600 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:45:20,864 [DEBUG] End Task : 0
-2018-07-19 14:45:51,460 [DEBUG] Start Task : 0
-2018-07-19 14:45:53,641 [DEBUG] End Task : 0
-2018-07-19 14:46:21,475 [DEBUG] Start Task : 0
-2018-07-19 14:46:23,655 [DEBUG] End Task : 0
-2018-07-19 14:46:50,552 [DEBUG] Start Task : 0
-2018-07-19 14:46:52,688 [DEBUG] End Task : 0
-2018-07-19 14:47:20,604 [DEBUG] Start Task : 0
-2018-07-19 14:47:20,930 [DEBUG] End Task : 0
-2018-07-19 14:47:51,475 [DEBUG] Start Task : 0
-2018-07-19 14:47:53,724 [DEBUG] End Task : 0
-2018-07-19 14:48:20,537 [DEBUG] Start Task : 0
-2018-07-19 14:48:21,473 [DEBUG] End Task : 0
-2018-07-19 14:48:50,596 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:48:50,612 [DEBUG] Start Task : 0
-2018-07-19 14:48:50,613 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:48:50,875 [DEBUG] End Task : 0
-2018-07-19 14:49:20,525 [DEBUG] Start Task : 0
-2018-07-19 14:49:21,616 [DEBUG] End Task : 0
-2018-07-19 14:49:50,618 [DEBUG] Start Task : 0
-2018-07-19 14:49:50,619 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:49:51,639 [DEBUG] End Task : 0
-2018-07-19 14:50:20,533 [DEBUG] Start Task : 0
-2018-07-19 14:50:20,713 [DEBUG] End Task : 0
-2018-07-19 14:50:50,617 [DEBUG] Start Task : 0
-2018-07-19 14:50:50,617 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:50:50,910 [DEBUG] End Task : 0
-2018-07-19 14:51:20,574 [DEBUG] Start Task : 0
-2018-07-19 14:51:20,575 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:51:20,787 [DEBUG] End Task : 0
-2018-07-19 14:51:50,639 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:51:50,654 [DEBUG] Start Task : 0
-2018-07-19 14:51:50,655 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:51:51,611 [DEBUG] End Task : 0
-2018-07-19 14:52:20,532 [DEBUG] Start Task : 0
-2018-07-19 14:52:20,740 [DEBUG] End Task : 0
-2018-07-19 14:52:50,658 [DEBUG] Start Task : 0
-2018-07-19 14:52:50,658 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:52:50,915 [DEBUG] End Task : 0
-2018-07-19 14:53:20,715 [DEBUG] Start Task : 0
-2018-07-19 14:53:21,700 [DEBUG] End Task : 0
-2018-07-19 14:53:51,477 [DEBUG] Start Task : 0
-2018-07-19 14:53:53,662 [DEBUG] End Task : 0
-2018-07-19 14:54:20,555 [DEBUG] Start Task : 0
-2018-07-19 14:54:20,559 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:54:20,580 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:54:20,580 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 14:54:21,652 [DEBUG] End Task : 0
-2018-07-19 14:54:51,500 [DEBUG] Start Task : 0
-2018-07-19 14:54:52,621 [DEBUG] End Task : 0
-2018-07-19 14:55:20,585 [DEBUG] Start Task : 0
-2018-07-19 14:55:20,586 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:55:20,784 [DEBUG] End Task : 0
-2018-07-19 14:55:50,635 [DEBUG] Start Task : 0
-2018-07-19 14:55:50,635 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:55:50,658 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:55:50,660 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 14:55:50,867 [DEBUG] End Task : 0
-2018-07-19 14:56:20,635 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:56:20,662 [DEBUG] Start Task : 0
-2018-07-19 14:56:20,661 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 14:56:21,619 [DEBUG] End Task : 0
-2018-07-19 14:56:50,590 [DEBUG] Start Task : 0
-2018-07-19 14:56:50,591 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:56:51,540 [DEBUG] End Task : 0
-2018-07-19 14:57:20,525 [DEBUG] Start Task : 0
-2018-07-19 14:57:20,746 [DEBUG] End Task : 0
-2018-07-19 14:57:51,457 [DEBUG] Start Task : 0
-2018-07-19 14:57:54,658 [DEBUG] End Task : 0
-2018-07-19 14:58:20,521 [DEBUG] Start Task : 0
-2018-07-19 14:58:21,541 [DEBUG] End Task : 0
-2018-07-19 14:58:50,640 [DEBUG] Start Task : 0
-2018-07-19 14:58:50,641 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 14:58:51,560 [DEBUG] End Task : 0
-2018-07-19 14:59:21,478 [DEBUG] Start Task : 0
-2018-07-19 14:59:23,633 [DEBUG] End Task : 0
-2018-07-19 14:59:50,555 [DEBUG] Start Task : 0
-2018-07-19 14:59:51,551 [DEBUG] End Task : 0
-2018-07-19 14:59:51,551 [DEBUG] Trigger instruction : NoInstruction
-2018-07-19 15:00:21,473 [DEBUG] Start Task : 0
-2018-07-19 15:00:23,639 [DEBUG] End Task : 0
-2018-07-19 15:00:50,521 [DEBUG] Start Task : 0
-2018-07-19 15:00:50,699 [DEBUG] End Task : 0
-2018-07-19 15:01:20,685 [DEBUG] Start Task : 0
-2018-07-19 15:01:20,976 [DEBUG] End Task : 0
-2018-07-19 15:01:50,655 [DEBUG] Start Task : 0
-2018-07-19 15:01:50,657 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:01:50,694 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:01:50,694 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:01:50,893 [DEBUG] End Task : 0
-2018-07-19 15:02:20,644 [DEBUG] Start Task : 0
-2018-07-19 15:02:20,644 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:02:20,659 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:02:20,660 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:02:20,940 [DEBUG] End Task : 0
-2018-07-19 15:02:50,585 [DEBUG] Start Task : 0
-2018-07-19 15:02:50,585 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:02:51,508 [DEBUG] End Task : 0
-2018-07-19 15:03:20,688 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:03:20,700 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:03:20,696 [DEBUG] Start Task : 0
-2018-07-19 15:03:20,709 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:03:21,004 [DEBUG] End Task : 0
-2018-07-19 15:03:50,626 [DEBUG] Start Task : 0
-2018-07-19 15:03:50,626 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:03:50,644 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:03:50,644 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:03:51,578 [DEBUG] End Task : 0
-2018-07-19 15:04:20,524 [DEBUG] Start Task : 0
-2018-07-19 15:04:20,723 [DEBUG] End Task : 0
-2018-07-19 15:04:50,536 [DEBUG] Start Task : 0
-2018-07-19 15:04:50,733 [DEBUG] End Task : 0
-2018-07-19 15:05:20,524 [DEBUG] Start Task : 0
-2018-07-19 15:05:20,741 [DEBUG] End Task : 0
-2018-07-19 15:05:50,589 [DEBUG] Start Task : 0
-2018-07-19 15:05:50,589 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:05:51,543 [DEBUG] End Task : 0
-2018-07-19 15:06:20,713 [DEBUG] Start Task : 0
-2018-07-19 15:06:21,553 [DEBUG] End Task : 0
-2018-07-19 15:06:50,666 [DEBUG] Start Task : 0
-2018-07-19 15:06:50,666 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:06:50,843 [DEBUG] End Task : 0
-2018-07-19 15:07:20,600 [DEBUG] Start Task : 0
-2018-07-19 15:07:20,862 [DEBUG] End Task : 0
-2018-07-19 15:07:50,591 [DEBUG] Start Task : 0
-2018-07-19 15:07:50,591 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:07:51,642 [DEBUG] End Task : 0
-2018-07-19 15:08:20,525 [DEBUG] Start Task : 0
-2018-07-19 15:08:20,708 [DEBUG] End Task : 0
-2018-07-19 15:08:50,529 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:08:50,543 [DEBUG] Start Task : 0
-2018-07-19 15:08:51,599 [DEBUG] End Task : 0
-2018-07-19 15:09:20,632 [DEBUG] Start Task : 0
-2018-07-19 15:09:20,632 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:09:20,893 [DEBUG] End Task : 0
-2018-07-19 15:09:50,585 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:09:50,605 [DEBUG] Start Task : 0
-2018-07-19 15:09:50,610 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:09:50,643 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:09:50,644 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:09:50,818 [DEBUG] End Task : 0
-2018-07-19 15:10:20,625 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:10:20,633 [DEBUG] Start Task : 0
-2018-07-19 15:10:21,689 [DEBUG] End Task : 0
-2018-07-19 15:10:51,472 [DEBUG] Start Task : 0
-2018-07-19 15:10:53,678 [DEBUG] End Task : 0
-2018-07-19 15:11:20,615 [DEBUG] Start Task : 0
-2018-07-19 15:11:20,900 [DEBUG] End Task : 0
-2018-07-19 15:11:50,535 [DEBUG] Start Task : 0
-2018-07-19 15:11:50,706 [DEBUG] End Task : 0
-2018-07-19 15:12:20,522 [DEBUG] Start Task : 0
-2018-07-19 15:12:21,743 [DEBUG] End Task : 0
-2018-07-19 15:12:50,621 [DEBUG] Start Task : 0
-2018-07-19 15:12:50,620 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:12:51,551 [DEBUG] End Task : 0
-2018-07-19 15:13:20,606 [DEBUG] Start Task : 0
-2018-07-19 15:13:20,607 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:13:20,801 [DEBUG] End Task : 0
-2018-07-19 15:13:52,473 [DEBUG] Start Task : 0
-2018-07-19 15:13:53,653 [DEBUG] End Task : 0
-2018-07-19 15:14:21,485 [DEBUG] Start Task : 0
-2018-07-19 15:14:23,672 [DEBUG] End Task : 0
-2018-07-19 15:14:50,554 [DEBUG] Start Task : 0
-2018-07-19 15:14:50,564 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:14:50,780 [DEBUG] End Task : 0
-2018-07-19 15:15:20,541 [DEBUG] Start Task : 0
-2018-07-19 15:15:20,536 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:15:20,745 [DEBUG] End Task : 0
-2018-07-19 15:15:50,544 [DEBUG] Start Task : 0
-2018-07-19 15:15:50,738 [DEBUG] End Task : 0
-2018-07-19 15:16:20,529 [DEBUG] Start Task : 0
-2018-07-19 15:16:20,714 [DEBUG] End Task : 0
-2018-07-19 15:16:50,666 [DEBUG] Start Task : 0
-2018-07-19 15:16:50,891 [DEBUG] End Task : 0
-2018-07-19 15:17:20,675 [DEBUG] Start Task : 0
-2018-07-19 15:17:20,870 [DEBUG] End Task : 0
-2018-07-19 15:17:50,606 [DEBUG] Start Task : 0
-2018-07-19 15:17:50,607 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:17:50,624 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:17:50,628 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:17:50,862 [DEBUG] End Task : 0
-2018-07-19 15:18:20,615 [DEBUG] Start Task : 0
-2018-07-19 15:18:20,618 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:18:20,646 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:18:20,648 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:18:20,855 [DEBUG] End Task : 0
-2018-07-19 15:18:50,522 [DEBUG] Start Task : 0
-2018-07-19 15:18:51,120 [DEBUG] End Task : 0
-2018-07-19 15:19:21,459 [DEBUG] Start Task : 0
-2018-07-19 15:19:22,590 [DEBUG] End Task : 0
-2018-07-19 15:19:50,550 [DEBUG] Start Task : 0
-2018-07-19 15:19:51,655 [DEBUG] End Task : 0
-2018-07-19 15:20:20,630 [DEBUG] Start Task : 0
-2018-07-19 15:20:20,824 [DEBUG] End Task : 0
-2018-07-19 15:20:52,474 [DEBUG] Start Task : 0
-2018-07-19 15:20:54,650 [DEBUG] End Task : 0
-2018-07-19 15:21:20,532 [DEBUG] Start Task : 0
-2018-07-19 15:21:22,015 [DEBUG] End Task : 0
-2018-07-19 15:21:50,614 [DEBUG] Start Task : 0
-2018-07-19 15:21:50,616 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:21:51,006 [DEBUG] End Task : 0
-2018-07-19 15:22:20,752 [DEBUG] Start Task : 0
-2018-07-19 15:22:21,572 [DEBUG] End Task : 0
-2018-07-19 15:22:51,499 [DEBUG] Start Task : 0
-2018-07-19 15:22:53,703 [DEBUG] End Task : 0
-2018-07-19 15:23:21,461 [DEBUG] Start Task : 0
-2018-07-19 15:23:23,661 [DEBUG] End Task : 0
-2018-07-19 15:23:51,458 [DEBUG] Start Task : 0
-2018-07-19 15:23:54,543 [DEBUG] End Task : 0
-2018-07-19 15:24:20,544 [DEBUG] Start Task : 0
-2018-07-19 15:24:20,732 [DEBUG] End Task : 0
-2018-07-19 15:24:50,621 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:24:50,634 [DEBUG] Start Task : 0
-2018-07-19 15:24:50,633 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:24:50,644 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:24:50,916 [DEBUG] End Task : 0
-2018-07-19 15:25:20,580 [DEBUG] Start Task : 0
-2018-07-19 15:25:20,581 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:25:20,800 [DEBUG] End Task : 0
-2018-07-19 15:25:50,567 [DEBUG] Start Task : 0
-2018-07-19 15:25:50,566 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:25:50,743 [DEBUG] End Task : 0
-2018-07-19 15:26:20,524 [DEBUG] Start Task : 0
-2018-07-19 15:26:20,715 [DEBUG] End Task : 0
-2018-07-19 15:26:50,552 [DEBUG] Start Task : 0
-2018-07-19 15:26:51,620 [DEBUG] End Task : 0
-2018-07-19 15:27:20,579 [DEBUG] Start Task : 0
-2018-07-19 15:27:21,569 [DEBUG] End Task : 0
-2018-07-19 15:27:50,657 [DEBUG] Start Task : 0
-2018-07-19 15:27:50,657 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:27:50,870 [DEBUG] End Task : 0
-2018-07-19 15:28:20,542 [DEBUG] Start Task : 0
-2018-07-19 15:28:21,618 [DEBUG] End Task : 0
-2018-07-19 15:28:50,603 [DEBUG] Start Task : 0
-2018-07-19 15:28:50,603 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:28:51,536 [DEBUG] End Task : 0
-2018-07-19 15:29:20,836 [DEBUG] Start Task : 0
-2018-07-19 15:29:20,837 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:29:21,020 [DEBUG] End Task : 0
-2018-07-19 15:29:50,600 [DEBUG] Start Task : 0
-2018-07-19 15:29:50,600 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:29:51,505 [DEBUG] End Task : 0
-2018-07-19 15:30:20,584 [DEBUG] Start Task : 0
-2018-07-19 15:30:20,584 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:30:21,666 [DEBUG] End Task : 0
-2018-07-19 15:30:50,732 [DEBUG] Start Task : 0
-2018-07-19 15:30:50,941 [DEBUG] End Task : 0
-2018-07-19 15:31:20,570 [DEBUG] Start Task : 0
-2018-07-19 15:31:20,808 [DEBUG] End Task : 0
-2018-07-19 15:31:50,576 [DEBUG] Start Task : 0
-2018-07-19 15:31:51,613 [DEBUG] End Task : 0
-2018-07-19 15:32:20,532 [DEBUG] Start Task : 0
-2018-07-19 15:32:20,720 [DEBUG] End Task : 0
-2018-07-19 15:32:50,619 [DEBUG] Start Task : 0
-2018-07-19 15:32:50,627 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:32:51,636 [DEBUG] End Task : 0
-2018-07-19 15:33:20,584 [DEBUG] Start Task : 0
-2018-07-19 15:33:20,584 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:33:21,623 [DEBUG] End Task : 0
-2018-07-19 15:33:50,535 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:33:50,544 [DEBUG] Start Task : 0
-2018-07-19 15:33:51,654 [DEBUG] End Task : 0
-2018-07-19 15:34:20,613 [DEBUG] Start Task : 0
-2018-07-19 15:34:20,613 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:34:20,852 [DEBUG] End Task : 0
-2018-07-19 15:34:50,551 [DEBUG] Start Task : 0
-2018-07-19 15:34:50,754 [DEBUG] End Task : 0
-2018-07-19 15:35:20,648 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:35:20,648 [DEBUG] Start Task : 0
-2018-07-19 15:35:20,655 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:35:20,655 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:35:21,664 [DEBUG] End Task : 0
-2018-07-19 15:35:50,523 [DEBUG] Start Task : 0
-2018-07-19 15:35:50,791 [DEBUG] End Task : 0
-2018-07-19 15:36:21,484 [DEBUG] Start Task : 0
-2018-07-19 15:36:23,666 [DEBUG] End Task : 0
-2018-07-19 15:36:51,481 [DEBUG] Start Task : 0
-2018-07-19 15:36:51,487 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:36:51,707 [DEBUG] End Task : 0
-2018-07-19 15:37:21,476 [DEBUG] Start Task : 0
-2018-07-19 15:37:24,609 [DEBUG] End Task : 0
-2018-07-19 15:37:50,526 [DEBUG] Start Task : 0
-2018-07-19 15:37:51,569 [DEBUG] End Task : 0
-2018-07-19 15:38:20,548 [DEBUG] Start Task : 0
-2018-07-19 15:38:20,733 [DEBUG] End Task : 0
-2018-07-19 15:38:50,626 [DEBUG] Start Task : 0
-2018-07-19 15:38:50,626 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:38:50,827 [DEBUG] End Task : 0
-2018-07-19 15:39:20,528 [DEBUG] Start Task : 0
-2018-07-19 15:39:20,706 [DEBUG] End Task : 0
-2018-07-19 15:39:50,579 [DEBUG] Start Task : 0
-2018-07-19 15:39:52,612 [DEBUG] End Task : 0
-2018-07-19 15:40:20,589 [DEBUG] Start Task : 0
-2018-07-19 15:40:20,589 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:40:20,603 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:40:20,603 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:40:21,672 [DEBUG] End Task : 0
-2018-07-19 15:40:51,499 [DEBUG] Start Task : 0
-2018-07-19 15:40:51,726 [DEBUG] End Task : 0
-2018-07-19 15:41:20,668 [DEBUG] Start Task : 0
-2018-07-19 15:41:20,905 [DEBUG] End Task : 0
-2018-07-19 15:41:51,541 [DEBUG] Start Task : 0
-2018-07-19 15:41:51,543 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:41:51,749 [DEBUG] End Task : 0
-2018-07-19 15:42:20,643 [DEBUG] Start Task : 0
-2018-07-19 15:42:20,639 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:42:20,959 [DEBUG] End Task : 0
-2018-07-19 15:42:50,688 [DEBUG] Start Task : 0
-2018-07-19 15:42:50,862 [DEBUG] End Task : 0
-2018-07-19 15:43:20,651 [DEBUG] Start Task : 0
-2018-07-19 15:43:20,917 [DEBUG] End Task : 0
-2018-07-19 15:43:50,583 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:43:50,599 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:43:50,620 [DEBUG] Start Task : 0
-2018-07-19 15:43:50,601 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:43:50,865 [DEBUG] End Task : 0
-2018-07-19 15:44:20,625 [DEBUG] Start Task : 0
-2018-07-19 15:44:20,950 [DEBUG] End Task : 0
-2018-07-19 15:44:50,666 [DEBUG] Start Task : 0
-2018-07-19 15:44:50,927 [DEBUG] End Task : 0
-2018-07-19 15:45:20,534 [DEBUG] Start Task : 0
-2018-07-19 15:45:20,817 [DEBUG] End Task : 0
-2018-07-19 15:45:50,587 [DEBUG] Start Task : 0
-2018-07-19 15:45:50,587 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:45:51,584 [DEBUG] End Task : 0
-2018-07-19 15:46:20,552 [DEBUG] Start Task : 0
-2018-07-19 15:46:20,560 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:46:20,903 [DEBUG] End Task : 0
-2018-07-19 15:46:51,463 [DEBUG] Start Task : 0
-2018-07-19 15:46:51,700 [DEBUG] End Task : 0
-2018-07-19 15:47:20,566 [DEBUG] Start Task : 0
-2018-07-19 15:47:20,566 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:47:20,643 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:47:20,643 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:47:20,855 [DEBUG] End Task : 0
-2018-07-19 15:47:50,571 [DEBUG] Start Task : 0
-2018-07-19 15:47:50,570 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:47:50,596 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:47:50,596 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:47:50,827 [DEBUG] End Task : 0
-2018-07-19 15:48:20,529 [DEBUG] Start Task : 0
-2018-07-19 15:48:20,810 [DEBUG] End Task : 0
-2018-07-19 15:48:50,529 [DEBUG] Start Task : 0
-2018-07-19 15:48:52,568 [DEBUG] End Task : 0
-2018-07-19 15:49:21,460 [DEBUG] Start Task : 0
-2018-07-19 15:49:23,705 [DEBUG] End Task : 0
-2018-07-19 15:49:50,523 [DEBUG] Start Task : 0
-2018-07-19 15:49:51,642 [DEBUG] End Task : 0
-2018-07-19 15:50:20,526 [DEBUG] Start Task : 0
-2018-07-19 15:50:21,590 [DEBUG] End Task : 0
-2018-07-19 15:50:50,663 [DEBUG] Start Task : 0
-2018-07-19 15:50:51,567 [DEBUG] End Task : 0
-2018-07-19 15:51:21,463 [DEBUG] Start Task : 0
-2018-07-19 15:51:23,637 [DEBUG] End Task : 0
-2018-07-19 15:51:51,489 [DEBUG] Start Task : 0
-2018-07-19 15:51:52,694 [DEBUG] End Task : 0
-2018-07-19 15:52:20,568 [DEBUG] Start Task : 0
-2018-07-19 15:52:20,799 [DEBUG] End Task : 0
-2018-07-19 15:52:50,642 [DEBUG] Start Task : 0
-2018-07-19 15:52:50,642 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:52:50,912 [DEBUG] End Task : 0
-2018-07-19 15:53:20,526 [DEBUG] Start Task : 0
-2018-07-19 15:53:20,708 [DEBUG] End Task : 0
-2018-07-19 15:53:50,591 [DEBUG] Start Task : 0
-2018-07-19 15:53:51,553 [DEBUG] End Task : 0
-2018-07-19 15:54:20,538 [DEBUG] Start Task : 0
-2018-07-19 15:54:20,532 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:54:21,490 [DEBUG] End Task : 0
-2018-07-19 15:54:50,620 [DEBUG] Start Task : 0
-2018-07-19 15:54:50,620 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:54:50,657 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:54:50,658 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:54:50,860 [DEBUG] End Task : 0
-2018-07-19 15:55:20,755 [DEBUG] Start Task : 0
-2018-07-19 15:55:20,929 [DEBUG] End Task : 0
-2018-07-19 15:55:50,540 [DEBUG] Start Task : 0
-2018-07-19 15:55:50,533 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:55:50,574 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 15:55:50,586 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:55:50,586 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 15:55:50,776 [DEBUG] End Task : 0
-2018-07-19 15:59:07,328 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:59:07,329 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/19/2018 06:59:07 +00:00
-2018-07-19 15:59:07,343 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
-2018-07-19 15:59:07,368 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 15:59:07,918 [DEBUG] Start Task : 0
-2018-07-19 15:59:10,449 [DEBUG] End Task : 0
-2018-07-19 15:59:37,350 [DEBUG] Start Task : 0
-2018-07-19 15:59:37,518 [DEBUG] End Task : 0
-2018-07-19 16:00:07,346 [DEBUG] Start Task : 0
-2018-07-19 16:00:07,505 [DEBUG] End Task : 0
-2018-07-19 16:00:37,341 [DEBUG] Start Task : 0
-2018-07-19 16:00:37,495 [DEBUG] End Task : 0
-2018-07-19 16:01:07,334 [DEBUG] Start Task : 0
-2018-07-19 16:01:07,492 [DEBUG] End Task : 0
-2018-07-19 16:01:37,335 [DEBUG] Start Task : 0
-2018-07-19 16:01:37,499 [DEBUG] End Task : 0
-2018-07-19 16:02:07,333 [DEBUG] Start Task : 0
-2018-07-19 16:02:07,528 [DEBUG] End Task : 0
-2018-07-19 16:02:37,332 [DEBUG] Start Task : 0
-2018-07-19 16:02:37,488 [DEBUG] End Task : 0
-2018-07-19 16:03:07,378 [DEBUG] Start Task : 0
-2018-07-19 16:03:07,529 [DEBUG] End Task : 0
-2018-07-19 16:03:37,352 [DEBUG] Start Task : 0
-2018-07-19 16:03:37,505 [DEBUG] End Task : 0
-2018-07-19 16:04:07,387 [DEBUG] Start Task : 0
-2018-07-19 16:04:07,392 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 16:04:07,573 [DEBUG] End Task : 0
-2018-07-19 16:04:37,370 [DEBUG] Start Task : 0
-2018-07-19 16:04:37,527 [DEBUG] End Task : 0
-2018-07-19 16:05:07,341 [DEBUG] Start Task : 0
-2018-07-19 16:05:07,560 [DEBUG] End Task : 0
-2018-07-19 16:05:37,345 [DEBUG] Start Task : 0
-2018-07-19 16:05:37,505 [DEBUG] End Task : 0
-2018-07-19 16:06:07,341 [DEBUG] Start Task : 0
-2018-07-19 16:06:07,493 [DEBUG] End Task : 0
-2018-07-19 16:06:37,908 [DEBUG] Start Task : 0
-2018-07-19 16:06:39,094 [DEBUG] End Task : 0
-2018-07-19 16:07:07,356 [DEBUG] Start Task : 0
-2018-07-19 16:07:07,522 [DEBUG] End Task : 0
-2018-07-19 16:07:37,909 [DEBUG] Start Task : 0
-2018-07-19 16:07:38,097 [DEBUG] End Task : 0
-2018-07-19 16:08:07,346 [DEBUG] Start Task : 0
-2018-07-19 16:08:07,500 [DEBUG] End Task : 0
-2018-07-19 16:08:37,336 [DEBUG] Start Task : 0
-2018-07-19 16:08:37,520 [DEBUG] End Task : 0
-2018-07-19 16:09:07,898 [DEBUG] Start Task : 0
-2018-07-19 16:09:09,083 [DEBUG] End Task : 0
-2018-07-19 16:09:37,346 [DEBUG] Start Task : 0
-2018-07-19 16:09:37,508 [DEBUG] End Task : 0
-2018-07-19 16:10:07,347 [DEBUG] Start Task : 0
-2018-07-19 16:10:08,414 [DEBUG] End Task : 0
-2018-07-19 16:10:37,357 [DEBUG] Start Task : 0
-2018-07-19 16:10:37,540 [DEBUG] End Task : 0
-2018-07-19 16:11:07,880 [DEBUG] Start Task : 0
-2018-07-19 16:11:07,882 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 16:11:09,129 [DEBUG] End Task : 0
-2018-07-19 16:11:37,339 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 16:11:37,353 [DEBUG] Start Task : 0
-2018-07-19 16:11:37,527 [DEBUG] End Task : 0
-2018-07-19 16:12:08,866 [DEBUG] Start Task : 0
-2018-07-19 16:12:10,058 [DEBUG] End Task : 0
-2018-07-19 16:12:37,347 [DEBUG] Start Task : 0
-2018-07-19 16:12:37,504 [DEBUG] End Task : 0
-2018-07-19 16:13:07,335 [DEBUG] Start Task : 0
-2018-07-19 16:13:09,608 [DEBUG] End Task : 0
-2018-07-19 16:13:37,343 [DEBUG] Start Task : 0
-2018-07-19 16:13:41,194 [DEBUG] End Task : 0
-2018-07-19 16:14:07,363 [DEBUG] Start Task : 0
-2018-07-19 16:14:07,517 [DEBUG] End Task : 0
-2018-07-19 16:14:37,335 [DEBUG] Start Task : 0
-2018-07-19 16:14:37,505 [DEBUG] End Task : 0
-2018-07-19 16:15:07,336 [DEBUG] Start Task : 0
-2018-07-19 16:15:07,523 [DEBUG] End Task : 0
-2018-07-19 16:15:37,372 [DEBUG] Start Task : 0
-2018-07-19 16:15:37,538 [DEBUG] End Task : 0
-2018-07-19 16:16:07,371 [DEBUG] Start Task : 0
-2018-07-19 16:16:08,003 [DEBUG] End Task : 0
-2018-07-19 16:16:38,858 [DEBUG] Start Task : 0
-2018-07-19 16:16:41,045 [DEBUG] End Task : 0
-2018-07-19 16:17:07,353 [DEBUG] Start Task : 0
-2018-07-19 16:17:07,533 [DEBUG] End Task : 0
-2018-07-19 16:17:37,341 [DEBUG] Start Task : 0
-2018-07-19 16:17:37,492 [DEBUG] End Task : 0
-2018-07-19 16:18:07,896 [DEBUG] Start Task : 0
-2018-07-19 16:18:09,095 [DEBUG] End Task : 0
-2018-07-19 16:18:37,347 [DEBUG] Start Task : 0
-2018-07-19 16:18:37,571 [DEBUG] End Task : 0
-2018-07-19 16:19:07,896 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 16:19:07,915 [DEBUG] Start Task : 0
-2018-07-19 16:19:08,084 [DEBUG] End Task : 0
-2018-07-19 16:19:37,343 [DEBUG] Start Task : 0
-2018-07-19 16:19:37,531 [DEBUG] End Task : 0
-2018-07-19 16:20:07,867 [DEBUG] Start Task : 0
-2018-07-19 16:20:09,051 [DEBUG] End Task : 0
-2018-07-19 16:20:37,330 [DEBUG] Start Task : 0
-2018-07-19 16:20:37,493 [DEBUG] End Task : 0
-2018-07-19 16:21:07,344 [DEBUG] Start Task : 0
-2018-07-19 16:21:07,509 [DEBUG] End Task : 0
-2018-07-19 16:21:37,417 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 16:21:37,417 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 16:21:37,431 [DEBUG] Start Task : 0
-2018-07-19 16:21:37,586 [DEBUG] End Task : 0
-2018-07-19 16:22:07,343 [DEBUG] Start Task : 0
-2018-07-19 16:22:07,512 [DEBUG] End Task : 0
-2018-07-19 16:22:37,360 [DEBUG] Start Task : 0
-2018-07-19 16:22:37,518 [DEBUG] End Task : 0
-2018-07-19 16:23:07,337 [DEBUG] Start Task : 0
-2018-07-19 16:23:07,500 [DEBUG] End Task : 0
-2018-07-19 16:23:37,361 [DEBUG] Start Task : 0
-2018-07-19 16:23:37,531 [DEBUG] End Task : 0
-2018-07-19 16:24:07,358 [DEBUG] Start Task : 0
-2018-07-19 16:24:07,599 [DEBUG] End Task : 0
-2018-07-19 16:24:37,351 [DEBUG] Start Task : 0
-2018-07-19 16:24:37,513 [DEBUG] End Task : 0
-2018-07-19 16:25:07,347 [DEBUG] Start Task : 0
-2018-07-19 16:25:07,522 [DEBUG] End Task : 0
-2018-07-19 16:25:37,341 [DEBUG] Start Task : 0
-2018-07-19 16:25:37,516 [DEBUG] End Task : 0
-2018-07-19 16:26:07,859 [DEBUG] Start Task : 0
-2018-07-19 16:26:08,963 [DEBUG] End Task : 0
-2018-07-19 16:26:37,343 [DEBUG] Start Task : 0
-2018-07-19 16:26:37,521 [DEBUG] End Task : 0
-2018-07-19 16:27:07,865 [DEBUG] Start Task : 0
-2018-07-19 16:27:09,023 [DEBUG] End Task : 0
-2018-07-19 16:27:37,345 [DEBUG] Start Task : 0
-2018-07-19 16:27:37,504 [DEBUG] End Task : 0
-2018-07-19 16:28:07,349 [DEBUG] Start Task : 0
-2018-07-19 16:28:07,517 [DEBUG] End Task : 0
-2018-07-19 16:28:37,378 [DEBUG] Start Task : 0
-2018-07-19 16:28:37,557 [DEBUG] End Task : 0
-2018-07-19 16:29:07,346 [DEBUG] Start Task : 0
-2018-07-19 16:29:07,497 [DEBUG] End Task : 0
-2018-07-19 16:29:37,336 [DEBUG] Start Task : 0
-2018-07-19 16:29:37,498 [DEBUG] End Task : 0
-2018-07-19 16:30:07,345 [DEBUG] Start Task : 0
-2018-07-19 16:30:10,211 [DEBUG] End Task : 0
-2018-07-19 16:30:37,351 [DEBUG] Start Task : 0
-2018-07-19 16:30:37,522 [DEBUG] End Task : 0
-2018-07-19 16:31:07,334 [DEBUG] Start Task : 0
-2018-07-19 16:31:07,495 [DEBUG] End Task : 0
-2018-07-19 16:31:37,351 [DEBUG] Start Task : 0
-2018-07-19 16:31:37,510 [DEBUG] End Task : 0
-2018-07-19 16:32:07,353 [DEBUG] Start Task : 0
-2018-07-19 16:32:07,508 [DEBUG] End Task : 0
-2018-07-19 16:32:37,361 [DEBUG] Start Task : 0
-2018-07-19 16:32:37,524 [DEBUG] End Task : 0
-2018-07-19 16:33:07,372 [DEBUG] Start Task : 0
-2018-07-19 16:33:07,534 [DEBUG] End Task : 0
-2018-07-19 16:33:37,860 [DEBUG] Start Task : 0
-2018-07-19 16:33:38,033 [DEBUG] End Task : 0
-2018-07-19 16:34:07,368 [DEBUG] Start Task : 0
-2018-07-19 16:34:07,548 [DEBUG] End Task : 0
-2018-07-19 16:34:37,352 [DEBUG] Start Task : 0
-2018-07-19 16:34:37,527 [DEBUG] End Task : 0
-2018-07-19 16:35:07,362 [DEBUG] Start Task : 0
-2018-07-19 16:35:07,531 [DEBUG] End Task : 0
-2018-07-19 16:35:37,425 [DEBUG] Start Task : 0
-2018-07-19 16:35:37,586 [DEBUG] End Task : 0
-2018-07-19 16:36:07,345 [DEBUG] Start Task : 0
-2018-07-19 16:36:07,517 [DEBUG] End Task : 0
-2018-07-19 16:36:37,369 [DEBUG] Start Task : 0
-2018-07-19 16:36:37,852 [DEBUG] End Task : 0
-2018-07-19 16:37:07,848 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 16:37:07,862 [DEBUG] Start Task : 0
-2018-07-19 16:37:08,045 [DEBUG] End Task : 0
-2018-07-19 16:37:37,346 [DEBUG] Start Task : 0
-2018-07-19 16:37:37,510 [DEBUG] End Task : 0
-2018-07-19 16:38:07,895 [DEBUG] Start Task : 0
-2018-07-19 16:38:07,894 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 16:38:10,072 [DEBUG] End Task : 0
-2018-07-19 16:38:37,355 [DEBUG] Batch acquisition of 1 triggers
-2018-07-19 16:38:37,368 [DEBUG] Start Task : 0
-2018-07-19 16:38:37,535 [DEBUG] End Task : 0
-2018-07-19 16:39:07,344 [DEBUG] Start Task : 0
-2018-07-19 16:39:07,499 [DEBUG] End Task : 0
-2018-07-19 16:39:37,341 [DEBUG] Start Task : 0
-2018-07-19 16:39:37,503 [DEBUG] End Task : 0
-2018-07-19 16:40:07,869 [DEBUG] Start Task : 0
-2018-07-19 16:40:09,055 [DEBUG] End Task : 0
-2018-07-19 16:40:37,334 [DEBUG] Start Task : 0
-2018-07-19 16:40:37,506 [DEBUG] End Task : 0
-2018-07-19 16:41:07,350 [DEBUG] Start Task : 0
-2018-07-19 16:41:07,504 [DEBUG] End Task : 0
-2018-07-19 16:41:37,872 [DEBUG] Start Task : 0
-2018-07-19 16:41:39,956 [DEBUG] End Task : 0
-2018-07-19 16:42:07,344 [DEBUG] Start Task : 0
-2018-07-19 16:42:07,517 [DEBUG] End Task : 0
-2018-07-19 16:42:37,336 [DEBUG] Start Task : 0
-2018-07-19 16:42:37,497 [DEBUG] End Task : 0
-2018-07-19 16:43:07,348 [DEBUG] Start Task : 0
-2018-07-19 16:43:07,500 [DEBUG] End Task : 0
-2018-07-19 16:43:37,370 [DEBUG] Start Task : 0
-2018-07-19 16:43:37,530 [DEBUG] End Task : 0
-2018-07-19 16:44:07,859 [DEBUG] Start Task : 0
-2018-07-19 16:44:09,100 [DEBUG] End Task : 0
-2018-07-19 16:44:37,884 [DEBUG] Start Task : 0
-2018-07-19 16:44:40,066 [DEBUG] End Task : 0
-2018-07-19 16:45:07,345 [DEBUG] Start Task : 0
-2018-07-19 16:45:07,512 [DEBUG] End Task : 0
-2018-07-19 16:45:37,347 [DEBUG] Start Task : 0
-2018-07-19 16:45:37,541 [DEBUG] End Task : 0
-2018-07-19 16:46:07,357 [DEBUG] Start Task : 0
-2018-07-19 16:46:07,520 [DEBUG] End Task : 0
-2018-07-19 16:46:37,350 [DEBUG] Start Task : 0
-2018-07-19 16:46:37,529 [DEBUG] End Task : 0
-2018-07-19 16:47:07,347 [DEBUG] Start Task : 0
-2018-07-19 16:47:07,538 [DEBUG] End Task : 0
-2018-07-19 16:47:37,351 [DEBUG] Start Task : 0
-2018-07-19 16:47:37,532 [DEBUG] End Task : 0
-2018-07-19 16:48:07,345 [DEBUG] Start Task : 0
-2018-07-19 16:48:07,519 [DEBUG] End Task : 0
-2018-07-19 16:48:37,377 [DEBUG] Start Task : 0
-2018-07-19 16:48:37,546 [DEBUG] End Task : 0
-2018-07-19 16:49:07,347 [DEBUG] Start Task : 0
-2018-07-19 16:49:07,522 [DEBUG] End Task : 0
-2018-07-19 16:49:37,354 [DEBUG] Start Task : 0
-2018-07-19 16:49:37,509 [DEBUG] End Task : 0
-2018-07-19 16:50:07,330 [DEBUG] Start Task : 0
-2018-07-19 16:50:07,498 [DEBUG] End Task : 0
-2018-07-19 16:50:37,343 [DEBUG] Start Task : 0
-2018-07-19 16:50:37,519 [DEBUG] End Task : 0
-2018-07-19 16:51:07,341 [DEBUG] Start Task : 0
-2018-07-19 16:51:07,532 [DEBUG] End Task : 0
-2018-07-19 16:51:37,347 [DEBUG] Start Task : 0
-2018-07-19 16:51:37,511 [DEBUG] End Task : 0
-2018-07-19 16:52:07,344 [DEBUG] Start Task : 0
-2018-07-19 16:52:07,523 [DEBUG] End Task : 0
-2018-07-19 16:52:37,874 [DEBUG] Start Task : 0
-2018-07-19 16:52:39,024 [DEBUG] End Task : 0
-2018-07-19 16:53:07,376 [DEBUG] Start Task : 0
-2018-07-19 16:53:07,542 [DEBUG] End Task : 0
-2018-07-19 16:53:37,852 [DEBUG] Start Task : 0
-2018-07-19 16:53:38,036 [DEBUG] End Task : 0
-2018-07-19 16:54:07,338 [DEBUG] Start Task : 0
-2018-07-19 16:54:07,507 [DEBUG] End Task : 0
-2018-07-19 16:54:37,879 [DEBUG] Start Task : 0
-2018-07-19 16:54:38,957 [DEBUG] End Task : 0
-2018-07-19 16:55:07,339 [DEBUG] Start Task : 0
-2018-07-19 16:55:07,506 [DEBUG] End Task : 0
-2018-07-19 16:55:37,896 [DEBUG] Start Task : 0
-2018-07-19 16:55:39,100 [DEBUG] End Task : 0
-2018-07-19 16:56:07,340 [DEBUG] Start Task : 0
-2018-07-19 16:56:07,510 [DEBUG] End Task : 0
-2018-07-19 16:56:37,913 [DEBUG] Start Task : 0
-2018-07-19 16:56:40,027 [DEBUG] End Task : 0
-2018-07-19 16:57:07,344 [DEBUG] Start Task : 0
-2018-07-19 16:57:07,536 [DEBUG] End Task : 0
-2018-07-19 16:57:37,339 [DEBUG] Start Task : 0
-2018-07-19 16:57:37,518 [DEBUG] End Task : 0
-2018-07-19 16:58:07,363 [DEBUG] Start Task : 0
-2018-07-19 16:58:07,547 [DEBUG] End Task : 0
-2018-07-19 16:58:37,338 [DEBUG] Start Task : 0
-2018-07-19 16:58:37,533 [DEBUG] End Task : 0
-2018-07-19 16:59:07,462 [DEBUG] Start Task : 0
-2018-07-19 16:59:07,462 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
-2018-07-19 16:59:07,809 [DEBUG] End Task : 0
-2018-07-19 16:59:37,338 [DEBUG] Start Task : 0
-2018-07-19 16:59:37,509 [DEBUG] End Task : 0
-2018-07-19 17:00:07,859 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 17:00:07,870 [DEBUG] Start Task : 0
-2018-07-19 17:00:09,050 [DEBUG] End Task : 0
-2018-07-19 17:00:37,338 [DEBUG] Start Task : 0
-2018-07-19 17:00:37,523 [DEBUG] End Task : 0
-2018-07-19 17:01:07,858 [DEBUG] Start Task : 0
-2018-07-19 17:01:09,096 [DEBUG] End Task : 0
-2018-07-19 17:01:37,347 [DEBUG] Start Task : 0
-2018-07-19 17:01:37,524 [DEBUG] End Task : 0
-2018-07-19 17:02:07,335 [DEBUG] Start Task : 0
-2018-07-19 17:02:07,528 [DEBUG] End Task : 0
-2018-07-19 17:02:37,351 [DEBUG] Start Task : 0
-2018-07-19 17:02:37,546 [DEBUG] End Task : 0
-2018-07-19 17:03:07,869 [DEBUG] Start Task : 0
-2018-07-19 17:03:07,869 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 17:03:08,052 [DEBUG] End Task : 0
-2018-07-19 17:03:37,347 [DEBUG] Start Task : 0
-2018-07-19 17:03:37,516 [DEBUG] End Task : 0
-2018-07-19 17:04:07,862 [DEBUG] Start Task : 0
-2018-07-19 17:04:10,024 [DEBUG] End Task : 0
-2018-07-19 17:04:37,384 [DEBUG] Start Task : 0
-2018-07-19 17:04:37,549 [DEBUG] End Task : 0
-2018-07-19 17:05:07,859 [DEBUG] Start Task : 0
-2018-07-19 17:05:07,894 [DEBUG] Calling Execute on job DEFAULT.1
-2018-07-19 17:05:08,086 [DEBUG] End Task : 0
-2018-07-19 17:05:37,349 [DEBUG] Start Task : 0
-2018-07-19 17:05:37,523 [DEBUG] End Task : 0
-2018-07-19 17:06:07,334 [DEBUG] Start Task : 0
-2018-07-19 17:06:07,516 [DEBUG] End Task : 0
-2018-07-19 17:06:37,346 [DEBUG] Start Task : 0
-2018-07-19 17:06:37,530 [DEBUG] End Task : 0
-2018-07-19 17:07:07,344 [DEBUG] Start Task : 0
-2018-07-19 17:07:07,523 [DEBUG] End Task : 0
-2018-07-19 17:07:37,342 [DEBUG] Start Task : 0
-2018-07-19 17:07:39,463 [DEBUG] End Task : 0
-2018-07-19 17:08:07,360 [DEBUG] Start Task : 0
-2018-07-19 17:08:07,536 [DEBUG] End Task : 0
-2018-07-19 17:08:37,339 [DEBUG] Start Task : 0
-2018-07-19 17:08:37,515 [DEBUG] End Task : 0
+2018-07-20 10:22:19,615 [DEBUG] Start Task : 0
+2018-07-20 10:22:22,610 [DEBUG] End Task : 0
+2018-07-20 10:22:48,917 [DEBUG] Start Task : 0
+2018-07-20 10:22:49,301 [DEBUG] End Task : 0
+2018-07-20 10:28:36,895 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:28:36 +00:00
+2018-07-20 10:28:36,895 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
+2018-07-20 10:28:36,907 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 10:28:36,908 [DEBUG] Start Task : f1
+2018-07-20 10:28:37,612 [DEBUG] Start Task : 0
+2018-07-20 10:33:49,999 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:33:49 +00:00
+2018-07-20 10:33:49,993 [DEBUG] Calling Execute on job DEFAULT.f1
+2018-07-20 10:33:50,012 [DEBUG] Calling Execute on job DEFAULT.f2
+2018-07-20 10:33:50,013 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 10:33:50,715 [DEBUG] Start Task : 0
+2018-07-20 10:45:07,634 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:45:07 +00:00
+2018-07-20 10:45:07,638 [DEBUG] Calling Execute on job DEFAULT.f0
+2018-07-20 10:45:07,620 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 10:45:07,678 [DEBUG] Producing instance of Job 'DEFAULT.f1', class=WeatherCrawler.Job
+2018-07-20 10:45:07,679 [DEBUG] Start Task : f0
+2018-07-20 10:45:07,696 [DEBUG] Calling Execute on job DEFAULT.f1
+2018-07-20 10:45:07,694 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 10:45:08,441 [DEBUG] Start Task : 0
+2018-07-20 10:45:42,123 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:45:42 +00:00
+2018-07-20 10:45:42,123 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
+2018-07-20 10:45:42,157 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 10:45:43,292 [DEBUG] Start Task : 0
+2018-07-20 10:55:58,465 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
+2018-07-20 10:55:58,487 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:55:58 +00:00
+2018-07-20 10:55:58,488 [DEBUG] Start Task : f0
+2018-07-20 10:55:58,521 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 10:55:59,128 [DEBUG] Start Task : 0
+2018-07-20 11:00:34,914 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:00:34 +00:00
+2018-07-20 11:00:34,924 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
+2018-07-20 11:01:00,309 [DEBUG] Start Task : 0
+2018-07-20 11:01:05,328 [DEBUG] Start Task : 0
+2018-07-20 11:01:08,504 [DEBUG] End Task : 0
+2018-07-20 11:01:11,672 [DEBUG] End Task : 0
+2018-07-20 11:01:35,019 [DEBUG] Start Task : 0
+2018-07-20 11:01:35,019 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
+2018-07-20 11:01:40,734 [DEBUG] End Task : 0
+2018-07-20 11:04:05,388 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:04:05 +00:00
+2018-07-20 11:04:05,388 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
+2018-07-20 11:04:06,116 [DEBUG] Start Task : 0
+2018-07-20 11:04:10,149 [DEBUG] End Task : 0
+2018-07-20 11:06:41,332 [DEBUG] Start Task : f2
+2018-07-20 11:06:49,136 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 11:06:49,141 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:06:21 +00:00
+2018-07-20 11:06:49,897 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
+2018-07-20 11:07:37,517 [DEBUG] Start Task : 0
+2018-07-20 11:07:53,485 [DEBUG] Start Task : 0
+2018-07-20 11:21:54,024 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
+2018-07-20 11:21:54,037 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:21:54 +00:00
+2018-07-20 11:21:54,035 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 11:21:54,578 [DEBUG] Start Task : 0
+2018-07-20 11:22:04,864 [DEBUG] End Task : 0
+2018-07-20 11:22:24,027 [DEBUG] Start Task : 0
+2018-07-20 11:22:24,027 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 11:22:54,030 [DEBUG] Start Task : 0
+2018-07-20 11:22:54,031 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 11:26:55,963 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:26:55 +00:00
+2018-07-20 11:26:55,968 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 11:26:56,219 [DEBUG] Start Task : 0
+2018-07-20 11:27:25,968 [DEBUG] Start Task : 0
+2018-07-20 11:35:25,325 [DEBUG] End Task : 0
+2018-07-20 11:35:26,272 [DEBUG] Start Task : 0
+2018-07-20 11:35:33,351 [DEBUG] End Task : 0
+2018-07-20 11:36:22,717 [DEBUG] Start Task : f1
+2018-07-20 11:36:22,729 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 11:36:22,731 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:36:22 +00:00
+2018-07-20 11:36:22,796 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 11:36:22,810 [DEBUG] Start Task : 0
+2018-07-20 11:36:22,813 [DEBUG] Producing instance of Job 'DEFAULT.1', class=WeatherCrawler.Job
+2018-07-20 11:36:22,810 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.1':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger1':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:36:22 +00:00
+2018-07-20 11:36:52,703 [DEBUG] Start Task : 0
+2018-07-20 11:37:06,280 [DEBUG] End Task : 0
+2018-07-20 11:44:36,349 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:44:36 +00:00
+2018-07-20 11:44:36,352 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 11:44:36,702 [DEBUG] Start Task : 0
+2018-07-20 11:44:40,330 [DEBUG] End Task : 0
+2018-07-20 11:46:12,865 [DEBUG] Start Task : f0
+2018-07-20 11:46:12,866 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:46:12 +00:00
+2018-07-20 11:46:12,866 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 11:46:13,035 [DEBUG] Batch acquisition of 1 triggers
+2018-07-20 11:46:13,035 [DEBUG] Calling Execute on job DEFAULT.1
+2018-07-20 11:46:13,072 [DEBUG] Start Task : 0
+2018-07-20 11:46:13,066 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.1':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger1':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:46:12 +00:00
+2018-07-20 11:46:16,821 [DEBUG] End Task : 0
+2018-07-20 11:46:16,828 [DEBUG] Trigger instruction : NoInstruction
+2018-07-20 11:46:42,907 [DEBUG] Start Task : 0
+2018-07-20 11:46:43,057 [DEBUG] End Task : 0
+2018-07-20 11:47:12,875 [DEBUG] Start Task : 0
+2018-07-20 11:47:13,049 [DEBUG] End Task : 0
+2018-07-20 11:47:42,871 [DEBUG] Start Task : 0
+2018-07-20 11:47:43,048 [DEBUG] End Task : 0
+2018-07-20 11:48:12,871 [DEBUG] Start Task : 0
+2018-07-20 11:48:13,055 [DEBUG] End Task : 0
+2018-07-20 11:48:42,875 [DEBUG] Start Task : 0
+2018-07-20 11:48:43,037 [DEBUG] End Task : 0
+2018-07-20 11:49:12,887 [DEBUG] Start Task : 0
+2018-07-20 11:49:13,048 [DEBUG] End Task : 0
+2018-07-20 11:49:42,876 [DEBUG] Start Task : 0
+2018-07-20 11:49:43,035 [DEBUG] End Task : 0
+2018-07-20 11:50:12,875 [DEBUG] Start Task : 0
+2018-07-20 11:50:13,048 [DEBUG] End Task : 0
+2018-07-20 11:50:42,887 [DEBUG] Start Task : 0
+2018-07-20 11:50:43,041 [DEBUG] End Task : 0
+2018-07-20 11:55:33,150 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:55:33 +00:00
+2018-07-20 11:55:33,151 [DEBUG] Producing instance of Job 'DEFAULT.f2', class=WeatherCrawler.Job
+2018-07-20 11:55:33,169 [DEBUG] Calling Execute on job DEFAULT.f0
+2018-07-20 11:55:33,168 [DEBUG] Calling Execute on job DEFAULT.f1
+2018-07-20 11:55:33,449 [DEBUG] Start Task : 0
+2018-07-20 11:55:36,952 [DEBUG] End Task : 0
+2018-07-20 11:55:36,960 [DEBUG] Trigger instruction : NoInstruction
+2018-07-20 11:56:03,153 [DEBUG] Start Task : 0
+2018-07-20 11:56:04,484 [DEBUG] End Task : 0
+2018-07-20 11:56:33,156 [DEBUG] Start Task : 0
+2018-07-20 11:56:33,508 [DEBUG] End Task : 0
+2018-07-20 11:57:03,180 [DEBUG] Start Task : 0
+2018-07-20 11:57:03,445 [DEBUG] End Task : 0
+2018-07-20 11:57:33,157 [DEBUG] Start Task : 0
+2018-07-20 11:57:33,321 [DEBUG] End Task : 0
+2018-07-20 11:58:03,162 [DEBUG] Start Task : 0
+2018-07-20 11:58:03,323 [DEBUG] End Task : 0
+2018-07-20 11:58:33,159 [DEBUG] Start Task : 0
+2018-07-20 11:58:33,406 [DEBUG] End Task : 0
+2018-07-20 11:59:03,210 [DEBUG] Start Task : 0
+2018-07-20 11:59:03,423 [DEBUG] End Task : 0

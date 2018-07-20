@@ -35,6 +35,7 @@ namespace WeatherCrawler
         {
             try
             {
+                /* ORIGINAL
                 DbClient = new MongoClient
                 (
                     // https://blog.oz-code.com/how-to-mongodb-in-c-part-2/
@@ -44,12 +45,26 @@ namespace WeatherCrawler
                         ServerSelectionTimeout = TimeSpan.FromSeconds(3)
                     }
                 );
+                */
+
+                // https://stackoverflow.com/questions/27747503/mongodb-can-connect-from-mongo-client-but-not-from-c-sharp-driver
+                string mongoDbAuthMechanism = "SCRAM-SHA-1";
+                MongoInternalIdentity internalIdentity = new MongoInternalIdentity(DbName, Id);
+                PasswordEvidence passwordEvidence = new PasswordEvidence(Pw);
+                MongoCredential mongoCredential = new MongoCredential(mongoDbAuthMechanism, internalIdentity, passwordEvidence);
+
+                MongoClientSettings settings = new MongoClientSettings();
+                settings.Credential = mongoCredential;
+                MongoServerAddress address = new MongoServerAddress(Ip, 27017);
+                settings.Server = address;
+
+                DbClient = new MongoClient(settings);
 
                 Db = DbClient.GetDatabase(DbName);
                 var collections = Db.ListCollections().ToList();
                 foreach (var item in collections)
                 {
-                    // Console.WriteLine(item);
+                    Console.WriteLine(item);
                 }
             }
             catch(System.TimeoutException e)

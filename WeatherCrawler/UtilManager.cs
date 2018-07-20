@@ -95,6 +95,10 @@ namespace WeatherCrawler
         static public ForecastGribResult ReassembleDataForForecastGrib(ForecastGribResult data)
         {
             List<int> outIndex = new List<int>();
+
+            if (null == data.response)
+                return null;
+
             for (int i = 0; i < data.response.body.items.item.Count; i++)
             {
                 if ("PTY" == data.response.body.items.item[i].category ||

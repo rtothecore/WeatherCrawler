@@ -127,6 +127,14 @@ namespace WeatherCrawler
 
             // currentData
             ForecastGribResult reassembledFGR = UtilManager.ReassembleDataForForecastGrib(resultForForecastGrib.Result);
+            if (null == reassembledFGR)
+            {
+                Console.WriteLine("reassembledFGR_Null_Exception");
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add("reassembledFGR Null Exception!");
+                l4Logger.Close();
+                return null;
+            }
             CurrentData tmpCD = new CurrentData();
             tmpCD.insertDate = UtilManager.GetNowDateTime();
             tmpCD.weather = new Weather();
