@@ -56,7 +56,10 @@ namespace WeatherCrawler
             ITrigger trigger = TriggerBuilder.Create()
                 .WithIdentity("JobTrigger" + indexNo)
                 .StartNow()
-                .WithSimpleSchedule(x => x.WithIntervalInSeconds(ScheduleIntervalInMinute).RepeatForever())
+                // .WithSimpleSchedule(x => x.WithIntervalInSeconds(ScheduleIntervalInMinute).RepeatForever())
+                // https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontriggers.html
+                // http://devfun.tistory.com/1
+                .WithCronSchedule("0/30 * 9-20 * * ?")
                 .Build();
 
             await schedulerForFJ.ScheduleJob(job, trigger);
@@ -107,7 +110,8 @@ namespace WeatherCrawler
             ITrigger trigger = TriggerBuilder.Create()
                 .WithIdentity("JobTrigger" + indexNo)
                 .StartNow()
-                .WithSimpleSchedule(x => x.WithIntervalInSeconds(ScheduleIntervalInMinute).RepeatForever())
+                // .WithSimpleSchedule(x => x.WithIntervalInSeconds(ScheduleIntervalInMinute).RepeatForever())
+                .WithCronSchedule("0/30 * 9-20 * * ?")
                 .Build();
 
             await schedulerForAddr.ScheduleJob(job, trigger);

@@ -1,11 +1,15 @@
-2018-07-20 10:22:17,715 [DEBUG] App Started!
-2018-07-20 10:22:17,868 [DEBUG] Start CrawlManager Tasks
-2018-07-20 10:22:18,460 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 10:22:18,548 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 10:22:18,618 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 10:22:18,628 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 10:22:18,647 [INFO ] RAMJobStore initialized.
-2018-07-20 10:22:18,669 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-08-30 14:29:37,600 [DEBUG] App Started!
+2018-08-30 14:29:51,251 [DEBUG] App Started!
+2018-08-30 14:30:06,128 [DEBUG] App Started!
+2018-08-30 14:33:07,248 [DEBUG] App Started!
+2018-08-30 14:33:41,058 [DEBUG] App Started!
+2018-08-30 14:33:42,672 [DEBUG] Start CrawlManager Tasks
+2018-08-30 14:33:42,888 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-08-30 14:33:43,013 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-08-30 14:33:43,093 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-08-30 14:33:43,115 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-08-30 14:33:43,128 [INFO ] RAMJobStore initialized.
+2018-08-30 14:33:43,144 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -13,20 +17,27 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-07-20 10:22:18,677 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 10:22:18,688 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 10:22:18,705 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 10:22:18,709 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 10:22:18,746 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:22:18 +00:00
-2018-07-20 10:22:18,744 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 10:28:35,772 [DEBUG] App Started!
-2018-07-20 10:28:35,953 [DEBUG] Start CrawlManager Tasks
-2018-07-20 10:28:36,402 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 10:28:36,459 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 10:28:36,498 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 10:28:36,510 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 10:28:36,522 [INFO ] RAMJobStore initialized.
-2018-07-20 10:28:36,548 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-08-30 14:33:43,154 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-08-30 14:33:43,164 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-08-30 14:33:43,196 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-30 14:33:43,204 [DEBUG] Batch acquisition of 0 triggers
+2018-08-30 14:33:43,321 [DEBUG] Batch acquisition of 1 triggers
+2018-08-30 14:33:43,335 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 05:34:00 +00:00
+2018-08-30 14:34:28,087 [DEBUG] New address added!
+2018-08-30 14:34:34,151 [DEBUG] Shutdown CrawlManager FJ Tasks
+2018-08-30 14:34:34,162 [DEBUG] Batch acquisition of 0 triggers
+2018-08-30 14:34:34,171 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-08-30 14:34:34,188 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-08-30 14:34:34,205 [DEBUG] Shutting down threadpool...
+2018-08-30 14:34:34,215 [DEBUG] Shutdown of threadpool complete.
+2018-08-30 14:34:34,233 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2018-08-30 14:34:34,243 [DEBUG] Start CrawlManager Tasks
+2018-08-30 14:34:34,254 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-08-30 14:34:34,270 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-08-30 14:34:34,296 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-08-30 14:34:34,307 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-08-30 14:34:34,317 [INFO ] RAMJobStore initialized.
+2018-08-30 14:34:34,327 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -34,20 +45,20 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-07-20 10:28:36,557 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 10:28:36,564 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 10:28:36,580 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 10:28:36,583 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 10:28:36,611 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:28:36 +00:00
-2018-07-20 10:28:36,609 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 10:33:48,727 [DEBUG] App Started!
-2018-07-20 10:33:48,894 [DEBUG] Start CrawlManager Tasks
-2018-07-20 10:33:49,352 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 10:33:49,443 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 10:33:49,600 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 10:33:49,622 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 10:33:49,644 [INFO ] RAMJobStore initialized.
-2018-07-20 10:33:49,768 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-08-30 14:34:34,338 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-08-30 14:34:34,349 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-08-30 14:34:34,360 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-30 14:34:34,360 [DEBUG] Batch acquisition of 0 triggers
+2018-08-30 14:34:34,383 [DEBUG] Batch acquisition of 1 triggers
+2018-08-30 14:34:34,384 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 05:35:00 +00:00
+2018-08-30 14:38:20,794 [DEBUG] App Started!
+2018-08-30 14:38:22,258 [DEBUG] Start CrawlManager Tasks
+2018-08-30 14:38:22,444 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-08-30 14:38:22,569 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-08-30 14:38:22,655 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-08-30 14:38:22,677 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-08-30 14:38:22,691 [INFO ] RAMJobStore initialized.
+2018-08-30 14:38:22,709 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -55,21 +66,20 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-07-20 10:33:49,783 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 10:33:49,801 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 10:33:49,823 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 10:33:49,824 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 10:33:49,863 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 10:33:49,876 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:33:49 +00:00
-2018-07-20 10:33:49,891 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
-2018-07-20 10:45:06,443 [DEBUG] App Started!
-2018-07-20 10:45:06,694 [DEBUG] Start CrawlManager Tasks
-2018-07-20 10:45:07,209 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 10:45:07,266 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 10:45:07,395 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 10:45:07,431 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 10:45:07,442 [INFO ] RAMJobStore initialized.
-2018-07-20 10:45:07,455 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-08-30 14:38:22,721 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-08-30 14:38:22,737 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-08-30 14:38:22,777 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-30 14:38:22,785 [DEBUG] Batch acquisition of 0 triggers
+2018-08-30 14:38:22,914 [DEBUG] Batch acquisition of 1 triggers
+2018-08-30 14:38:22,929 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 05:38:30 +00:00
+2018-08-30 15:17:46,552 [DEBUG] App Started!
+2018-08-30 15:17:48,829 [DEBUG] Start CrawlManager Tasks
+2018-08-30 15:17:49,021 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-08-30 15:17:49,145 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-08-30 15:17:49,225 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-08-30 15:17:49,249 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-08-30 15:17:49,264 [INFO ] RAMJobStore initialized.
+2018-08-30 15:17:49,283 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -77,21 +87,20 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-07-20 10:45:07,486 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 10:45:07,496 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 10:45:07,514 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 10:45:07,517 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 10:45:07,556 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 10:45:07,567 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:45:07 +00:00
-2018-07-20 10:45:07,578 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
-2018-07-20 10:45:41,078 [DEBUG] App Started!
-2018-07-20 10:45:41,222 [DEBUG] Start CrawlManager Tasks
-2018-07-20 10:45:41,694 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 10:45:41,750 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 10:45:41,790 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 10:45:41,799 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 10:45:41,806 [INFO ] RAMJobStore initialized.
-2018-07-20 10:45:41,814 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-08-30 15:17:49,295 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-08-30 15:17:49,307 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-08-30 15:17:49,338 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-30 15:17:49,346 [DEBUG] Batch acquisition of 0 triggers
+2018-08-30 15:17:49,465 [DEBUG] Batch acquisition of 1 triggers
+2018-08-30 15:17:49,480 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 06:18:00 +00:00
+2018-08-30 15:20:57,688 [DEBUG] App Started!
+2018-08-30 15:20:58,962 [DEBUG] Start CrawlManager Tasks
+2018-08-30 15:20:59,173 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-08-30 15:20:59,299 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-08-30 15:20:59,390 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-08-30 15:20:59,424 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-08-30 15:20:59,439 [INFO ] RAMJobStore initialized.
+2018-08-30 15:20:59,458 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -99,235 +108,17 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-07-20 10:45:41,820 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 10:45:41,825 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 10:45:41,837 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 10:45:41,840 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 10:45:41,862 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 10:45:41,863 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:45:41 +00:00
-2018-07-20 10:45:41,884 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
-2018-07-20 10:55:57,264 [DEBUG] App Started!
-2018-07-20 10:55:57,391 [DEBUG] Start CrawlManager Tasks
-2018-07-20 10:55:57,891 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 10:55:57,951 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 10:55:58,060 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 10:55:58,149 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 10:55:58,163 [INFO ] RAMJobStore initialized.
-2018-07-20 10:55:58,174 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2018-07-20 10:55:58,181 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 10:55:58,188 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 10:55:58,205 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 10:55:58,208 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 10:55:58,239 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 10:55:58,250 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 01:55:58 +00:00
-2018-07-20 10:55:58,260 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
-2018-07-20 11:00:23,178 [DEBUG] App Started!
-2018-07-20 11:00:23,314 [DEBUG] Start CrawlManager Tasks
-2018-07-20 11:00:23,674 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 11:00:23,741 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 11:00:23,788 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 11:00:23,818 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 11:00:23,867 [INFO ] RAMJobStore initialized.
-2018-07-20 11:00:23,877 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2018-07-20 11:00:23,890 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 11:00:23,901 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 11:00:23,939 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 11:00:23,940 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 11:00:23,979 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 11:00:23,989 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:00:23 +00:00
-2018-07-20 11:00:23,998 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
-2018-07-20 11:00:24,022 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 11:00:24,055 [DEBUG] Calling Execute on job DEFAULT.f0
-2018-07-20 11:04:04,410 [DEBUG] App Started!
-2018-07-20 11:04:04,544 [DEBUG] Start CrawlManager Tasks
-2018-07-20 11:04:04,947 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 11:04:04,996 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 11:04:05,038 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 11:04:05,052 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 11:04:05,060 [INFO ] RAMJobStore initialized.
-2018-07-20 11:04:05,069 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2018-07-20 11:04:05,075 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 11:04:05,083 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 11:04:05,099 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 11:04:05,103 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 11:04:05,131 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 11:04:05,154 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:04:05 +00:00
-2018-07-20 11:04:05,157 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
-2018-07-20 11:06:20,441 [DEBUG] App Started!
-2018-07-20 11:06:20,643 [DEBUG] Start CrawlManager Tasks
-2018-07-20 11:06:21,257 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 11:06:21,314 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 11:06:21,411 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 11:06:21,476 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 11:06:21,514 [INFO ] RAMJobStore initialized.
-2018-07-20 11:06:21,532 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2018-07-20 11:06:21,541 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 11:06:21,553 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 11:06:21,572 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 11:06:21,577 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 11:06:21,604 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 11:06:21,606 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:06:21 +00:00
-2018-07-20 11:06:21,646 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
-2018-07-20 11:21:52,277 [DEBUG] App Started!
-2018-07-20 11:21:52,550 [DEBUG] Start CrawlManager Tasks
-2018-07-20 11:21:53,336 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 11:21:53,464 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 11:21:53,537 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 11:21:53,583 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 11:21:53,627 [INFO ] RAMJobStore initialized.
-2018-07-20 11:21:53,639 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2018-07-20 11:21:53,652 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 11:21:53,663 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 11:21:53,679 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 11:21:53,683 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 11:21:53,711 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 11:21:53,712 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:21:53 +00:00
-2018-07-20 11:26:55,048 [DEBUG] App Started!
-2018-07-20 11:26:55,266 [DEBUG] Start CrawlManager Tasks
-2018-07-20 11:26:55,463 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 11:26:55,585 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 11:26:55,660 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 11:26:55,681 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 11:26:55,695 [INFO ] RAMJobStore initialized.
-2018-07-20 11:26:55,711 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2018-07-20 11:26:55,722 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 11:26:55,733 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 11:26:55,763 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 11:26:55,769 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 11:26:55,816 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 11:26:55,829 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:26:55 +00:00
-2018-07-20 11:26:55,850 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
-2018-07-20 11:36:21,761 [DEBUG] App Started!
-2018-07-20 11:36:21,955 [DEBUG] Start CrawlManager Tasks
-2018-07-20 11:36:22,139 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 11:36:22,252 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 11:36:22,329 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 11:36:22,351 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 11:36:22,368 [INFO ] RAMJobStore initialized.
-2018-07-20 11:36:22,386 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2018-07-20 11:36:22,397 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 11:36:22,409 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 11:36:22,437 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 11:36:22,444 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 11:36:22,492 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 11:36:22,507 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:36:22 +00:00
-2018-07-20 11:36:22,529 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
-2018-07-20 11:44:35,442 [DEBUG] App Started!
-2018-07-20 11:44:35,670 [DEBUG] Start CrawlManager Tasks
-2018-07-20 11:44:35,887 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 11:44:36,012 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 11:44:36,096 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 11:44:36,119 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 11:44:36,134 [INFO ] RAMJobStore initialized.
-2018-07-20 11:44:36,151 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2018-07-20 11:44:36,163 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 11:44:36,175 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 11:44:36,204 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 11:44:36,211 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 11:44:36,259 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 11:44:36,261 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:44:36 +00:00
-2018-07-20 11:46:11,827 [DEBUG] App Started!
-2018-07-20 11:46:12,044 [DEBUG] Start CrawlManager Tasks
-2018-07-20 11:46:12,234 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 11:46:12,362 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 11:46:12,468 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 11:46:12,491 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 11:46:12,506 [INFO ] RAMJobStore initialized.
-2018-07-20 11:46:12,525 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2018-07-20 11:46:12,538 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 11:46:12,550 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 11:46:12,581 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 11:46:12,589 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 11:46:12,646 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 11:46:12,662 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:46:12 +00:00
-2018-07-20 11:46:12,686 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
-2018-07-20 11:55:32,361 [DEBUG] App Started!
-2018-07-20 11:55:32,552 [DEBUG] Start CrawlManager Tasks
-2018-07-20 11:55:32,723 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-07-20 11:55:32,833 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-07-20 11:55:32,910 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-07-20 11:55:32,930 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-07-20 11:55:32,942 [INFO ] RAMJobStore initialized.
-2018-07-20 11:55:32,958 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
-  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
-  NOT STARTED.
-  Currently in standby mode.
-  Number of jobs executed: 0
-  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
-  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
-
-2018-07-20 11:55:32,969 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-07-20 11:55:32,979 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-07-20 11:55:33,004 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-07-20 11:55:33,011 [DEBUG] Batch acquisition of 0 triggers
-2018-07-20 11:55:33,054 [DEBUG] Batch acquisition of 1 triggers
-2018-07-20 11:55:33,066 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.SimpleTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 07/20/2018 02:55:33 +00:00
-2018-07-20 11:56:04,361 [DEBUG] System.AggregateException!
-2018-07-20 11:56:04,361 [DEBUG] System.AggregateException!
-2018-07-20 11:56:04,368 [DEBUG] System.AggregateException!
-2018-07-20 11:56:04,364 [DEBUG] System.AggregateException!
-2018-07-20 11:56:04,367 [DEBUG] System.AggregateException!
-2018-07-20 11:56:04,367 [DEBUG] System.AggregateException!
+2018-08-30 15:20:59,471 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-08-30 15:20:59,485 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-08-30 15:20:59,519 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-08-30 15:20:59,527 [DEBUG] Batch acquisition of 0 triggers
+2018-08-30 15:20:59,650 [DEBUG] Batch acquisition of 1 triggers
+2018-08-30 15:20:59,665 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 06:21:00 +00:00
+2018-08-30 15:41:00,381 [DEBUG] reassembledFGR Null Exception!
+2018-08-30 15:41:30,456 [DEBUG] reassembledFGR Null Exception!
+2018-09-01 12:41:00,781 [DEBUG] reassembledFGR Null Exception!
+2018-09-01 12:41:30,747 [DEBUG] reassembledFGR Null Exception!
+2018-09-01 12:41:30,761 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.FJDBCheckJob
+2018-09-01 12:42:00,658 [DEBUG] reassembledFGR Null Exception!
+2018-09-03 14:41:01,057 [DEBUG] reassembledFGR Null Exception!
+2018-09-03 14:42:00,981 [DEBUG] reassembledFGR Null Exception!

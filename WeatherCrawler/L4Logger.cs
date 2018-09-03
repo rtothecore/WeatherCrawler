@@ -55,7 +55,17 @@ namespace WeatherCrawler
             rollingAppender.Layout = layout;
 
             hierarchy.Root.AddAppender(rollingAppender);
-            rollingAppender.ActivateOptions(); ;
+
+            try
+            {
+                rollingAppender.ActivateOptions(); ;
+            }
+            catch (System.NullReferenceException e)
+            {
+                Console.WriteLine("System.NullReferenceException : {0}", e.Message);
+                return;
+            }
+            
             hierarchy.Root.Level = log4net.Core.Level.All;
 
             log = LogManager.GetLogger("logger");
@@ -64,7 +74,15 @@ namespace WeatherCrawler
 
         public void Add(string LogMsg)
         {
-            log.Debug(LogMsg);
+            try
+            {
+                log.Debug(LogMsg);
+            }
+            catch (System.NullReferenceException e)
+            {
+                Console.WriteLine("System.NullReferenceException : {0}", e.Message);
+                return;
+            }
         }
 
         public void Close()

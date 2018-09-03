@@ -64,7 +64,7 @@ namespace WeatherCrawler
                 var collections = Db.ListCollections().ToList();
                 foreach (var item in collections)
                 {
-                    Console.WriteLine(item);
+                    // Console.WriteLine(item);
                 }
             }
             catch(System.TimeoutException e)
@@ -92,7 +92,7 @@ namespace WeatherCrawler
 
         public void InsertWeatherData(WeatherCrawlerData wcd)
         {
-            IMongoCollection<BsonDocument> collection = Db.GetCollection<BsonDocument>("wcData");
+            IMongoCollection<BsonDocument> collection = Db.GetCollection<BsonDocument>("wcdatas");
             string text = JsonConvert.SerializeObject(wcd);
             var document = BsonSerializer.Deserialize<BsonDocument>(text);
             collection.InsertOneAsync(document);
@@ -100,7 +100,7 @@ namespace WeatherCrawler
 
         public bool IsExistAddress(string address)
         {
-            IMongoCollection<BsonDocument> collection = Db.GetCollection<BsonDocument>("wcData");
+            IMongoCollection<BsonDocument> collection = Db.GetCollection<BsonDocument>("wcdatas");
             var filter = new BsonDocument("address", address);
 
             List<BsonDocument> result = collection.Find(filter).ToList();
@@ -113,7 +113,7 @@ namespace WeatherCrawler
 
         public List<CurrentData> GetCurrentData(string address)
         {
-            var collection = Db.GetCollection<WeatherCrawlerData>("wcData");
+            var collection = Db.GetCollection<WeatherCrawlerData>("wcdatas");
             // https://stackoverflow.com/questions/7704290/get-only-a-specified-field
             var results = collection.Find(Builders<WeatherCrawlerData>.Filter.Eq(wcd => wcd.address, address)).Project(u => new { u.currentData }).ToList();           
             return results[0].currentData;
@@ -121,7 +121,7 @@ namespace WeatherCrawler
 
         public void DeleteDocumentByAddress(string address)
         {
-            var collection = Db.GetCollection<WeatherCrawlerData>("wcData");
+            var collection = Db.GetCollection<WeatherCrawlerData>("wcdatas");
             // https://stackoverflow.com/questions/8867032/how-to-remove-one-document-by-id-using-the-official-c-sharp-driver-for-mongo
             collection.DeleteOne(a => a.address == address);
         }

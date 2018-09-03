@@ -99,6 +99,12 @@ namespace WeatherCrawler
             if (null == data.response)
                 return null;
 
+            if (null == data.response.body)
+                return null;
+
+            if (null == data.response.body.items)
+                return null;
+
             for (int i = 0; i < data.response.body.items.item.Count; i++)
             {
                 if ("PTY" == data.response.body.items.item[i].category ||
@@ -183,6 +189,21 @@ namespace WeatherCrawler
         static public List<Item2> GetFcstSpaceFromDateNCategory(ForecastTimeSpaceResult data, string date, string category)
         {
             List<Item2> result = new List<Item2>();
+
+            int tmpDataCount = 0;
+
+            try
+            {
+                tmpDataCount = data.response.body.items.item.Count;
+            }
+            catch (System.NullReferenceException e)
+            {
+                Console.WriteLine("NullReferenceException : {0}", e.Message);
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add("System.NullReferenceException!");
+                l4Logger.Close();
+                return null;
+            }
 
             for (int i = 0; i < data.response.body.items.item.Count; i++)
             {

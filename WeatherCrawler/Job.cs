@@ -126,7 +126,20 @@ namespace WeatherCrawler
             wcd.ny = Int32.Parse(ny);
 
             // currentData
-            ForecastGribResult reassembledFGR = UtilManager.ReassembleDataForForecastGrib(resultForForecastGrib.Result);
+            ForecastGribResult reassembledFGR = null;
+            try
+            {
+                reassembledFGR = UtilManager.ReassembleDataForForecastGrib(resultForForecastGrib.Result);
+            }
+            catch (System.AggregateException e)
+            {
+                Console.WriteLine("ForecastGribResult AggregateException : {0}", e.Message);
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add("ForecastGribResult System.AggregateException!");
+                l4Logger.Close();
+                return null;
+            }
+
             if (null == reassembledFGR)
             {
                 Console.WriteLine("reassembledFGR_Null_Exception");
@@ -151,11 +164,20 @@ namespace WeatherCrawler
             {
                 adr = resultForAirData.Result;
             }
-            catch(System.AggregateException e)
+            catch (System.AggregateException e)
             {
                 Console.WriteLine("AggregateException : {0}", e.Message);
                 L4Logger l4Logger = new L4Logger("common.log");
                 l4Logger.Add("System.AggregateException!");
+                l4Logger.Close();
+                return null;
+            }
+            
+            if (null == adr)
+            {
+                Console.WriteLine("adr is Null");
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add("adr is Null Exception!");
                 l4Logger.Close();
                 return null;
             }
@@ -195,7 +217,28 @@ namespace WeatherCrawler
             wcd.currentData.Add(tmpCD);
 
             // twoHour
-            ForecastTimeSpaceResult ftsr = resultForForecastTime.Result;
+            ForecastTimeSpaceResult ftsr = null;
+            try
+            {
+                ftsr = resultForForecastTime.Result;
+            }
+            catch (System.AggregateException e)
+            {
+                Console.WriteLine("resultForForecastTime AggregateException : {0}", e.Message);
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add("resultForForecastTime System.AggregateException!");
+                l4Logger.Close();
+                return null;
+            }
+
+            if (null == ftsr)
+            {
+                Console.WriteLine("ftsr is Null");
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add("ftsr is Null Exception!");
+                l4Logger.Close();
+                return null;
+            }
             Fcst tmpFcst = new Fcst();
             tmpFcst.insertDate = UtilManager.GetNowDateTime();
 
@@ -242,16 +285,36 @@ namespace WeatherCrawler
 
             // tomorrow
             ftsr = resultForForecastSpace.Result;
+            
+            if (null == ftsr)
+            {
+                Console.WriteLine("resultForForecastSpace.Result is null");
+                L4Logger l4Logger = new L4Logger("common.log");
+                l4Logger.Add("resultForForecastSpace.Result is null!");
+                l4Logger.Close();
+                return null;
+            }
+            
             Fcst2 tmpFcst2 = new Fcst2();
             tmpFcst2.insertDate = UtilManager.GetNowDateTime();
 
             string tomorrowDate = UtilManager.GetTomorrowDate();
 
             List<Item2> tmpItemsPTY = UtilManager.GetFcstSpaceFromDateNCategory(ftsr, tomorrowDate, "PTY");
+            if (null == tmpItemsPTY)
+                return null;
             List<Item2> tmpItemsR06 = UtilManager.GetFcstSpaceFromDateNCategory(ftsr, tomorrowDate, "R06");
+            if (null == tmpItemsR06)
+                return null;
             List<Item2> tmpItemsSKY = UtilManager.GetFcstSpaceFromDateNCategory(ftsr, tomorrowDate, "SKY");
+            if (null == tmpItemsSKY)
+                return null;
             List<Item2> tmpItemsT3H = UtilManager.GetFcstSpaceFromDateNCategory(ftsr, tomorrowDate, "T3H");
+            if (null == tmpItemsT3H)
+                return null;
             List<Item2> tmpItemsREH = UtilManager.GetFcstSpaceFromDateNCategory(ftsr, tomorrowDate, "REH");
+            if (null == tmpItemsREH)
+                return null;
 
             tmpFcst2.weather = new List<FcstWeather2>();
             for (int i = 0; i < tmpItemsPTY.Count; i++)
