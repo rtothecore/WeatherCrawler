@@ -92,6 +92,22 @@ namespace WeatherCrawler
             return now.ToString("yyyy-MM-dd HH:mm:ss");
         }
 
+        static public string GetFTSRHour()
+        {
+            DateTime now = DateTime.Now;
+            DateTime resultTime = now;
+            int currentMinutes = Int32.Parse(now.ToString("mm"));
+
+            if (45 >= currentMinutes)
+            {
+                resultTime = now.AddHours(-1);
+            }
+
+            string result = resultTime.ToString("HH");
+
+            return result;
+        }
+
         static public ForecastGribResult ReassembleDataForForecastGrib(ForecastGribResult data)
         {
             List<int> outIndex = new List<int>();
@@ -151,6 +167,28 @@ namespace WeatherCrawler
             DateTime startDateTime = DateTime.ParseExact(startDateTimeVal, "yyyyMMddHHmm",
                                        System.Globalization.CultureInfo.InvariantCulture);
             DateTime resultDateTime = startDateTime.AddHours(1);
+
+            string tmpResult = resultDateTime.ToString("yyyyMMddHHmm");
+
+            return tmpResult;
+        }
+
+        static public string GetStartDateTimePlusTwoHour(string startDateTimeVal)
+        {
+            DateTime startDateTime = DateTime.ParseExact(startDateTimeVal, "yyyyMMddHHmm",
+                                       System.Globalization.CultureInfo.InvariantCulture);
+            DateTime resultDateTime = startDateTime.AddHours(2);
+
+            string tmpResult = resultDateTime.ToString("yyyyMMddHHmm");
+
+            return tmpResult;
+        }
+
+        static public string GetStartDateTimePlusThreeHour(string startDateTimeVal)
+        {
+            DateTime startDateTime = DateTime.ParseExact(startDateTimeVal, "yyyyMMddHHmm",
+                                       System.Globalization.CultureInfo.InvariantCulture);
+            DateTime resultDateTime = startDateTime.AddHours(3);
 
             string tmpResult = resultDateTime.ToString("yyyyMMddHHmm");
 

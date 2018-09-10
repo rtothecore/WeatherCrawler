@@ -1,15 +1,11 @@
-2018-08-30 14:29:37,600 [DEBUG] App Started!
-2018-08-30 14:29:51,251 [DEBUG] App Started!
-2018-08-30 14:30:06,128 [DEBUG] App Started!
-2018-08-30 14:33:07,248 [DEBUG] App Started!
-2018-08-30 14:33:41,058 [DEBUG] App Started!
-2018-08-30 14:33:42,672 [DEBUG] Start CrawlManager Tasks
-2018-08-30 14:33:42,888 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-08-30 14:33:43,013 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-08-30 14:33:43,093 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-08-30 14:33:43,115 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-08-30 14:33:43,128 [INFO ] RAMJobStore initialized.
-2018-08-30 14:33:43,144 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-09-04 13:22:46,853 [DEBUG] App Started!
+2018-09-04 13:22:48,395 [DEBUG] Start CrawlManager Tasks
+2018-09-04 13:22:48,604 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-04 13:22:48,724 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-04 13:22:48,804 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-04 13:22:48,825 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-04 13:22:48,837 [INFO ] RAMJobStore initialized.
+2018-09-04 13:22:48,852 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -17,27 +13,20 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-08-30 14:33:43,154 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-08-30 14:33:43,164 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-08-30 14:33:43,196 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-08-30 14:33:43,204 [DEBUG] Batch acquisition of 0 triggers
-2018-08-30 14:33:43,321 [DEBUG] Batch acquisition of 1 triggers
-2018-08-30 14:33:43,335 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 05:34:00 +00:00
-2018-08-30 14:34:28,087 [DEBUG] New address added!
-2018-08-30 14:34:34,151 [DEBUG] Shutdown CrawlManager FJ Tasks
-2018-08-30 14:34:34,162 [DEBUG] Batch acquisition of 0 triggers
-2018-08-30 14:34:34,171 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
-2018-08-30 14:34:34,188 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
-2018-08-30 14:34:34,205 [DEBUG] Shutting down threadpool...
-2018-08-30 14:34:34,215 [DEBUG] Shutdown of threadpool complete.
-2018-08-30 14:34:34,233 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED Shutdown complete.
-2018-08-30 14:34:34,243 [DEBUG] Start CrawlManager Tasks
-2018-08-30 14:34:34,254 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-08-30 14:34:34,270 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-08-30 14:34:34,296 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-08-30 14:34:34,307 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-08-30 14:34:34,317 [INFO ] RAMJobStore initialized.
-2018-08-30 14:34:34,327 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-09-04 13:22:48,863 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-04 13:22:48,872 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-04 13:22:48,901 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-04 13:22:48,908 [DEBUG] Batch acquisition of 0 triggers
+2018-09-04 13:22:49,026 [DEBUG] Batch acquisition of 1 triggers
+2018-09-04 13:22:49,039 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/04/2018 04:23:00 +00:00
+2018-09-04 13:42:33,211 [DEBUG] App Started!
+2018-09-04 13:42:34,420 [DEBUG] Start CrawlManager Tasks
+2018-09-04 13:42:34,607 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-04 13:42:34,730 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-04 13:42:34,813 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-04 13:42:34,835 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-04 13:42:34,849 [INFO ] RAMJobStore initialized.
+2018-09-04 13:42:34,866 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -45,20 +34,20 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-08-30 14:34:34,338 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-08-30 14:34:34,349 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-08-30 14:34:34,360 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-08-30 14:34:34,360 [DEBUG] Batch acquisition of 0 triggers
-2018-08-30 14:34:34,383 [DEBUG] Batch acquisition of 1 triggers
-2018-08-30 14:34:34,384 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 05:35:00 +00:00
-2018-08-30 14:38:20,794 [DEBUG] App Started!
-2018-08-30 14:38:22,258 [DEBUG] Start CrawlManager Tasks
-2018-08-30 14:38:22,444 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-08-30 14:38:22,569 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-08-30 14:38:22,655 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-08-30 14:38:22,677 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-08-30 14:38:22,691 [INFO ] RAMJobStore initialized.
-2018-08-30 14:38:22,709 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-09-04 13:42:34,877 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-04 13:42:34,888 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-04 13:42:34,917 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-04 13:42:34,925 [DEBUG] Batch acquisition of 0 triggers
+2018-09-04 13:42:35,050 [DEBUG] Batch acquisition of 1 triggers
+2018-09-04 13:42:35,064 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/04/2018 04:43:00 +00:00
+2018-09-04 16:47:09,053 [DEBUG] App Started!
+2018-09-04 16:47:10,275 [DEBUG] Start CrawlManager Tasks
+2018-09-04 16:47:10,462 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-04 16:47:10,601 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-04 16:47:10,696 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-04 16:47:10,737 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-04 16:47:10,754 [INFO ] RAMJobStore initialized.
+2018-09-04 16:47:10,773 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -66,20 +55,20 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-08-30 14:38:22,721 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-08-30 14:38:22,737 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-08-30 14:38:22,777 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-08-30 14:38:22,785 [DEBUG] Batch acquisition of 0 triggers
-2018-08-30 14:38:22,914 [DEBUG] Batch acquisition of 1 triggers
-2018-08-30 14:38:22,929 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 05:38:30 +00:00
-2018-08-30 15:17:46,552 [DEBUG] App Started!
-2018-08-30 15:17:48,829 [DEBUG] Start CrawlManager Tasks
-2018-08-30 15:17:49,021 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-08-30 15:17:49,145 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-08-30 15:17:49,225 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-08-30 15:17:49,249 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-08-30 15:17:49,264 [INFO ] RAMJobStore initialized.
-2018-08-30 15:17:49,283 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-09-04 16:47:10,786 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-04 16:47:10,798 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-04 16:47:10,830 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-04 16:47:10,838 [DEBUG] Batch acquisition of 0 triggers
+2018-09-04 16:47:10,960 [DEBUG] Batch acquisition of 1 triggers
+2018-09-04 16:47:10,962 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/04/2018 07:47:30 +00:00
+2018-09-04 18:02:05,082 [DEBUG] App Started!
+2018-09-04 18:02:06,558 [DEBUG] Start CrawlManager Tasks
+2018-09-04 18:02:06,763 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-04 18:02:06,887 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-04 18:02:06,969 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-04 18:02:06,992 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-04 18:02:07,007 [INFO ] RAMJobStore initialized.
+2018-09-04 18:02:07,025 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -87,20 +76,536 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-08-30 15:17:49,295 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-08-30 15:17:49,307 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-08-30 15:17:49,338 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-08-30 15:17:49,346 [DEBUG] Batch acquisition of 0 triggers
-2018-08-30 15:17:49,465 [DEBUG] Batch acquisition of 1 triggers
-2018-08-30 15:17:49,480 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 06:18:00 +00:00
-2018-08-30 15:20:57,688 [DEBUG] App Started!
-2018-08-30 15:20:58,962 [DEBUG] Start CrawlManager Tasks
-2018-08-30 15:20:59,173 [INFO ] Default Quartz.NET properties loaded from embedded resource file
-2018-08-30 15:20:59,299 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
-2018-08-30 15:20:59,390 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
-2018-08-30 15:20:59,424 [INFO ] Quartz Scheduler v.3.0.5.0 created.
-2018-08-30 15:20:59,439 [INFO ] RAMJobStore initialized.
-2018-08-30 15:20:59,458 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+2018-09-04 18:02:07,037 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-04 18:02:07,048 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-04 18:02:07,079 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-04 18:02:07,087 [DEBUG] Batch acquisition of 0 triggers
+2018-09-04 18:02:07,213 [DEBUG] Batch acquisition of 1 triggers
+2018-09-04 18:02:07,228 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/04/2018 09:02:30 +00:00
+2018-09-05 18:41:01,509 [DEBUG] reassembledFGR Null Exception!
+2018-09-05 18:41:31,409 [DEBUG] reassembledFGR Null Exception!
+2018-09-05 18:42:01,396 [DEBUG] reassembledFGR Null Exception!
+2018-09-05 18:42:31,310 [DEBUG] reassembledFGR Null Exception!
+2018-09-06 09:00:20,649 [DEBUG] System.AggregateException!
+2018-09-06 09:00:52,857 [DEBUG] System.AggregateException!
+2018-09-06 09:01:17,023 [DEBUG] System.AggregateException!
+2018-09-06 09:01:46,088 [DEBUG] System.AggregateException!
+2018-09-06 09:02:01,849 [DEBUG] System.AggregateException!
+2018-09-06 09:02:31,960 [DEBUG] System.AggregateException!
+2018-09-06 09:03:30,044 [DEBUG] System.AggregateException!
+2018-09-06 09:03:30,045 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:04:00,059 [DEBUG] System.AggregateException!
+2018-09-06 09:04:00,063 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:04:01,902 [DEBUG] System.AggregateException!
+2018-09-06 09:04:45,964 [DEBUG] System.AggregateException!
+2018-09-06 09:05:29,909 [DEBUG] System.AggregateException!
+2018-09-06 09:05:45,937 [DEBUG] System.AggregateException!
+2018-09-06 09:06:15,933 [DEBUG] System.AggregateException!
+2018-09-06 09:06:45,917 [DEBUG] System.AggregateException!
+2018-09-06 09:07:15,937 [DEBUG] System.AggregateException!
+2018-09-06 09:07:45,969 [DEBUG] System.AggregateException!
+2018-09-06 09:08:30,116 [DEBUG] System.AggregateException!
+2018-09-06 09:08:30,116 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:08:46,039 [DEBUG] System.AggregateException!
+2018-09-06 09:09:29,980 [DEBUG] System.AggregateException!
+2018-09-06 09:09:46,005 [DEBUG] System.AggregateException!
+2018-09-06 09:10:15,888 [DEBUG] System.AggregateException!
+2018-09-06 09:10:59,863 [DEBUG] System.AggregateException!
+2018-09-06 09:11:15,786 [DEBUG] System.AggregateException!
+2018-09-06 09:11:45,887 [DEBUG] System.AggregateException!
+2018-09-06 09:12:16,012 [DEBUG] System.AggregateException!
+2018-09-06 09:12:59,961 [DEBUG] System.AggregateException!
+2018-09-06 09:13:29,918 [DEBUG] System.AggregateException!
+2018-09-06 09:13:45,972 [DEBUG] System.AggregateException!
+2018-09-06 09:14:29,801 [DEBUG] System.AggregateException!
+2018-09-06 09:14:59,999 [DEBUG] System.AggregateException!
+2018-09-06 09:15:00,004 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:15:30,091 [DEBUG] System.AggregateException!
+2018-09-06 09:15:30,093 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:15:47,511 [DEBUG] System.AggregateException!
+2018-09-06 09:16:29,844 [DEBUG] System.AggregateException!
+2018-09-06 09:16:59,949 [DEBUG] System.AggregateException!
+2018-09-06 09:17:29,774 [DEBUG] System.AggregateException!
+2018-09-06 09:17:45,845 [DEBUG] System.AggregateException!
+2018-09-06 09:18:15,899 [DEBUG] System.AggregateException!
+2018-09-06 09:18:46,061 [DEBUG] System.AggregateException!
+2018-09-06 09:19:29,895 [DEBUG] System.AggregateException!
+2018-09-06 09:19:59,889 [DEBUG] System.AggregateException!
+2018-09-06 09:20:29,964 [DEBUG] System.AggregateException!
+2018-09-06 09:20:59,918 [DEBUG] System.AggregateException!
+2018-09-06 09:21:43,935 [DEBUG] System.AggregateException!
+2018-09-06 09:21:45,987 [DEBUG] System.AggregateException!
+2018-09-06 09:22:30,027 [DEBUG] System.AggregateException!
+2018-09-06 09:22:30,030 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:23:14,105 [DEBUG] System.AggregateException!
+2018-09-06 09:23:43,872 [DEBUG] System.AggregateException!
+2018-09-06 09:24:01,814 [DEBUG] System.AggregateException!
+2018-09-06 09:24:13,966 [DEBUG] System.AggregateException!
+2018-09-06 09:25:13,940 [DEBUG] System.AggregateException!
+2018-09-06 09:25:29,977 [DEBUG] System.AggregateException!
+2018-09-06 09:25:59,875 [DEBUG] System.AggregateException!
+2018-09-06 09:26:15,907 [DEBUG] System.AggregateException!
+2018-09-06 09:26:45,748 [DEBUG] System.AggregateException!
+2018-09-06 09:27:16,039 [DEBUG] System.AggregateException!
+2018-09-06 09:28:13,836 [DEBUG] System.AggregateException!
+2018-09-06 09:28:30,051 [DEBUG] System.AggregateException!
+2018-09-06 09:28:30,052 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:29:00,063 [DEBUG] System.AggregateException!
+2018-09-06 09:29:00,065 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:29:30,050 [DEBUG] System.AggregateException!
+2018-09-06 09:29:30,052 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:29:46,108 [DEBUG] System.AggregateException!
+2018-09-06 09:30:15,885 [DEBUG] System.AggregateException!
+2018-09-06 09:30:45,800 [DEBUG] System.AggregateException!
+2018-09-06 09:31:15,838 [DEBUG] System.AggregateException!
+2018-09-06 09:32:00,033 [DEBUG] System.AggregateException!
+2018-09-06 09:32:00,036 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:32:29,992 [DEBUG] System.AggregateException!
+2018-09-06 09:33:13,897 [DEBUG] System.AggregateException!
+2018-09-06 09:33:29,794 [DEBUG] System.AggregateException!
+2018-09-06 09:33:45,869 [DEBUG] System.AggregateException!
+2018-09-06 09:34:29,829 [DEBUG] System.AggregateException!
+2018-09-06 09:34:59,983 [DEBUG] System.AggregateException!
+2018-09-06 09:35:43,994 [DEBUG] System.AggregateException!
+2018-09-06 09:36:14,043 [DEBUG] System.AggregateException!
+2018-09-06 09:36:30,006 [DEBUG] System.AggregateException!
+2018-09-06 09:36:30,010 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:37:00,010 [DEBUG] System.AggregateException!
+2018-09-06 09:37:00,014 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:37:30,104 [DEBUG] System.AggregateException!
+2018-09-06 09:37:30,104 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:37:45,894 [DEBUG] System.AggregateException!
+2018-09-06 09:38:29,828 [DEBUG] System.AggregateException!
+2018-09-06 09:39:00,006 [DEBUG] System.AggregateException!
+2018-09-06 09:39:00,009 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:39:15,963 [DEBUG] System.AggregateException!
+2018-09-06 09:39:45,815 [DEBUG] System.AggregateException!
+2018-09-06 09:40:29,875 [DEBUG] System.AggregateException!
+2018-09-06 09:40:45,768 [DEBUG] System.AggregateException!
+2018-09-06 09:41:43,940 [DEBUG] System.AggregateException!
+2018-09-06 09:41:45,987 [DEBUG] System.AggregateException!
+2018-09-06 09:42:15,880 [DEBUG] System.AggregateException!
+2018-09-06 09:43:13,928 [DEBUG] System.AggregateException!
+2018-09-06 09:43:29,902 [DEBUG] System.AggregateException!
+2018-09-06 09:43:59,984 [DEBUG] System.AggregateException!
+2018-09-06 09:44:16,050 [DEBUG] System.AggregateException!
+2018-09-06 09:44:45,911 [DEBUG] System.AggregateException!
+2018-09-06 09:45:16,075 [DEBUG] System.AggregateException!
+2018-09-06 09:46:00,101 [DEBUG] System.AggregateException!
+2018-09-06 09:46:00,101 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:46:30,109 [DEBUG] System.AggregateException!
+2018-09-06 09:46:30,110 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 09:46:31,752 [DEBUG] System.AggregateException!
+2018-09-06 09:47:16,075 [DEBUG] System.AggregateException!
+2018-09-06 09:48:13,996 [DEBUG] System.AggregateException!
+2018-09-06 09:48:15,998 [DEBUG] System.AggregateException!
+2018-09-06 09:49:14,006 [DEBUG] System.AggregateException!
+2018-09-06 09:49:44,027 [DEBUG] System.AggregateException!
+2018-09-06 09:49:45,760 [DEBUG] System.AggregateException!
+2018-09-06 09:50:16,011 [DEBUG] System.AggregateException!
+2018-09-06 09:50:31,840 [DEBUG] System.AggregateException!
+2018-09-06 09:51:15,922 [DEBUG] System.AggregateException!
+2018-09-06 09:52:01,850 [DEBUG] System.AggregateException!
+2018-09-06 09:52:13,873 [DEBUG] System.AggregateException!
+2018-09-06 09:52:59,969 [DEBUG] System.AggregateException!
+2018-09-06 09:53:15,720 [DEBUG] System.AggregateException!
+2018-09-06 09:54:13,926 [DEBUG] System.AggregateException!
+2018-09-06 09:54:15,885 [DEBUG] System.AggregateException!
+2018-09-06 09:54:45,897 [DEBUG] System.AggregateException!
+2018-09-06 09:55:43,990 [DEBUG] System.AggregateException!
+2018-09-06 09:56:14,103 [DEBUG] System.AggregateException!
+2018-09-06 09:56:16,021 [DEBUG] System.AggregateException!
+2018-09-06 09:56:46,049 [DEBUG] System.AggregateException!
+2018-09-06 09:57:15,902 [DEBUG] System.AggregateException!
+2018-09-06 09:57:45,891 [DEBUG] System.AggregateException!
+2018-09-06 09:58:44,073 [DEBUG] System.AggregateException!
+2018-09-06 09:59:13,904 [DEBUG] System.AggregateException!
+2018-09-06 09:59:15,805 [DEBUG] System.AggregateException!
+2018-09-06 09:59:59,899 [DEBUG] System.AggregateException!
+2018-09-06 10:00:30,660 [DEBUG] System.AggregateException!
+2018-09-06 10:00:35,898 [DEBUG] System.AggregateException!
+2018-09-06 10:01:01,927 [DEBUG] System.AggregateException!
+2018-09-06 10:01:45,971 [DEBUG] System.AggregateException!
+2018-09-06 10:02:15,731 [DEBUG] System.AggregateException!
+2018-09-06 10:02:45,764 [DEBUG] System.AggregateException!
+2018-09-06 10:03:30,119 [DEBUG] System.AggregateException!
+2018-09-06 10:03:30,120 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:04:14,153 [DEBUG] System.AggregateException!
+2018-09-06 10:04:15,965 [DEBUG] System.AggregateException!
+2018-09-06 10:05:13,896 [DEBUG] System.AggregateException!
+2018-09-06 10:05:15,901 [DEBUG] System.AggregateException!
+2018-09-06 10:06:13,846 [DEBUG] System.AggregateException!
+2018-09-06 10:06:15,802 [DEBUG] System.AggregateException!
+2018-09-06 10:06:59,931 [DEBUG] System.AggregateException!
+2018-09-06 10:07:29,683 [DEBUG] System.AggregateException!
+2018-09-06 10:07:59,965 [DEBUG] System.AggregateException!
+2018-09-06 10:08:29,794 [DEBUG] System.AggregateException!
+2018-09-06 10:08:45,886 [DEBUG] System.AggregateException!
+2018-09-06 10:09:01,779 [DEBUG] System.AggregateException!
+2018-09-06 10:10:13,787 [DEBUG] System.AggregateException!
+2018-09-06 10:10:29,865 [DEBUG] System.AggregateException!
+2018-09-06 10:10:59,992 [DEBUG] System.AggregateException!
+2018-09-06 10:11:00,004 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:11:01,789 [DEBUG] System.AggregateException!
+2018-09-06 10:11:46,129 [DEBUG] System.AggregateException!
+2018-09-06 10:12:29,916 [DEBUG] System.AggregateException!
+2018-09-06 10:13:13,808 [DEBUG] System.AggregateException!
+2018-09-06 10:13:15,918 [DEBUG] System.AggregateException!
+2018-09-06 10:14:00,052 [DEBUG] System.AggregateException!
+2018-09-06 10:14:00,055 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:14:29,996 [DEBUG] System.AggregateException!
+2018-09-06 10:14:30,004 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:14:45,858 [DEBUG] System.AggregateException!
+2018-09-06 10:15:29,844 [DEBUG] System.AggregateException!
+2018-09-06 10:15:47,553 [DEBUG] System.AggregateException!
+2018-09-06 10:16:44,106 [DEBUG] System.AggregateException!
+2018-09-06 10:17:00,106 [DEBUG] System.AggregateException!
+2018-09-06 10:17:00,107 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:17:30,053 [DEBUG] System.AggregateException!
+2018-09-06 10:17:30,055 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:18:14,109 [DEBUG] System.AggregateException!
+2018-09-06 10:18:29,967 [DEBUG] System.AggregateException!
+2018-09-06 10:19:00,032 [DEBUG] System.AggregateException!
+2018-09-06 10:19:00,035 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:19:44,071 [DEBUG] System.AggregateException!
+2018-09-06 10:19:45,943 [DEBUG] System.AggregateException!
+2018-09-06 10:20:15,931 [DEBUG] System.AggregateException!
+2018-09-06 10:20:46,294 [DEBUG] System.AggregateException!
+2018-09-06 10:21:44,055 [DEBUG] System.AggregateException!
+2018-09-06 10:21:45,801 [DEBUG] System.AggregateException!
+2018-09-06 10:22:29,902 [DEBUG] System.AggregateException!
+2018-09-06 10:23:14,017 [DEBUG] System.AggregateException!
+2018-09-06 10:23:30,108 [DEBUG] System.AggregateException!
+2018-09-06 10:23:30,109 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:24:00,125 [DEBUG] System.AggregateException!
+2018-09-06 10:24:00,128 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:24:44,102 [DEBUG] System.AggregateException!
+2018-09-06 10:24:59,816 [DEBUG] System.AggregateException!
+2018-09-06 10:25:29,755 [DEBUG] System.AggregateException!
+2018-09-06 10:25:31,936 [DEBUG] System.AggregateException!
+2018-09-06 10:26:30,191 [DEBUG] Batch acquisition of 1 triggers
+2018-09-06 10:26:30,191 [DEBUG] Calling Execute on job DEFAULT.f0
+2018-09-06 10:26:30,219 [DEBUG] System.AggregateException!
+2018-09-06 10:26:30,219 [DEBUG] Start Task : f0
+2018-09-06 10:27:00,091 [DEBUG] System.AggregateException!
+2018-09-06 10:27:00,091 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:27:30,085 [DEBUG] System.AggregateException!
+2018-09-06 10:27:30,086 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:27:31,992 [DEBUG] System.AggregateException!
+2018-09-06 10:28:30,032 [DEBUG] System.AggregateException!
+2018-09-06 10:28:30,035 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:29:00,119 [DEBUG] System.AggregateException!
+2018-09-06 10:29:00,121 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:29:15,795 [DEBUG] System.AggregateException!
+2018-09-06 10:30:00,033 [DEBUG] System.AggregateException!
+2018-09-06 10:30:00,037 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:30:15,979 [DEBUG] System.AggregateException!
+2018-09-06 10:31:13,943 [DEBUG] System.AggregateException!
+2018-09-06 10:31:16,075 [DEBUG] System.AggregateException!
+2018-09-06 10:31:59,787 [DEBUG] System.AggregateException!
+2018-09-06 10:32:15,995 [DEBUG] System.AggregateException!
+2018-09-06 10:32:31,790 [DEBUG] System.AggregateException!
+2018-09-06 10:33:30,006 [DEBUG] System.AggregateException!
+2018-09-06 10:33:30,008 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:33:45,834 [DEBUG] System.AggregateException!
+2018-09-06 10:34:43,969 [DEBUG] System.AggregateException!
+2018-09-06 10:34:59,929 [DEBUG] System.AggregateException!
+2018-09-06 10:35:43,911 [DEBUG] System.AggregateException!
+2018-09-06 10:36:00,031 [DEBUG] System.AggregateException!
+2018-09-06 10:36:00,033 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:36:43,907 [DEBUG] System.AggregateException!
+2018-09-06 10:36:59,904 [DEBUG] System.AggregateException!
+2018-09-06 10:37:30,023 [DEBUG] System.AggregateException!
+2018-09-06 10:37:30,026 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:38:00,065 [DEBUG] System.AggregateException!
+2018-09-06 10:38:00,068 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:38:29,978 [DEBUG] System.AggregateException!
+2018-09-06 10:38:59,911 [DEBUG] System.AggregateException!
+2018-09-06 10:39:29,820 [DEBUG] System.AggregateException!
+2018-09-06 10:39:59,763 [DEBUG] System.AggregateException!
+2018-09-06 10:40:43,955 [DEBUG] System.AggregateException!
+2018-09-06 10:40:45,979 [DEBUG] System.AggregateException!
+2018-09-06 10:41:29,786 [DEBUG] System.AggregateException!
+2018-09-06 10:42:00,006 [DEBUG] System.AggregateException!
+2018-09-06 10:42:00,009 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:42:16,037 [DEBUG] System.AggregateException!
+2018-09-06 10:42:45,819 [DEBUG] System.AggregateException!
+2018-09-06 10:43:15,985 [DEBUG] System.AggregateException!
+2018-09-06 10:43:59,341 [DEBUG] System.AggregateException!
+2018-09-06 10:44:29,942 [DEBUG] System.AggregateException!
+2018-09-06 10:44:45,656 [DEBUG] System.AggregateException!
+2018-09-06 10:45:44,071 [DEBUG] System.AggregateException!
+2018-09-06 10:46:00,011 [DEBUG] System.AggregateException!
+2018-09-06 10:46:00,014 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:46:30,051 [DEBUG] System.AggregateException!
+2018-09-06 10:46:30,053 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:46:46,068 [DEBUG] System.AggregateException!
+2018-09-06 10:47:30,092 [DEBUG] System.AggregateException!
+2018-09-06 10:47:30,092 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:48:00,126 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:48:00,143 [DEBUG] System.AggregateException!
+2018-09-06 10:48:00,142 [DEBUG] Calling Execute on job DEFAULT.f0
+2018-09-06 10:48:00,142 [DEBUG] Batch acquisition of 1 triggers
+2018-09-06 10:48:15,868 [DEBUG] System.AggregateException!
+2018-09-06 10:48:46,086 [DEBUG] System.AggregateException!
+2018-09-06 10:49:29,946 [DEBUG] System.AggregateException!
+2018-09-06 10:49:59,978 [DEBUG] System.AggregateException!
+2018-09-06 10:50:43,944 [DEBUG] System.AggregateException!
+2018-09-06 10:51:14,175 [DEBUG] System.AggregateException!
+2018-09-06 10:51:30,010 [DEBUG] System.AggregateException!
+2018-09-06 10:51:30,012 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:51:59,934 [DEBUG] System.AggregateException!
+2018-09-06 10:52:15,820 [DEBUG] System.AggregateException!
+2018-09-06 10:53:00,120 [DEBUG] Batch acquisition of 1 triggers
+2018-09-06 10:53:00,120 [DEBUG] Calling Execute on job DEFAULT.f0
+2018-09-06 10:53:00,137 [DEBUG] System.AggregateException!
+2018-09-06 10:53:44,038 [DEBUG] System.AggregateException!
+2018-09-06 10:54:00,079 [DEBUG] System.AggregateException!
+2018-09-06 10:54:00,081 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:54:43,968 [DEBUG] System.AggregateException!
+2018-09-06 10:54:45,784 [DEBUG] System.AggregateException!
+2018-09-06 10:55:15,979 [DEBUG] System.AggregateException!
+2018-09-06 10:56:00,188 [DEBUG] Start Task : f0
+2018-09-06 10:56:00,189 [DEBUG] System.AggregateException!
+2018-09-06 10:56:30,119 [DEBUG] System.AggregateException!
+2018-09-06 10:56:30,120 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:57:00,022 [DEBUG] System.AggregateException!
+2018-09-06 10:57:00,025 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:57:30,033 [DEBUG] System.AggregateException!
+2018-09-06 10:57:30,036 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 10:58:14,011 [DEBUG] System.AggregateException!
+2018-09-06 10:58:30,191 [DEBUG] System.AggregateException!
+2018-09-06 10:58:45,877 [DEBUG] System.AggregateException!
+2018-09-06 10:59:29,845 [DEBUG] System.AggregateException!
+2018-09-06 10:59:59,927 [DEBUG] System.AggregateException!
+2018-09-06 11:00:32,957 [DEBUG] System.AggregateException!
+2018-09-06 11:00:46,793 [DEBUG] System.AggregateException!
+2018-09-06 11:01:15,902 [DEBUG] System.AggregateException!
+2018-09-06 11:01:45,913 [DEBUG] System.AggregateException!
+2018-09-06 11:02:29,977 [DEBUG] System.AggregateException!
+2018-09-06 11:02:59,902 [DEBUG] System.AggregateException!
+2018-09-06 11:03:30,042 [DEBUG] System.AggregateException!
+2018-09-06 11:03:30,044 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:03:31,792 [DEBUG] System.AggregateException!
+2018-09-06 11:04:16,002 [DEBUG] System.AggregateException!
+2018-09-06 11:04:32,012 [DEBUG] System.AggregateException!
+2018-09-06 11:05:44,075 [DEBUG] System.AggregateException!
+2018-09-06 11:05:45,928 [DEBUG] System.AggregateException!
+2018-09-06 11:06:30,095 [DEBUG] System.AggregateException!
+2018-09-06 11:06:30,096 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:07:00,107 [DEBUG] System.AggregateException!
+2018-09-06 11:07:00,108 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:07:01,910 [DEBUG] System.AggregateException!
+2018-09-06 11:07:46,018 [DEBUG] System.AggregateException!
+2018-09-06 11:08:16,066 [DEBUG] System.AggregateException!
+2018-09-06 11:09:14,140 [DEBUG] System.AggregateException!
+2018-09-06 11:09:29,886 [DEBUG] System.AggregateException!
+2018-09-06 11:09:59,982 [DEBUG] System.AggregateException!
+2018-09-06 11:10:29,890 [DEBUG] System.AggregateException!
+2018-09-06 11:10:59,966 [DEBUG] System.AggregateException!
+2018-09-06 11:11:29,881 [DEBUG] System.AggregateException!
+2018-09-06 11:11:59,822 [DEBUG] System.AggregateException!
+2018-09-06 11:12:01,813 [DEBUG] System.AggregateException!
+2018-09-06 11:12:45,778 [DEBUG] System.AggregateException!
+2018-09-06 11:13:15,972 [DEBUG] System.AggregateException!
+2018-09-06 11:13:59,943 [DEBUG] System.AggregateException!
+2018-09-06 11:14:15,841 [DEBUG] System.AggregateException!
+2018-09-06 11:14:46,051 [DEBUG] System.AggregateException!
+2018-09-06 11:15:15,998 [DEBUG] System.AggregateException!
+2018-09-06 11:15:31,867 [DEBUG] System.AggregateException!
+2018-09-06 11:16:29,897 [DEBUG] System.AggregateException!
+2018-09-06 11:17:00,008 [DEBUG] System.AggregateException!
+2018-09-06 11:17:00,011 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:17:16,011 [DEBUG] System.AggregateException!
+2018-09-06 11:18:01,850 [DEBUG] System.AggregateException!
+2018-09-06 11:18:13,862 [DEBUG] System.AggregateException!
+2018-09-06 11:18:59,954 [DEBUG] System.AggregateException!
+2018-09-06 11:19:15,695 [DEBUG] System.AggregateException!
+2018-09-06 11:19:59,859 [DEBUG] System.AggregateException!
+2018-09-06 11:20:30,007 [DEBUG] System.AggregateException!
+2018-09-06 11:20:30,010 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:20:45,880 [DEBUG] System.AggregateException!
+2018-09-06 11:21:44,002 [DEBUG] System.AggregateException!
+2018-09-06 11:21:59,954 [DEBUG] System.AggregateException!
+2018-09-06 11:22:43,954 [DEBUG] System.AggregateException!
+2018-09-06 11:22:46,180 [DEBUG] System.AggregateException!
+2018-09-06 11:23:15,730 [DEBUG] System.AggregateException!
+2018-09-06 11:23:59,914 [DEBUG] System.AggregateException!
+2018-09-06 11:24:29,918 [DEBUG] System.AggregateException!
+2018-09-06 11:24:59,734 [DEBUG] System.AggregateException!
+2018-09-06 11:25:30,054 [DEBUG] System.AggregateException!
+2018-09-06 11:25:30,056 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:25:59,967 [DEBUG] System.AggregateException!
+2018-09-06 11:26:29,913 [DEBUG] System.AggregateException!
+2018-09-06 11:26:59,904 [DEBUG] System.AggregateException!
+2018-09-06 11:27:29,747 [DEBUG] System.AggregateException!
+2018-09-06 11:27:59,920 [DEBUG] System.AggregateException!
+2018-09-06 11:28:30,034 [DEBUG] System.AggregateException!
+2018-09-06 11:28:30,037 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:28:46,094 [DEBUG] System.AggregateException!
+2018-09-06 11:29:16,040 [DEBUG] System.AggregateException!
+2018-09-06 11:29:45,965 [DEBUG] System.AggregateException!
+2018-09-06 11:30:16,147 [DEBUG] System.AggregateException!
+2018-09-06 11:30:59,944 [DEBUG] System.AggregateException!
+2018-09-06 11:31:29,654 [DEBUG] System.AggregateException!
+2018-09-06 11:31:59,908 [DEBUG] System.AggregateException!
+2018-09-06 11:32:30,003 [DEBUG] System.AggregateException!
+2018-09-06 11:32:30,006 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:33:00,085 [DEBUG] System.AggregateException!
+2018-09-06 11:33:00,086 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:33:30,021 [DEBUG] System.AggregateException!
+2018-09-06 11:33:30,024 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:34:00,050 [DEBUG] System.AggregateException!
+2018-09-06 11:34:00,051 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:34:15,865 [DEBUG] System.AggregateException!
+2018-09-06 11:34:45,879 [DEBUG] System.AggregateException!
+2018-09-06 11:35:15,832 [DEBUG] System.AggregateException!
+2018-09-06 11:35:59,933 [DEBUG] System.AggregateException!
+2018-09-06 11:36:29,799 [DEBUG] System.AggregateException!
+2018-09-06 11:36:59,913 [DEBUG] System.AggregateException!
+2018-09-06 11:37:15,774 [DEBUG] System.AggregateException!
+2018-09-06 11:38:00,116 [DEBUG] System.AggregateException!
+2018-09-06 11:38:00,117 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:38:15,949 [DEBUG] System.AggregateException!
+2018-09-06 11:39:00,064 [DEBUG] System.AggregateException!
+2018-09-06 11:39:00,067 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:39:30,126 [DEBUG] System.AggregateException!
+2018-09-06 11:39:30,126 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:40:00,185 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:40:00,202 [DEBUG] System.AggregateException!
+2018-09-06 11:40:00,201 [DEBUG] Batch acquisition of 1 triggers
+2018-09-06 11:40:00,201 [DEBUG] Calling Execute on job DEFAULT.f0
+2018-09-06 11:40:16,033 [DEBUG] System.AggregateException!
+2018-09-06 11:40:31,788 [DEBUG] System.AggregateException!
+2018-09-06 11:41:15,843 [DEBUG] System.AggregateException!
+2018-09-06 11:42:00,089 [DEBUG] System.AggregateException!
+2018-09-06 11:42:00,091 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:42:01,973 [DEBUG] System.AggregateException!
+2018-09-06 11:43:14,045 [DEBUG] System.AggregateException!
+2018-09-06 11:43:44,017 [DEBUG] System.AggregateException!
+2018-09-06 11:44:14,036 [DEBUG] System.AggregateException!
+2018-09-06 11:44:29,936 [DEBUG] System.AggregateException!
+2018-09-06 11:45:13,960 [DEBUG] System.AggregateException!
+2018-09-06 11:45:15,884 [DEBUG] System.AggregateException!
+2018-09-06 11:45:32,023 [DEBUG] System.AggregateException!
+2018-09-06 11:46:44,015 [DEBUG] System.AggregateException!
+2018-09-06 11:46:59,906 [DEBUG] System.AggregateException!
+2018-09-06 11:47:15,882 [DEBUG] System.AggregateException!
+2018-09-06 11:47:45,882 [DEBUG] System.AggregateException!
+2018-09-06 11:48:29,940 [DEBUG] System.AggregateException!
+2018-09-06 11:48:59,936 [DEBUG] System.AggregateException!
+2018-09-06 11:49:15,930 [DEBUG] System.AggregateException!
+2018-09-06 11:49:45,935 [DEBUG] System.AggregateException!
+2018-09-06 11:50:29,908 [DEBUG] System.AggregateException!
+2018-09-06 11:50:59,993 [DEBUG] System.AggregateException!
+2018-09-06 11:51:00,004 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:51:15,882 [DEBUG] System.AggregateException!
+2018-09-06 11:52:00,136 [DEBUG] System.AggregateException!
+2018-09-06 11:52:00,137 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:52:02,031 [DEBUG] System.AggregateException!
+2018-09-06 11:52:31,771 [DEBUG] System.AggregateException!
+2018-09-06 11:53:15,987 [DEBUG] System.AggregateException!
+2018-09-06 11:54:00,147 [DEBUG] System.AggregateException!
+2018-09-06 11:54:29,827 [DEBUG] System.AggregateException!
+2018-09-06 11:54:45,760 [DEBUG] System.AggregateException!
+2018-09-06 11:55:30,135 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:55:30,135 [DEBUG] System.AggregateException!
+2018-09-06 11:55:30,148 [DEBUG] Batch acquisition of 1 triggers
+2018-09-06 11:55:30,148 [DEBUG] Calling Execute on job DEFAULT.f0
+2018-09-06 11:56:00,025 [DEBUG] System.AggregateException!
+2018-09-06 11:56:00,029 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 11:56:43,955 [DEBUG] System.AggregateException!
+2018-09-06 11:56:45,956 [DEBUG] System.AggregateException!
+2018-09-06 11:57:16,104 [DEBUG] System.AggregateException!
+2018-09-06 11:57:59,876 [DEBUG] System.AggregateException!
+2018-09-06 11:58:29,924 [DEBUG] System.AggregateException!
+2018-09-06 11:58:31,828 [DEBUG] System.AggregateException!
+2018-09-06 11:59:30,062 [DEBUG] System.AggregateException!
+2018-09-06 11:59:30,063 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 12:00:00,085 [DEBUG] System.AggregateException!
+2018-09-06 12:00:00,086 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 12:00:16,190 [DEBUG] System.AggregateException!
+2018-09-06 12:01:03,195 [DEBUG] System.AggregateException!
+2018-09-06 12:01:21,435 [DEBUG] System.AggregateException!
+2018-09-06 12:01:31,916 [DEBUG] System.AggregateException!
+2018-09-06 12:02:44,015 [DEBUG] System.AggregateException!
+2018-09-06 12:03:00,010 [DEBUG] System.AggregateException!
+2018-09-06 12:03:00,014 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-09-06 12:03:16,107 [DEBUG] System.AggregateException!
+2018-09-06 12:03:45,966 [DEBUG] System.AggregateException!
+2018-09-06 12:04:29,809 [DEBUG] System.AggregateException!
+2018-09-06 12:04:59,939 [DEBUG] System.AggregateException!
+2018-09-06 12:05:57,910 [DEBUG] System.AggregateException!
+2018-09-06 12:06:31,699 [DEBUG] System.AggregateException!
+2018-09-06 12:06:47,088 [DEBUG] System.AggregateException!
+2018-09-06 12:07:51,226 [DEBUG] System.AggregateException!
+2018-09-06 12:08:04,364 [DEBUG] System.AggregateException!
+2018-09-06 12:08:17,129 [DEBUG] System.AggregateException!
+2018-09-06 12:09:01,356 [DEBUG] System.AggregateException!
+2018-09-06 12:09:49,666 [DEBUG] System.AggregateException!
+2018-09-06 12:10:06,027 [DEBUG] System.AggregateException!
+2018-09-06 12:10:20,509 [DEBUG] System.AggregateException!
+2018-09-06 12:11:05,516 [DEBUG] System.AggregateException!
+2018-09-06 12:11:20,342 [DEBUG] System.AggregateException!
+2018-09-06 12:11:42,020 [DEBUG] System.AggregateException!
+2018-09-06 12:12:15,854 [DEBUG] System.AggregateException!
+2018-09-06 12:12:17,007 [DEBUG] System.AggregateException!
+2018-09-06 12:12:31,929 [DEBUG] System.AggregateException!
+2018-09-06 12:13:02,011 [DEBUG] System.AggregateException!
+2018-09-06 12:13:31,923 [DEBUG] System.AggregateException!
+2018-09-06 12:14:01,901 [DEBUG] System.AggregateException!
+2018-09-06 12:14:31,902 [DEBUG] System.AggregateException!
+2018-09-06 12:15:01,870 [DEBUG] System.AggregateException!
+2018-09-06 12:15:31,824 [DEBUG] System.AggregateException!
+2018-09-06 12:16:01,933 [DEBUG] System.AggregateException!
+2018-09-06 12:16:31,872 [DEBUG] System.AggregateException!
+2018-09-06 12:17:02,097 [DEBUG] System.AggregateException!
+2018-09-06 12:17:31,953 [DEBUG] System.AggregateException!
+2018-09-06 12:18:02,008 [DEBUG] System.AggregateException!
+2018-09-06 12:18:31,871 [DEBUG] System.AggregateException!
+2018-09-06 12:19:01,807 [DEBUG] System.AggregateException!
+2018-09-06 12:19:31,901 [DEBUG] System.AggregateException!
+2018-09-06 12:20:01,876 [DEBUG] System.AggregateException!
+2018-09-06 12:20:31,804 [DEBUG] System.AggregateException!
+2018-09-06 12:21:02,203 [DEBUG] System.AggregateException!
+2018-09-06 12:21:32,005 [DEBUG] System.AggregateException!
+2018-09-06 12:22:01,793 [DEBUG] System.AggregateException!
+2018-09-06 12:22:32,002 [DEBUG] System.AggregateException!
+2018-09-06 12:23:02,017 [DEBUG] System.AggregateException!
+2018-09-06 12:23:32,044 [DEBUG] System.AggregateException!
+2018-09-06 12:24:01,981 [DEBUG] System.AggregateException!
+2018-09-06 12:24:31,874 [DEBUG] System.AggregateException!
+2018-09-06 12:25:01,986 [DEBUG] System.AggregateException!
+2018-09-06 12:25:31,764 [DEBUG] System.AggregateException!
+2018-09-06 12:26:02,032 [DEBUG] System.AggregateException!
+2018-09-06 12:26:31,951 [DEBUG] System.AggregateException!
+2018-09-06 12:27:01,970 [DEBUG] System.AggregateException!
+2018-09-06 12:27:31,831 [DEBUG] System.AggregateException!
+2018-09-06 12:28:02,129 [DEBUG] System.AggregateException!
+2018-09-06 12:28:31,996 [DEBUG] System.AggregateException!
+2018-09-06 12:29:01,998 [DEBUG] System.AggregateException!
+2018-09-06 12:29:32,023 [DEBUG] System.AggregateException!
+2018-09-06 12:30:01,958 [DEBUG] System.AggregateException!
+2018-09-06 12:30:31,818 [DEBUG] System.AggregateException!
+2018-09-06 12:31:01,494 [DEBUG] System.AggregateException!
+2018-09-06 13:41:01,527 [DEBUG] reassembledFGR Null Exception!
+2018-09-06 13:41:31,559 [DEBUG] reassembledFGR Null Exception!
+2018-09-07 10:01:03,662 [DEBUG] System.AggregateException!
+2018-09-07 11:09:24,066 [DEBUG] New address added!
+2018-09-07 11:09:51,307 [DEBUG] Shutdown CrawlManager FJ Tasks
+2018-09-07 11:09:51,321 [DEBUG] Batch acquisition of 0 triggers
+2018-09-07 11:09:51,331 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-09-07 11:09:51,353 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-09-07 11:09:51,371 [DEBUG] Shutting down threadpool...
+2018-09-07 11:09:51,382 [DEBUG] Shutdown of threadpool complete.
+2018-09-07 11:09:51,400 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2018-09-07 11:09:51,412 [DEBUG] Start CrawlManager Tasks
+2018-09-07 11:09:51,424 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-07 11:09:51,441 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-07 11:09:51,467 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-07 11:09:51,478 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-07 11:09:51,490 [INFO ] RAMJobStore initialized.
+2018-09-07 11:09:51,501 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
   Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
   NOT STARTED.
   Currently in standby mode.
@@ -108,17 +613,200 @@
   Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
   Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
 
-2018-08-30 15:20:59,471 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
-2018-08-30 15:20:59,485 [INFO ] Quartz scheduler version: 3.0.5.0
-2018-08-30 15:20:59,519 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
-2018-08-30 15:20:59,527 [DEBUG] Batch acquisition of 0 triggers
-2018-08-30 15:20:59,650 [DEBUG] Batch acquisition of 1 triggers
-2018-08-30 15:20:59,665 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 06:21:00 +00:00
-2018-08-30 15:41:00,381 [DEBUG] reassembledFGR Null Exception!
-2018-08-30 15:41:30,456 [DEBUG] reassembledFGR Null Exception!
-2018-09-01 12:41:00,781 [DEBUG] reassembledFGR Null Exception!
-2018-09-01 12:41:30,747 [DEBUG] reassembledFGR Null Exception!
-2018-09-01 12:41:30,761 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.FJDBCheckJob
-2018-09-01 12:42:00,658 [DEBUG] reassembledFGR Null Exception!
-2018-09-03 14:41:01,057 [DEBUG] reassembledFGR Null Exception!
-2018-09-03 14:42:00,981 [DEBUG] reassembledFGR Null Exception!
+2018-09-07 11:09:51,512 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-07 11:09:51,523 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-07 11:09:51,535 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-07 11:09:51,535 [DEBUG] Batch acquisition of 0 triggers
+2018-09-07 11:09:51,559 [DEBUG] Batch acquisition of 1 triggers
+2018-09-07 11:09:51,561 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/07/2018 02:10:00 +00:00
+2018-09-07 11:10:40,273 [DEBUG] New address added!
+2018-09-07 11:10:44,158 [DEBUG] Shutdown CrawlManager FJ Tasks
+2018-09-07 11:10:44,171 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2018-09-07 11:10:44,171 [DEBUG] Batch acquisition of 0 triggers
+2018-09-07 11:10:44,182 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED paused.
+2018-09-07 11:10:44,207 [DEBUG] Shutting down threadpool...
+2018-09-07 11:10:44,218 [DEBUG] Shutdown of threadpool complete.
+2018-09-07 11:10:44,229 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED Shutdown complete.
+2018-09-07 11:10:44,240 [DEBUG] Start CrawlManager Tasks
+2018-09-07 11:10:44,252 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-07 11:10:44,269 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-07 11:10:44,295 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-07 11:10:44,306 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-07 11:10:44,317 [INFO ] RAMJobStore initialized.
+2018-09-07 11:10:44,328 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-07 11:10:44,339 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-07 11:10:44,351 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-07 11:10:44,362 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-07 11:10:44,362 [DEBUG] Batch acquisition of 0 triggers
+2018-09-07 11:10:44,387 [DEBUG] Batch acquisition of 1 triggers
+2018-09-07 11:10:44,388 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/07/2018 02:11:00 +00:00
+2018-09-07 11:12:45,836 [DEBUG] App Started!
+2018-09-07 11:12:46,153 [DEBUG] Start CrawlManager Tasks
+2018-09-07 11:12:46,372 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-07 11:12:46,500 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-07 11:12:46,587 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-07 11:12:46,612 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-07 11:12:46,627 [INFO ] RAMJobStore initialized.
+2018-09-07 11:12:46,646 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-07 11:12:46,659 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-07 11:12:46,671 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-07 11:12:46,702 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-07 11:12:46,710 [DEBUG] Batch acquisition of 0 triggers
+2018-09-07 11:12:46,831 [DEBUG] Batch acquisition of 1 triggers
+2018-09-07 11:12:46,848 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/07/2018 02:13:00 +00:00
+2018-09-07 11:14:41,779 [DEBUG] 0 is deleted
+2018-09-07 15:36:04,078 [DEBUG] System.AggregateException!
+2018-09-07 15:48:50,767 [DEBUG] System.AggregateException!
+2018-09-07 15:50:45,738 [DEBUG] System.AggregateException!
+2018-09-07 16:52:24,127 [DEBUG] System.AggregateException!
+2018-09-08 16:01:02,208 [DEBUG] System.AggregateException!
+2018-09-09 14:01:02,281 [DEBUG] System.AggregateException!
+2018-09-09 15:21:02,232 [DEBUG] System.AggregateException!
+2018-09-09 15:36:02,075 [DEBUG] System.AggregateException!
+2018-09-09 15:51:02,297 [DEBUG] System.AggregateException!
+2018-09-09 15:56:02,055 [DEBUG] System.AggregateException!
+2018-09-09 17:16:02,195 [DEBUG] System.AggregateException!
+2018-09-09 18:16:02,202 [DEBUG] System.AggregateException!
+2018-09-09 19:26:02,158 [DEBUG] System.AggregateException!
+2018-09-09 20:36:02,474 [DEBUG] System.AggregateException!
+2018-09-10 09:21:02,916 [DEBUG] System.AggregateException!
+2018-09-10 14:36:26,714 [DEBUG] App Started!
+2018-09-10 14:36:28,143 [DEBUG] Start CrawlManager Tasks
+2018-09-10 14:36:28,343 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-10 14:36:28,458 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-10 14:36:28,546 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-10 14:36:28,570 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-10 14:36:28,586 [INFO ] RAMJobStore initialized.
+2018-09-10 14:36:28,604 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-10 14:36:28,617 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-10 14:36:28,630 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-10 14:36:28,662 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-10 14:36:28,669 [DEBUG] Batch acquisition of 0 triggers
+2018-09-10 14:36:28,791 [DEBUG] Batch acquisition of 1 triggers
+2018-09-10 14:36:28,813 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/10/2018 05:36:30 +00:00
+2018-09-10 14:40:10,799 [DEBUG] App Started!
+2018-09-10 14:40:12,097 [DEBUG] Start CrawlManager Tasks
+2018-09-10 14:40:12,281 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-10 14:40:12,405 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-10 14:40:12,486 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-10 14:40:12,509 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-10 14:40:12,524 [INFO ] RAMJobStore initialized.
+2018-09-10 14:40:12,543 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-10 14:40:12,555 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-10 14:40:12,567 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-10 14:40:12,599 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-10 14:40:12,607 [DEBUG] Batch acquisition of 0 triggers
+2018-09-10 14:40:12,727 [DEBUG] Batch acquisition of 1 triggers
+2018-09-10 14:40:12,729 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/10/2018 05:40:30 +00:00
+2018-09-10 14:53:12,722 [DEBUG] App Started!
+2018-09-10 14:53:14,207 [DEBUG] Start CrawlManager Tasks
+2018-09-10 14:53:14,367 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-10 14:53:14,469 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-10 14:53:14,538 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-10 14:53:14,557 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-10 14:53:14,570 [INFO ] RAMJobStore initialized.
+2018-09-10 14:53:14,586 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-10 14:53:14,598 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-10 14:53:14,610 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-10 14:53:14,636 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-10 14:53:14,642 [DEBUG] Batch acquisition of 0 triggers
+2018-09-10 14:53:14,739 [DEBUG] Batch acquisition of 1 triggers
+2018-09-10 14:53:14,753 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/10/2018 05:53:30 +00:00
+2018-09-10 14:55:26,019 [DEBUG] App Started!
+2018-09-10 14:55:27,336 [DEBUG] Start CrawlManager Tasks
+2018-09-10 14:55:27,534 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-10 14:55:27,664 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-10 14:55:27,782 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-10 14:55:27,805 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-10 14:55:27,822 [INFO ] RAMJobStore initialized.
+2018-09-10 14:55:27,840 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-10 14:55:27,853 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-10 14:55:27,865 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-10 14:55:27,897 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-10 14:55:27,904 [DEBUG] Batch acquisition of 0 triggers
+2018-09-10 14:55:28,029 [DEBUG] Batch acquisition of 1 triggers
+2018-09-10 14:55:28,031 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/10/2018 05:55:30 +00:00
+2018-09-10 14:56:33,270 [DEBUG] App Started!
+2018-09-10 14:56:34,547 [DEBUG] Start CrawlManager Tasks
+2018-09-10 14:56:34,743 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-10 14:56:34,874 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-10 14:56:34,977 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-10 14:56:35,000 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-10 14:56:35,015 [INFO ] RAMJobStore initialized.
+2018-09-10 14:56:35,035 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-10 14:56:35,049 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-10 14:56:35,063 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-10 14:56:35,095 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-10 14:56:35,102 [DEBUG] Batch acquisition of 0 triggers
+2018-09-10 14:56:35,226 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/10/2018 05:57:00 +00:00
+2018-09-10 14:56:35,224 [DEBUG] Batch acquisition of 1 triggers
+2018-09-10 14:59:37,408 [DEBUG] App Started!
+2018-09-10 14:59:40,061 [DEBUG] Start CrawlManager Tasks
+2018-09-10 14:59:40,246 [INFO ] Default Quartz.NET properties loaded from embedded resource file
+2018-09-10 14:59:40,371 [DEBUG] TaskSchedulingThreadPool configured with max concurrency of 10 and TaskScheduler ThreadPoolTaskScheduler.
+2018-09-10 14:59:40,455 [INFO ] Initialized Scheduler Signaller of type: Quartz.Core.SchedulerSignalerImpl
+2018-09-10 14:59:40,477 [INFO ] Quartz Scheduler v.3.0.5.0 created.
+2018-09-10 14:59:40,492 [INFO ] RAMJobStore initialized.
+2018-09-10 14:59:40,511 [INFO ] Scheduler meta-data: Quartz Scheduler (v3.0.5.0) 'DefaultQuartzScheduler' with instanceId 'NON_CLUSTERED'
+  Scheduler class: 'Quartz.Core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'Quartz.Simpl.DefaultThreadPool' - with 10 threads.
+  Using job-store 'Quartz.Simpl.RAMJobStore' - which does not support persistence. and is not clustered.
+
+2018-09-10 14:59:40,523 [INFO ] Quartz scheduler 'DefaultQuartzScheduler' initialized
+2018-09-10 14:59:40,536 [INFO ] Quartz scheduler version: 3.0.5.0
+2018-09-10 14:59:40,568 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED started.
+2018-09-10 14:59:40,575 [DEBUG] Batch acquisition of 0 triggers
+2018-09-10 14:59:40,696 [DEBUG] Batch acquisition of 1 triggers
+2018-09-10 14:59:40,711 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 09/10/2018 06:00:00 +00:00

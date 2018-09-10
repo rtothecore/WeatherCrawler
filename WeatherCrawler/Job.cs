@@ -217,6 +217,10 @@ namespace WeatherCrawler
             wcd.currentData.Add(tmpCD);
 
             // twoHour
+            int[] fctTimeTable = {3, 2, 4, 3, 2, 4, 3, 2, 4, 3, 2, 4, 3, 2, 4, 3, 2, 4, 3, 2, 4, 3, 2, 4};
+            string ftsrHour = UtilManager.GetFTSRHour();
+            int fctTimeIndex = fctTimeTable[Int32.Parse(ftsrHour)];
+
             ForecastTimeSpaceResult ftsr = null;
             try
             {
@@ -242,6 +246,7 @@ namespace WeatherCrawler
             Fcst tmpFcst = new Fcst();
             tmpFcst.insertDate = UtilManager.GetNowDateTime();
 
+            // twoHour - 1Hour
             string startDateTime = UtilManager.GetStartDateTime(ftsr);
             string startDate = startDateTime.Substring(0, 8);
             string startTime = startDateTime.Substring(8, 4);
@@ -262,6 +267,7 @@ namespace WeatherCrawler
             tmpFW.reh = tmpItem.fcstValue;
             tmpFcst.weather.Add(tmpFW);
 
+            // twoHour - 2Hour
             string startDatePlusOneHour = UtilManager.GetStartDateTimePlusOneHour(startDateTime);
             string plusOneHourDate = startDatePlusOneHour.Substring(0, 8);
             string plusOneHourTime = startDatePlusOneHour.Substring(8, 4);
@@ -280,6 +286,52 @@ namespace WeatherCrawler
             tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusOneHourDate, plusOneHourTime, "REH");
             tmpFW.reh = tmpItem.fcstValue;
             tmpFcst.weather.Add(tmpFW);
+
+            // twoHour - 3Hour
+            if (3 <= fctTimeIndex)
+            {
+                string startDatePlusTwoHour = UtilManager.GetStartDateTimePlusTwoHour(startDateTime);
+                string plusTwoHourDate = startDatePlusTwoHour.Substring(0, 8);
+                string plusTwoHourTime = startDatePlusTwoHour.Substring(8, 4);
+
+                tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusTwoHourDate, plusTwoHourTime, "PTY");
+                tmpFW = new FcstWeather();
+                tmpFW.fcstDate = tmpItem.fcstDate.ToString();
+                tmpFW.fcstTime = tmpItem.fcstTime.ToString();
+                tmpFW.pty = tmpItem.fcstValue;
+                tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusTwoHourDate, plusTwoHourTime, "RN1");
+                tmpFW.rn1 = tmpItem.fcstValue;
+                tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusTwoHourDate, plusTwoHourTime, "SKY");
+                tmpFW.sky = tmpItem.fcstValue;
+                tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusTwoHourDate, plusTwoHourTime, "T1H");
+                tmpFW.t1h = tmpItem.fcstValue;
+                tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusTwoHourDate, plusTwoHourTime, "REH");
+                tmpFW.reh = tmpItem.fcstValue;
+                tmpFcst.weather.Add(tmpFW);
+            }
+
+            // twoHour - 4Hour
+            if (4 == fctTimeIndex)
+            {
+                string startDatePlusThreeHour = UtilManager.GetStartDateTimePlusThreeHour(startDateTime);
+                string plusThreeHourDate = startDatePlusThreeHour.Substring(0, 8);
+                string plusThreeHourTime = startDatePlusThreeHour.Substring(8, 4);
+
+                tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusThreeHourDate, plusThreeHourTime, "PTY");
+                tmpFW = new FcstWeather();
+                tmpFW.fcstDate = tmpItem.fcstDate.ToString();
+                tmpFW.fcstTime = tmpItem.fcstTime.ToString();
+                tmpFW.pty = tmpItem.fcstValue;
+                tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusThreeHourDate, plusThreeHourTime, "RN1");
+                tmpFW.rn1 = tmpItem.fcstValue;
+                tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusThreeHourDate, plusThreeHourTime, "SKY");
+                tmpFW.sky = tmpItem.fcstValue;
+                tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusThreeHourDate, plusThreeHourTime, "T1H");
+                tmpFW.t1h = tmpItem.fcstValue;
+                tmpItem = UtilManager.GetFcstWeatherFromTimeNCategory(ftsr, plusThreeHourDate, plusThreeHourTime, "REH");
+                tmpFW.reh = tmpItem.fcstValue;
+                tmpFcst.weather.Add(tmpFW);
+            }
 
             wcd.twoHour = tmpFcst;
 

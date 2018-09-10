@@ -1,0 +1,15 @@
+2018-08-30 14:34:34,432 [DEBUG] TaskAddrJob - job:JobDetail 'DEFAULT.0':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTrigger0':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 08/30/2018 05:35:00 +00:00
+2018-08-30 14:35:41,286 [DEBUG] Start Task : 0
+2018-08-30 14:35:41,288 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.Job
+2018-08-30 14:35:41,311 [DEBUG] Start Task : 0
+2018-08-30 14:35:42,545 [DEBUG] End Task : 0
+2018-08-30 14:35:42,816 [DEBUG] End Task : 0
+2018-08-30 14:36:00,012 [DEBUG] Start Task : 0
+2018-08-30 14:36:00,015 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-08-30 14:36:01,439 [DEBUG] End Task : 0
+2018-08-30 14:36:30,027 [DEBUG] Start Task : 0
+2018-08-30 14:36:30,029 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-08-30 14:36:32,236 [DEBUG] End Task : 0
+2018-08-30 14:37:00,032 [DEBUG] Start Task : 0
+2018-08-30 14:37:00,035 [DEBUG] Producing instance of Job 'DEFAULT.f0', class=WeatherCrawler.Job
+2018-08-30 14:37:01,684 [DEBUG] End Task : 0

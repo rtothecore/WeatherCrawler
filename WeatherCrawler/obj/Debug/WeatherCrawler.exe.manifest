@@ -1314,14 +1314,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WeatherCrawler.exe" size="154584">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="WeatherCrawler.exe" size="156120">
       <assemblyIdentity name="WeatherCrawler" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>0qe89JuY3QKp6IxVJe2VYT6OoMHltRWTG95Zr1wU88s=</dsig:DigestValue>
+        <dsig:DigestValue>KI5IVKnnUPu68KUk6mwqeKGQ4bFK7HXiVIG211fhBZk=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
