@@ -9,10 +9,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Web;
 
+
 namespace WeatherCrawler
 {
     class HttpClientManager
     {
+        private const string ggApiKey = "AIzaSyAncduIQaCrcnidAlEyuiqX56eVI54FB_M";
+        private const string jusoApiKey = "U01TX0FVVEgyMDE5MDEyOTEwMDQ0NjEwODQ4MzI=";
         private const string ServiceKey = "LjH8nbo4EHGuEhjqKt5sZaaSwUf%2BIMq9eBqk3pmPZ2lvUMEZ4Y%2Fqr4srvS20tgdFbAzf09sKOq5Ct8vielNKlg%3D%3D";
         private const string ServiceKeyForAir = "73Jjl5lZRvBRKkGsPnGmZ7EL9JtwsWNi3hhCIN8cpVJzMdRRgyzntwz2lHmTKeR1tp7NWzoihNGGazcDEFgh8w%3D%3D";
 
@@ -33,7 +36,8 @@ namespace WeatherCrawler
                 Console.WriteLine("Address:" + address +
                                   ", LatLng:(" + gmr.results[0].geometry.location.lat + ", " + gmr.results[0].geometry.location.lng + ")" +
                                   ", NxNy:(" + nxny.x + ", " + nxny.y + ")"
-                                  );
+                                  );                                  
+
                 FwjournalIniManager fiManager = new FwjournalIniManager();
                 fiManager.WriteAddress(address, nxny.x, nxny.y);
             }
@@ -57,11 +61,10 @@ namespace WeatherCrawler
             return true;
         }
 
-        // http://maps.googleapis.com/maps/api/geocode/json
-        // ?sensor=false&language=ko&address=제주특별자치도%20제주시%20이도이동
+        // https://maps.googleapis.com/maps/api/geocode/json?address=제주특별자치도%20제주시%20고마로88&key=AIzaSyAncduIQaCrcnidAlEyuiqX56eVI54FB_M
         private static async Task<GoogleMapsResult> GetGPSLocationAsync(string url, string urlParameters)
         {
-            string page = url + urlParameters;
+            string page = url + urlParameters + "&key=" + ggApiKey;
 
             using (HttpClient client = new HttpClient())
             {
@@ -131,6 +134,30 @@ namespace WeatherCrawler
             return await GetAirData(url, umd);
         }
 
+        // http://www.juso.go.kr/addrlink/addrLinkApi.do?currentPage=1&countPerPage=10&keyword=%EA%B3%A0%EB%A7%88%EB%A1%9C88&confmKey=U01TX0FVVEgyMDE5MDEyOTEwMDQ0NjEwODQ4MzI=
+        private static async Task<JusoResult> GetJibunJuso(string address)
+        {
+            string page = "http://www.juso.go.kr/addrlink/addrLinkApi.do?" +
+                          "currentPage=1&countPerPage=10&keyword=" + address +
+                          "&confmKey=" + jusoApiKey +
+                          "&resultType=json";
+
+            using (HttpClient client = new HttpClient())
+            {
+                client.DefaultRequestHeaders.Accept.Clear();
+                client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+                using (HttpResponseMessage response = await client.GetAsync(page))
+                using (HttpContent content = response.Content)
+                {
+                    // return await content.ReadAsAsync<ForecastGribResult>();
+                    // https://www.newtonsoft.com/json
+                    var stringResult = await content.ReadAsStringAsync();                    
+                    JusoResult result = JsonConvert.DeserializeObject<JusoResult>(stringResult);
+                    return result;
+                }
+            }
+        }
+
         /*
          * http://openapi.airkorea.or.kr/openapi/services/rest/MsrstnInfoInqireSvc/getTMStdrCrdnt?
            umdName=일도이동
@@ -142,12 +169,14 @@ namespace WeatherCrawler
          */
         private static async Task<AirDataResult> GetAirData(string url, string umd)
         {
+            JusoResult jibunJuso = await GetJibunJuso(umd);
             string page = url +
-                          "umdName=" + umd +
+                          "umdName=" + UtilManager.GetUmdFromAddress(jibunJuso.results.juso[0].jibunAddr) +
                           "&pageNo=1" +
                           "&numOfRows=10" +
                           "&ServiceKey=" + ServiceKeyForAir +
                           "&_returnType=json";
+            Console.WriteLine("GetAirData says: {0}", page);
 
             using (HttpClient client = new HttpClient())
             {

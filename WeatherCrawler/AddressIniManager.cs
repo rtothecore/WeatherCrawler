@@ -161,7 +161,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("영농일지 주소 정보가 없습니다");
+                MessageBox.Show("영농일지 주소 정보가 없습니다1");
             }
             else
             {
@@ -170,7 +170,7 @@ namespace WeatherCrawler
 
                 if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
                 {
-                    MessageBox.Show("영농일지 주소 정보가 없습니다");
+                    MessageBox.Show("영농일지 주소 정보가 없습니다2");
                 }
                 else
                 {

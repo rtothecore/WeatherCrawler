@@ -1,0 +1,23 @@
+2019-01-29 11:16:55,752 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f5':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf5':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 02:17:00 +00:00
+2019-01-29 11:17:00,158 [DEBUG] Start Task : f5
+2019-01-29 11:17:15,097 [DEBUG] End Task : f5
+2019-01-29 11:18:00,306 [DEBUG] Start Task : f5
+2019-01-29 11:18:22,113 [DEBUG] End Task : f5
+2019-01-29 11:19:00,250 [DEBUG] Start Task : f5
+2019-01-29 11:19:08,094 [DEBUG] End Task : f5
+2019-01-29 11:20:00,230 [DEBUG] Start Task : f5
+2019-01-29 11:20:00,763 [DEBUG] End Task : f5
+2019-01-29 11:21:00,277 [DEBUG] Start Task : f5
+2019-01-29 11:21:00,559 [DEBUG] End Task : f5
+2019-01-29 11:22:00,216 [DEBUG] Start Task : f5
+2019-01-29 11:22:00,502 [DEBUG] End Task : f5
+2019-01-29 11:23:00,200 [DEBUG] Start Task : f5
+2019-01-29 11:23:00,538 [DEBUG] End Task : f5
+2019-01-29 11:24:00,288 [DEBUG] Start Task : f5
+2019-01-29 11:24:00,590 [DEBUG] End Task : f5
+2019-01-29 11:25:00,200 [DEBUG] Start Task : f5
+2019-01-29 11:25:00,490 [DEBUG] End Task : f5
+2019-01-29 11:26:00,224 [DEBUG] Start Task : f5
+2019-01-29 11:26:00,530 [DEBUG] End Task : f5
+2019-01-29 11:27:00,262 [DEBUG] Start Task : f5
+2019-01-29 11:27:00,584 [DEBUG] End Task : f5

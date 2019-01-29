@@ -53,8 +53,13 @@ namespace WeatherCrawler
         private async Task<bool> RunGetGPSAndConvertNxNyAndWriteFI(List<string> addresses)
         {
             HttpClientManager hcManager = new HttpClientManager();
+            /*
             return await hcManager.RunGetGPSAndConvertNxNyAndWriteFI("http://maps.googleapis.com/maps/api/geocode/json",
                                                         "?sensor=false&language=ko&address=",
+                                                        addresses);
+            */
+            return await hcManager.RunGetGPSAndConvertNxNyAndWriteFI("https://maps.googleapis.com/maps/api/geocode/json",
+                                                        "?address=",
                                                         addresses);
         }
     }

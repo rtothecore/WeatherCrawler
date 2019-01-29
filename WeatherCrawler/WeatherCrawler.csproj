@@ -118,6 +118,7 @@
     <Compile Include="DbManager.cs" />
     <Compile Include="FJDBCheckJob.cs" />
     <Compile Include="Fonts.cs" />
+    <Compile Include="JusoResult.cs" />
     <Compile Include="ForecastGribResult.cs" />
     <Compile Include="ForecastTimeSpaceResult.cs" />
     <Compile Include="Form1.cs">

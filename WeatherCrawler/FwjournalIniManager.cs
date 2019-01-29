@@ -69,7 +69,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("영농일지 주소 정보가 없습니다");
+                MessageBox.Show("영농일지 주소 정보가 없습니다3");
             }
             else
             {
@@ -116,7 +116,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("영농일지 주소 정보가 없습니다");
+                MessageBox.Show("영농일지 주소 정보가 없습니다4");
             }
             else
             {
@@ -126,7 +126,7 @@ namespace WeatherCrawler
 
                 if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
                 {
-                    MessageBox.Show("영농일지 주소 정보가 없습니다");
+                    MessageBox.Show("영농일지 주소 정보가 없습니다5");
                 }
                 else
                 {
@@ -156,7 +156,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("영농일지 주소 정보가 없습니다");
+                MessageBox.Show("영농일지 주소 정보가 없습니다6");
             }
             else
             {
@@ -186,7 +186,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("영농일지 주소 정보가 없습니다");
+                MessageBox.Show("영농일지 주소 정보가 없습니다7");
             }
             else
             {
@@ -196,7 +196,7 @@ namespace WeatherCrawler
 
                 if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
                 {
-                    MessageBox.Show("영농일지 주소 정보가 없습니다");
+                    MessageBox.Show("영농일지 주소 정보가 없습니다8");
                 }
                 else
                 {
@@ -245,7 +245,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("영농일지 주소 정보가 없습니다");
+                MessageBox.Show("영농일지 주소 정보가 없습니다9");
             }
             else
             {
@@ -255,7 +255,7 @@ namespace WeatherCrawler
 
                 if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
                 {
-                    MessageBox.Show("영농일지 주소 정보가 없습니다");
+                    MessageBox.Show("영농일지 주소 정보가 없습니다10");
                 }
                 else
                 {
@@ -304,7 +304,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("영농일지 주소 정보가 없습니다");
+                MessageBox.Show("영농일지 주소 정보가 없습니다11");
             }
             else
             {
@@ -314,7 +314,7 @@ namespace WeatherCrawler
 
                 if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
                 {
-                    MessageBox.Show("영농일지 주소 정보가 없습니다");
+                    MessageBox.Show("영농일지 주소 정보가 없습니다12");
                 }
                 else
                 {
@@ -394,7 +394,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("영농일지 주소 정보가 없습니다");
+                MessageBox.Show("영농일지 주소 정보가 없습니다13");
             }
             else
             {
@@ -404,7 +404,7 @@ namespace WeatherCrawler
 
                 if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
                 {
-                    MessageBox.Show("영농일지 주소 정보가 없습니다");
+                    MessageBox.Show("영농일지 주소 정보가 없습니다14");
                 }
                 else
                 {

@@ -27,7 +27,7 @@ namespace WeatherCrawler
             string nx = dataMap.GetString("nx");
             string ny = dataMap.GetString("ny");
 
-            // Console.WriteLine("IJob says: {0}, address:{1}, nx:{2}, ny:{3}, executing at {4}", jobKey, address, nx, ny, DateTime.Now.ToString("r"));
+            Console.WriteLine("IJob says: {0}, address:{1}, nx:{2}, ny:{3}, executing at {4}", jobKey, address, nx, ny, DateTime.Now.ToString("r"));
             WeatherCrawlerData wcd = new WeatherCrawlerData();
 
             // db.ini 파일을 읽어서 수집서버 DB 연결
