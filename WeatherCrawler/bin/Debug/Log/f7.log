@@ -1,0 +1,37 @@
+2019-01-29 13:44:37,942 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f7':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf7':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:45:00 +00:00
+2019-01-29 13:45:00,370 [DEBUG] Start Task : f7
+2019-01-29 13:45:00,812 [DEBUG] End Task : f7
+2019-01-29 13:45:07,825 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f7':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf7':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:46:00 +00:00
+2019-01-29 13:45:37,954 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f7':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf7':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:46:00 +00:00
+2019-01-29 13:46:00,373 [DEBUG] Start Task : f7
+2019-01-29 13:46:00,811 [DEBUG] End Task : f7
+2019-01-29 13:46:07,958 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f7':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf7':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:47:00 +00:00
+2019-01-29 13:54:30,289 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f7':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf7':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:55:00 +00:00
+2019-01-29 13:55:00,259 [DEBUG] Batch acquisition of 1 triggers
+2019-01-29 13:55:00,296 [DEBUG] Start Task : f7
+2019-01-29 13:55:01,921 [DEBUG] End Task : f7
+2019-01-29 13:56:00,578 [DEBUG] Start Task : f7
+2019-01-29 13:56:00,587 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.FJDBCheckJob
+2019-01-29 13:56:01,004 [DEBUG] End Task : f7
+2019-01-29 13:57:00,441 [DEBUG] Start Task : f7
+2019-01-29 13:57:00,817 [DEBUG] End Task : f7
+2019-01-29 13:58:00,408 [DEBUG] Batch acquisition of 1 triggers
+2019-01-29 13:58:00,458 [DEBUG] Start Task : f7
+2019-01-29 13:58:00,828 [DEBUG] End Task : f7
+2019-01-29 13:59:00,628 [DEBUG] Start Task : f7
+2019-01-29 13:59:00,966 [DEBUG] End Task : f7
+2019-01-29 13:59:29,918 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f7':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf7':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 05:00:00 +00:00
+2019-01-29 14:00:00,342 [DEBUG] Start Task : f7
+2019-01-29 14:00:00,345 [DEBUG] Producing instance of Job 'DEFAULT.f8', class=WeatherCrawler.Job
+2019-01-29 14:00:02,149 [DEBUG] End Task : f7
+2019-01-29 14:01:00,324 [DEBUG] Start Task : f7
+2019-01-29 14:01:00,922 [DEBUG] End Task : f7
+2019-01-29 14:02:00,422 [DEBUG] Batch acquisition of 1 triggers
+2019-01-29 14:02:00,442 [DEBUG] Start Task : f7
+2019-01-29 14:02:00,447 [DEBUG] Producing instance of Job 'DEFAULT.f8', class=WeatherCrawler.Job
+2019-01-29 14:02:00,872 [DEBUG] End Task : f7
+2019-01-29 14:03:00,331 [DEBUG] Start Task : f7
+2019-01-29 14:03:00,335 [DEBUG] Producing instance of Job 'DEFAULT.f8', class=WeatherCrawler.Job
+2019-01-29 14:03:00,378 [DEBUG] Batch acquisition of 1 triggers
+2019-01-29 14:03:00,416 [DEBUG] Calling Execute on job DEFAULT.f8
+2019-01-29 14:03:03,690 [DEBUG] End Task : f7

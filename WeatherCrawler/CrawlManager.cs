@@ -13,12 +13,13 @@ namespace WeatherCrawler
     {
         // public static IScheduler scheduler = null;
         // public static ISchedulerFactory schedulerFactory = new StdSchedulerFactory();
+        public IScheduler schedulerForTotal = null;
         public IScheduler schedulerForFJ = null;
         public IScheduler schedulerForAddr = null;
 
         public CrawlManager()
         {
-            RunTasks();
+            RunTasks();            
         }
 
         // https://sites.google.com/site/netcorenote/scheduler-in-netcore/quartz/02--tutorial-of-quartz-in-netcore/01-simpleexamplewithquartznet300-alpha2
@@ -60,7 +61,7 @@ namespace WeatherCrawler
                 // https://www.quartz-scheduler.net/documentation/quartz-2.x/tutorial/crontriggers.html
                 // http://devfun.tistory.com/1
                 // .WithCronSchedule("0/30 * 9-20 * * ?")
-                .WithCronSchedule("0 0/1 9-20 * * ?")
+                .WithCronSchedule("0 0/30 9-20 * * ?")
                 .Build();
 
             await schedulerForFJ.ScheduleJob(job, trigger);
@@ -113,7 +114,7 @@ namespace WeatherCrawler
                 .StartNow()
                 // .WithSimpleSchedule(x => x.WithIntervalInSeconds(ScheduleIntervalInMinute).RepeatForever())
                 // .WithCronSchedule("0/30 * 9-20 * * ?")
-                .WithCronSchedule("0 0/1 9-20 * * ?")
+                .WithCronSchedule("0 0/30 9-20 * * ?")
                 .Build();
 
             await schedulerForAddr.ScheduleJob(job, trigger);

@@ -109,6 +109,13 @@ namespace WeatherCrawler
 
         public void ReadAddress()
         {
+            /*
+            if(0 < Addresses.Count)
+            {
+                Addresses.Clear();
+            }
+            */
+
             // StreamReader sr = new StreamReader(new FileStream(FwjIni, FileMode.OpenOrCreate));
             StreamReader sr = new StreamReader(FwjIni, System.Text.Encoding.Default, true);
             long fileSize = sr.BaseStream.Length;

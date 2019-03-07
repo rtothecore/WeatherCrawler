@@ -35,7 +35,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("address.ini의 주소 정보가 없습니다");
+                MessageBox.Show("address.ini의 주소 정보가 없습니다-1");
             }
             else
             {
@@ -81,7 +81,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("address.ini의 주소 정보가 없습니다");
+                // MessageBox.Show("address.ini의 주소 정보가 없습니다-2");
             }
             else
             {
@@ -90,7 +90,7 @@ namespace WeatherCrawler
 
                 if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
                 {
-                    MessageBox.Show("address.ini의 주소 정보가 없습니다");
+                    MessageBox.Show("address.ini의 주소 정보가 없습니다-3");
                 }
                 else
                 {
@@ -120,7 +120,7 @@ namespace WeatherCrawler
 
             if (0 == fileSize)
             {
-                MessageBox.Show("address.ini의 주소 정보가 없습니다");
+                MessageBox.Show("address.ini의 주소 정보가 없습니다-4");
             }
             else
             {
@@ -129,7 +129,7 @@ namespace WeatherCrawler
 
                 if (null == (readLine = sr.ReadLine()))     // 주소정보 읽기 시작
                 {
-                    MessageBox.Show("address.ini의 주소 정보가 없습니다");
+                    MessageBox.Show("address.ini의 주소 정보가 없습니다-5");
                 }
                 else
                 {

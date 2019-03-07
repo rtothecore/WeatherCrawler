@@ -1,0 +1,64 @@
+2019-01-29 13:36:25,483 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:37:00 +00:00
+2019-01-29 13:36:55,504 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:37:00 +00:00
+2019-01-29 13:37:00,232 [DEBUG] Start Task : f6
+2019-01-29 13:37:00,637 [DEBUG] End Task : f6
+2019-01-29 13:37:25,502 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:38:00 +00:00
+2019-01-29 13:37:55,501 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:38:00 +00:00
+2019-01-29 13:38:00,226 [DEBUG] Start Task : f6
+2019-01-29 13:38:00,577 [DEBUG] End Task : f6
+2019-01-29 13:38:25,512 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:39:00 +00:00
+2019-01-29 13:38:55,520 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:39:00 +00:00
+2019-01-29 13:39:00,248 [DEBUG] Start Task : f6
+2019-01-29 13:39:00,625 [DEBUG] End Task : f6
+2019-01-29 13:39:25,531 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:40:00 +00:00
+2019-01-29 13:41:04,983 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:42:00 +00:00
+2019-01-29 13:42:08,278 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:43:00 +00:00
+2019-01-29 13:42:37,919 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:43:00 +00:00
+2019-01-29 13:43:00,278 [DEBUG] Start Task : f6
+2019-01-29 13:43:02,804 [DEBUG] End Task : f6
+2019-01-29 13:43:07,907 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:44:00 +00:00
+2019-01-29 13:43:37,905 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:44:00 +00:00
+2019-01-29 13:44:00,197 [DEBUG] Start Task : f6
+2019-01-29 13:44:00,585 [DEBUG] End Task : f6
+2019-01-29 13:44:07,921 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:45:00 +00:00
+2019-01-29 13:44:37,928 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:45:00 +00:00
+2019-01-29 13:45:00,305 [DEBUG] Start Task : f6
+2019-01-29 13:45:00,309 [DEBUG] Producing instance of Job 'DEFAULT.f7', class=WeatherCrawler.Job
+2019-01-29 13:45:00,771 [DEBUG] End Task : f6
+2019-01-29 13:45:07,814 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:46:00 +00:00
+2019-01-29 13:45:37,941 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:46:00 +00:00
+2019-01-29 13:46:00,291 [DEBUG] Start Task : f6
+2019-01-29 13:46:00,789 [DEBUG] End Task : f6
+2019-01-29 13:46:07,944 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:47:00 +00:00
+2019-01-29 13:54:30,275 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 04:55:00 +00:00
+2019-01-29 13:55:00,228 [DEBUG] Start Task : f6
+2019-01-29 13:55:00,231 [DEBUG] Producing instance of Job 'DEFAULT.f7', class=WeatherCrawler.Job
+2019-01-29 13:55:01,973 [DEBUG] End Task : f6
+2019-01-29 13:56:00,543 [DEBUG] Start Task : f6
+2019-01-29 13:56:00,548 [DEBUG] Producing instance of Job 'DEFAULT.f7', class=WeatherCrawler.Job
+2019-01-29 13:56:00,948 [DEBUG] End Task : f6
+2019-01-29 13:57:00,395 [DEBUG] Start Task : f6
+2019-01-29 13:57:00,804 [DEBUG] End Task : f6
+2019-01-29 13:58:00,357 [DEBUG] Start Task : f6
+2019-01-29 13:58:00,367 [DEBUG] Producing instance of Job 'DEFAULT.f7', class=WeatherCrawler.Job
+2019-01-29 13:58:00,855 [DEBUG] End Task : f6
+2019-01-29 13:59:00,476 [DEBUG] Start Task : f6
+2019-01-29 13:59:00,950 [DEBUG] End Task : f6
+2019-01-29 13:59:29,904 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 05:00:00 +00:00
+2019-01-29 14:00:00,265 [DEBUG] Batch acquisition of 1 triggers
+2019-01-29 14:00:00,315 [DEBUG] Start Task : f6
+2019-01-29 14:00:00,324 [DEBUG] Producing instance of Job 'DEFAULT.f7', class=WeatherCrawler.Job
+2019-01-29 14:00:02,706 [DEBUG] End Task : f6
+2019-01-29 14:01:00,292 [DEBUG] Start Task : f6
+2019-01-29 14:01:00,864 [DEBUG] End Task : f6
+2019-01-29 14:02:00,341 [DEBUG] Start Task : f6
+2019-01-29 14:02:00,335 [DEBUG] Batch acquisition of 1 triggers
+2019-01-29 14:02:00,830 [DEBUG] End Task : f6
+2019-01-29 14:03:00,296 [DEBUG] Start Task : f6
+2019-01-29 14:03:00,299 [DEBUG] Producing instance of Job 'DEFAULT.f7', class=WeatherCrawler.Job
+2019-01-29 14:03:03,421 [DEBUG] End Task : f6
+2019-01-29 14:06:26,971 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 05:07:00 +00:00
+2019-01-29 14:06:46,985 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f6':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf6':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/29/2019 05:07:00 +00:00
+2019-01-29 14:07:00,378 [DEBUG] Batch acquisition of 1 triggers
+2019-01-29 14:07:00,395 [DEBUG] Start Task : f6
+2019-01-29 14:07:00,743 [DEBUG] End Task : f6

@@ -15,7 +15,10 @@ namespace WeatherCrawler
             // fwjournal.ini 수집작업 모두 멈춤
             JobDataMap dataMap = context.JobDetail.JobDataMap;
             IScheduler crawScheduler = (IScheduler)dataMap.Get("crawlScheduler");
-            crawScheduler.PauseAll();
+            if (null != crawScheduler)
+            {
+                crawScheduler.PauseAll();
+            }
 
             // 영농일지 DB에서 주소 얻기
             FwjournalIniManager fwjIniManager = new FwjournalIniManager();
@@ -24,7 +27,7 @@ namespace WeatherCrawler
             DbManager dm2 = new DbManager(fwjIniManager.IpAddress, fwjIniManager.DbName, fwjIniManager.CollectionName, fwjIniManager.Id, fwjIniManager.Pw);
             if (dm2.Connect())
             {
-                addresses = dm2.ReadFwjournalLands();                
+                addresses = dm2.ReadFwjournalLands();
             }
             else
             {
@@ -45,7 +48,10 @@ namespace WeatherCrawler
             }
 
             // fwjournal.ini 수집작업 모두 재가동
-            crawScheduler.ResumeAll();
+            if (null != crawScheduler)
+            { 
+                crawScheduler.ResumeAll();
+            }
 
             return Task.FromResult(0);
         }

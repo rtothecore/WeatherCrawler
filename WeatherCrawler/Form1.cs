@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using System.Timers;
 using System.Windows.Forms;
 
 namespace WeatherCrawler
@@ -25,6 +26,8 @@ namespace WeatherCrawler
         string currentSelectedRunStatus = null;
 
         bool isAddedNewAddress = false;
+
+        private static System.Timers.Timer aTimer;
 
         public Form1()
         {
@@ -44,11 +47,21 @@ namespace WeatherCrawler
             InitializeContextMenuStripCrawlOption();
 
             InitializeDIManager();
-            RunCrawlAndCheck();
+            // RunCrawlAndCheck();            
+            aTimer = new System.Timers.Timer(60000);
+            aTimer.Elapsed += OnTimedEvent;
+            aTimer.AutoReset = true;
+            aTimer.Enabled = true;            
 
             // 로그파일 출력
             loManagerForCommon = new LogOutputManager("common", textBoxCommonLog);
             loManagerForAddress = new LogOutputManager("f0", textBoxPrivateLog);
+        }
+
+        // 타이머 함수
+        private void OnTimedEvent(Object source, ElapsedEventArgs e)
+        {
+            RunCrawlAndCheck();
         }
 
         // 툴바 초기화
@@ -76,7 +89,10 @@ namespace WeatherCrawler
             buttonAddr.MouseEnter += OnMouseEnterButtonAddr;
             buttonAddr.MouseLeave += OnMouseLeaveButtonAddr;
 
-            labelAddr.Text = fiManager.Addresses[0].Address;
+            if(0 < fiManager.Addresses.Count)
+            {
+                labelAddr.Text = fiManager.Addresses[0].Address;
+            }            
 
             // 수집옵션 버튼
             labelCrawlOption.Parent = buttonCrawlOption;
@@ -95,7 +111,10 @@ namespace WeatherCrawler
             buttonCrawlOption.MouseEnter += OnMouseEnterButtonCrawlOption;
             buttonCrawlOption.MouseLeave += OnMouseLeaveButtonCrawlOption;
 
-            labelCrawlTerm.Text = "수집간격 - " + UtilManager.ConvertCrawlTerm(fiManager.Addresses[0].CrawlTerm);
+            if (0 < fiManager.Addresses.Count)
+            {
+                labelCrawlTerm.Text = "수집간격 - " + UtilManager.ConvertCrawlTerm(fiManager.Addresses[0].CrawlTerm);
+            }
 
             // 수집상태 버튼
             labelRunStatus.Parent = buttonRunStatus;
@@ -114,11 +133,17 @@ namespace WeatherCrawler
             buttonRunStatus.MouseEnter += OnMouseEnterButtonRunStatus;
             buttonRunStatus.MouseLeave += OnMouseLeaveButtonRunStatus;
 
-            labelRunStatus.Text = Fonts.fa.recycle + "  " + UtilManager.ConvertCrawlStatus(fiManager.Addresses[0].CrawlStatus);
+            if (0 < fiManager.Addresses.Count)
+            {
+                labelRunStatus.Text = Fonts.fa.recycle + "  " + UtilManager.ConvertCrawlStatus(fiManager.Addresses[0].CrawlStatus);
+            }
 
             // 변수 초기화
             currentSelectedIndex = "f0";
-            currentSelectedRunStatus = fiManager.Addresses[0].CrawlStatus;            
+            if (0 < fiManager.Addresses.Count)
+            {
+                currentSelectedRunStatus = fiManager.Addresses[0].CrawlStatus;
+            }
         }
 
         // 툴바 리셋
@@ -284,10 +309,11 @@ namespace WeatherCrawler
 
             // fwjournal.ini, address.ini 읽어서 수집시작
             l4Logger.Add("Start CrawlManager Tasks");
-            cManager = new CrawlManager();
+            cManager = new CrawlManager();           
 
             // DB 체크 스케쥴러가 실행중이라면 셧다운 시킴
             if (null != fjDbChecker &&
+                null != fjDbChecker.CrawlScheduler &&
                 fjDbChecker.CrawlScheduler.IsStarted)
             {
                 l4Logger.Add("Shutdown FwjournalDBChecker Tasks");

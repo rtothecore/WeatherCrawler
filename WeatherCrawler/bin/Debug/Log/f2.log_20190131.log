@@ -1,0 +1,1494 @@
+2019-01-31 00:18:33,439 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 00:48:33,475 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 01:18:33,522 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 01:48:33,561 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 02:18:33,593 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 02:48:33,637 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 03:18:33,677 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 03:48:33,730 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 04:18:33,780 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 04:48:33,834 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 05:18:33,874 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 05:48:33,923 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 06:18:33,963 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 06:48:34,018 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 07:18:34,065 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 07:48:34,097 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 08:18:34,150 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 08:48:34,196 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:00:00 +00:00
+2019-01-31 09:00:00,151 [DEBUG] Start Task : f2
+2019-01-31 09:00:07,423 [DEBUG] End Task : f2
+2019-01-31 09:01:00,078 [DEBUG] Start Task : f2
+2019-01-31 09:01:00,746 [DEBUG] End Task : f2
+2019-01-31 09:02:00,068 [DEBUG] Start Task : f2
+2019-01-31 09:02:00,674 [DEBUG] End Task : f2
+2019-01-31 09:03:00,160 [DEBUG] Start Task : f2
+2019-01-31 09:03:00,772 [DEBUG] End Task : f2
+2019-01-31 09:04:00,109 [DEBUG] Start Task : f2
+2019-01-31 09:04:00,707 [DEBUG] End Task : f2
+2019-01-31 09:05:00,067 [DEBUG] Start Task : f2
+2019-01-31 09:05:01,850 [DEBUG] End Task : f2
+2019-01-31 09:06:00,069 [DEBUG] Start Task : f2
+2019-01-31 09:06:00,614 [DEBUG] End Task : f2
+2019-01-31 09:07:00,092 [DEBUG] Start Task : f2
+2019-01-31 09:07:00,776 [DEBUG] End Task : f2
+2019-01-31 09:08:00,136 [DEBUG] Start Task : f2
+2019-01-31 09:08:00,797 [DEBUG] End Task : f2
+2019-01-31 09:09:00,105 [DEBUG] Start Task : f2
+2019-01-31 09:09:00,744 [DEBUG] End Task : f2
+2019-01-31 09:10:00,069 [DEBUG] Start Task : f2
+2019-01-31 09:10:01,514 [DEBUG] End Task : f2
+2019-01-31 09:11:00,088 [DEBUG] Start Task : f2
+2019-01-31 09:11:02,177 [DEBUG] End Task : f2
+2019-01-31 09:12:00,134 [DEBUG] Start Task : f2
+2019-01-31 09:12:00,132 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 09:12:00,845 [DEBUG] End Task : f2
+2019-01-31 09:13:00,073 [DEBUG] Start Task : f2
+2019-01-31 09:13:00,659 [DEBUG] End Task : f2
+2019-01-31 09:14:00,162 [DEBUG] Start Task : f2
+2019-01-31 09:14:00,791 [DEBUG] End Task : f2
+2019-01-31 09:15:00,107 [DEBUG] Start Task : f2
+2019-01-31 09:15:00,931 [DEBUG] End Task : f2
+2019-01-31 09:16:00,103 [DEBUG] Start Task : f2
+2019-01-31 09:16:00,710 [DEBUG] End Task : f2
+2019-01-31 09:17:00,108 [DEBUG] Start Task : f2
+2019-01-31 09:17:00,737 [DEBUG] End Task : f2
+2019-01-31 09:18:00,169 [DEBUG] Start Task : f2
+2019-01-31 09:18:00,765 [DEBUG] End Task : f2
+2019-01-31 09:18:34,237 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:19:00 +00:00
+2019-01-31 09:19:00,134 [DEBUG] Start Task : f2
+2019-01-31 09:19:00,724 [DEBUG] End Task : f2
+2019-01-31 09:20:00,143 [DEBUG] Start Task : f2
+2019-01-31 09:20:00,785 [DEBUG] End Task : f2
+2019-01-31 09:21:00,128 [DEBUG] Start Task : f2
+2019-01-31 09:21:00,761 [DEBUG] End Task : f2
+2019-01-31 09:22:00,076 [DEBUG] Start Task : f2
+2019-01-31 09:22:00,687 [DEBUG] End Task : f2
+2019-01-31 09:23:00,098 [DEBUG] Start Task : f2
+2019-01-31 09:23:00,744 [DEBUG] End Task : f2
+2019-01-31 09:24:00,151 [DEBUG] Start Task : f2
+2019-01-31 09:24:01,084 [DEBUG] End Task : f2
+2019-01-31 09:25:00,102 [DEBUG] Start Task : f2
+2019-01-31 09:25:00,729 [DEBUG] End Task : f2
+2019-01-31 09:26:00,105 [DEBUG] Start Task : f2
+2019-01-31 09:26:00,713 [DEBUG] End Task : f2
+2019-01-31 09:27:00,102 [DEBUG] Start Task : f2
+2019-01-31 09:27:00,737 [DEBUG] End Task : f2
+2019-01-31 09:28:00,092 [DEBUG] Start Task : f2
+2019-01-31 09:28:00,506 [DEBUG] End Task : f2
+2019-01-31 09:29:00,064 [DEBUG] Start Task : f2
+2019-01-31 09:29:00,678 [DEBUG] End Task : f2
+2019-01-31 09:30:00,064 [DEBUG] Start Task : f2
+2019-01-31 09:30:00,978 [DEBUG] End Task : f2
+2019-01-31 09:31:00,094 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 09:31:00,096 [DEBUG] Start Task : f2
+2019-01-31 09:31:01,034 [DEBUG] End Task : f2
+2019-01-31 09:32:00,126 [DEBUG] Start Task : f2
+2019-01-31 09:32:00,734 [DEBUG] End Task : f2
+2019-01-31 09:33:00,063 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 09:33:00,083 [DEBUG] Start Task : f2
+2019-01-31 09:33:00,708 [DEBUG] End Task : f2
+2019-01-31 09:34:00,096 [DEBUG] Start Task : f2
+2019-01-31 09:34:00,727 [DEBUG] End Task : f2
+2019-01-31 09:35:00,085 [DEBUG] Start Task : f2
+2019-01-31 09:35:00,682 [DEBUG] End Task : f2
+2019-01-31 09:36:00,111 [DEBUG] Start Task : f2
+2019-01-31 09:36:00,730 [DEBUG] End Task : f2
+2019-01-31 09:37:00,065 [DEBUG] Start Task : f2
+2019-01-31 09:37:00,587 [DEBUG] End Task : f2
+2019-01-31 09:38:00,070 [DEBUG] Start Task : f2
+2019-01-31 09:38:00,860 [DEBUG] End Task : f2
+2019-01-31 09:39:00,084 [DEBUG] Start Task : f2
+2019-01-31 09:39:00,664 [DEBUG] End Task : f2
+2019-01-31 09:40:00,065 [DEBUG] Start Task : f2
+2019-01-31 09:40:00,718 [DEBUG] End Task : f2
+2019-01-31 09:41:00,088 [DEBUG] Start Task : f2
+2019-01-31 09:41:00,723 [DEBUG] End Task : f2
+2019-01-31 09:42:00,092 [DEBUG] Start Task : f2
+2019-01-31 09:42:00,732 [DEBUG] End Task : f2
+2019-01-31 09:43:00,065 [DEBUG] Start Task : f2
+2019-01-31 09:43:00,750 [DEBUG] End Task : f2
+2019-01-31 09:44:00,060 [DEBUG] Start Task : f2
+2019-01-31 09:44:00,699 [DEBUG] End Task : f2
+2019-01-31 09:45:00,093 [DEBUG] Start Task : f2
+2019-01-31 09:45:00,689 [DEBUG] End Task : f2
+2019-01-31 09:46:00,065 [DEBUG] Start Task : f2
+2019-01-31 09:46:00,681 [DEBUG] End Task : f2
+2019-01-31 09:47:00,126 [DEBUG] Start Task : f2
+2019-01-31 09:47:00,718 [DEBUG] End Task : f2
+2019-01-31 09:48:00,067 [DEBUG] Start Task : f2
+2019-01-31 09:48:00,791 [DEBUG] End Task : f2
+2019-01-31 09:48:34,272 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 00:49:00 +00:00
+2019-01-31 09:49:00,094 [DEBUG] Start Task : f2
+2019-01-31 09:49:00,736 [DEBUG] End Task : f2
+2019-01-31 09:50:00,124 [DEBUG] Start Task : f2
+2019-01-31 09:50:00,788 [DEBUG] End Task : f2
+2019-01-31 09:51:00,118 [DEBUG] Start Task : f2
+2019-01-31 09:51:00,779 [DEBUG] End Task : f2
+2019-01-31 09:52:00,085 [DEBUG] Start Task : f2
+2019-01-31 09:52:00,733 [DEBUG] End Task : f2
+2019-01-31 09:53:00,127 [DEBUG] Start Task : f2
+2019-01-31 09:53:00,822 [DEBUG] End Task : f2
+2019-01-31 09:54:00,130 [DEBUG] Start Task : f2
+2019-01-31 09:54:00,747 [DEBUG] End Task : f2
+2019-01-31 09:55:00,224 [DEBUG] Start Task : f2
+2019-01-31 09:55:00,911 [DEBUG] End Task : f2
+2019-01-31 09:56:00,096 [DEBUG] Start Task : f2
+2019-01-31 09:56:00,744 [DEBUG] End Task : f2
+2019-01-31 09:57:00,061 [DEBUG] Start Task : f2
+2019-01-31 09:57:00,723 [DEBUG] End Task : f2
+2019-01-31 09:58:00,075 [DEBUG] Start Task : f2
+2019-01-31 09:58:00,724 [DEBUG] End Task : f2
+2019-01-31 09:59:00,088 [DEBUG] Start Task : f2
+2019-01-31 09:59:00,671 [DEBUG] End Task : f2
+2019-01-31 10:00:00,067 [DEBUG] Start Task : f2
+2019-01-31 10:00:02,851 [DEBUG] End Task : f2
+2019-01-31 10:01:00,073 [DEBUG] Start Task : f2
+2019-01-31 10:01:00,681 [DEBUG] End Task : f2
+2019-01-31 10:02:00,072 [DEBUG] Start Task : f2
+2019-01-31 10:02:00,070 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 10:02:01,033 [DEBUG] End Task : f2
+2019-01-31 10:03:00,168 [DEBUG] Start Task : f2
+2019-01-31 10:03:00,818 [DEBUG] End Task : f2
+2019-01-31 10:04:00,095 [DEBUG] Start Task : f2
+2019-01-31 10:04:00,724 [DEBUG] End Task : f2
+2019-01-31 10:05:00,126 [DEBUG] Start Task : f2
+2019-01-31 10:05:00,125 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 10:05:02,455 [DEBUG] End Task : f2
+2019-01-31 10:06:00,070 [DEBUG] Start Task : f2
+2019-01-31 10:06:00,710 [DEBUG] End Task : f2
+2019-01-31 10:07:00,100 [DEBUG] Start Task : f2
+2019-01-31 10:07:00,763 [DEBUG] End Task : f2
+2019-01-31 10:08:00,067 [DEBUG] Start Task : f2
+2019-01-31 10:08:00,780 [DEBUG] End Task : f2
+2019-01-31 10:09:00,090 [DEBUG] Start Task : f2
+2019-01-31 10:09:00,754 [DEBUG] End Task : f2
+2019-01-31 10:10:00,062 [DEBUG] Start Task : f2
+2019-01-31 10:10:01,366 [DEBUG] End Task : f2
+2019-01-31 10:11:00,093 [DEBUG] Start Task : f2
+2019-01-31 10:11:00,753 [DEBUG] End Task : f2
+2019-01-31 10:12:00,099 [DEBUG] Start Task : f2
+2019-01-31 10:12:00,709 [DEBUG] End Task : f2
+2019-01-31 10:13:00,088 [DEBUG] Start Task : f2
+2019-01-31 10:13:00,669 [DEBUG] End Task : f2
+2019-01-31 10:14:00,066 [DEBUG] Start Task : f2
+2019-01-31 10:14:00,758 [DEBUG] End Task : f2
+2019-01-31 10:15:00,091 [DEBUG] Start Task : f2
+2019-01-31 10:15:00,740 [DEBUG] End Task : f2
+2019-01-31 10:16:00,066 [DEBUG] Start Task : f2
+2019-01-31 10:16:00,652 [DEBUG] End Task : f2
+2019-01-31 10:17:00,099 [DEBUG] Start Task : f2
+2019-01-31 10:17:00,732 [DEBUG] End Task : f2
+2019-01-31 10:18:00,200 [DEBUG] Start Task : f2
+2019-01-31 10:18:00,781 [DEBUG] End Task : f2
+2019-01-31 10:18:34,289 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 01:19:00 +00:00
+2019-01-31 10:19:00,066 [DEBUG] Start Task : f2
+2019-01-31 10:19:00,712 [DEBUG] End Task : f2
+2019-01-31 10:20:00,155 [DEBUG] Start Task : f2
+2019-01-31 10:20:01,233 [DEBUG] End Task : f2
+2019-01-31 10:21:00,123 [DEBUG] Start Task : f2
+2019-01-31 10:21:00,735 [DEBUG] End Task : f2
+2019-01-31 10:22:00,092 [DEBUG] Start Task : f2
+2019-01-31 10:22:00,712 [DEBUG] End Task : f2
+2019-01-31 10:23:00,085 [DEBUG] Start Task : f2
+2019-01-31 10:23:00,793 [DEBUG] End Task : f2
+2019-01-31 10:24:00,096 [DEBUG] Start Task : f2
+2019-01-31 10:24:00,697 [DEBUG] End Task : f2
+2019-01-31 10:25:00,095 [DEBUG] Start Task : f2
+2019-01-31 10:25:01,093 [DEBUG] End Task : f2
+2019-01-31 10:26:00,070 [DEBUG] Start Task : f2
+2019-01-31 10:26:00,687 [DEBUG] End Task : f2
+2019-01-31 10:27:00,065 [DEBUG] Start Task : f2
+2019-01-31 10:27:00,747 [DEBUG] End Task : f2
+2019-01-31 10:28:00,161 [DEBUG] Start Task : f2
+2019-01-31 10:28:00,878 [DEBUG] End Task : f2
+2019-01-31 10:29:00,098 [DEBUG] Start Task : f2
+2019-01-31 10:29:00,754 [DEBUG] End Task : f2
+2019-01-31 10:30:00,064 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 10:30:00,080 [DEBUG] Start Task : f2
+2019-01-31 10:30:01,092 [DEBUG] End Task : f2
+2019-01-31 10:31:00,139 [DEBUG] Start Task : f2
+2019-01-31 10:31:00,748 [DEBUG] End Task : f2
+2019-01-31 10:32:00,097 [DEBUG] Start Task : f2
+2019-01-31 10:32:00,095 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 10:32:01,028 [DEBUG] End Task : f2
+2019-01-31 10:33:00,066 [DEBUG] Start Task : f2
+2019-01-31 10:33:00,697 [DEBUG] End Task : f2
+2019-01-31 10:34:00,065 [DEBUG] Start Task : f2
+2019-01-31 10:34:00,692 [DEBUG] End Task : f2
+2019-01-31 10:35:00,112 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 10:35:00,129 [DEBUG] Start Task : f2
+2019-01-31 10:35:00,808 [DEBUG] End Task : f2
+2019-01-31 10:36:00,065 [DEBUG] Start Task : f2
+2019-01-31 10:36:00,714 [DEBUG] End Task : f2
+2019-01-31 10:37:00,068 [DEBUG] Start Task : f2
+2019-01-31 10:37:00,794 [DEBUG] End Task : f2
+2019-01-31 10:38:00,101 [DEBUG] Start Task : f2
+2019-01-31 10:38:00,690 [DEBUG] End Task : f2
+2019-01-31 10:39:00,108 [DEBUG] Start Task : f2
+2019-01-31 10:39:00,801 [DEBUG] End Task : f2
+2019-01-31 10:40:00,088 [DEBUG] Start Task : f2
+2019-01-31 10:40:00,661 [DEBUG] End Task : f2
+2019-01-31 10:41:00,066 [DEBUG] Start Task : f2
+2019-01-31 10:41:00,669 [DEBUG] End Task : f2
+2019-01-31 10:42:00,225 [DEBUG] Start Task : f2
+2019-01-31 10:42:00,861 [DEBUG] End Task : f2
+2019-01-31 10:43:00,067 [DEBUG] Start Task : f2
+2019-01-31 10:43:00,606 [DEBUG] End Task : f2
+2019-01-31 10:44:00,072 [DEBUG] Start Task : f2
+2019-01-31 10:44:00,788 [DEBUG] End Task : f2
+2019-01-31 10:45:00,068 [DEBUG] Start Task : f2
+2019-01-31 10:45:00,729 [DEBUG] End Task : f2
+2019-01-31 10:46:00,069 [DEBUG] Start Task : f2
+2019-01-31 10:46:00,726 [DEBUG] End Task : f2
+2019-01-31 10:47:00,134 [DEBUG] Start Task : f2
+2019-01-31 10:47:00,746 [DEBUG] End Task : f2
+2019-01-31 10:48:00,119 [DEBUG] Start Task : f2
+2019-01-31 10:48:00,118 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 10:48:00,790 [DEBUG] End Task : f2
+2019-01-31 10:48:34,374 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 01:49:00 +00:00
+2019-01-31 10:49:00,064 [DEBUG] Start Task : f2
+2019-01-31 10:49:00,715 [DEBUG] End Task : f2
+2019-01-31 10:50:00,125 [DEBUG] Start Task : f2
+2019-01-31 10:50:00,641 [DEBUG] End Task : f2
+2019-01-31 10:51:00,096 [DEBUG] Start Task : f2
+2019-01-31 10:51:00,770 [DEBUG] End Task : f2
+2019-01-31 10:52:00,093 [DEBUG] Start Task : f2
+2019-01-31 10:52:00,751 [DEBUG] End Task : f2
+2019-01-31 10:53:00,068 [DEBUG] Start Task : f2
+2019-01-31 10:53:00,066 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 10:53:00,798 [DEBUG] End Task : f2
+2019-01-31 10:54:00,064 [DEBUG] Start Task : f2
+2019-01-31 10:54:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 10:54:00,690 [DEBUG] End Task : f2
+2019-01-31 10:55:00,083 [DEBUG] Start Task : f2
+2019-01-31 10:55:00,708 [DEBUG] End Task : f2
+2019-01-31 10:56:00,071 [DEBUG] Start Task : f2
+2019-01-31 10:56:01,095 [DEBUG] End Task : f2
+2019-01-31 10:57:00,210 [DEBUG] Start Task : f2
+2019-01-31 10:57:00,800 [DEBUG] End Task : f2
+2019-01-31 10:58:00,070 [DEBUG] Start Task : f2
+2019-01-31 10:58:00,666 [DEBUG] End Task : f2
+2019-01-31 10:59:00,071 [DEBUG] Start Task : f2
+2019-01-31 10:59:00,695 [DEBUG] End Task : f2
+2019-01-31 11:00:00,211 [DEBUG] Start Task : f2
+2019-01-31 11:00:01,958 [DEBUG] End Task : f2
+2019-01-31 11:01:00,085 [DEBUG] Start Task : f2
+2019-01-31 11:01:00,743 [DEBUG] End Task : f2
+2019-01-31 11:02:00,093 [DEBUG] Start Task : f2
+2019-01-31 11:02:01,030 [DEBUG] End Task : f2
+2019-01-31 11:03:00,064 [DEBUG] Start Task : f2
+2019-01-31 11:03:00,676 [DEBUG] End Task : f2
+2019-01-31 11:04:00,090 [DEBUG] Start Task : f2
+2019-01-31 11:04:00,088 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 11:04:00,752 [DEBUG] End Task : f2
+2019-01-31 11:05:00,092 [DEBUG] Start Task : f2
+2019-01-31 11:05:01,897 [DEBUG] End Task : f2
+2019-01-31 11:06:00,066 [DEBUG] Start Task : f2
+2019-01-31 11:06:00,650 [DEBUG] End Task : f2
+2019-01-31 11:07:00,067 [DEBUG] Start Task : f2
+2019-01-31 11:07:00,828 [DEBUG] End Task : f2
+2019-01-31 11:08:00,066 [DEBUG] Start Task : f2
+2019-01-31 11:08:00,696 [DEBUG] End Task : f2
+2019-01-31 11:09:00,069 [DEBUG] Start Task : f2
+2019-01-31 11:09:00,722 [DEBUG] End Task : f2
+2019-01-31 11:10:00,070 [DEBUG] Start Task : f2
+2019-01-31 11:10:01,277 [DEBUG] End Task : f2
+2019-01-31 11:11:00,065 [DEBUG] Start Task : f2
+2019-01-31 11:11:00,772 [DEBUG] End Task : f2
+2019-01-31 11:12:00,099 [DEBUG] Start Task : f2
+2019-01-31 11:12:00,774 [DEBUG] End Task : f2
+2019-01-31 11:13:00,225 [DEBUG] Start Task : f2
+2019-01-31 11:13:00,223 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 11:13:00,814 [DEBUG] End Task : f2
+2019-01-31 11:14:00,101 [DEBUG] Start Task : f2
+2019-01-31 11:14:00,691 [DEBUG] End Task : f2
+2019-01-31 11:15:00,066 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 11:15:00,080 [DEBUG] Start Task : f2
+2019-01-31 11:15:00,774 [DEBUG] End Task : f2
+2019-01-31 11:16:00,101 [DEBUG] Start Task : f2
+2019-01-31 11:16:00,789 [DEBUG] End Task : f2
+2019-01-31 11:17:00,072 [DEBUG] Start Task : f2
+2019-01-31 11:17:00,672 [DEBUG] End Task : f2
+2019-01-31 11:18:00,124 [DEBUG] Start Task : f2
+2019-01-31 11:18:00,676 [DEBUG] End Task : f2
+2019-01-31 11:18:34,421 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 02:19:00 +00:00
+2019-01-31 11:19:00,105 [DEBUG] Start Task : f2
+2019-01-31 11:19:00,774 [DEBUG] End Task : f2
+2019-01-31 11:20:00,134 [DEBUG] Start Task : f2
+2019-01-31 11:20:00,976 [DEBUG] End Task : f2
+2019-01-31 11:21:00,133 [DEBUG] Start Task : f2
+2019-01-31 11:21:00,801 [DEBUG] End Task : f2
+2019-01-31 11:22:00,071 [DEBUG] Start Task : f2
+2019-01-31 11:22:00,688 [DEBUG] End Task : f2
+2019-01-31 11:23:00,067 [DEBUG] Start Task : f2
+2019-01-31 11:23:00,799 [DEBUG] End Task : f2
+2019-01-31 11:24:00,072 [DEBUG] Start Task : f2
+2019-01-31 11:24:00,675 [DEBUG] End Task : f2
+2019-01-31 11:25:00,095 [DEBUG] Start Task : f2
+2019-01-31 11:25:00,796 [DEBUG] End Task : f2
+2019-01-31 11:26:00,097 [DEBUG] Start Task : f2
+2019-01-31 11:26:00,100 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 11:26:01,128 [DEBUG] End Task : f2
+2019-01-31 11:27:00,099 [DEBUG] Start Task : f2
+2019-01-31 11:27:00,775 [DEBUG] End Task : f2
+2019-01-31 11:28:00,140 [DEBUG] Start Task : f2
+2019-01-31 11:28:00,801 [DEBUG] End Task : f2
+2019-01-31 11:29:00,102 [DEBUG] Start Task : f2
+2019-01-31 11:29:00,784 [DEBUG] End Task : f2
+2019-01-31 11:30:00,132 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 11:30:00,134 [DEBUG] Start Task : f2
+2019-01-31 11:30:01,140 [DEBUG] End Task : f2
+2019-01-31 11:31:00,099 [DEBUG] Start Task : f2
+2019-01-31 11:31:00,097 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 11:31:00,736 [DEBUG] End Task : f2
+2019-01-31 11:32:00,107 [DEBUG] Start Task : f2
+2019-01-31 11:32:00,723 [DEBUG] End Task : f2
+2019-01-31 11:33:00,103 [DEBUG] Start Task : f2
+2019-01-31 11:33:01,051 [DEBUG] End Task : f2
+2019-01-31 11:34:00,076 [DEBUG] Start Task : f2
+2019-01-31 11:34:00,749 [DEBUG] End Task : f2
+2019-01-31 11:35:00,175 [DEBUG] Start Task : f2
+2019-01-31 11:35:00,850 [DEBUG] End Task : f2
+2019-01-31 11:36:00,174 [DEBUG] Start Task : f2
+2019-01-31 11:36:00,826 [DEBUG] End Task : f2
+2019-01-31 11:37:00,069 [DEBUG] Start Task : f2
+2019-01-31 11:37:00,754 [DEBUG] End Task : f2
+2019-01-31 11:38:00,223 [DEBUG] Start Task : f2
+2019-01-31 11:38:00,865 [DEBUG] End Task : f2
+2019-01-31 11:39:00,064 [DEBUG] Start Task : f2
+2019-01-31 11:39:00,798 [DEBUG] End Task : f2
+2019-01-31 11:40:00,067 [DEBUG] Start Task : f2
+2019-01-31 11:40:00,859 [DEBUG] End Task : f2
+2019-01-31 11:41:00,220 [DEBUG] Start Task : f2
+2019-01-31 11:41:00,891 [DEBUG] End Task : f2
+2019-01-31 11:42:00,108 [DEBUG] Start Task : f2
+2019-01-31 11:42:00,784 [DEBUG] End Task : f2
+2019-01-31 11:43:00,163 [DEBUG] Start Task : f2
+2019-01-31 11:43:00,824 [DEBUG] End Task : f2
+2019-01-31 11:44:00,085 [DEBUG] Start Task : f2
+2019-01-31 11:44:00,794 [DEBUG] End Task : f2
+2019-01-31 11:45:00,066 [DEBUG] Start Task : f2
+2019-01-31 11:45:00,810 [DEBUG] End Task : f2
+2019-01-31 11:46:00,069 [DEBUG] Start Task : f2
+2019-01-31 11:46:00,704 [DEBUG] End Task : f2
+2019-01-31 11:47:00,099 [DEBUG] Start Task : f2
+2019-01-31 11:47:00,746 [DEBUG] End Task : f2
+2019-01-31 11:48:00,162 [DEBUG] Start Task : f2
+2019-01-31 11:48:00,839 [DEBUG] End Task : f2
+2019-01-31 11:48:34,467 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 02:49:00 +00:00
+2019-01-31 11:49:00,087 [DEBUG] Start Task : f2
+2019-01-31 11:49:00,085 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 11:49:00,897 [DEBUG] End Task : f2
+2019-01-31 11:50:00,098 [DEBUG] Start Task : f2
+2019-01-31 11:50:00,726 [DEBUG] End Task : f2
+2019-01-31 11:51:00,065 [DEBUG] Start Task : f2
+2019-01-31 11:51:00,666 [DEBUG] End Task : f2
+2019-01-31 11:52:00,101 [DEBUG] Start Task : f2
+2019-01-31 11:52:00,099 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 11:52:00,784 [DEBUG] End Task : f2
+2019-01-31 11:53:00,090 [DEBUG] Start Task : f2
+2019-01-31 11:53:00,755 [DEBUG] End Task : f2
+2019-01-31 11:54:00,114 [DEBUG] Start Task : f2
+2019-01-31 11:54:00,744 [DEBUG] End Task : f2
+2019-01-31 11:55:00,093 [DEBUG] Start Task : f2
+2019-01-31 11:55:00,092 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 11:55:00,837 [DEBUG] End Task : f2
+2019-01-31 11:56:00,067 [DEBUG] Start Task : f2
+2019-01-31 11:56:00,568 [DEBUG] End Task : f2
+2019-01-31 11:57:00,066 [DEBUG] Start Task : f2
+2019-01-31 11:57:01,034 [DEBUG] End Task : f2
+2019-01-31 11:58:00,096 [DEBUG] Start Task : f2
+2019-01-31 11:58:00,705 [DEBUG] End Task : f2
+2019-01-31 11:59:00,111 [DEBUG] Start Task : f2
+2019-01-31 11:59:00,742 [DEBUG] End Task : f2
+2019-01-31 12:00:00,101 [DEBUG] Start Task : f2
+2019-01-31 12:00:05,558 [DEBUG] End Task : f2
+2019-01-31 12:01:00,116 [DEBUG] Start Task : f2
+2019-01-31 12:01:00,759 [DEBUG] End Task : f2
+2019-01-31 12:02:00,096 [DEBUG] Start Task : f2
+2019-01-31 12:02:00,095 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 12:02:00,717 [DEBUG] End Task : f2
+2019-01-31 12:03:00,113 [DEBUG] Start Task : f2
+2019-01-31 12:03:01,039 [DEBUG] End Task : f2
+2019-01-31 12:04:00,093 [DEBUG] Start Task : f2
+2019-01-31 12:04:00,092 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 12:04:00,650 [DEBUG] End Task : f2
+2019-01-31 12:05:00,122 [DEBUG] Start Task : f2
+2019-01-31 12:05:01,830 [DEBUG] End Task : f2
+2019-01-31 12:06:00,069 [DEBUG] Start Task : f2
+2019-01-31 12:06:00,695 [DEBUG] End Task : f2
+2019-01-31 12:07:00,067 [DEBUG] Start Task : f2
+2019-01-31 12:07:00,864 [DEBUG] End Task : f2
+2019-01-31 12:08:00,193 [DEBUG] Start Task : f2
+2019-01-31 12:08:00,192 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 12:08:00,874 [DEBUG] End Task : f2
+2019-01-31 12:09:00,090 [DEBUG] Start Task : f2
+2019-01-31 12:09:00,702 [DEBUG] End Task : f2
+2019-01-31 12:10:00,097 [DEBUG] Start Task : f2
+2019-01-31 12:10:00,095 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 12:10:00,772 [DEBUG] End Task : f2
+2019-01-31 12:11:00,150 [DEBUG] Start Task : f2
+2019-01-31 12:11:00,756 [DEBUG] End Task : f2
+2019-01-31 12:12:00,070 [DEBUG] Start Task : f2
+2019-01-31 12:12:00,719 [DEBUG] End Task : f2
+2019-01-31 12:13:00,065 [DEBUG] Start Task : f2
+2019-01-31 12:13:00,063 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 12:13:00,775 [DEBUG] End Task : f2
+2019-01-31 12:14:00,062 [DEBUG] Start Task : f2
+2019-01-31 12:14:00,734 [DEBUG] End Task : f2
+2019-01-31 12:15:00,093 [DEBUG] Start Task : f2
+2019-01-31 12:15:01,042 [DEBUG] End Task : f2
+2019-01-31 12:16:00,071 [DEBUG] Start Task : f2
+2019-01-31 12:16:00,725 [DEBUG] End Task : f2
+2019-01-31 12:17:00,071 [DEBUG] Start Task : f2
+2019-01-31 12:17:00,695 [DEBUG] End Task : f2
+2019-01-31 12:18:00,140 [DEBUG] Start Task : f2
+2019-01-31 12:18:00,791 [DEBUG] End Task : f2
+2019-01-31 12:18:34,480 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 03:19:00 +00:00
+2019-01-31 12:19:00,066 [DEBUG] Start Task : f2
+2019-01-31 12:19:00,701 [DEBUG] End Task : f2
+2019-01-31 12:20:00,126 [DEBUG] Start Task : f2
+2019-01-31 12:20:00,915 [DEBUG] End Task : f2
+2019-01-31 12:21:00,094 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 12:21:00,109 [DEBUG] Start Task : f2
+2019-01-31 12:21:00,709 [DEBUG] End Task : f2
+2019-01-31 12:22:00,095 [DEBUG] Start Task : f2
+2019-01-31 12:22:00,755 [DEBUG] End Task : f2
+2019-01-31 12:23:00,111 [DEBUG] Start Task : f2
+2019-01-31 12:23:00,805 [DEBUG] End Task : f2
+2019-01-31 12:24:00,077 [DEBUG] Start Task : f2
+2019-01-31 12:24:00,707 [DEBUG] End Task : f2
+2019-01-31 12:25:00,057 [DEBUG] Start Task : f2
+2019-01-31 12:25:00,534 [DEBUG] End Task : f2
+2019-01-31 12:26:00,118 [DEBUG] Start Task : f2
+2019-01-31 12:26:00,117 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 12:26:00,829 [DEBUG] End Task : f2
+2019-01-31 12:27:00,138 [DEBUG] Start Task : f2
+2019-01-31 12:27:00,747 [DEBUG] End Task : f2
+2019-01-31 12:28:00,102 [DEBUG] Start Task : f2
+2019-01-31 12:28:00,686 [DEBUG] End Task : f2
+2019-01-31 12:29:00,091 [DEBUG] Start Task : f2
+2019-01-31 12:29:00,766 [DEBUG] End Task : f2
+2019-01-31 12:30:00,064 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 12:30:00,066 [DEBUG] Start Task : f2
+2019-01-31 12:30:00,771 [DEBUG] End Task : f2
+2019-01-31 12:31:00,066 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 12:31:00,068 [DEBUG] Start Task : f2
+2019-01-31 12:31:00,738 [DEBUG] End Task : f2
+2019-01-31 12:32:00,068 [DEBUG] Start Task : f2
+2019-01-31 12:32:00,682 [DEBUG] End Task : f2
+2019-01-31 12:33:00,119 [DEBUG] Start Task : f2
+2019-01-31 12:33:00,740 [DEBUG] End Task : f2
+2019-01-31 12:34:00,072 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 12:34:00,087 [DEBUG] Start Task : f2
+2019-01-31 12:34:00,759 [DEBUG] End Task : f2
+2019-01-31 12:35:00,069 [DEBUG] Start Task : f2
+2019-01-31 12:35:00,711 [DEBUG] End Task : f2
+2019-01-31 12:36:00,068 [DEBUG] Start Task : f2
+2019-01-31 13:32:28,672 [DEBUG] Producing instance of Job 'DEFAULT.0', class=WeatherCrawler.FJDBCheckJob
+2019-01-31 13:32:28,673 [DEBUG] End Task : f2
+2019-01-31 13:32:28,671 [DEBUG] Shutdown CrawlManager FJ Tasks
+2019-01-31 13:32:28,720 [DEBUG] Calling Execute on job DEFAULT.0
+2019-01-31 13:32:28,737 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 13:32:28,748 [INFO ] Scheduler DefaultQuartzScheduler_$_NON_CLUSTERED shutting down.
+2019-01-31 13:32:28,775 [DEBUG] Batch acquisition of 0 triggers
+2019-01-31 13:32:28,873 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 04:33:00 +00:00
+2019-01-31 13:33:00,065 [DEBUG] Start Task : f2
+2019-01-31 13:33:01,055 [DEBUG] End Task : f2
+2019-01-31 13:34:00,068 [DEBUG] Start Task : f2
+2019-01-31 13:34:00,855 [DEBUG] End Task : f2
+2019-01-31 13:35:00,071 [DEBUG] Start Task : f2
+2019-01-31 13:35:00,714 [DEBUG] End Task : f2
+2019-01-31 13:36:00,072 [DEBUG] Start Task : f2
+2019-01-31 13:36:00,828 [DEBUG] End Task : f2
+2019-01-31 13:37:00,066 [DEBUG] Start Task : f2
+2019-01-31 13:37:00,759 [DEBUG] End Task : f2
+2019-01-31 13:38:00,067 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 13:38:00,082 [DEBUG] Start Task : f2
+2019-01-31 13:38:00,762 [DEBUG] End Task : f2
+2019-01-31 13:39:00,064 [DEBUG] Start Task : f2
+2019-01-31 13:39:00,828 [DEBUG] End Task : f2
+2019-01-31 13:40:00,073 [DEBUG] Start Task : f2
+2019-01-31 13:40:00,831 [DEBUG] End Task : f2
+2019-01-31 13:41:00,070 [DEBUG] Start Task : f2
+2019-01-31 13:41:00,068 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 13:41:00,710 [DEBUG] End Task : f2
+2019-01-31 13:42:00,068 [DEBUG] Start Task : f2
+2019-01-31 13:42:03,467 [DEBUG] End Task : f2
+2019-01-31 13:43:00,068 [DEBUG] Start Task : f2
+2019-01-31 13:43:00,696 [DEBUG] End Task : f2
+2019-01-31 13:44:00,068 [DEBUG] Start Task : f2
+2019-01-31 13:44:00,066 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 13:44:00,741 [DEBUG] End Task : f2
+2019-01-31 13:45:00,070 [DEBUG] Start Task : f2
+2019-01-31 13:45:00,720 [DEBUG] End Task : f2
+2019-01-31 13:46:00,071 [DEBUG] Start Task : f2
+2019-01-31 13:46:00,725 [DEBUG] End Task : f2
+2019-01-31 13:47:00,065 [DEBUG] Start Task : f2
+2019-01-31 13:47:00,063 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 13:47:00,762 [DEBUG] End Task : f2
+2019-01-31 13:48:00,068 [DEBUG] Start Task : f2
+2019-01-31 13:48:00,743 [DEBUG] End Task : f2
+2019-01-31 13:49:00,065 [DEBUG] Start Task : f2
+2019-01-31 13:49:00,835 [DEBUG] End Task : f2
+2019-01-31 13:50:00,085 [DEBUG] Start Task : f2
+2019-01-31 13:50:00,084 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 13:50:00,903 [DEBUG] End Task : f2
+2019-01-31 13:51:00,066 [DEBUG] Start Task : f2
+2019-01-31 13:51:00,852 [DEBUG] End Task : f2
+2019-01-31 13:52:00,072 [DEBUG] Start Task : f2
+2019-01-31 13:52:00,681 [DEBUG] End Task : f2
+2019-01-31 13:53:00,064 [DEBUG] Start Task : f2
+2019-01-31 13:53:00,787 [DEBUG] End Task : f2
+2019-01-31 13:54:00,070 [DEBUG] Start Task : f2
+2019-01-31 13:54:00,723 [DEBUG] End Task : f2
+2019-01-31 13:55:00,079 [DEBUG] Start Task : f2
+2019-01-31 13:55:00,742 [DEBUG] End Task : f2
+2019-01-31 13:56:00,070 [DEBUG] Start Task : f2
+2019-01-31 13:56:00,737 [DEBUG] End Task : f2
+2019-01-31 13:57:00,075 [DEBUG] Start Task : f2
+2019-01-31 13:57:00,695 [DEBUG] End Task : f2
+2019-01-31 13:58:00,071 [DEBUG] Start Task : f2
+2019-01-31 13:58:00,731 [DEBUG] End Task : f2
+2019-01-31 13:59:00,073 [DEBUG] Start Task : f2
+2019-01-31 13:59:00,758 [DEBUG] End Task : f2
+2019-01-31 14:00:00,074 [DEBUG] Start Task : f2
+2019-01-31 14:00:03,236 [DEBUG] End Task : f2
+2019-01-31 14:01:00,066 [DEBUG] Start Task : f2
+2019-01-31 14:01:00,708 [DEBUG] End Task : f2
+2019-01-31 14:02:00,069 [DEBUG] Start Task : f2
+2019-01-31 14:02:00,749 [DEBUG] End Task : f2
+2019-01-31 14:02:28,976 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 05:03:00 +00:00
+2019-01-31 14:03:00,066 [DEBUG] Start Task : f2
+2019-01-31 14:03:01,084 [DEBUG] End Task : f2
+2019-01-31 14:04:00,074 [DEBUG] Start Task : f2
+2019-01-31 14:04:00,705 [DEBUG] End Task : f2
+2019-01-31 14:05:00,069 [DEBUG] Start Task : f2
+2019-01-31 14:05:01,865 [DEBUG] End Task : f2
+2019-01-31 14:06:00,066 [DEBUG] Start Task : f2
+2019-01-31 14:06:00,866 [DEBUG] End Task : f2
+2019-01-31 14:07:00,075 [DEBUG] Start Task : f2
+2019-01-31 14:07:00,074 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 14:07:00,718 [DEBUG] End Task : f2
+2019-01-31 14:08:00,070 [DEBUG] Start Task : f2
+2019-01-31 14:08:00,706 [DEBUG] End Task : f2
+2019-01-31 14:09:00,070 [DEBUG] Start Task : f2
+2019-01-31 14:09:00,764 [DEBUG] End Task : f2
+2019-01-31 14:10:00,076 [DEBUG] Start Task : f2
+2019-01-31 14:10:01,331 [DEBUG] End Task : f2
+2019-01-31 14:11:00,071 [DEBUG] Start Task : f2
+2019-01-31 14:11:00,739 [DEBUG] End Task : f2
+2019-01-31 14:12:00,073 [DEBUG] Start Task : f2
+2019-01-31 14:12:00,759 [DEBUG] End Task : f2
+2019-01-31 14:13:00,070 [DEBUG] Start Task : f2
+2019-01-31 14:13:00,749 [DEBUG] End Task : f2
+2019-01-31 14:14:00,062 [DEBUG] Start Task : f2
+2019-01-31 14:14:00,060 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 14:14:00,761 [DEBUG] End Task : f2
+2019-01-31 14:15:00,071 [DEBUG] Start Task : f2
+2019-01-31 14:15:00,725 [DEBUG] End Task : f2
+2019-01-31 14:16:00,069 [DEBUG] Start Task : f2
+2019-01-31 14:16:00,067 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 14:16:00,692 [DEBUG] End Task : f2
+2019-01-31 14:17:00,069 [DEBUG] Start Task : f2
+2019-01-31 14:17:00,670 [DEBUG] End Task : f2
+2019-01-31 14:18:00,072 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 14:18:00,086 [DEBUG] Start Task : f2
+2019-01-31 14:18:00,831 [DEBUG] End Task : f2
+2019-01-31 14:19:00,074 [DEBUG] Start Task : f2
+2019-01-31 14:19:00,690 [DEBUG] End Task : f2
+2019-01-31 14:20:00,074 [DEBUG] Start Task : f2
+2019-01-31 14:20:00,072 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 14:20:00,763 [DEBUG] End Task : f2
+2019-01-31 14:21:00,070 [DEBUG] Start Task : f2
+2019-01-31 14:21:00,674 [DEBUG] End Task : f2
+2019-01-31 14:22:00,059 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 14:22:00,077 [DEBUG] Start Task : f2
+2019-01-31 14:22:00,790 [DEBUG] End Task : f2
+2019-01-31 14:23:00,067 [DEBUG] Start Task : f2
+2019-01-31 14:23:00,699 [DEBUG] End Task : f2
+2019-01-31 14:24:00,065 [DEBUG] Start Task : f2
+2019-01-31 14:24:00,822 [DEBUG] End Task : f2
+2019-01-31 14:25:00,075 [DEBUG] Start Task : f2
+2019-01-31 14:25:00,766 [DEBUG] End Task : f2
+2019-01-31 14:26:00,070 [DEBUG] Start Task : f2
+2019-01-31 14:26:00,738 [DEBUG] End Task : f2
+2019-01-31 14:27:00,067 [DEBUG] Start Task : f2
+2019-01-31 14:27:00,814 [DEBUG] End Task : f2
+2019-01-31 14:28:00,064 [DEBUG] Start Task : f2
+2019-01-31 14:28:00,714 [DEBUG] End Task : f2
+2019-01-31 14:29:00,067 [DEBUG] Start Task : f2
+2019-01-31 14:29:00,706 [DEBUG] End Task : f2
+2019-01-31 14:30:00,070 [DEBUG] Start Task : f2
+2019-01-31 14:30:00,812 [DEBUG] End Task : f2
+2019-01-31 14:31:00,074 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 14:31:00,089 [DEBUG] Start Task : f2
+2019-01-31 14:31:00,778 [DEBUG] End Task : f2
+2019-01-31 14:32:00,073 [DEBUG] Start Task : f2
+2019-01-31 14:32:00,789 [DEBUG] End Task : f2
+2019-01-31 14:32:29,028 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 05:33:00 +00:00
+2019-01-31 14:33:00,065 [DEBUG] Start Task : f2
+2019-01-31 14:33:01,005 [DEBUG] End Task : f2
+2019-01-31 14:34:00,073 [DEBUG] Start Task : f2
+2019-01-31 14:34:00,072 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 14:34:00,851 [DEBUG] End Task : f2
+2019-01-31 14:35:00,066 [DEBUG] Start Task : f2
+2019-01-31 14:35:00,725 [DEBUG] End Task : f2
+2019-01-31 14:36:00,069 [DEBUG] Start Task : f2
+2019-01-31 14:36:00,850 [DEBUG] End Task : f2
+2019-01-31 14:37:00,069 [DEBUG] Start Task : f2
+2019-01-31 14:37:00,719 [DEBUG] End Task : f2
+2019-01-31 14:38:00,073 [DEBUG] Start Task : f2
+2019-01-31 14:38:00,710 [DEBUG] End Task : f2
+2019-01-31 14:39:00,070 [DEBUG] Start Task : f2
+2019-01-31 14:39:00,683 [DEBUG] End Task : f2
+2019-01-31 14:40:00,061 [DEBUG] Start Task : f2
+2019-01-31 14:40:00,982 [DEBUG] End Task : f2
+2019-01-31 14:41:00,073 [DEBUG] Start Task : f2
+2019-01-31 14:41:00,824 [DEBUG] End Task : f2
+2019-01-31 14:42:00,068 [DEBUG] Start Task : f2
+2019-01-31 14:42:00,784 [DEBUG] End Task : f2
+2019-01-31 14:43:00,066 [DEBUG] Start Task : f2
+2019-01-31 14:43:00,838 [DEBUG] End Task : f2
+2019-01-31 14:44:00,063 [DEBUG] Start Task : f2
+2019-01-31 14:44:00,695 [DEBUG] End Task : f2
+2019-01-31 14:45:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 14:45:00,064 [DEBUG] Start Task : f2
+2019-01-31 14:45:00,784 [DEBUG] End Task : f2
+2019-01-31 14:46:00,071 [DEBUG] Start Task : f2
+2019-01-31 14:46:00,767 [DEBUG] End Task : f2
+2019-01-31 14:47:00,067 [DEBUG] Start Task : f2
+2019-01-31 14:47:00,740 [DEBUG] End Task : f2
+2019-01-31 14:48:00,064 [DEBUG] Start Task : f2
+2019-01-31 14:48:00,726 [DEBUG] End Task : f2
+2019-01-31 14:49:00,065 [DEBUG] Start Task : f2
+2019-01-31 14:49:00,795 [DEBUG] End Task : f2
+2019-01-31 14:50:00,065 [DEBUG] Start Task : f2
+2019-01-31 14:50:00,833 [DEBUG] End Task : f2
+2019-01-31 14:51:00,073 [DEBUG] Start Task : f2
+2019-01-31 14:51:00,743 [DEBUG] End Task : f2
+2019-01-31 14:52:00,067 [DEBUG] Start Task : f2
+2019-01-31 14:52:00,741 [DEBUG] End Task : f2
+2019-01-31 14:53:00,063 [DEBUG] Start Task : f2
+2019-01-31 14:53:00,823 [DEBUG] End Task : f2
+2019-01-31 14:54:00,068 [DEBUG] Start Task : f2
+2019-01-31 14:54:00,822 [DEBUG] End Task : f2
+2019-01-31 14:55:00,068 [DEBUG] Start Task : f2
+2019-01-31 14:55:00,715 [DEBUG] End Task : f2
+2019-01-31 14:56:00,065 [DEBUG] Start Task : f2
+2019-01-31 14:56:00,736 [DEBUG] End Task : f2
+2019-01-31 14:57:00,062 [DEBUG] Start Task : f2
+2019-01-31 14:57:00,762 [DEBUG] End Task : f2
+2019-01-31 14:58:00,066 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 14:58:00,079 [DEBUG] Start Task : f2
+2019-01-31 14:58:00,691 [DEBUG] End Task : f2
+2019-01-31 14:59:00,067 [DEBUG] Start Task : f2
+2019-01-31 14:59:00,808 [DEBUG] End Task : f2
+2019-01-31 15:00:00,065 [DEBUG] Start Task : f2
+2019-01-31 15:00:02,023 [DEBUG] End Task : f2
+2019-01-31 15:01:00,069 [DEBUG] Start Task : f2
+2019-01-31 15:01:00,826 [DEBUG] End Task : f2
+2019-01-31 15:02:00,067 [DEBUG] Start Task : f2
+2019-01-31 15:02:00,066 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 15:02:01,745 [DEBUG] End Task : f2
+2019-01-31 15:02:29,059 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 06:03:00 +00:00
+2019-01-31 15:03:00,066 [DEBUG] Start Task : f2
+2019-01-31 15:03:01,055 [DEBUG] End Task : f2
+2019-01-31 15:04:00,066 [DEBUG] Start Task : f2
+2019-01-31 15:04:00,794 [DEBUG] End Task : f2
+2019-01-31 15:05:00,062 [DEBUG] Start Task : f2
+2019-01-31 15:05:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 15:05:02,089 [DEBUG] End Task : f2
+2019-01-31 15:06:00,067 [DEBUG] Start Task : f2
+2019-01-31 15:06:00,711 [DEBUG] End Task : f2
+2019-01-31 15:07:00,064 [DEBUG] Start Task : f2
+2019-01-31 15:07:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 15:07:00,735 [DEBUG] End Task : f2
+2019-01-31 15:08:00,065 [DEBUG] Start Task : f2
+2019-01-31 15:08:00,798 [DEBUG] End Task : f2
+2019-01-31 15:09:00,074 [DEBUG] Start Task : f2
+2019-01-31 15:09:00,737 [DEBUG] End Task : f2
+2019-01-31 15:10:00,071 [DEBUG] Start Task : f2
+2019-01-31 15:10:01,940 [DEBUG] End Task : f2
+2019-01-31 15:11:00,069 [DEBUG] Start Task : f2
+2019-01-31 15:11:00,744 [DEBUG] End Task : f2
+2019-01-31 15:12:00,071 [DEBUG] Start Task : f2
+2019-01-31 15:12:00,804 [DEBUG] End Task : f2
+2019-01-31 15:13:00,073 [DEBUG] Start Task : f2
+2019-01-31 15:13:00,807 [DEBUG] End Task : f2
+2019-01-31 15:14:00,070 [DEBUG] Start Task : f2
+2019-01-31 15:14:00,752 [DEBUG] End Task : f2
+2019-01-31 15:15:00,074 [DEBUG] Start Task : f2
+2019-01-31 15:15:01,031 [DEBUG] End Task : f2
+2019-01-31 15:16:00,071 [DEBUG] Start Task : f2
+2019-01-31 15:16:00,753 [DEBUG] End Task : f2
+2019-01-31 15:17:00,076 [DEBUG] Start Task : f2
+2019-01-31 15:17:00,791 [DEBUG] End Task : f2
+2019-01-31 15:18:00,069 [DEBUG] Start Task : f2
+2019-01-31 15:18:00,790 [DEBUG] End Task : f2
+2019-01-31 15:19:00,067 [DEBUG] Start Task : f2
+2019-01-31 15:19:00,835 [DEBUG] End Task : f2
+2019-01-31 15:20:00,066 [DEBUG] Start Task : f2
+2019-01-31 15:20:00,823 [DEBUG] End Task : f2
+2019-01-31 15:21:00,068 [DEBUG] Start Task : f2
+2019-01-31 15:21:00,773 [DEBUG] End Task : f2
+2019-01-31 15:22:00,069 [DEBUG] Start Task : f2
+2019-01-31 15:22:00,749 [DEBUG] End Task : f2
+2019-01-31 15:23:00,067 [DEBUG] Start Task : f2
+2019-01-31 15:23:00,819 [DEBUG] End Task : f2
+2019-01-31 15:24:00,067 [DEBUG] Start Task : f2
+2019-01-31 15:24:00,808 [DEBUG] End Task : f2
+2019-01-31 15:25:00,066 [DEBUG] Start Task : f2
+2019-01-31 15:25:00,777 [DEBUG] End Task : f2
+2019-01-31 15:26:00,077 [DEBUG] Start Task : f2
+2019-01-31 15:26:00,762 [DEBUG] End Task : f2
+2019-01-31 15:27:00,072 [DEBUG] Start Task : f2
+2019-01-31 15:27:00,071 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 15:27:00,736 [DEBUG] End Task : f2
+2019-01-31 15:28:00,064 [DEBUG] Start Task : f2
+2019-01-31 15:28:00,754 [DEBUG] End Task : f2
+2019-01-31 15:29:00,068 [DEBUG] Start Task : f2
+2019-01-31 15:29:00,818 [DEBUG] End Task : f2
+2019-01-31 15:30:00,074 [DEBUG] Start Task : f2
+2019-01-31 15:30:00,915 [DEBUG] End Task : f2
+2019-01-31 15:31:00,069 [DEBUG] Start Task : f2
+2019-01-31 15:31:00,800 [DEBUG] End Task : f2
+2019-01-31 15:32:00,063 [DEBUG] Start Task : f2
+2019-01-31 15:32:00,768 [DEBUG] End Task : f2
+2019-01-31 15:32:29,107 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 06:33:00 +00:00
+2019-01-31 15:33:00,064 [DEBUG] Start Task : f2
+2019-01-31 15:33:00,737 [DEBUG] End Task : f2
+2019-01-31 15:34:00,069 [DEBUG] Start Task : f2
+2019-01-31 15:34:01,033 [DEBUG] End Task : f2
+2019-01-31 15:35:00,070 [DEBUG] Start Task : f2
+2019-01-31 15:35:00,784 [DEBUG] End Task : f2
+2019-01-31 15:36:00,064 [DEBUG] Start Task : f2
+2019-01-31 15:36:00,787 [DEBUG] End Task : f2
+2019-01-31 15:37:00,066 [DEBUG] Start Task : f2
+2019-01-31 15:37:00,840 [DEBUG] End Task : f2
+2019-01-31 15:38:00,067 [DEBUG] Start Task : f2
+2019-01-31 15:38:00,750 [DEBUG] End Task : f2
+2019-01-31 15:39:00,066 [DEBUG] Start Task : f2
+2019-01-31 15:39:00,851 [DEBUG] End Task : f2
+2019-01-31 15:40:00,074 [DEBUG] Start Task : f2
+2019-01-31 15:40:00,839 [DEBUG] End Task : f2
+2019-01-31 15:41:00,064 [DEBUG] Start Task : f2
+2019-01-31 15:41:00,722 [DEBUG] End Task : f2
+2019-01-31 15:42:00,071 [DEBUG] Start Task : f2
+2019-01-31 15:42:00,758 [DEBUG] End Task : f2
+2019-01-31 15:43:00,064 [DEBUG] Start Task : f2
+2019-01-31 15:43:00,843 [DEBUG] End Task : f2
+2019-01-31 15:44:00,064 [DEBUG] Start Task : f2
+2019-01-31 15:44:00,756 [DEBUG] End Task : f2
+2019-01-31 15:45:00,062 [DEBUG] Start Task : f2
+2019-01-31 15:45:00,822 [DEBUG] End Task : f2
+2019-01-31 15:46:00,063 [DEBUG] Start Task : f2
+2019-01-31 15:46:00,797 [DEBUG] End Task : f2
+2019-01-31 15:47:00,088 [DEBUG] Start Task : f2
+2019-01-31 15:47:00,795 [DEBUG] End Task : f2
+2019-01-31 15:48:00,070 [DEBUG] Start Task : f2
+2019-01-31 15:48:00,796 [DEBUG] End Task : f2
+2019-01-31 15:49:00,063 [DEBUG] Start Task : f2
+2019-01-31 15:49:00,852 [DEBUG] End Task : f2
+2019-01-31 15:50:00,063 [DEBUG] Start Task : f2
+2019-01-31 15:50:00,803 [DEBUG] End Task : f2
+2019-01-31 15:51:00,068 [DEBUG] Start Task : f2
+2019-01-31 15:51:00,755 [DEBUG] End Task : f2
+2019-01-31 15:52:00,068 [DEBUG] Start Task : f2
+2019-01-31 15:52:00,668 [DEBUG] End Task : f2
+2019-01-31 15:53:00,068 [DEBUG] Start Task : f2
+2019-01-31 15:53:00,714 [DEBUG] End Task : f2
+2019-01-31 15:54:00,060 [DEBUG] Start Task : f2
+2019-01-31 15:54:00,789 [DEBUG] End Task : f2
+2019-01-31 15:55:00,064 [DEBUG] Start Task : f2
+2019-01-31 15:55:00,830 [DEBUG] End Task : f2
+2019-01-31 15:56:00,067 [DEBUG] Start Task : f2
+2019-01-31 15:56:00,832 [DEBUG] End Task : f2
+2019-01-31 15:57:00,067 [DEBUG] Start Task : f2
+2019-01-31 15:57:00,824 [DEBUG] End Task : f2
+2019-01-31 15:58:00,063 [DEBUG] Start Task : f2
+2019-01-31 15:58:00,741 [DEBUG] End Task : f2
+2019-01-31 15:59:00,065 [DEBUG] Start Task : f2
+2019-01-31 15:59:00,692 [DEBUG] End Task : f2
+2019-01-31 16:00:00,084 [DEBUG] Start Task : f2
+2019-01-31 16:00:02,057 [DEBUG] End Task : f2
+2019-01-31 16:01:00,066 [DEBUG] Start Task : f2
+2019-01-31 16:01:00,845 [DEBUG] End Task : f2
+2019-01-31 16:02:00,063 [DEBUG] Start Task : f2
+2019-01-31 16:02:00,059 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:02:00,746 [DEBUG] End Task : f2
+2019-01-31 16:02:29,165 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 07:03:00 +00:00
+2019-01-31 16:03:00,063 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:03:00,065 [DEBUG] Start Task : f2
+2019-01-31 16:03:01,049 [DEBUG] End Task : f2
+2019-01-31 16:04:00,068 [DEBUG] Start Task : f2
+2019-01-31 16:04:01,099 [DEBUG] End Task : f2
+2019-01-31 16:05:00,070 [DEBUG] Start Task : f2
+2019-01-31 16:05:01,967 [DEBUG] End Task : f2
+2019-01-31 16:06:00,060 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:06:00,074 [DEBUG] Start Task : f2
+2019-01-31 16:06:00,814 [DEBUG] End Task : f2
+2019-01-31 16:07:00,062 [DEBUG] Start Task : f2
+2019-01-31 16:07:00,813 [DEBUG] End Task : f2
+2019-01-31 16:08:00,065 [DEBUG] Start Task : f2
+2019-01-31 16:08:00,793 [DEBUG] End Task : f2
+2019-01-31 16:09:00,071 [DEBUG] Start Task : f2
+2019-01-31 16:09:00,781 [DEBUG] End Task : f2
+2019-01-31 16:10:00,065 [DEBUG] Start Task : f2
+2019-01-31 16:10:02,083 [DEBUG] End Task : f2
+2019-01-31 16:11:00,067 [DEBUG] Start Task : f2
+2019-01-31 16:11:00,066 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:11:00,791 [DEBUG] End Task : f2
+2019-01-31 16:12:00,079 [DEBUG] Start Task : f2
+2019-01-31 16:12:00,783 [DEBUG] End Task : f2
+2019-01-31 16:13:00,065 [DEBUG] Start Task : f2
+2019-01-31 16:13:00,872 [DEBUG] End Task : f2
+2019-01-31 16:14:00,064 [DEBUG] Start Task : f2
+2019-01-31 16:14:00,799 [DEBUG] End Task : f2
+2019-01-31 16:15:00,064 [DEBUG] Start Task : f2
+2019-01-31 16:15:01,008 [DEBUG] End Task : f2
+2019-01-31 16:16:00,072 [DEBUG] Start Task : f2
+2019-01-31 16:16:00,758 [DEBUG] End Task : f2
+2019-01-31 16:17:00,070 [DEBUG] Start Task : f2
+2019-01-31 16:17:00,838 [DEBUG] End Task : f2
+2019-01-31 16:18:00,065 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:18:00,079 [DEBUG] Start Task : f2
+2019-01-31 16:18:00,839 [DEBUG] End Task : f2
+2019-01-31 16:19:00,066 [DEBUG] Start Task : f2
+2019-01-31 16:19:00,760 [DEBUG] End Task : f2
+2019-01-31 16:20:00,075 [DEBUG] Start Task : f2
+2019-01-31 16:20:00,839 [DEBUG] End Task : f2
+2019-01-31 16:21:00,068 [DEBUG] Start Task : f2
+2019-01-31 16:21:00,727 [DEBUG] End Task : f2
+2019-01-31 16:22:00,066 [DEBUG] Start Task : f2
+2019-01-31 16:22:00,731 [DEBUG] End Task : f2
+2019-01-31 16:23:00,071 [DEBUG] Start Task : f2
+2019-01-31 16:23:00,736 [DEBUG] End Task : f2
+2019-01-31 16:24:00,074 [DEBUG] Start Task : f2
+2019-01-31 16:24:00,873 [DEBUG] End Task : f2
+2019-01-31 16:25:00,067 [DEBUG] Start Task : f2
+2019-01-31 16:25:00,731 [DEBUG] End Task : f2
+2019-01-31 16:26:00,067 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:26:00,069 [DEBUG] Start Task : f2
+2019-01-31 16:26:00,868 [DEBUG] End Task : f2
+2019-01-31 16:27:00,068 [DEBUG] Start Task : f2
+2019-01-31 16:27:00,800 [DEBUG] End Task : f2
+2019-01-31 16:28:00,069 [DEBUG] Start Task : f2
+2019-01-31 16:28:00,877 [DEBUG] End Task : f2
+2019-01-31 16:29:00,068 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:29:00,083 [DEBUG] Start Task : f2
+2019-01-31 16:29:00,817 [DEBUG] End Task : f2
+2019-01-31 16:30:00,066 [DEBUG] Start Task : f2
+2019-01-31 16:30:00,064 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:30:00,744 [DEBUG] End Task : f2
+2019-01-31 16:31:00,063 [DEBUG] Start Task : f2
+2019-01-31 16:31:00,789 [DEBUG] End Task : f2
+2019-01-31 16:32:00,074 [DEBUG] Start Task : f2
+2019-01-31 16:32:00,831 [DEBUG] End Task : f2
+2019-01-31 16:32:29,199 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 07:33:00 +00:00
+2019-01-31 16:33:00,066 [DEBUG] Start Task : f2
+2019-01-31 16:33:00,710 [DEBUG] End Task : f2
+2019-01-31 16:34:00,067 [DEBUG] Start Task : f2
+2019-01-31 16:34:01,340 [DEBUG] End Task : f2
+2019-01-31 16:35:00,063 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:35:00,081 [DEBUG] Start Task : f2
+2019-01-31 16:35:00,822 [DEBUG] End Task : f2
+2019-01-31 16:36:00,065 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:36:00,067 [DEBUG] Start Task : f2
+2019-01-31 16:36:00,836 [DEBUG] End Task : f2
+2019-01-31 16:37:00,069 [DEBUG] Start Task : f2
+2019-01-31 16:37:00,863 [DEBUG] End Task : f2
+2019-01-31 16:38:00,060 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:38:00,075 [DEBUG] Start Task : f2
+2019-01-31 16:38:00,817 [DEBUG] End Task : f2
+2019-01-31 16:39:00,063 [DEBUG] Start Task : f2
+2019-01-31 16:39:00,800 [DEBUG] End Task : f2
+2019-01-31 16:40:00,065 [DEBUG] Start Task : f2
+2019-01-31 16:40:00,772 [DEBUG] End Task : f2
+2019-01-31 16:41:00,066 [DEBUG] Start Task : f2
+2019-01-31 16:41:00,811 [DEBUG] End Task : f2
+2019-01-31 16:42:00,064 [DEBUG] Start Task : f2
+2019-01-31 16:42:00,774 [DEBUG] End Task : f2
+2019-01-31 16:43:00,060 [DEBUG] Start Task : f2
+2019-01-31 16:43:00,058 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:43:00,840 [DEBUG] End Task : f2
+2019-01-31 16:44:00,062 [DEBUG] Start Task : f2
+2019-01-31 16:44:00,785 [DEBUG] End Task : f2
+2019-01-31 16:45:00,068 [DEBUG] Start Task : f2
+2019-01-31 16:45:00,792 [DEBUG] End Task : f2
+2019-01-31 16:46:00,063 [DEBUG] Start Task : f2
+2019-01-31 16:46:00,750 [DEBUG] End Task : f2
+2019-01-31 16:47:00,065 [DEBUG] Start Task : f2
+2019-01-31 16:47:00,706 [DEBUG] End Task : f2
+2019-01-31 16:48:00,061 [DEBUG] Start Task : f2
+2019-01-31 16:48:00,864 [DEBUG] End Task : f2
+2019-01-31 16:49:00,065 [DEBUG] Start Task : f2
+2019-01-31 16:49:00,826 [DEBUG] End Task : f2
+2019-01-31 16:50:00,071 [DEBUG] Start Task : f2
+2019-01-31 16:50:00,815 [DEBUG] End Task : f2
+2019-01-31 16:51:00,066 [DEBUG] Start Task : f2
+2019-01-31 16:51:00,846 [DEBUG] End Task : f2
+2019-01-31 16:52:00,077 [DEBUG] Start Task : f2
+2019-01-31 16:52:00,738 [DEBUG] End Task : f2
+2019-01-31 16:53:00,055 [DEBUG] Start Task : f2
+2019-01-31 16:53:00,684 [DEBUG] End Task : f2
+2019-01-31 16:54:00,067 [DEBUG] Start Task : f2
+2019-01-31 16:54:00,812 [DEBUG] End Task : f2
+2019-01-31 16:55:00,066 [DEBUG] Start Task : f2
+2019-01-31 16:55:00,749 [DEBUG] End Task : f2
+2019-01-31 16:56:00,064 [DEBUG] Start Task : f2
+2019-01-31 16:56:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:56:00,820 [DEBUG] End Task : f2
+2019-01-31 16:57:00,083 [DEBUG] Start Task : f2
+2019-01-31 16:57:00,773 [DEBUG] End Task : f2
+2019-01-31 16:58:00,063 [DEBUG] Start Task : f2
+2019-01-31 16:58:00,754 [DEBUG] End Task : f2
+2019-01-31 16:59:00,064 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 16:59:00,066 [DEBUG] Start Task : f2
+2019-01-31 16:59:00,807 [DEBUG] End Task : f2
+2019-01-31 17:00:00,062 [DEBUG] Start Task : f2
+2019-01-31 17:00:02,032 [DEBUG] End Task : f2
+2019-01-31 17:01:00,057 [DEBUG] Start Task : f2
+2019-01-31 17:01:00,827 [DEBUG] End Task : f2
+2019-01-31 17:02:00,069 [DEBUG] Start Task : f2
+2019-01-31 17:02:00,847 [DEBUG] End Task : f2
+2019-01-31 17:02:29,237 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 08:03:00 +00:00
+2019-01-31 17:03:00,065 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 17:03:00,086 [DEBUG] Start Task : f2
+2019-01-31 17:03:00,845 [DEBUG] End Task : f2
+2019-01-31 17:04:00,074 [DEBUG] Start Task : f2
+2019-01-31 17:04:01,061 [DEBUG] End Task : f2
+2019-01-31 17:05:00,069 [DEBUG] Start Task : f2
+2019-01-31 17:05:01,485 [DEBUG] End Task : f2
+2019-01-31 17:06:00,062 [DEBUG] Start Task : f2
+2019-01-31 17:06:00,817 [DEBUG] End Task : f2
+2019-01-31 17:07:00,065 [DEBUG] Start Task : f2
+2019-01-31 17:07:00,746 [DEBUG] End Task : f2
+2019-01-31 17:08:00,064 [DEBUG] Start Task : f2
+2019-01-31 17:08:00,831 [DEBUG] End Task : f2
+2019-01-31 17:09:00,065 [DEBUG] Start Task : f2
+2019-01-31 17:09:00,751 [DEBUG] End Task : f2
+2019-01-31 17:10:00,066 [DEBUG] Start Task : f2
+2019-01-31 17:10:01,102 [DEBUG] End Task : f2
+2019-01-31 17:11:00,065 [DEBUG] Start Task : f2
+2019-01-31 17:11:00,748 [DEBUG] End Task : f2
+2019-01-31 17:12:00,066 [DEBUG] Start Task : f2
+2019-01-31 17:12:00,807 [DEBUG] End Task : f2
+2019-01-31 17:13:00,067 [DEBUG] Start Task : f2
+2019-01-31 17:13:00,820 [DEBUG] End Task : f2
+2019-01-31 17:14:00,066 [DEBUG] Start Task : f2
+2019-01-31 17:14:00,766 [DEBUG] End Task : f2
+2019-01-31 17:15:00,066 [DEBUG] Start Task : f2
+2019-01-31 17:15:00,825 [DEBUG] End Task : f2
+2019-01-31 17:16:00,068 [DEBUG] Start Task : f2
+2019-01-31 17:16:01,538 [DEBUG] End Task : f2
+2019-01-31 17:17:00,067 [DEBUG] Start Task : f2
+2019-01-31 17:17:00,724 [DEBUG] End Task : f2
+2019-01-31 17:18:00,062 [DEBUG] Start Task : f2
+2019-01-31 17:18:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 17:18:03,523 [DEBUG] End Task : f2
+2019-01-31 17:19:00,067 [DEBUG] Start Task : f2
+2019-01-31 17:19:00,796 [DEBUG] End Task : f2
+2019-01-31 17:20:00,065 [DEBUG] Start Task : f2
+2019-01-31 17:20:00,704 [DEBUG] End Task : f2
+2019-01-31 17:21:00,065 [DEBUG] Start Task : f2
+2019-01-31 17:21:00,877 [DEBUG] End Task : f2
+2019-01-31 17:22:00,066 [DEBUG] Start Task : f2
+2019-01-31 17:22:00,775 [DEBUG] End Task : f2
+2019-01-31 17:23:00,067 [DEBUG] Start Task : f2
+2019-01-31 17:23:00,825 [DEBUG] End Task : f2
+2019-01-31 17:24:00,068 [DEBUG] Start Task : f2
+2019-01-31 17:24:00,797 [DEBUG] End Task : f2
+2019-01-31 17:25:00,067 [DEBUG] Start Task : f2
+2019-01-31 17:25:00,775 [DEBUG] End Task : f2
+2019-01-31 17:26:00,063 [DEBUG] Start Task : f2
+2019-01-31 17:26:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 17:26:00,801 [DEBUG] End Task : f2
+2019-01-31 17:27:00,066 [DEBUG] Start Task : f2
+2019-01-31 17:27:00,836 [DEBUG] End Task : f2
+2019-01-31 17:28:00,063 [DEBUG] Start Task : f2
+2019-01-31 17:28:00,920 [DEBUG] End Task : f2
+2019-01-31 17:29:00,069 [DEBUG] Start Task : f2
+2019-01-31 17:29:00,847 [DEBUG] End Task : f2
+2019-01-31 17:30:00,067 [DEBUG] Start Task : f2
+2019-01-31 17:30:00,946 [DEBUG] End Task : f2
+2019-01-31 17:31:00,062 [DEBUG] Start Task : f2
+2019-01-31 17:31:00,060 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 17:31:01,369 [DEBUG] End Task : f2
+2019-01-31 17:32:00,081 [DEBUG] Start Task : f2
+2019-01-31 17:32:00,754 [DEBUG] End Task : f2
+2019-01-31 17:32:29,281 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 08:33:00 +00:00
+2019-01-31 17:33:00,067 [DEBUG] Start Task : f2
+2019-01-31 17:33:00,790 [DEBUG] End Task : f2
+2019-01-31 17:34:00,070 [DEBUG] Start Task : f2
+2019-01-31 17:34:00,740 [DEBUG] End Task : f2
+2019-01-31 17:35:00,068 [DEBUG] Start Task : f2
+2019-01-31 17:35:01,069 [DEBUG] End Task : f2
+2019-01-31 17:36:00,063 [DEBUG] Start Task : f2
+2019-01-31 17:36:00,745 [DEBUG] End Task : f2
+2019-01-31 17:37:00,063 [DEBUG] Start Task : f2
+2019-01-31 17:37:00,810 [DEBUG] End Task : f2
+2019-01-31 17:38:00,063 [DEBUG] Start Task : f2
+2019-01-31 17:38:00,790 [DEBUG] End Task : f2
+2019-01-31 17:39:00,060 [DEBUG] Start Task : f2
+2019-01-31 17:39:00,059 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 17:39:00,857 [DEBUG] End Task : f2
+2019-01-31 17:40:00,068 [DEBUG] Start Task : f2
+2019-01-31 17:40:00,923 [DEBUG] End Task : f2
+2019-01-31 17:41:00,063 [DEBUG] Start Task : f2
+2019-01-31 17:41:00,786 [DEBUG] End Task : f2
+2019-01-31 17:42:00,065 [DEBUG] Start Task : f2
+2019-01-31 17:42:00,862 [DEBUG] End Task : f2
+2019-01-31 17:43:00,064 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 17:43:00,078 [DEBUG] Start Task : f2
+2019-01-31 17:43:00,841 [DEBUG] End Task : f2
+2019-01-31 17:44:00,063 [DEBUG] Start Task : f2
+2019-01-31 17:44:00,799 [DEBUG] End Task : f2
+2019-01-31 17:45:00,053 [DEBUG] Start Task : f2
+2019-01-31 17:45:00,052 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 17:45:00,719 [DEBUG] End Task : f2
+2019-01-31 17:46:00,071 [DEBUG] Start Task : f2
+2019-01-31 17:46:00,786 [DEBUG] End Task : f2
+2019-01-31 17:47:00,064 [DEBUG] Start Task : f2
+2019-01-31 17:47:00,867 [DEBUG] End Task : f2
+2019-01-31 17:48:00,061 [DEBUG] Start Task : f2
+2019-01-31 17:48:00,787 [DEBUG] End Task : f2
+2019-01-31 17:49:00,058 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 17:49:00,096 [DEBUG] Start Task : f2
+2019-01-31 17:49:00,815 [DEBUG] End Task : f2
+2019-01-31 17:50:00,064 [DEBUG] Start Task : f2
+2019-01-31 17:50:00,888 [DEBUG] End Task : f2
+2019-01-31 17:51:00,073 [DEBUG] Start Task : f2
+2019-01-31 17:51:00,824 [DEBUG] End Task : f2
+2019-01-31 17:52:00,072 [DEBUG] Start Task : f2
+2019-01-31 17:52:00,839 [DEBUG] End Task : f2
+2019-01-31 17:53:00,063 [DEBUG] Start Task : f2
+2019-01-31 17:53:00,844 [DEBUG] End Task : f2
+2019-01-31 17:54:00,062 [DEBUG] Start Task : f2
+2019-01-31 17:54:00,738 [DEBUG] End Task : f2
+2019-01-31 17:55:00,064 [DEBUG] Start Task : f2
+2019-01-31 17:55:00,782 [DEBUG] End Task : f2
+2019-01-31 17:56:00,062 [DEBUG] Start Task : f2
+2019-01-31 17:56:00,060 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 17:56:00,776 [DEBUG] End Task : f2
+2019-01-31 17:57:00,087 [DEBUG] Start Task : f2
+2019-01-31 17:57:00,901 [DEBUG] End Task : f2
+2019-01-31 17:58:00,065 [DEBUG] Start Task : f2
+2019-01-31 17:58:00,907 [DEBUG] End Task : f2
+2019-01-31 17:59:00,068 [DEBUG] Start Task : f2
+2019-01-31 17:59:00,750 [DEBUG] End Task : f2
+2019-01-31 18:00:00,071 [DEBUG] Start Task : f2
+2019-01-31 18:00:04,680 [DEBUG] End Task : f2
+2019-01-31 18:01:00,062 [DEBUG] Start Task : f2
+2019-01-31 18:01:00,731 [DEBUG] End Task : f2
+2019-01-31 18:02:00,055 [DEBUG] Start Task : f2
+2019-01-31 18:02:00,797 [DEBUG] End Task : f2
+2019-01-31 18:02:29,320 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 09:03:00 +00:00
+2019-01-31 18:03:00,063 [DEBUG] Start Task : f2
+2019-01-31 18:03:00,811 [DEBUG] End Task : f2
+2019-01-31 18:04:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:04:00,064 [DEBUG] Start Task : f2
+2019-01-31 18:04:00,758 [DEBUG] End Task : f2
+2019-01-31 18:05:00,075 [DEBUG] Start Task : f2
+2019-01-31 18:05:01,689 [DEBUG] End Task : f2
+2019-01-31 18:06:00,066 [DEBUG] Start Task : f2
+2019-01-31 18:06:00,064 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:06:00,794 [DEBUG] End Task : f2
+2019-01-31 18:07:00,073 [DEBUG] Start Task : f2
+2019-01-31 18:07:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:07:00,866 [DEBUG] End Task : f2
+2019-01-31 18:08:00,068 [DEBUG] Start Task : f2
+2019-01-31 18:08:00,802 [DEBUG] End Task : f2
+2019-01-31 18:09:00,068 [DEBUG] Start Task : f2
+2019-01-31 18:09:00,801 [DEBUG] End Task : f2
+2019-01-31 18:10:00,066 [DEBUG] Start Task : f2
+2019-01-31 18:10:01,512 [DEBUG] End Task : f2
+2019-01-31 18:11:00,068 [DEBUG] Start Task : f2
+2019-01-31 18:11:00,846 [DEBUG] End Task : f2
+2019-01-31 18:12:00,084 [DEBUG] Start Task : f2
+2019-01-31 18:12:00,808 [DEBUG] End Task : f2
+2019-01-31 18:13:00,079 [DEBUG] Start Task : f2
+2019-01-31 18:13:00,849 [DEBUG] End Task : f2
+2019-01-31 18:14:00,063 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:14:00,065 [DEBUG] Start Task : f2
+2019-01-31 18:14:00,781 [DEBUG] End Task : f2
+2019-01-31 18:15:00,067 [DEBUG] Start Task : f2
+2019-01-31 18:15:00,850 [DEBUG] End Task : f2
+2019-01-31 18:16:00,094 [DEBUG] Start Task : f2
+2019-01-31 18:16:00,758 [DEBUG] End Task : f2
+2019-01-31 18:17:00,068 [DEBUG] Start Task : f2
+2019-01-31 18:17:00,066 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:17:00,776 [DEBUG] End Task : f2
+2019-01-31 18:18:00,067 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:18:00,082 [DEBUG] Start Task : f2
+2019-01-31 18:18:00,791 [DEBUG] End Task : f2
+2019-01-31 18:19:00,048 [DEBUG] Start Task : f2
+2019-01-31 18:19:00,785 [DEBUG] End Task : f2
+2019-01-31 18:20:00,062 [DEBUG] Start Task : f2
+2019-01-31 18:20:00,781 [DEBUG] End Task : f2
+2019-01-31 18:21:00,068 [DEBUG] Start Task : f2
+2019-01-31 18:21:00,742 [DEBUG] End Task : f2
+2019-01-31 18:22:00,067 [DEBUG] Start Task : f2
+2019-01-31 18:22:00,808 [DEBUG] End Task : f2
+2019-01-31 18:23:00,079 [DEBUG] Start Task : f2
+2019-01-31 18:23:00,783 [DEBUG] End Task : f2
+2019-01-31 18:24:00,069 [DEBUG] Start Task : f2
+2019-01-31 18:24:00,835 [DEBUG] End Task : f2
+2019-01-31 18:25:00,068 [DEBUG] Start Task : f2
+2019-01-31 18:25:00,878 [DEBUG] End Task : f2
+2019-01-31 18:26:00,065 [DEBUG] Start Task : f2
+2019-01-31 18:26:00,733 [DEBUG] End Task : f2
+2019-01-31 18:27:00,061 [DEBUG] Start Task : f2
+2019-01-31 18:27:00,777 [DEBUG] End Task : f2
+2019-01-31 18:28:00,066 [DEBUG] Start Task : f2
+2019-01-31 18:28:00,767 [DEBUG] End Task : f2
+2019-01-31 18:29:00,076 [DEBUG] Start Task : f2
+2019-01-31 18:29:00,879 [DEBUG] End Task : f2
+2019-01-31 18:30:00,067 [DEBUG] Start Task : f2
+2019-01-31 18:30:00,956 [DEBUG] End Task : f2
+2019-01-31 18:31:00,064 [DEBUG] Start Task : f2
+2019-01-31 18:31:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:31:00,857 [DEBUG] End Task : f2
+2019-01-31 18:32:00,071 [DEBUG] Start Task : f2
+2019-01-31 18:32:00,793 [DEBUG] End Task : f2
+2019-01-31 18:32:29,389 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 09:33:00 +00:00
+2019-01-31 18:33:00,063 [DEBUG] Start Task : f2
+2019-01-31 18:33:00,901 [DEBUG] End Task : f2
+2019-01-31 18:34:00,062 [DEBUG] Start Task : f2
+2019-01-31 18:34:00,833 [DEBUG] End Task : f2
+2019-01-31 18:35:00,065 [DEBUG] Start Task : f2
+2019-01-31 18:35:01,045 [DEBUG] End Task : f2
+2019-01-31 18:36:00,076 [DEBUG] Start Task : f2
+2019-01-31 18:36:00,919 [DEBUG] End Task : f2
+2019-01-31 18:37:00,060 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:37:00,075 [DEBUG] Start Task : f2
+2019-01-31 18:37:00,845 [DEBUG] End Task : f2
+2019-01-31 18:38:00,066 [DEBUG] Start Task : f2
+2019-01-31 18:38:00,065 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:38:00,766 [DEBUG] End Task : f2
+2019-01-31 18:39:00,066 [DEBUG] Start Task : f2
+2019-01-31 18:39:00,786 [DEBUG] End Task : f2
+2019-01-31 18:40:00,064 [DEBUG] Start Task : f2
+2019-01-31 18:40:01,055 [DEBUG] End Task : f2
+2019-01-31 18:41:00,065 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:41:00,080 [DEBUG] Start Task : f2
+2019-01-31 18:41:00,900 [DEBUG] End Task : f2
+2019-01-31 18:42:00,064 [DEBUG] Start Task : f2
+2019-01-31 18:42:00,769 [DEBUG] End Task : f2
+2019-01-31 18:43:00,061 [DEBUG] Start Task : f2
+2019-01-31 18:43:00,771 [DEBUG] End Task : f2
+2019-01-31 18:44:00,069 [DEBUG] Start Task : f2
+2019-01-31 18:44:00,832 [DEBUG] End Task : f2
+2019-01-31 18:45:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:45:00,079 [DEBUG] Start Task : f2
+2019-01-31 18:45:00,846 [DEBUG] End Task : f2
+2019-01-31 18:46:00,063 [DEBUG] Start Task : f2
+2019-01-31 18:46:00,779 [DEBUG] End Task : f2
+2019-01-31 18:47:00,060 [DEBUG] Start Task : f2
+2019-01-31 18:47:00,806 [DEBUG] End Task : f2
+2019-01-31 18:48:00,063 [DEBUG] Start Task : f2
+2019-01-31 18:48:00,811 [DEBUG] End Task : f2
+2019-01-31 18:49:00,065 [DEBUG] Start Task : f2
+2019-01-31 18:49:00,063 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 18:49:00,859 [DEBUG] End Task : f2
+2019-01-31 18:50:00,065 [DEBUG] Start Task : f2
+2019-01-31 18:50:00,857 [DEBUG] End Task : f2
+2019-01-31 18:51:00,066 [DEBUG] Start Task : f2
+2019-01-31 18:51:00,747 [DEBUG] End Task : f2
+2019-01-31 18:52:00,068 [DEBUG] Start Task : f2
+2019-01-31 18:52:00,817 [DEBUG] End Task : f2
+2019-01-31 18:53:00,063 [DEBUG] Start Task : f2
+2019-01-31 18:53:00,793 [DEBUG] End Task : f2
+2019-01-31 18:54:00,066 [DEBUG] Start Task : f2
+2019-01-31 18:54:00,778 [DEBUG] End Task : f2
+2019-01-31 18:55:00,061 [DEBUG] Start Task : f2
+2019-01-31 18:55:00,771 [DEBUG] End Task : f2
+2019-01-31 18:56:00,063 [DEBUG] Start Task : f2
+2019-01-31 18:56:00,828 [DEBUG] End Task : f2
+2019-01-31 18:57:00,080 [DEBUG] Start Task : f2
+2019-01-31 18:57:00,835 [DEBUG] End Task : f2
+2019-01-31 18:58:00,079 [DEBUG] Start Task : f2
+2019-01-31 18:58:00,801 [DEBUG] End Task : f2
+2019-01-31 18:59:00,063 [DEBUG] Start Task : f2
+2019-01-31 18:59:00,844 [DEBUG] End Task : f2
+2019-01-31 19:00:00,065 [DEBUG] Start Task : f2
+2019-01-31 19:00:02,289 [DEBUG] End Task : f2
+2019-01-31 19:01:00,061 [DEBUG] Start Task : f2
+2019-01-31 19:01:00,060 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:01:00,800 [DEBUG] End Task : f2
+2019-01-31 19:02:00,082 [DEBUG] Start Task : f2
+2019-01-31 19:02:00,774 [DEBUG] End Task : f2
+2019-01-31 19:02:29,417 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 10:03:00 +00:00
+2019-01-31 19:03:00,060 [DEBUG] Start Task : f2
+2019-01-31 19:03:00,752 [DEBUG] End Task : f2
+2019-01-31 19:04:00,063 [DEBUG] Start Task : f2
+2019-01-31 19:04:00,826 [DEBUG] End Task : f2
+2019-01-31 19:05:00,085 [DEBUG] Start Task : f2
+2019-01-31 19:05:01,435 [DEBUG] End Task : f2
+2019-01-31 19:06:00,062 [DEBUG] Start Task : f2
+2019-01-31 19:06:01,133 [DEBUG] End Task : f2
+2019-01-31 19:07:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:07:00,762 [DEBUG] End Task : f2
+2019-01-31 19:08:00,083 [DEBUG] Start Task : f2
+2019-01-31 19:08:00,803 [DEBUG] End Task : f2
+2019-01-31 19:09:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:09:00,907 [DEBUG] End Task : f2
+2019-01-31 19:10:00,063 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:10:00,079 [DEBUG] Start Task : f2
+2019-01-31 19:10:01,223 [DEBUG] End Task : f2
+2019-01-31 19:11:00,066 [DEBUG] Start Task : f2
+2019-01-31 19:11:00,800 [DEBUG] End Task : f2
+2019-01-31 19:12:00,061 [DEBUG] Start Task : f2
+2019-01-31 19:12:00,780 [DEBUG] End Task : f2
+2019-01-31 19:13:00,065 [DEBUG] Start Task : f2
+2019-01-31 19:13:00,803 [DEBUG] End Task : f2
+2019-01-31 19:14:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:14:00,075 [DEBUG] Start Task : f2
+2019-01-31 19:14:00,856 [DEBUG] End Task : f2
+2019-01-31 19:15:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:15:00,876 [DEBUG] End Task : f2
+2019-01-31 19:16:00,066 [DEBUG] Start Task : f2
+2019-01-31 19:16:00,803 [DEBUG] End Task : f2
+2019-01-31 19:17:00,055 [DEBUG] Start Task : f2
+2019-01-31 19:17:00,849 [DEBUG] End Task : f2
+2019-01-31 19:18:00,073 [DEBUG] Start Task : f2
+2019-01-31 19:18:00,899 [DEBUG] End Task : f2
+2019-01-31 19:19:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:19:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:19:00,816 [DEBUG] End Task : f2
+2019-01-31 19:20:00,067 [DEBUG] Start Task : f2
+2019-01-31 19:20:00,065 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:20:00,831 [DEBUG] End Task : f2
+2019-01-31 19:21:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:21:00,768 [DEBUG] End Task : f2
+2019-01-31 19:22:00,062 [DEBUG] Start Task : f2
+2019-01-31 19:22:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:22:00,797 [DEBUG] End Task : f2
+2019-01-31 19:23:00,063 [DEBUG] Start Task : f2
+2019-01-31 19:23:00,821 [DEBUG] End Task : f2
+2019-01-31 19:24:00,067 [DEBUG] Start Task : f2
+2019-01-31 19:24:00,741 [DEBUG] End Task : f2
+2019-01-31 19:25:00,062 [DEBUG] Start Task : f2
+2019-01-31 19:25:00,877 [DEBUG] End Task : f2
+2019-01-31 19:26:00,061 [DEBUG] Start Task : f2
+2019-01-31 19:26:00,060 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:26:00,819 [DEBUG] End Task : f2
+2019-01-31 19:27:00,086 [DEBUG] Start Task : f2
+2019-01-31 19:27:00,804 [DEBUG] End Task : f2
+2019-01-31 19:28:00,081 [DEBUG] Start Task : f2
+2019-01-31 19:28:00,738 [DEBUG] End Task : f2
+2019-01-31 19:29:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:29:00,899 [DEBUG] End Task : f2
+2019-01-31 19:30:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:30:00,076 [DEBUG] Start Task : f2
+2019-01-31 19:30:00,894 [DEBUG] End Task : f2
+2019-01-31 19:31:00,066 [DEBUG] Start Task : f2
+2019-01-31 19:31:00,828 [DEBUG] End Task : f2
+2019-01-31 19:32:00,061 [DEBUG] Start Task : f2
+2019-01-31 19:32:00,871 [DEBUG] End Task : f2
+2019-01-31 19:32:29,455 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 10:33:00 +00:00
+2019-01-31 19:33:00,063 [DEBUG] Start Task : f2
+2019-01-31 19:33:00,780 [DEBUG] End Task : f2
+2019-01-31 19:34:00,079 [DEBUG] Start Task : f2
+2019-01-31 19:34:00,807 [DEBUG] End Task : f2
+2019-01-31 19:35:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:35:00,783 [DEBUG] End Task : f2
+2019-01-31 19:36:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:36:00,721 [DEBUG] End Task : f2
+2019-01-31 19:37:00,067 [DEBUG] Start Task : f2
+2019-01-31 19:37:00,886 [DEBUG] End Task : f2
+2019-01-31 19:38:00,075 [DEBUG] Start Task : f2
+2019-01-31 19:38:00,074 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:38:00,785 [DEBUG] End Task : f2
+2019-01-31 19:39:00,058 [DEBUG] Start Task : f2
+2019-01-31 19:39:00,853 [DEBUG] End Task : f2
+2019-01-31 19:40:00,063 [DEBUG] Start Task : f2
+2019-01-31 19:40:00,828 [DEBUG] End Task : f2
+2019-01-31 19:41:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:41:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:41:00,865 [DEBUG] End Task : f2
+2019-01-31 19:42:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:42:00,831 [DEBUG] End Task : f2
+2019-01-31 19:43:00,085 [DEBUG] Start Task : f2
+2019-01-31 19:43:00,084 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:43:00,723 [DEBUG] End Task : f2
+2019-01-31 19:44:00,060 [DEBUG] Start Task : f2
+2019-01-31 19:44:00,829 [DEBUG] End Task : f2
+2019-01-31 19:45:00,058 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:45:00,073 [DEBUG] Start Task : f2
+2019-01-31 19:45:00,757 [DEBUG] End Task : f2
+2019-01-31 19:46:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:46:00,063 [DEBUG] Start Task : f2
+2019-01-31 19:46:00,744 [DEBUG] End Task : f2
+2019-01-31 19:47:00,068 [DEBUG] Start Task : f2
+2019-01-31 19:47:00,735 [DEBUG] End Task : f2
+2019-01-31 19:48:00,065 [DEBUG] Start Task : f2
+2019-01-31 19:48:00,874 [DEBUG] End Task : f2
+2019-01-31 19:49:00,061 [DEBUG] Start Task : f2
+2019-01-31 19:49:00,059 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:49:00,844 [DEBUG] End Task : f2
+2019-01-31 19:50:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:50:00,858 [DEBUG] End Task : f2
+2019-01-31 19:51:00,061 [DEBUG] Start Task : f2
+2019-01-31 19:51:00,911 [DEBUG] End Task : f2
+2019-01-31 19:52:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:52:00,780 [DEBUG] End Task : f2
+2019-01-31 19:53:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:53:00,867 [DEBUG] End Task : f2
+2019-01-31 19:54:00,064 [DEBUG] Start Task : f2
+2019-01-31 19:54:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 19:54:00,892 [DEBUG] End Task : f2
+2019-01-31 19:55:00,070 [DEBUG] Start Task : f2
+2019-01-31 19:55:00,831 [DEBUG] End Task : f2
+2019-01-31 19:56:00,060 [DEBUG] Start Task : f2
+2019-01-31 19:56:00,831 [DEBUG] End Task : f2
+2019-01-31 19:57:00,067 [DEBUG] Start Task : f2
+2019-01-31 19:57:00,859 [DEBUG] End Task : f2
+2019-01-31 19:58:00,074 [DEBUG] Start Task : f2
+2019-01-31 19:58:00,781 [DEBUG] End Task : f2
+2019-01-31 19:59:00,063 [DEBUG] Start Task : f2
+2019-01-31 19:59:00,825 [DEBUG] End Task : f2
+2019-01-31 20:00:00,066 [DEBUG] Start Task : f2
+2019-01-31 20:00:01,732 [DEBUG] End Task : f2
+2019-01-31 20:01:00,070 [DEBUG] Start Task : f2
+2019-01-31 20:01:01,612 [DEBUG] End Task : f2
+2019-01-31 20:02:00,064 [DEBUG] Start Task : f2
+2019-01-31 20:02:00,837 [DEBUG] End Task : f2
+2019-01-31 20:02:29,514 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 11:03:00 +00:00
+2019-01-31 20:03:00,062 [DEBUG] Start Task : f2
+2019-01-31 20:03:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:03:00,791 [DEBUG] End Task : f2
+2019-01-31 20:04:00,064 [DEBUG] Start Task : f2
+2019-01-31 20:04:00,852 [DEBUG] End Task : f2
+2019-01-31 20:05:00,066 [DEBUG] Start Task : f2
+2019-01-31 20:05:01,386 [DEBUG] End Task : f2
+2019-01-31 20:06:00,068 [DEBUG] Start Task : f2
+2019-01-31 20:06:00,687 [DEBUG] End Task : f2
+2019-01-31 20:07:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:07:00,076 [DEBUG] Start Task : f2
+2019-01-31 20:07:00,899 [DEBUG] End Task : f2
+2019-01-31 20:08:00,064 [DEBUG] Start Task : f2
+2019-01-31 20:08:00,837 [DEBUG] End Task : f2
+2019-01-31 20:09:00,065 [DEBUG] Start Task : f2
+2019-01-31 20:09:00,824 [DEBUG] End Task : f2
+2019-01-31 20:10:00,060 [DEBUG] Start Task : f2
+2019-01-31 20:10:01,007 [DEBUG] End Task : f2
+2019-01-31 20:11:00,065 [DEBUG] Start Task : f2
+2019-01-31 20:11:00,978 [DEBUG] End Task : f2
+2019-01-31 20:12:00,062 [DEBUG] Start Task : f2
+2019-01-31 20:12:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:12:00,869 [DEBUG] End Task : f2
+2019-01-31 20:13:00,062 [DEBUG] Start Task : f2
+2019-01-31 20:13:00,060 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:13:00,807 [DEBUG] End Task : f2
+2019-01-31 20:14:00,068 [DEBUG] Start Task : f2
+2019-01-31 20:14:00,783 [DEBUG] End Task : f2
+2019-01-31 20:15:00,064 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:15:00,066 [DEBUG] Start Task : f2
+2019-01-31 20:15:00,899 [DEBUG] End Task : f2
+2019-01-31 20:16:00,078 [DEBUG] Start Task : f2
+2019-01-31 20:16:00,888 [DEBUG] End Task : f2
+2019-01-31 20:17:00,071 [DEBUG] Start Task : f2
+2019-01-31 20:17:00,931 [DEBUG] End Task : f2
+2019-01-31 20:18:00,071 [DEBUG] Start Task : f2
+2019-01-31 20:18:00,820 [DEBUG] End Task : f2
+2019-01-31 20:19:00,068 [DEBUG] Start Task : f2
+2019-01-31 20:19:00,829 [DEBUG] End Task : f2
+2019-01-31 20:20:00,070 [DEBUG] Start Task : f2
+2019-01-31 20:20:00,069 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:20:00,816 [DEBUG] End Task : f2
+2019-01-31 20:21:00,081 [DEBUG] Start Task : f2
+2019-01-31 20:21:00,079 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:21:00,795 [DEBUG] End Task : f2
+2019-01-31 20:22:00,072 [DEBUG] Start Task : f2
+2019-01-31 20:22:00,914 [DEBUG] End Task : f2
+2019-01-31 20:23:00,070 [DEBUG] Start Task : f2
+2019-01-31 20:23:00,887 [DEBUG] End Task : f2
+2019-01-31 20:24:00,066 [DEBUG] Start Task : f2
+2019-01-31 20:24:00,844 [DEBUG] End Task : f2
+2019-01-31 20:25:00,064 [DEBUG] Start Task : f2
+2019-01-31 20:25:00,816 [DEBUG] End Task : f2
+2019-01-31 20:26:00,088 [DEBUG] Start Task : f2
+2019-01-31 20:26:00,086 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:26:00,891 [DEBUG] End Task : f2
+2019-01-31 20:27:00,063 [DEBUG] Start Task : f2
+2019-01-31 20:27:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:27:00,938 [DEBUG] End Task : f2
+2019-01-31 20:28:00,069 [DEBUG] Start Task : f2
+2019-01-31 20:28:00,868 [DEBUG] End Task : f2
+2019-01-31 20:29:00,066 [DEBUG] Start Task : f2
+2019-01-31 20:29:00,845 [DEBUG] End Task : f2
+2019-01-31 20:30:00,068 [DEBUG] Start Task : f2
+2019-01-31 20:30:00,916 [DEBUG] End Task : f2
+2019-01-31 20:31:00,068 [DEBUG] Start Task : f2
+2019-01-31 20:31:00,895 [DEBUG] End Task : f2
+2019-01-31 20:32:00,070 [DEBUG] Start Task : f2
+2019-01-31 20:32:00,855 [DEBUG] End Task : f2
+2019-01-31 20:32:29,556 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 01/31/2019 11:33:00 +00:00
+2019-01-31 20:33:00,067 [DEBUG] Start Task : f2
+2019-01-31 20:33:00,065 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:33:00,871 [DEBUG] End Task : f2
+2019-01-31 20:34:00,064 [DEBUG] Start Task : f2
+2019-01-31 20:34:00,873 [DEBUG] End Task : f2
+2019-01-31 20:35:00,070 [DEBUG] Start Task : f2
+2019-01-31 20:35:00,860 [DEBUG] End Task : f2
+2019-01-31 20:36:00,064 [DEBUG] Start Task : f2
+2019-01-31 20:36:01,076 [DEBUG] End Task : f2
+2019-01-31 20:37:00,067 [DEBUG] Start Task : f2
+2019-01-31 20:37:00,833 [DEBUG] End Task : f2
+2019-01-31 20:38:00,068 [DEBUG] Start Task : f2
+2019-01-31 20:38:00,794 [DEBUG] End Task : f2
+2019-01-31 20:39:00,084 [DEBUG] Start Task : f2
+2019-01-31 20:39:00,791 [DEBUG] End Task : f2
+2019-01-31 20:40:00,065 [DEBUG] Start Task : f2
+2019-01-31 20:40:00,794 [DEBUG] End Task : f2
+2019-01-31 20:41:00,065 [DEBUG] Start Task : f2
+2019-01-31 20:41:00,831 [DEBUG] End Task : f2
+2019-01-31 20:42:00,067 [DEBUG] Start Task : f2
+2019-01-31 20:42:00,918 [DEBUG] End Task : f2
+2019-01-31 20:43:00,066 [DEBUG] Start Task : f2
+2019-01-31 20:43:00,854 [DEBUG] End Task : f2
+2019-01-31 20:44:00,073 [DEBUG] Start Task : f2
+2019-01-31 20:44:00,852 [DEBUG] End Task : f2
+2019-01-31 20:45:00,065 [DEBUG] Start Task : f2
+2019-01-31 20:45:00,829 [DEBUG] End Task : f2
+2019-01-31 20:46:00,067 [DEBUG] Start Task : f2
+2019-01-31 20:46:00,065 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:46:01,009 [DEBUG] End Task : f2
+2019-01-31 20:47:00,067 [DEBUG] Start Task : f2
+2019-01-31 20:47:00,890 [DEBUG] End Task : f2
+2019-01-31 20:48:00,059 [DEBUG] Start Task : f2
+2019-01-31 20:48:00,058 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:48:00,861 [DEBUG] End Task : f2
+2019-01-31 20:49:00,065 [DEBUG] Start Task : f2
+2019-01-31 20:49:00,818 [DEBUG] End Task : f2
+2019-01-31 20:50:00,064 [DEBUG] Start Task : f2
+2019-01-31 20:50:00,937 [DEBUG] End Task : f2
+2019-01-31 20:51:00,063 [DEBUG] Start Task : f2
+2019-01-31 20:51:00,062 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:51:00,878 [DEBUG] End Task : f2
+2019-01-31 20:52:00,067 [DEBUG] Start Task : f2
+2019-01-31 20:52:00,906 [DEBUG] End Task : f2
+2019-01-31 20:53:00,065 [DEBUG] Start Task : f2
+2019-01-31 20:53:00,063 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:53:00,872 [DEBUG] End Task : f2
+2019-01-31 20:54:00,068 [DEBUG] Start Task : f2
+2019-01-31 20:54:00,752 [DEBUG] End Task : f2
+2019-01-31 20:55:00,070 [DEBUG] Start Task : f2
+2019-01-31 20:55:00,851 [DEBUG] End Task : f2
+2019-01-31 20:56:00,063 [DEBUG] Start Task : f2
+2019-01-31 20:56:00,061 [DEBUG] Batch acquisition of 1 triggers
+2019-01-31 20:56:00,837 [DEBUG] End Task : f2
+2019-01-31 20:57:00,065 [DEBUG] Start Task : f2
+2019-01-31 20:57:00,889 [DEBUG] End Task : f2
+2019-01-31 20:58:00,071 [DEBUG] Start Task : f2
+2019-01-31 20:58:00,821 [DEBUG] End Task : f2
+2019-01-31 20:59:00,065 [DEBUG] Start Task : f2
+2019-01-31 20:59:00,943 [DEBUG] End Task : f2
+2019-01-31 21:02:29,598 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 02/01/2019 00:00:00 +00:00
+2019-01-31 21:32:29,655 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 02/01/2019 00:00:00 +00:00
+2019-01-31 22:02:29,687 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 02/01/2019 00:00:00 +00:00
+2019-01-31 22:32:29,732 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 02/01/2019 00:00:00 +00:00
+2019-01-31 23:02:29,789 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 02/01/2019 00:00:00 +00:00
+2019-01-31 23:32:29,833 [DEBUG] TaskFJJob - job:JobDetail 'DEFAULT.f2':  jobType: 'WeatherCrawler.Job persistJobDataAfterExecution: False concurrentExecutionDisallowed: False isDurable: False requestsRecovers: False, trigger:Trigger 'DEFAULT.JobTriggerf2':  triggerClass: 'Quartz.Impl.Triggers.CronTriggerImpl calendar: '' misfireInstruction: 0 nextFireTime: 02/01/2019 00:00:00 +00:00
